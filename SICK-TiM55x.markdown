@@ -5,6 +5,7 @@ Kann zwei Werte annehmen:
 - 3F800000 = scale 1
 - 40000000 = scale 2  
   
-Entspricht dem Standart IEEE 754 (Fließkommazahlen).
+Entspricht dem Standart IEEE 754 (Fließkommazahlen).  
+http://www.h-schmidt.net/FloatConverter/IEEE754de.html
 
 ![sick_scalefactor](https://gitlab.com/solidus/hefei/uploads/18b8ee1e2bdec50a2cb31e1f55198b40/sick_scalefactor.gif)
