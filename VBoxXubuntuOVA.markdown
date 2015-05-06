@@ -7,5 +7,9 @@ LIBGL_ALWAYS_SOFTWARE = 1
 http://www.mesa3d.org/envvars.html
 
 
-## minimized Image
+## minimizing Image
+
+in guest (linux): dd if=/dev/zero of=/mnt/tmp/big.file bs=102400 
+then on host: VBoxManage modifyhd --compact Windows\ XP.vdi 
+
 http://www.schnatterente.net/software/virtualbox-vdi-image-verkleinern
