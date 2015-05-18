@@ -13,7 +13,8 @@
 [Wayanalyser](Wayanalyser)
 
 ## Fieldcommander
-[MQTT Topics](MqttTopics)  
+[MQTT Topics](MqttTopics)
+[ExploCommunication](ExploCommunication)  
 
 ## [Virtual Box Xubuntu Image] (VBoxXubuntuOVA)
  
