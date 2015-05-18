@@ -4,8 +4,13 @@ Explo Communication
 
 ####Communication between Classes and Explo handler in Explo Phase :
 (Sequence Diagramm Look in: https://stackedit.io/editor)
+Surround with:
+```sequence
+....
 
+```
 
+------------
 
 ```sequence
 Refbox->ExploControll: Send Fields (-Z1-Z2...)
