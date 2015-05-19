@@ -1,4 +1,4 @@
-**Refbox**
+**Configuration of RefBox**
 ----------
 **Config-File**
 Speicherort: *llsf-refbox/cfg/config.yaml*
