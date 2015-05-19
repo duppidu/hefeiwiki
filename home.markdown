@@ -16,7 +16,7 @@
 [MQTT Topics](MqttTopics)
 [ExploCommunication](ExploCommunication)  
 
-## [Virtual Box Xubuntu Image] (VBoxXubuntuOVA)
- 
 ## RefBox
 [Configuration of RefBox](RefBox)
+
+## [Virtual Box Xubuntu Image] (VBoxXubuntuOVA)
