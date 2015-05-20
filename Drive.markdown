@@ -34,4 +34,29 @@ Das nächste Ziel wird dem Drive übergeben. Im gleichen Schritt wird die Schrit
 
 public boolean backwards()
 ----------------
+Der Robotino fährt während 10 Zyklen rückwärts. Diese Methode wird verwendet um von der Maschine weg zu kommen. Sobald die 10 Zyklen vorbei sind wird ein True zurückgegeben.
+
+private boolean targetalign()
+----------------
+Die Methode targetAlign() dreht den Robotino in die Richtung des Zieles.
+
+public boolean machineAlign(Coord target)
+----------------
+Die Methode machineAlign(Coord target) dreht den Robotino ca. rechtwinklig zu MPS. Als Übergabewert wird die Coord Klasse der MPS benötigt.
+
+private boolean accelerate()
+----------------
+Beinhaltet dan Algorithmus für die Anfahrrampe.
+
+private boolean travel()
+----------------
+Fährt dem Robotino bis zur breakDistance in Richtung des Zieles.
+
+public boolean laserAlign()
+----------------
+Comming soon...
+
+public boolean initPos()
+----------------
+comming soon...
 
