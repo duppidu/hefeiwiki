@@ -16,6 +16,7 @@ Local Topics
 | What   | Topic | 
 | :------- | ----: |
 | Nächste Position |/robo/local/pos/target | 
+| In Position|/robo/local/pos/inpos|
 | Aktuelle Position | /robo/local/pos/actua   | 
 | Input Position | /robo/local/pos/input    |  
 | Output Position | /robo/local/pos/output    | 
