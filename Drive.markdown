@@ -53,6 +53,18 @@ private boolean travel()
 ----------------
 Fährt dem Robotino bis zur breakDistance in Richtung des Zieles.
 
+public boolean decelerate()
+----------------
+Bremst den Robotino ab und fährt mit geringerer Geschwindigkeit auf das Ziel zu.
+
+public boolean aproache()
+----------------
+Wird mit der Klasse noch besprochen.
+
+public boolean goToTarget()
+----------------
+Steuert den ablauf von accelerate(), travel() und decelerate(). sobald das Ziel erreicht ist gibt die Methode ein True zurück.
+
 public boolean laserAlign()
 ----------------
 Comming soon...
