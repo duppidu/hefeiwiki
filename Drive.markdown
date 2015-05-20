@@ -20,8 +20,9 @@ Attribute
 | beschleunigung| Private Float| Bestimt die Steigung der Anfahrrampe.|
 | aproachspeed| Private Float| Geschwindigkeit für das Anfahren der Objekte.|
 | drehgesch| Private Float| Drehgeschwindigkeit für Winkelanpassungen.|
-| bandDistX| Private Int|| Distanz der X Bande vom Nullpunkt|
+| bandDistX| Private Int| Distanz der X Bande vom Nullpunkt|
 | bandDistY| Private Int| Distanz der Y Bande vom Nullpunkt|
+| backcycle| Private Int| Aktuelle Anzahl der Rückwärtszyklen.|
 
 
 public Drive()
