@@ -1,8 +1,9 @@
 OpenCV
-------
+======
+
 
 Installation
-============
+------------
 
 apt-get install libopencv-dev
 export LD_LIBRARY_PATH="/usr/lib"
