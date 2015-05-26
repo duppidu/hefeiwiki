@@ -1,8 +1,9 @@
 # Solidus-Hefei
 
 ## Environment Sensing
-[Sick TiM55x](Sick-TiM55x)  
-[Laser data handling](Laser-Data-Handling)
+[SickTiM55x](Sick-TiM55x)  
+[LaserDataHandling](Laser-Data-Handling)
+[LineExtracter](LineExtracter)
 
 ## Drive
 [Drive](Drive)  
