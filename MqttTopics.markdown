@@ -26,7 +26,7 @@ Local Topics
 | Pause| /robo/local/refbox/pause    | 
 | Tag Nummer| /robo/local/cam/tag|
 | Lampen Erkennung| /robo/local/cam/color    |
-
+| Status der State Machine| /robo/local/statemachine/state   |
 
 
 Field Topics
