@@ -22,8 +22,10 @@ Local Topics
 | Output Position | /robo/local/pos/output    | 
 | Start Exploring | /robo/local/pos/explore    | 
 | Aktuelle Geschwindigkeit | /robo/local/pos/speed    | 
-| Durch Refbox gemeldete Maschinen  | /robo/local/refbox/zones    | 
+| Durch Refbox gemeldete Zonen  | /robo/local/refbox/zones    | 
 | Pause| /robo/local/refbox/pause    | 
+| Tag Nummer| /robo/local/cam/tag|
+| Lampen Erkennung| /robo/local/cam/color    |
 
 
 
