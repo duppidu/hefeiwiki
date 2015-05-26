@@ -10,7 +10,7 @@ http://de.wikipedia.org/wiki/Douglas-Peucker-Algorithmus
 ![lineExtracter](https://gitlab.com/solidus/hefei/uploads/98fcef996ae50b3e61b3c3cc94fcf0b0/lineExtracter.png)
 - Fasst Zusammengehörige Reflektionen (innerhalb Toleranz) zu einer Linie zusammen
 
-### 3. Step: Filtern der Linien
+### 2. Step: Filtern der Linien
 - MinNumberReflectionsFilter Objekt instanzieren  
 - Übergabe der minimalen Anzahl Reflektionen, welche eine Linie definieren sollen in Konstruktor  
 - aufrufen filter()  
