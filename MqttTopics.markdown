@@ -27,6 +27,7 @@ Local Topics
 | Tag Nummer| /robo/local/cam/tag|
 | Lampen Erkennung| /robo/local/cam/color    |
 | Status der State Machine| /robo/local/statemachine/state   |
+| Ausweichs Geschwindigkeit +/- |/robo/local/pos/avoidingSpeed |
 
 
 Field Topics
