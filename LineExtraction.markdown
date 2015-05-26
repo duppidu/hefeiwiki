@@ -5,8 +5,8 @@ http://de.wikipedia.org/wiki/Douglas-Peucker-Algorithmus
 ### 1. Step: Linien aus vorhandenen (!) Reflektionen extrahieren
 - LineExtracter Objekt instanzieren
 - Übergabe von Toleranz in Konstruktor
-- Aufrufen extractLines()
-- Extrahiert alle Linien, egal wie viele Reflektionen die Linie definieren (mind. 2)  
+- Aufrufen extractLines() mit vorhandener Liste von CoordinatesScandata-Objekten
+- Extrahiert alle Linien, egal wie viele Reflektionen die Linie definieren (mind. 2) 
 ![lineExtracter](https://gitlab.com/solidus/hefei/uploads/98fcef996ae50b3e61b3c3cc94fcf0b0/lineExtracter.png)  
 - Fasst Zusammengehörige Reflektionen (innerhalb Toleranz) zu einer Linie zusammen
 
