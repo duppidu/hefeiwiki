@@ -4,7 +4,7 @@ Explo Communication
 
 ####Communication between Classes and Explo handler in Explo Phase :
 (Sequence Diagramm Look in: https://stackedit.io/editor)
-Surround with:
+Surround with:  
 //```sequence
 ....
 
