@@ -28,5 +28,8 @@
 
 ## OpenCv
 [OpenCV](OpenCV)
+
+## ALVAR
+[InstallManual](AlvarInstallManual)
 ## Virtual Box
 [Virtual Box Xubuntu Image](VBoxXubuntuOVA)
