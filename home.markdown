@@ -2,8 +2,8 @@
 
 ## Environment Sensing
 [SickTiM55x](Sick-TiM55x)  
-[LaserDataHandling](Laser-Data-Handling)
-[LineExtracter](LineExtracter)
+[LaserDataHandling](Laser-Data-Handling)  
+[LineExtraction](LineExtraction)
 
 ## Drive
 [Drive](Drive)  
