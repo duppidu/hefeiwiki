@@ -31,5 +31,8 @@
 
 ## ALVAR
 [InstallManual](AlvarInstallManual)
+
+## State Machine
+[PoeStateMachine](PoeStateMachine)
 ## Virtual Box
 [Virtual Box Xubuntu Image](VBoxXubuntuOVA)
