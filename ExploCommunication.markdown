@@ -1,36 +1,10 @@
 Explo Communication
 ===================
 
-Sequenz Diagramm
-(https://gitlab.com/solidus/hefei/uploads/0255a77ff7645ec58fe65bc3328fd684/flowexplophase.html)
-
-#### Communication between Classes and Explo handler in Explo Phase :
-(Sequence Diagramm Look in: https://stackedit.io/editor)
-Surround with:  
-//```sequence
-....
-
-//```
-
-------------
-
-```sequence
-Refbox->ExploControll: Send Fields (-Z1-Z2...)
-Note right of ExploControll: getCoord
-Note right of ExploControll: StartPoint For Next Machine
-ExploControll->Waycontroller: sendTarget(/robo/local/pos/target)
-Note right of Waycontroller: goTarget()(Coord)
-Waycontroller->ExploControll: inPos(to define)(String with true/false)
-ExploControll->Waycontroller: Explore(String with explore)
-Waycontroller->ExploControll: CoordIn()(Coord)
-Waycontroller->ExploControll: CoordOut()(Coord)
-Camera->ExploControll: get Id, Color
-ExploControll->Refbox: SendMachine(Machine)(to define)
-ExploControll->MasterBroker: SendMachine(Machine)(to define)
-Note right of ExploControll: go to Start until finished
-```
-
+#### Sequenz Diagramm  
+Diagramm as HTML file Downloadable
+[flowexplophase.html](https://gitlab.com/solidus/hefei/uploads/0255a77ff7645ec58fe65bc3328fd684/flowexplophase.html)
 
 
 This Cycle will pass 2 times, on each of the 3 Robotinos. As This Cycle is finished The Field
-With its Machines should be complete on each Robotino and Transmitted to the Refobx[flowexplophase.html]
+With its Machines should be complete on each Robotino and Transmitted to the Refobx
