@@ -8,6 +8,7 @@ Attribute
 | :------- | --- | :---- |
 | target| Private Coord| Beinhaltet die Ziel Position. Kann durch setTarget() geändert werden|
 | actual| Private Coord| Beinhaltet die aktuelle Position des Robotinos.|
+| avoidSpeed| Private Speed| Beinhaltet die Ausweichgeschwindigkeit des Robotinos.|
 | schrittkette| Private String| Variable für die goToTarget() Methode.|
 | toleranz| Private Static Double| Definiert die Genauigkeit, beim Verfahren in X und Y, des Robotinos auf dem Spielfeld.|
 | drehtoleranz| Private Double| Definiert die Genauigkeit, beim Verfahren in Phi, des Robotinos. Langsames Fahren|
@@ -63,7 +64,7 @@ Wird mit der Klasse noch besprochen.
 
 public boolean goToTarget()
 ----------------
-Steuert den ablauf von accelerate(), travel() und decelerate(). sobald das Ziel erreicht ist gibt die Methode ein True zurück.
+Steuert den ablauf von accelerate(), travel(), decelerate() und machineAlign(). sobald das Ziel erreicht ist gibt die Methode ein True zurück.
 
 public boolean laserAlign()
 ----------------
