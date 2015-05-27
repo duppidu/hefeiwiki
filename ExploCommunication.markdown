@@ -1,8 +1,10 @@
 Explo Communication
 ===================
 
+Sequenz Diagramm
+(https://gitlab.com/solidus/hefei/uploads/0255a77ff7645ec58fe65bc3328fd684/flowexplophase.html)
 
-####Communication between Classes and Explo handler in Explo Phase :
+#### Communication between Classes and Explo handler in Explo Phase :
 (Sequence Diagramm Look in: https://stackedit.io/editor)
 Surround with:  
 //```sequence
@@ -28,5 +30,7 @@ ExploControll->MasterBroker: SendMachine(Machine)(to define)
 Note right of ExploControll: go to Start until finished
 ```
 
+
+
 This Cycle will pass 2 times, on each of the 3 Robotinos. As This Cycle is finished The Field
-With its Machines should be complete on each Robotino and Transmitted to the Refobx
+With its Machines should be complete on each Robotino and Transmitted to the Refobx[flowexplophase.html]
