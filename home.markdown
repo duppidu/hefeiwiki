@@ -25,7 +25,7 @@
   
 
 ## RefBox
-[Configuration](Configuration of RefBox)
+[Configuration](RefBox)
 
 ## OpenCv
 [OpenCV](OpenCV)
