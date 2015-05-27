@@ -21,7 +21,8 @@ Local Topics
 | Input Position | /robo/local/pos/input    |  
 | Output Position | /robo/local/pos/output    | 
 | Start Exploring | /robo/local/pos/explore    | 
-| Aktuelle Geschwindigkeit | /robo/local/pos/speed    | 
+| Aktuelle Geschwindigkeit | /robo/local/pos/speed    |
+| Aktionen Für das Drive | /robo/local/pos/actions    |  
 | Durch Refbox gemeldete Zonen  | /robo/local/refbox/zones    | 
 | Pause| /robo/local/refbox/pause    | 
 | Tag Nummer| /robo/local/cam/tag|
