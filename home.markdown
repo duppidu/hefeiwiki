@@ -24,9 +24,8 @@
 [Zones](Zones)  
   
 
-## RefBox
-[Configuration](RefBox)  
-[Configuration2](ConfigurationOfRefbox)
+## RefBox 
+[Configuration](ConfigurationOfRefbox)
 
 ## OpenCv
 [OpenCV](OpenCV)
