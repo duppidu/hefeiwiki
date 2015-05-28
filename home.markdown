@@ -1,5 +1,8 @@
 # Solidus-Hefei
 
+## Cam
+[ColorDetection](ColorDetection)
+
 ## Environment Sensing
 [SickTiM55x](Sick-TiM55x)  
 [LaserDataHandling](Laser-Data-Handling)  
