@@ -1,4 +1,4 @@
-## Configuration of the Lancom Router
+## Configuration of the Lancom Router :speak_no_evil:
 >Arbeitsschritte die ausgeführt werden müssen, wenn der Lancom-Router auf die Werkseinstellungen zurückgesetzt wurde.  
 
 ### Zugriff auf Router
