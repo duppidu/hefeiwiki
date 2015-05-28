@@ -6,7 +6,7 @@ Jede Farbe wird nacheinander gleich oft überprüft.
 #### Attribute
 
 | Name| Datentyp| Bemerkung|
-|t1  | Thread |  |
+| t1 | Thread |  |
 | mqtt | MqttCom | Broker |
 | capture | VideoCapture | hohlt das Webcam Bild |
 | webcam_image | Mat | konvertiert das Webcam Bild in eine Matrix |
