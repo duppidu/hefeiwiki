@@ -45,8 +45,8 @@ Jede Farbe wird nacheinander gleich oft überprüft.
 
 ### trackColor()
 
-#### Attribute
+In der Methode trackColor wird die ganze Bildumwandlung gemacht und in einem Switch Case dan nach der jeweiligen Farbe gesucht. Bei Aufruf dieser Methode wird die Farbe nur einmal überprüft. 
 
-| Name| Datentyp| Bemerkung|
+
  
 
