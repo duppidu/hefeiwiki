@@ -34,6 +34,13 @@ public boolean inRangeXY(Coord actual, double toleranz)
 -----------
 Vergleicht ob sich der Robotino in der übergebenen Toleranz befindet. Solange sich der Robotino auserhalb dieses Bereiches befindet wird ein False zurückgegeben.
 
+public boolean inRangeXY(Coord actual, double toleranz, double faktor)
+-----------
+Vergleicht ob sich der Robotino in der übergebenen Toleranz befindet. Diese wird mit einem übergebenen Faktor multiplizierz. Solange sich der Robotino auserhalb dieses Bereiches befindet wird ein False zurückgegeben.
+
+public boolean inTargetRange(Coord actual, double toleranz, double faktor)
+------------
+Wird speziell für das targetAlign verwendet.
 
 
 
