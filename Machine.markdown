@@ -1,8 +1,8 @@
 
  - Machine
 - [Allgemein](Allgemein)
-- [idToName](idToName)
-- [fill](fill)
+- [idToName](idToName())
+- [fill](fill())
 
 
 ----------
