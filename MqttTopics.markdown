@@ -29,7 +29,8 @@ Local Topics
 | Lampen Erkennung| /robo/local/cam/color    |
 | Status der State Machine| /robo/local/statemachine/state   |
 | Ausweichs Geschwindigkeit +/- |/robo/local/pos/avoidingSpeed |
-| Job Anfrage (Production) |/PC/local/Job/getJob|
+| Job Anfrage (Production) |/PC/local/job/getJob|
+| Senden von neuem Job |/robo/local/job/newJob|
 
 
 Field Topics
