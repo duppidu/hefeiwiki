@@ -8,7 +8,7 @@
 ----------
 ### Allgemein ###
 
- - Konstruktor Machine
+ - Konstruktor (Machine)
 - [Coord](Coord) 
 - ID 
 - [Lamps](ColorDetection)
