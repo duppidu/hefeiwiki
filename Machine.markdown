@@ -6,7 +6,7 @@
 
 
 ----------
-###Allgemein###
+### Allgemein ###
 
  - Konstruktor Machine
 - Coord 
@@ -22,7 +22,7 @@
 
 ----------
 
-###idToName()###
+### idToName() ###
 
 Uebergabewert = Tag ID (int)
 Return = Machine Name (String)
@@ -31,7 +31,7 @@ Wandelt die Tag ID von der Maschine ihn ihren dazugehörigen Namen um.
 
 
 ----------
-###fill()###
+### fill() ###
 
 Uebergabewert = (id, coord, lamps)
 
