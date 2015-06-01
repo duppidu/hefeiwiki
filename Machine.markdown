@@ -14,7 +14,7 @@
 - [Lamps](ColorDetection)
 
 
- - HashMap
+ - HashMap (hmMachine)
 - Key: Machine Name (String)
 - Inhalt: Machine
 
