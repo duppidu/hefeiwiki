@@ -11,7 +11,7 @@
  - Konstruktor Machine
 - [Coord](Coord) 
 - ID 
-- Lamps
+- [Lamps](Lamps)
 
 
  - HashMap
@@ -33,7 +33,7 @@ Wandelt die Tag ID von der Maschine ihn ihren dazugehörigen Namen um.
 ----------
 ### fill() ###
 
-Uebergabewert = (id, coord, lamps)
+Uebergabewert = (id, [coord](Coord), [lamps](Lamps))
 
 - Füllt die HashMap (hmMachine) mit den Uebergabewerten.
 - Der Key wird mittels idToName() selbstständig ermittelt und gesetzt.
