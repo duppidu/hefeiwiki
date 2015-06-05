@@ -67,13 +67,13 @@ Pre-Shared Key = Schlüssel
 | WPA (Wi-Fi Protected Access) | TKIP (Temporal Key Integrity Protocol) | - |  
 | WPA2 (Wi-Fi Protected Access 2) | CCMP (Counter Mode with <br> Cipher Block Chaining Message Authentication Code Protocol) | AES (Advanced Encryption Standard) |   
 
-WPA2 wird manchmal auch als WPA2-Personal oder WPA2-Enterprise bezeichnet. Personal ist die normale Verschlüsselung, welche häufigsten privat eingesetzt wird. Enterprise ist eine WPA2-Verschlüsselung mit einem RADIUS-Server.
+WPA2 wird manchmal auch als WPA2-Personal oder WPA2-Enterprise bezeichnet. Personal ist die normale Verschlüsselung, welche am häufigsten privat eingesetzt wird. Enterprise ist eine WPA2-Verschlüsselung mit einem RADIUS-Server.
 
 **RADIUS-Server**  
 Der RADIUS-Server ist Bestandteil von WPA2-Enterprise. Wenn die Enterprise-Verschlüsselung aktiviert ist, muss ein WLAN-Benutzer sich beim Verbinden, am RADIUS-Server mit seinen Login-Daten einloggen. Die HFTM benutzt für ihr Studenten-WLAN-Zugang auch einen RADIUS-Server.
 
 **auto** [Interface]  
-Bedeutet dass das Interface beim Booten automatisch gestartet wird.
+Das Interface wird beim Booten automatisch gestartet. Wird nichts angegeben, muss das Interface manuell gestartet werden.
 
 **iface**  
 Ist die Abkürzung für Interface.
@@ -89,7 +89,7 @@ Das ist die Methode. Mit *static* wird eine statische Konfiguration erwartet, be
 
 ------
 **Remapping**  
-Für das Remapping wird die Methode *manual* benötigt. Das betreffende Interface bekommt die Methode *manual*. Dann wird ein weiteres Interface mit einem Fantasienamen konfiguriert, z. B. *work* oder *home*. Bei diesem Interface wird dann die richtige Konfiguration vorgenommen. Das könnte dann folgendermasse aussehen:
+Für das Remapping wird die Methode *manual* benötigt. Das betreffende Interface bekommt die Methode *manual*. Dann wird ein weiteres Interface mit einem Fantasienamen konfiguriert, z. B. *work* oder *home*. Bei diesem Interface wird dann die richtige Konfiguration vorgenommen. Das könnte dann folgendermassen aussehen:
 
 	iface eth0 inet manual
 	iface default inet dhcp
@@ -103,7 +103,7 @@ Beim Systemstart wird nun das Interface unkonfiguriert geladen. Mit dem Befehl
 kann dann die statische Konfiguration geladen werden. Oder mit
 
 	sudo ifup eth0=default
-die dynamische Kofiguration.
+die dynamische Konfiguration.
 
 **Einstellungen aktivieren**  
 Um die neuen Einstellungen zu übernehmen, können alle Interfaces mit einem *auto* Eintrag neu gestartet werden. Mit dem Befehl:
