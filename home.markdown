@@ -46,4 +46,5 @@
 
 ## RobotinoOS  
 [Kommandos](CommandOfRobotinoOS)  
-[Backup](BackupOfRobotinoOS)
+[Backup](BackupOfRobotinoOS)  
+[Interface konfigurieren](InterfaceConfig)
