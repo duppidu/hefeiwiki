@@ -8,12 +8,12 @@ Version: 1.0
 Quellen:  [Ubuntu Wiki, Interfaces](https://wiki.ubuntuusers.de/interfaces) | [bits meets Bytes, Verschlüsselungen](http://bits-meet-bytes.de/wlan-verschluesselungsmethoden/) | [PCWELT, Verschlüsselungen](http://www.pcwelt.de/tipps/Die_richtige_WLAN-Verschluesselung_fuer_Ihren_Router-WLAN-Einstellungen-7567027.html) 
 
 ----
-- <a name="SM1">interface</a>  
-- <a name="SM2">wpa_supplicant.conf</a>  
-- <a name="SM3">Weitere Erläuterungen zu den Konfigurationen</a>  
+- <a href="#SM1">interface</a>  
+- <a href="#SM2">wpa_supplicant.conf</a>  
+- <a href="#SM3">Weitere Erläuterungen zu den Konfigurationen</a>  
 
 ----
-## <a href="#SM1">interface</a>
+## <a name="SM1">interface</a>
 >/etc/network/interface
 
 	# This file describes the network interfaces available on your system
@@ -39,7 +39,7 @@ Quellen:  [Ubuntu Wiki, Interfaces](https://wiki.ubuntuusers.de/interfaces) | [b
 	broadcast 172.26.255.255
 	gateway 172.26.0.1
 	dns-nameservers 172.26.0.1
-## <a href="#SM2">wpa_supplicant.conf</a>
+## <a name="SM2">wpa_supplicant.conf</a>
 >etc/wpa_supplicant/wpa_supplicant.conf
 
 	ctrl_interface=/var/run/wpa_supplicant
@@ -55,7 +55,7 @@ Quellen:  [Ubuntu Wiki, Interfaces](https://wiki.ubuntuusers.de/interfaces) | [b
 	   group=CCMP
 	   pairwise=CCMP
 	}
-## <a href="#SM3">Weitere Erläuterungen zu den Konfigurationen</a>
+## <a name="SM3">Weitere Erläuterungen zu den Konfigurationen</a>
 **PSK**  
 Pre-Shared Key = Schlüssel
 
