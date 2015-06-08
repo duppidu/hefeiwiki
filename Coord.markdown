@@ -28,7 +28,7 @@ Rechnet die Differenz zwischen zweit Coord Klassen. z.B. coord1.sub(coord2) ==> 
 
 public calcAngle(Coord actual)
 -----------
-Dästi bitte usfülle
+Berechnet aus der Positionsdifferenz (Zielposition - aktuelle Position) den Ausrichtungswinkel und gibt diesen anschliessend zurueck. Diese wird für das Anfahren der neuen Position benoetigt. Dafuer wird das Winkelkoordinatensystem in folgende vier Quadranten aufgeteilt: Quadrant 1 (1° bis 89°), Quadrant 2 (91° bis 179°), Quadrant 3 (181° bis 269°) und Quadrant 4 (271° bis 359°) wobei die Fälle (0°, 90°, 180°, 270° und 360°) separat abgefangen sind.
 
 public boolean inRangeXY(Coord actual, double toleranz)
 -----------
