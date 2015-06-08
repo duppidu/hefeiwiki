@@ -6,12 +6,16 @@ Attribute
 
 | Name| Datentyp| Bemerkung| 
 | :------- | --- | :---- |
-| Host| private final String| Localhost für Anschluss via USB |
-| Port| private final int| via USB -->4223 |
-| UID| private String| ID des IMU-Brick |
-| x, y, z, w | private float| Quaternionen der Achse x, y, z, w |
-| degree, zAngle | private double| Hilfsvariable für die Berechnung des Winkels in Grad |
-| rad | private double| Hilfsvariable für die Berechnung des Winkels in Rad |
+| Host| private final String | Localhost für Anschluss via USB |
+| Port| private final in t| via USB -->4223 |
+| UID| private String | ID des IMU-Brick |
+| min/maxPulse | private int | |
+| min/maxDegree | private int | |
+| Period | private int | |
+| open/closeAcceleration | private int | |
+| open/closeVelocity | private int | |
+| servoNr | private int | |
+
 
 public void setQuaternion()
 -----------
