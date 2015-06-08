@@ -9,22 +9,20 @@ Attribute
 | Host| private final String | Localhost für Anschluss via USB |
 | Port| private final in t| via USB -->4223 |
 | UID| private String | ID des IMU-Brick |
-| min/maxPulse | private int | |
-| min/maxDegree | private int | |
-| Period | private int | |
-| open/closeAcceleration | private int | |
-| open/closeVelocity | private int | |
-| servoNr | private int | |
+| min/maxPulse | private int | steht im zusammenhang mit dem min/maxDegree |
+| min/maxDegree | private int | einstellung für den Winkelbereich des Servos |
+| Period | private int | default Wert von 19500 |
+| open/closeAcceleration | private int | default Wert von 0xFFFF |
+| open/closeVelocity | private int | default Wert 0xFFFF |
+| servoNr | private int | Anschlussposition des Servos auf dem Print |
+| pos| int | Wert für das öffnen und schliessen des Greifers |
 
 
-public void setQuaternion()
+public void openGripper()
 -----------
-Abfrage der Quaternionen in den Achsen x, y, z, w
+Methode für das öffnen des Grippers. Öffnungsgrad wird übergeben.
 
-public void getDegreeAngle()
------------
-Berechnen und Rückgabe des Winkels in Grad
 
-public void getRadAngle()
+public void closeGripper()
 -----------
-Berechnen und Rückgabe des Winkels in Rad
+Methode für das schliessen des Grippers. Schliessungsgrad wird übergeben.
