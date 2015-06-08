@@ -7,7 +7,7 @@ Attribute
 | Name| Datentyp| Bemerkung| 
 | :------- | --- | :---- |
 | Host| private final String | Localhost für Anschluss via USB |
-| Port| private final in t| via USB -->4223 |
+| Port| private final int| via USB -->4223 |
 | UID| private String | ID des IMU-Brick |
 | min/maxPulse | private int | steht im zusammenhang mit dem min/maxDegree |
 | min/maxDegree | private int | einstellung für den Winkelbereich des Servos |
