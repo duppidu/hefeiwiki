@@ -3,6 +3,7 @@
 - Allgemein
 - idToName
 - fill
+- machineSecondSideGenerator
 
 
 ----------
@@ -40,4 +41,16 @@ Uebergabewert = (id, [coord](Coord), [lamps](ColorDetection))
 - Sollte ein Key schon vergeben/vorhanden sein, wird er überschrieben und durch den neuen Wert ersetzt. 
 
 
+----------
+
+### machineSecondSideGenerator() ###
+
+Die Funktion speichert nach dem Erkennen einer Input Seite von einer Maschine automatisch die Output Seite derselben Maschine bez sie wird generiert.
+
+Uebergabewert = (id, secondCoord)
+
+- Mittels Input Tag einer Maschine wird das dazugehörige Output Tag automatisch generiert.
+- Speichern der Output Seite von einer Maschine in der HashMap (hmMachine)
+- Lampen auf second Seite sind alle false!
+- secondCoord sind die Koordinaten wo sich "Theoretisch" das Output Tag befindet.
 ----------
