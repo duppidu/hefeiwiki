@@ -53,4 +53,5 @@ Uebergabewert = (id, secondCoord)
 - Speichern der Output Seite von einer Maschine in der HashMap (hmMachine)
 - Lampen auf second Seite sind alle false!
 - secondCoord sind die Koordinaten wo sich "Theoretisch" das Output Tag befindet.
+
 ----------
