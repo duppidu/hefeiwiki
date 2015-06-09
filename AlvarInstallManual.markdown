@@ -29,6 +29,6 @@ Version: 1.0
      
  12.  build and install the project with the command sudo make install 
  
- ## Errorhelp
+ # # Errorhelp
 1. Copy the Alvarplugins folder from bin to the samples folder if you have the Error "cannot find any capture plugins" while running a sampleprogram.
 2. If you get OpenGl Errors, run this command export LIBGL_ALWAYS_SOFTWARE=1
