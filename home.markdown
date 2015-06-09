@@ -38,6 +38,7 @@
 
 ## ALVAR
 [InstallManual](AlvarInstallManual)
+[ALVAR_Programming](Alvar Programming)
 
 ## State Machine
 [PoeStateMachine](PoeStateMachine)
