@@ -37,8 +37,7 @@
 [OpenCV](OpenCV)
 
 ## ALVAR
-[InstallManual](AlvarInstallManual)
-
+[InstallManual](AlvarInstallManual)  
 [ALVAR_Programming](Alvar_Programming)
 
 ## State Machine
