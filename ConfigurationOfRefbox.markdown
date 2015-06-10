@@ -8,14 +8,14 @@ Version: 1.0
 
 ----
 - <a href="#SM1">Config-File</a>
-- <a href="#SM2">Deafult-Eintrag</a>
+- <a href="#SM2">Default-Eintrag</a>
 - <a href="#SM3">Neue Konfiguration</a>
 
 ----
 ## <a name="SM1">Config-File</a>
 >Speicherort: *llsf-refbox/cfg/config.yaml*
 
-## <a name="SM2">Deafult-Eintrag</a>
+## <a name="SM2">Default-Eintrag</a>
 
 	    %YAML 1.2
 	%TAG ! tag:fawkesrobotics.org,cfg/
@@ -176,7 +176,7 @@ Version: 1.0
 	      estimate-time: true
  
 ----------
-## <a name="SM1">Neue Konfiguration</a>
+## <a name="SM3">Neue Konfiguration</a>
 
 	    %YAML 1.2
 	%TAG ! tag:fawkesrobotics.org,cfg/
@@ -338,4 +338,4 @@ Version: 1.0
 
 	      
 ----
-Last edited by Florian Gehrig at 08. Juni 2015
+Last edited by Florian Gehrig at 10. Juni 2015
