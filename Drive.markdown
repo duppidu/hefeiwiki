@@ -9,7 +9,11 @@ Attribute
 | target| Private Coord| Beinhaltet die Ziel Position. Kann durch setTarget() geändert werden|
 | actual| Private Coord| Beinhaltet die aktuelle Position des Robotinos.|
 | avoidSpeed| Private Speed| Beinhaltet die Ausweichgeschwindigkeit des Robotinos.|
-| schrittkette| Private String| Variable für die goToTarget() Methode.|
+| goToTargetCase| Private String| Variable für Switch Case in der goToTarget() Methode.|
+| exploreCase| Private String| Variable für Switch Case in der explore() Methode.|
+| approachCase| Private String| Variable für Switch Case in der approach Methode.|
+| topicActual| Private String| Topic Pfad für die aktuelle Position.|
+| topicAvoidingSpeed| Private String| Topic Pfad für die Ausweichgeschwindigkeit.|
 | toleranz| Private Static Double| Definiert die Genauigkeit, beim Verfahren in X und Y, des Robotinos auf dem Spielfeld.|
 | drehtoleranz| Private Double| Definiert die Genauigkeit, beim Verfahren in Phi, des Robotinos. Langsames Fahren|
 | drehtolfaktor| Private Double| Definiert die Genauigkeit, beim Verfahren in Phi, des Robotinos. Schnelles Fahren|
