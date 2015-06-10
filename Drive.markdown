@@ -69,7 +69,7 @@ public boolean decelerate()
 ----------------
 Der Robotino fährt so lange bis er sich in der Angegebenen Toleranz befindet.
 
-private boolean aproache()
+public boolean aproache()
 ----------------
 Die approach Methode richtet den Robotino aus mittels Laseralign. Mittels Tagerkennung wird die Position des Tags erkannt und der Robotin fährt vos des Tag hin. Der Infrarot Sensor misst die Distanz zwischen MPS und Robotino.
 
@@ -91,5 +91,9 @@ comming soon... Johner bitte usfülle
 
 public boolean explore() 
 ----------------
+Die explore() Methode sucht Maschinen die im eigenen Felde stehen. Damit die Maschine auf jeden Fall erkannt wird werden im schlimsten Fall vier Punkte angefahren. Wird eine Maschine erkannt fährt der Robotino vor diese hin.
 
+public void stop()
+----------------
+Wie der Name schon sagt werden die Bewegungen des Robotinos gestoppt. Zudem werden die Switch Case Variablen auf die erste Position gesetzt. Dies Verhindert einen Crash beim wieder Anfahren.
 
