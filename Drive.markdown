@@ -15,8 +15,8 @@ Attribute
 | topicActual| Private String| Topic Pfad für die aktuelle Position.|
 | topicAvoidingSpeed| Private String| Topic Pfad für die Ausweichgeschwindigkeit.|
 | toleranz| Private Static Double| Definiert die Genauigkeit, beim Verfahren in X und Y, des Robotinos auf dem Spielfeld.|
-| drehtoleranz| Private Double| Definiert die Genauigkeit, beim Verfahren in Phi, des Robotinos. Langsames Fahren|
-| drehtolfaktor| Private Double| Definiert die Genauigkeit, beim Verfahren in Phi, des Robotinos. Schnelles Fahren|
+| rotationTol| Private Double| Definiert die Genauigkeit, beim Verfahren in Phi, des Robotinos. Langsames Fahren|
+| rotationFac| Private Double| Definiert die Genauigkeit, beim Verfahren in Phi, des Robotinos. Schnelles Fahren|
 | breakDistance| Private Double| Definiert ab welcher Distanz der Robotino bremsen muss damit er das Ziel nicht verfehlt.|
 | maxSpeed| Private Float| Definiert die maximale Geschwindigkeit mit der der Robotino fahren darf.|
 | xSpeed| Private Float| Geschwindigkeit in X Richtung.|
@@ -24,19 +24,25 @@ Attribute
 | omega| Private Float| Winkelgeschwindigkeit|
 | beschleunigung| Private Float| Bestimt die Steigung der Anfahrrampe.|
 | aproachspeed| Private Float| Geschwindigkeit für das Anfahren der Objekte.|
-| drehgesch| Private Float| Drehgeschwindigkeit für Winkelanpassungen.|
+| rotationSpeed| Private Float| Drehgeschwindigkeit für Winkelanpassungen.|
 | bandDistX| Private Int| Distanz der X Bande vom Nullpunkt|
 | bandDistY| Private Int| Distanz der Y Bande vom Nullpunkt|
 | backcycle| Private Int| Aktuelle Anzahl der Rückwärtszyklen.|
+| laserTol| Private Int| Toleranz zum Ausrichten mit dem Laser in mm.|
+| cntDone| Private Int| Zählt die Zyklen welche der Robotino gerade steht.|
+| explore| Private Int| Wird in Switch Case benötigt um zu entscheiden in welche Ecke der Robotino gehen muss.|
 
 
 public Drive()
 ----------------
-Der Konstruktor instanziert alle nötigen Attribute, schreibt die Attribute mit den Werten aus der Drive.xml Datei und setzt das Calltback für die aktuelle Position.
+Der Konstruktor instanziert die Kommunikation zum MQTT Broker, den Omnidrive, den PositionController, den Laserscanner, den DistanceSensor und die Markerdetection. Der DistanceSensor Klasse wird mitgeteilt welcher Sensor bewacht werden muss.
+Nachdem werden alle Daten aus der Drive.xml Datei gelesen und den dazugehörigen Attributen zugewiesen.
+Die Verbindung zu MQTT Broker wird hergestellt. Dazu wird die robotIp der main.xml Datei verwendet. Als letztes wird das Callback auf die zwei Topics, topicActual und Topic AvoidîngSpeed, gesetzt.
+
 
 public void setTarget()
 ----------------
-Das nächste Ziel wird dem Drive übergeben. Im gleichen Schritt wird die Schrittkett auf "align" gesetzt.
+Das nächste Ziel wird dem Drive übergeben. Im gleichen Schritt wird die Schrittkett auf "align" gesetzt damit der Robotino bei der goToTarget Methode von vorne beginnt.
 
 public boolean backwards()
 ----------------
@@ -44,37 +50,46 @@ Der Robotino fährt während 10 Zyklen rückwärts. Diese Methode wird verwendet
 
 private boolean targetalign()
 ----------------
-Die Methode targetAlign() dreht den Robotino in die Richtung des Zieles.
+Die Methode targetAlign() berechnet den Winkel zwischen Ziel und aktueller Position. Zudem wird der Robotino in diese Richtung gedreht.
+Dabei verfährt der Robotino mit zwei verschiedenen Geschwindigkeit damit das Ziel genau und schnell erreicht wird. Die höhere Geschwindigkeit ist 10 Mal grösser als die rotationSpeed. Die rotationTol bestimt die Toleranz die beim langsamen drehen erreicht wird. Diese wird durch den rotationFac Faktor für das schnelle Drehen vergrössert. Je kleiner diese Werte sind desto genauer fährt der Robotino. Damit der Robotino eine kleinere Toleranz erreichen kann muss die Zykluszeit schneller eingestellt werden. Dies bewirkt ein Ansteig der CPU Belastung.
 
-public boolean machineAlign(Coord target)
+public boolean machineAlign()
 ----------------
-Die Methode machineAlign(Coord target) dreht den Robotino ca. rechtwinklig zu MPS. Als Übergabewert wird die Coord Klasse der MPS benötigt.
+Die Methode machineAlign() basiert auf dem gleichen Prinzip wie die targetAlign() Methode. Der grosse Unterschied zwischen den beiden ist dass sich der Robotino nicht in Richtung des Zieles orientiert sondern an den Winkel der mit dem Ziel (target) geliefert wurde.
 
 private boolean accelerate()
 ----------------
-Beinhaltet dan Algorithmus für die Anfahrrampe.
+Die Beschleunigung wird bei jedem Aufruf zur aktuellen geschwindigkeit dazu addiert. Wird maxSpeed erreicht wird ein true zurückgegeben. 
 
 private boolean travel()
 ----------------
-Fährt dem Robotino bis zur breakDistance in Richtung des Zieles.
+Der Robotino fährt solange gerade aus bis er die breakDistance erreicht hat. Danach wird die Geschwindigkeit auf approachSpeed gesetzt.
 
 public boolean decelerate()
 ----------------
-Bremst den Robotino ab und fährt mit geringerer Geschwindigkeit auf das Ziel zu.
+Der Robotino fährt so lange bis er sich in der Angegebenen Toleranz befindet.
 
-public boolean aproache()
+private boolean aproache()
 ----------------
-Wird mit der Klasse noch besprochen.
+Die approach Methode richtet den Robotino aus mittels Laseralign. Mittels Tagerkennung wird die Position des Tags erkannt und der Robotin fährt vos des Tag hin. Der Infrarot Sensor misst die Distanz zwischen MPS und Robotino.
 
 public boolean goToTarget()
 ----------------
-Steuert den ablauf von accelerate(), travel(), decelerate() und machineAlign(). sobald das Ziel erreicht ist gibt die Methode ein True zurück.
+Die goToTarget steuert mittels Switch Case den Ablauf zwischen targetAlign(), accelerate(), travel(), decelerate() und machineAlign() so dass eine Methode nach der Anderen ausgeführt wird. Die targetAlign() Methode wird in jedem Schritt aufgerufen damit der Robotino allfällige abweichungen des Winkels nachkorrigieren kann.
 
 public boolean laserAlign()
 ----------------
-Comming soon...
+Comming soon... Johner bitte usfülle
 
 public boolean initPos()
 ----------------
-comming soon...
+comming soon... Johner bitte usfülle
+
+public String recognizeMachine()
+----------------
+comming soon... Johner bitte usfülle
+
+public boolean explore() 
+----------------
+
 
