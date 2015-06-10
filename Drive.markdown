@@ -8,8 +8,8 @@ Attribute
 
 | Name| Datentyp| Bemerkung| 
 | :------- | --- | :---- |
-| target| Private Coord| Beinhaltet die Ziel Position. Kann durch setTarget() geändert werden|
-| actual| Private Coord| Beinhaltet die aktuelle Position des Robotinos.|
+| target| Public static Coord| Beinhaltet die Ziel Position. Kann durch setTarget() geändert werden|
+| actual| Public static Coord| Beinhaltet die aktuelle Position des Robotinos.|
 | avoidSpeed| Private Speed| Beinhaltet die Ausweichgeschwindigkeit des Robotinos.|
 | goToTargetCase| Private String| Variable für Switch Case in der goToTarget() Methode.|
 | exploreCase| Private String| Variable für Switch Case in der explore() Methode.|
@@ -21,9 +21,9 @@ Attribute
 | rotationFac| Private Double| Definiert die Genauigkeit, beim Verfahren in Phi, des Robotinos. Schnelles Fahren|
 | breakDistance| Private Double| Definiert ab welcher Distanz der Robotino bremsen muss damit er das Ziel nicht verfehlt.|
 | maxSpeed| Private Float| Definiert die maximale Geschwindigkeit mit der der Robotino fahren darf.|
-| xSpeed| Private Float| Geschwindigkeit in X Richtung.|
-| ySpeed| Private Float| Geschwindigkeit in Y Richtung.|
-| omega| Private Float| Winkelgeschwindigkeit|
+| xSpeed| Public static Float| Geschwindigkeit in X Richtung.|
+| ySpeed| Public static Float| Geschwindigkeit in Y Richtung.|
+| omega| Public static Float| Winkelgeschwindigkeit|
 | beschleunigung| Private Float| Bestimt die Steigung der Anfahrrampe.|
 | aproachspeed| Private Float| Geschwindigkeit für das Anfahren der Objekte.|
 | rotationSpeed| Private Float| Drehgeschwindigkeit für Winkelanpassungen.|
@@ -33,6 +33,12 @@ Attribute
 | laserTol| Private Int| Toleranz zum Ausrichten mit dem Laser in mm.|
 | cntDone| Private Int| Zählt die Zyklen welche der Robotino gerade steht.|
 | explore| Private Int| Wird in Switch Case benötigt um zu entscheiden in welche Ecke der Robotino gehen muss.|
+| mqtt| Private MqttCom| Kommunikation mit dem Broker.|
+| od| Private OmniDrive| Für dieBewegungen des Robotinos.|
+| pc| Private PositionColtroller| Berechnet die aktuelle Position.|
+| ls| Private Lasescanner| Laserklasse. Johner bitte usfülle.|
+| ds| Private DistanceSensor| Infrarot Distanzsensor.|
+| mc| Private MarkerCoordinates| Koordinaten der Tags.|
 
 
 public Drive()
