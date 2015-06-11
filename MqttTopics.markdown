@@ -29,8 +29,10 @@ Local Topics
 | Lampen Erkennung| /robo/local/cam/color    |
 | Status der State Machine| /robo/local/statemachine/state   |
 | Ausweichs Geschwindigkeit +/- |/robo/local/pos/avoidingSpeed |
-| Job Anfrage (Production) |/PC/local/job/getJob|
-| Senden von neuem Job |/robo/local/job/newJob|
+| Job Anfrage (Production "Robi sendet seine Nummer") |/PC/local/job/getJob|
+| Senden von neuem Job an Robi 1 |/robo/local/job/newJob1|
+| Senden von neuem Job an Robi 2 |/robo/local/job/newJob2|
+| Senden von neuem Job an Robi 3 |/robo/local/job/newJob3|
 
 
 Field Topics
