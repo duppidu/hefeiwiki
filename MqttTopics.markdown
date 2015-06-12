@@ -7,7 +7,7 @@ Aufbau MQTT Topic
 
 /robo/local/...		>	und folgende steht für lokal auf dem Robotino
 
-/robo/master/... 		>	und folgende steht für das Gesamte Spielfeld
+/field/... 		>	und folgende steht für das Gesamte Spielfeld
 
 
 Local Topics
@@ -29,10 +29,10 @@ Local Topics
 | Lampen Erkennung| /robo/local/cam/color    |
 | Status der State Machine| /robo/local/statemachine/state   |
 | Ausweichs Geschwindigkeit +/- |/robo/local/pos/avoidingSpeed |
-| Job Anfrage (Production "Robi sendet seine Nummer") |/PC/local/job/getJob|
-| Senden von neuem Job an Robi 1 |/robo/local/job/newJob1|
-| Senden von neuem Job an Robi 2 |/robo/local/job/newJob2|
-| Senden von neuem Job an Robi 3 |/robo/local/job/newJob3|
+| Senden von neuem Job an Robi 1 |/robo/local/job/newjob1|
+| Senden von neuem Job an Robi 2 |/robo/local/job/newjob2|
+| Senden von neuem Job an Robi 3 |/robo/local/job/newjob3|
+|Greifer (open/)|/robo/local/grippercontrol|
 
 
 Field Topics
@@ -40,4 +40,4 @@ Field Topics
 
 | What   | Topic | 
 | :------- | ----: |
-| comes | later |
+| Job Anfrage (Production "Robi sendet seine Nummer") |/field/job/getJob|
