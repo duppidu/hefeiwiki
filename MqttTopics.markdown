@@ -40,4 +40,4 @@ Field Topics
 
 | What   | Topic | 
 | :------- | ----: |
-| Job Anfrage (Production "Robi sendet seine Nummer") |/field/job/getJob|
+| Job Anfrage (Production "Robi sendet seine Nummer") |/field/job/getjob|
