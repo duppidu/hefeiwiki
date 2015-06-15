@@ -18,7 +18,7 @@
 
 ### jobHandler() ###
 
-- Sucht in der Liste jobs, den Job mit der höchsten Priorität aus.
+- Sucht in der Liste `jobs`, den Job mit der höchsten Priorität aus.
 - Rückgabewert = JobNummer (Integer)
 - Löschen des Jobs aus der Aktuellen Liste
 
