@@ -22,4 +22,7 @@
 - Rückgabewert = JobNummer (Integer)
 - Löschen des Jobs aus der Aktuellen Liste
 
+Die Priorität des Jobs wird durch die Herstell Schwierigkeit bestimmt.
+Die einfachen Jobs werden zuerst abgearbeitet.
+
 ----------
