@@ -12,7 +12,7 @@
 
 ### initAssignement() ###
 
-- Durchsuchen der Liste `product` in [initProdPlan](initProdPlan())
+- Durchsuchen der Liste `product` in [initProdPlan()](initProdPlan)
 
 ----------
 
