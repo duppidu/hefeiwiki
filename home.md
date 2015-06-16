@@ -1,5 +1,8 @@
 # Solidus-Hefei
 
+## StartUp
+[PositionSet](PositionSet)
+
 ## Cam
 [ColorDetection](ColorDetection)
 
