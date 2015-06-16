@@ -6,6 +6,9 @@
 ----------
 ### Allgemein ###
 
+Diese Klasse läuft separat auf einem Hauptrechner!  
+Handelt die Produktionsphase von allen Robotinos.  
+Sobald von einem Robi der Befehl [getJob](ProductControllLocal) eintrifft, wird aus der Liste `jobs` ein neuer Job ausgesucht und dieser dem Robotino gesendet.
 
 ----------
 
