@@ -7,7 +7,7 @@
 
 
 ----------
-### Allgemein ###
+### Machine ###
 
 Attribute
 ----------
@@ -18,6 +18,9 @@ Attribute
 |ID| int| ID von dem AR Tag|
 | Lampen| [Lamps](ColorDetection)| Zustand der Lampensäule|
 
+
+----------
+### Allgemein ###
 
  - HashMap (hmMachine)
 - Key: Machine Name (String)
