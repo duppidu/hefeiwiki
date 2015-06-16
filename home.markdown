@@ -34,7 +34,7 @@
 [Configuration](ConfigurationOfRefbox)
 
 ## OpenCv
-[OpenCV](OpenCV)
+[OpenCV](OpenCV) 
 [Install OpenCv under Linux](InstallOpenCvUnderLinux)
 
 ## ALVAR
