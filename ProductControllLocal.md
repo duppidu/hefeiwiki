@@ -6,7 +6,10 @@
 ----------
 ### Allgemein ###
 
-
+Handelt gesamte Interne ProductionsPhase.
+Dies bedeutet, der Robi hat von dem [Main Computer](ProductControllMain) einen Job erhalten
+und verarbeitet mithilfe eigener Funktionen diesen Job.
+Sobald das [Drive](Drive) neue [Koordinaten](Coord) benötigt, wird diese Klasse die [Koordinaten](Coord) die zur Produktion notwendigen nächsten [Koordinaten](Coord) an den Broker senden
 
 ----------
 
