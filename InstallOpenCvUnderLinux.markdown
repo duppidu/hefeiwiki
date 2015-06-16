@@ -8,9 +8,9 @@ We need OpenCv for the Lamp Detection and the ALVAR-Tag detection. Because the R
 -> http://opencv.org/downloads.html
 
 2) **Make sure your JAVA_HOME path is also set as root!**
-		sudo su
+		
 
-	JAVA_HOME=/usr/lib/jvm/java-8-oracle 
+	sudo su JAVA_HOME=/usr/lib/jvm/java-8-oracle 
 	-> This is the path in my case, yours could be different
 
 
