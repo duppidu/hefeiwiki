@@ -29,7 +29,8 @@
 [ExploCommunication](ExploCommunication)  
 [Machine](Machine)  
 [ProductAssembly](ProductAssembly)  
-[ProductControll](ProductControll)  
+[ProductControll](ProductControll) 
+[ProductCommunication](ProductCommunication) 
 [ZoneCommander](ZoneCommander)  
 [Zones](Zones)  
 ***
