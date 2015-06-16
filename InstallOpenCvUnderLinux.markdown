@@ -12,6 +12,7 @@ We need OpenCv for the Lamp Detection and the ALVAR-Tag detection. Because the R
 
 	sudo su 
 
+
 JAVA_HOME=/usr/lib/jvm/java-8-oracle 
 	-> This is the path in my case, yours could be different
 
