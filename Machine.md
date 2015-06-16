@@ -9,10 +9,14 @@
 ----------
 ### Allgemein ###
 
- - Konstruktor (Machine)
-- [Coord](Coord) 
-- ID 
-- [Lamps](ColorDetection)
+Attribute
+----------
+
+| Name| Datentyp| Bemerkung| 
+| :------- | --- | :---- |
+| Koordinaten| [Coord](Coord)| Position auf einem Koordinatenfeld|
+|ID| int| ID von dem AR Tag|
+| Lampen| [Lamps](ColorDetection)| Zustand der Lampensäule|
 
 
  - HashMap (hmMachine)
