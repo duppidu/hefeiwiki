@@ -35,6 +35,7 @@
 
 ## OpenCv
 [OpenCV](OpenCV)
+[Install OpenCv under Linux](InstallOpenCvUnderLinux)
 
 ## ALVAR
 [InstallManual](AlvarInstallManual)  
