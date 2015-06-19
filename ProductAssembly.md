@@ -1,5 +1,6 @@
 ### Inhalt ###
 - initProdPlan()
+- Product Zusammenstellung
 
 
 ----------
