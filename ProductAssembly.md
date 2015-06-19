@@ -24,6 +24,7 @@ Die Reihenfolge der Produkte die angefahren werden müssen, werden Statisch einp
  
 ### Product Zusammenstellung ###
 
-![prodZusam](https://gitlab.com/solidus/hefei/uploads/f35f83aa328b709d14a0a66c589dc677/prodZusam.PNG)
+![prodZusam|mini|Text der Bildlegende](https://gitlab.com/solidus/hefei/uploads/f35f83aa328b709d14a0a66c589dc677/prodZusam.PNG)
+
 
 ----------
