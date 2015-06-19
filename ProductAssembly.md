@@ -8,7 +8,7 @@
 Diese Listen beschreiben den zusammenbau (Komponente) der einzelnen Produkte.
 Hier werden alle Maschinen in genau der Reihenfolge abgespeichert, in der der Robie diese anfahren muss, um das entsprechende Produkt fertigzustellen. 
 
-![prodZusam](https://gitlab.com/solidus/hefei/uploads/f35f83aa328b709d14a0a66c589dc677/prodZusam.PNG)
+
 
 ----------
 
@@ -17,5 +17,10 @@ Hier werden alle Maschinen in genau der Reihenfolge abgespeichert, in der der Ro
 - Generieren von 4 ArrayListen (0-3 Zahl steht für Produktnummer)
 - füllen der Liste `product` mit den anzufahrenden Maschinen in richtiger Reihenfolge!("Name"  der Maschine als String)
 
+
+----------
+
+
+![prodZusam](https://gitlab.com/solidus/hefei/uploads/f35f83aa328b709d14a0a66c589dc677/prodZusam.PNG)
 
 ----------
