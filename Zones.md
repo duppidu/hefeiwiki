@@ -12,7 +12,7 @@
  - Die [Koordinaten](Coord) entschprechen den Eckpunkte, der entsprechenden Zoone inc einem OffSet Wert.
 
 
- - Der Array Platz = Feldnummer.
+ - Array Platz = Feldnummer.
  - Rückgabewert = [Coord](Coord)
 
 
