@@ -5,8 +5,9 @@
 ----------
 ### Allgemein ###
 
-Diese Listen beschreiben den zusammenbau (Komponente) der einzelnen Produkte.
+Diese Listen beschreiben den zusammenbau (Komponente) der einzelnen Produkte.  
 Hier werden alle Maschinen in genau der Reihenfolge abgespeichert, in der der Robie diese anfahren muss, um das entsprechende Produkt fertigzustellen. 
+Die Reihenfolge der Produkte die angefahren werden müssen, werden Statisch einprogrammiert.
 
 
 
