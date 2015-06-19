@@ -9,7 +9,7 @@
  - Mit `Zones()` können fix einprogrammierte Koordinaten auf dem Spielfeld angefahren werden.
 
  - `Zones()` beinhaltet ein Array von [Coord`s](Coord) .
- - Die [Koordinaten](Coord) entschprechen den Eckpunkte der entsprechenden Zoone inc einem OffSet Wert.
+ - Die [Koordinaten](Coord) entschprechen den Eckpunkte, der entsprechenden Zoone inc einem OffSet Wert.
 
 
  - Der Array Platz = Feldnummer.
