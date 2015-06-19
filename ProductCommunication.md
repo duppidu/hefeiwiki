@@ -1,7 +1,8 @@
+# ProductCommunication #
 
 ----------
 
-# Beschreibung #
+### Beschreibung ###
 
 Die Kommunikation wird mittels MQTT gewährleistet!
 Das UML beschreibt dies, mit den entsprechenden Pfaden und Inhalten.
