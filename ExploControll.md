@@ -4,7 +4,7 @@
 - messageArrived()
 - jobHandler()
 - saveMachine()
-- handleexploCoords
+- handleexploCoords()
 
 
 ----------
@@ -52,7 +52,10 @@ Rükgabewert = [Coord](Coord) der zu explorierenden [Zone](Zones)
 - Überprüft beim Speichern einer neuen [Maschine](Machine) ob es wirklich eine neue [Machine](Machine) ist!
 
 ----------
-### handleexploCoords ###
+### handleexploCoords() ###
+
+
+Übergabewert = String[] von ..
 
 
 ----------
