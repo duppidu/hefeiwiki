@@ -42,7 +42,8 @@
 ***
 
 ## RefBox 
-[Configuration](ConfigurationOfRefbox)
+[Configuration](ConfigurationOfRefbox)  
+[Manual](ManualOfRefbox)  
 ***
 
 ## OpenCv
