@@ -3,6 +3,7 @@
 - Konstruktor
 - messageArrived()
 - jobHandler()
+- saveMachine()
 
 
 ----------
@@ -31,10 +32,18 @@ Diese Methode wird immer dann aufgerufen, wenn eine nachricht auf einem der Subs
 
 ### jobHandler() ###
 
-Beinhaltet 3x if Schleifen die dazue dienen, abzufragen welcher Robi aktiv ist.
-Je nachdem welcher Robi aktiv ist, werden dem Robi andere explorations Ziele zugeteilt. (Statisch einprogrammiert)
-Bei 6 zu explorierenden Maschinen sind je Robi 2 verschiedene Maschinen zugeteilt.
+Beinhaltet 3x if Schleifen die dazue dienen, abzufragen welcher Robi aktiv ist.   
+Je nachdem welcher Robi aktiv ist, werden dem Robi andere explorations Ziele zugeteilt. (Statisch einprogrammiert)    
+Bei 6 zu explorierenden Maschinen sind je Robi 2 verschiedene Maschinen zugeteilt.   
 
-Rükgabewert = [Coord](Coord) der zu explorierenden [Zone](Zones)
+Rükgabewert = [Coord](Coord) der zu explorierenden [Zone](Zones)   
+
+----------
+
+### saveMachine() ###
+
+- Speichert eine neu detektierte [Maschine](Machine) mittels der Funktion [fill()](fill()).     
+- Ermittelt [Maschinen](Machine) Informationen von der gegenüberliegenden Seite.   
+- Speichert die Gegenüberliegende Seite der [Maschine](Machine) mit theoretische errechneten Werten ab.  
 
 ----------
