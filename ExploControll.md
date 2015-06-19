@@ -32,9 +32,10 @@ Diese Methode wird immer dann aufgerufen, wenn eine nachricht auf einem der Subs
 
 ### jobHandler() ###
 
-Beinhaltet 3x if Schleifen die dazue dienen, abzufragen welcher Robi aktiv ist.   
-Je nachdem welcher Robi aktiv ist, werden dem Robi andere explorations Ziele zugeteilt. (Statisch einprogrammiert)    
-Bei 6 zu explorierenden Maschinen sind je Robi 2 verschiedene Maschinen zugeteilt.   
+- Beinhaltet 3x if Schleifen die dazue dienen, abzufragen welcher Robi aktiv ist.   
+- Je nachdem welcher Robi aktiv ist, werden dem Robi andere explorations Ziele([Zonen](Zones)) zugeteilt. (Statisch einprogrammiert)    
+- Bei 6 zu explorierenden Maschinen sind je Robi 2 verschiedene [Maschinen](Machine) zugeteilt.  
+- Die [Koordinaten](Coord) der zu explorierenden [Zone](Zones) kommt aus der ArrayList `coord` aus [Zones()](Zones).  
 
 Rükgabewert = [Coord](Coord) der zu explorierenden [Zone](Zones)   
 
@@ -42,8 +43,9 @@ Rükgabewert = [Coord](Coord) der zu explorierenden [Zone](Zones)
 
 ### saveMachine() ###
 
-- Speichert eine neu detektierte [Maschine](Machine) mittels der Funktion [fill()](fill()).     
+- Speichert eine neu detektierte [Maschine](Machine) mittels der Funktion [fill()](Machine).     
 - Ermittelt [Maschinen](Machine) Informationen von der gegenüberliegenden Seite.   
-- Speichert die Gegenüberliegende Seite der [Maschine](Machine) mit theoretische errechneten Werten ab.  
+- Speichert die Gegenüberliegende Seite der [Maschine](Machine) mit theoretische errechneten Werten mittels der Funktion [fill()](Machine).   
+- Überprüft beim Speichern einer neuen [Maschine](Machine) ob es wirklich eine neue [Machine](Machine) ist!
 
 ----------
