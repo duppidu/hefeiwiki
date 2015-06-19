@@ -3,7 +3,7 @@ Explo Communication
 
 #### Sequenz Diagramm  
 Diagramm as HTML file Downloadable
-[FlowExploPhase.html](https://gitlab.com/solidus/hefei/uploads/b82f4f583de0e7cbaad9f6ce65421795/FlowExploPhase.html)
+![FlowExploPhase.html](https://gitlab.com/solidus/hefei/uploads/b82f4f583de0e7cbaad9f6ce65421795/FlowExploPhase.html)
 Download with right click and save link as and Open local for better Layout
 
 
