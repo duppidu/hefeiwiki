@@ -19,7 +19,7 @@
 
 ----------
 
-### Zonene ###
+### Zonen ###
 
 
 ![spielfeld](https://gitlab.com/solidus/hefei/uploads/9c16481551f1f62c1524b4e1deed6891/spielfeld.PNG)
