@@ -17,7 +17,7 @@ Die Reihenfolge der Produkte die angefahren werden müssen, werden Statisch einp
 ### initProdPlan() ###
 
 - Generieren von 4 ArrayListen (0-3 Zahl steht für Produktnummer)
-- füllen der Liste `product` mit den anzufahrenden Maschinen in richtiger Reihenfolge!("Name"  der Maschine als String)
+- füllen der Liste `product` mit den anzufahrenden [Maschinen](Machine) in richtiger Reihenfolge!("Name"  der Maschine als String)
 
 
 ----------
