@@ -4,6 +4,7 @@
 - messageArrived()
 - jobHandler()
 - saveMachine()
+- handleexploCoords
 
 
 ----------
@@ -23,10 +24,12 @@ Sobald die Klasse instantiiert wird, öffnet sie eine Kommunikation mit dem Mqtt
 ----------
 
 
-### messageArrived(String topic, MqttMessage message) ###
+### messageArrived() ###
 wird durch implements MqttCallback erzwungen
 
 Diese Methode wird immer dann aufgerufen, wenn eine nachricht auf einem der Subscribten Topics publiziert wird. und die Methode erhält den Topic und die Nachricht als Übergabewert. Somit kann bei der nachricht auf das entsprechende Topic geprüft werden.  
+
+
 
 ----------
 
@@ -47,5 +50,9 @@ Rükgabewert = [Coord](Coord) der zu explorierenden [Zone](Zones)
 - Ermittelt [Maschinen](Machine) Informationen von der gegenüberliegenden Seite.   
 - Speichert die Gegenüberliegende Seite der [Maschine](Machine) mit theoretische errechneten Werten mittels der Funktion [fill()](Machine).   
 - Überprüft beim Speichern einer neuen [Maschine](Machine) ob es wirklich eine neue [Machine](Machine) ist!
+
+----------
+### handleexploCoords ###
+
 
 ----------
