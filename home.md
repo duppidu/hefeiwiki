@@ -37,7 +37,7 @@
 ***
 
 ## Tinkerforge Brick
-[IMU-Brick](IMU-Brick)
+[IMU-Brick](IMU-Brick) 
 [Servo-Brick](Servo-Brick)  
 ***
 
