@@ -1,4 +1,4 @@
-## Configuration of the Lancom Router :speak_no_evil:
+## Configuration of the Lancom Router
 
 ----
 Autor: Florian Gehrig, Lukas Hofmann  
