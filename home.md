@@ -65,6 +65,9 @@
 ## Lancom  
 [Configuration](ConfigurationOfLancom)
 ***
+## Raspberry Pi  
+[Local Git Server](LocalGitServer)  
+***
 
 ## RobotinoOS  
 [Kommandos](CommandOfRobotinoOS)  
