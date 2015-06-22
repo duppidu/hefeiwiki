@@ -61,7 +61,7 @@
 ***
 ## Virtual Box
 [Virtual Box Xubuntu Image](VBoxXubuntuOVA)  
-[Einstellungen der VirtualBox](Einstellungen der VirtualBox)  
+[Einstellungen der VirtualBox](EinstellungenDerVirtualBox)  
 [XML-Openbox-Config](XML-Openbox-Config)  
 ***
 ## Lancom  
