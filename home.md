@@ -60,7 +60,9 @@
 [PoeStateMachine](PoeStateMachine)
 ***
 ## Virtual Box
-[Virtual Box Xubuntu Image](VBoxXubuntuOVA)
+[Virtual Box Xubuntu Image](VBoxXubuntuOVA)  
+[Einstellungen der VirtualBox](Einstellungen der VirtualBox)  
+[XML-Openbox-Config](XML-Openbox-Config)  
 ***
 ## Lancom  
 [Configuration](ConfigurationOfLancom)
