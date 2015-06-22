@@ -1,7 +1,7 @@
 ## Configuration of the Lancom Router :speak_no_evil:
 
 ----
-Autor: Florian Gehrig  
+Autor: Florian Gehrig, Lukas Hofmann  
 Klasse: HF2A  
 Datum: 27. Mai 2015  
 Version: 1.0  
