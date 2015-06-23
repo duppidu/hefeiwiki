@@ -6,7 +6,7 @@ In ihr findet man die nötigen Methoden um mit dem Laser auf dem Robotino zu arb
    
 Eine wichtige Funktion der Laserscanner-Klasse ist es, eine Maschine zu erkennen  
 und die Koordinaten für einen Punkt davor zu berechnen.
-Eine Liste mit erkannten Linien werden dazu durch verschiedene Filter geschickt.  
+Eine Liste mit erkannten Linien wird dazu durch verschiedene Filter geschickt.  
 
 | Filtername | Art | Funktion |  
 | -------- | -------- | -------- |  
