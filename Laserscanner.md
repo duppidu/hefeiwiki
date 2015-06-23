@@ -10,6 +10,6 @@ Eine Liste mit erkannten Linien werden dazu durch verschiedene Filter geschickt.
 
 | Filtername | Art | Funktion |  
 | -------- | -------- | -------- |  
-| MinNumberReflectionsFilter | Klasse | Filtert Linien aus die aus weniger Punkten bestehen als vordefiniert. Siehe auch: [Laser Data Handling](Laser-Data-Handling) |  
+| MinNumberReflectionsFilter | Klasse | Filtert Linien aus die aus weniger Punkten bestehen als vordefiniert. Siehe auch: [LineExtraction](LineExtraction) |  
 | WPA (Wi-Fi Protected Access) | TKIP (Temporal Key Integrity Protocol) | - |  
 | WPA2 (Wi-Fi Protected Access 2) | CCMP (Counter Mode with <br> Cipher Block Chaining Message Authentication Code Protocol) | AES (Advanced Encryption Standard) |   
