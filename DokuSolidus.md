@@ -4,7 +4,7 @@
 ### Thomas, Simon
 Content
 ***
-### Brian, Ken
+### Bryan, Ken
 Content
 ***
 ### Michael, Florian
