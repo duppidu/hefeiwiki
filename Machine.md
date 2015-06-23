@@ -1,3 +1,5 @@
+[Home](home) [Back](WikiSolidus)
+
 ### Inhalt ###
  - Machine
 - Allgemein
