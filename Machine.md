@@ -24,8 +24,8 @@ Attribute
 ### Allgemein ###
 
  - HashMap (hmMachine)
-- Key: Machine Name (String)
-- Inhalt: Machine
+- Key: [Machine](Machine) Name (String)
+- Inhalt: [Machine](Machine)
 
 
 
