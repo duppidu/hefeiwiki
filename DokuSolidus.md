@@ -1,4 +1,4 @@
-[Home](home) [Back](DokuSolidus)
+[Home](home) 
 
 ## Guppe
 ### Thomas, Simon
