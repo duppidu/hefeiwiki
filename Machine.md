@@ -36,7 +36,7 @@ Attribute
 - Uebergabewert = Tag ID (int)
 - Return = [Machine](Machine) Name (String)
 
-Wandelt die Tag ID von der Maschine ihn ihren dazugehörigen Namen um.
+Wandelt die Tag ID von der [Maschine](Machine) ihn ihren dazugehörigen Namen um.
 
 
 ----------
