@@ -1,3 +1,5 @@
+[Home](home) [Back](DokuSolidus)
+
 ## Guppe
 ### Thomas, Simon
 Content
