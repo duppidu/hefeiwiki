@@ -22,6 +22,6 @@ Content
 [Florian](Florian)  
 [Michael](Michael)  
 [Ken](Ken)  
-[Brian](Brian)  
+[Bryan](Bryan)  
 [Lukas](Lukas)  
 ***
