@@ -1,6 +1,6 @@
 Raspberry Pi als Local Git Server
 ===================
-Wir Verwenden während des Robocps zusätzlich zu den Robotinos zusätzlich 2 Raspberry pi
+Wir Verwenden während des Robocps zusätzlich zu den Robotinos 2 Raspberry pi
 Die Raspberry Übernehmen folgende Aufgaben:
 > - Zentraler MQTT Broker für die Kommunikation der Robotinos
 > - Lokales GitLab Während des Cups (zur unabhängigkeit vom Internet)
