@@ -95,3 +95,12 @@ mit
 git log main
 ```
 (main steht für den Branch) Sollte nun der letzte Aktuelle Commit zu Sehen seit
+
+
+
+Um das Repository im WWW zu aktualisieren wird 
+```
+git push
+```
+verwendet. Nach der Angabe von Online Benutzername und Passwort sollte das
+Online Repo wider auf dem neusten Stand Sein
