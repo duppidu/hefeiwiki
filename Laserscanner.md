@@ -1,3 +1,5 @@
+[Back](wikisolidus)
+
 # Laserscanner
 
 Die Laserscanner-Klasse ist die Klasse, welche gebraucht wird für den Robotino.  
