@@ -3,8 +3,18 @@
 
 
 ### Inhalt ###
+ - Allgemein
  - Zones()
  - Zonen
+
+----------
+
+### Allgemein ###
+
+Beinhaltet ein Array indem die Eckpunkte von allen Zonen abgespeichert sind.  
+Die Koordinaten, die sich in der nähe der Bande befinden, sind mit einem Offset versehen,  
+so dass der Robi nicht in die Bande fährt.  
+Diese Koordinaten werden in der [Explorationsphase](ExploControll) verwendet.
 
 ----------
 
