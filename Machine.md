@@ -2,11 +2,19 @@
 
 ### Inhalt ###
  - Machine
+- Beschreibung
 - Allgemein
 - idToName
 - fill
 - machineSecondSideGenerator
 
+
+----------
+
+### Beschreibung ###
+
+Zuständig für das speichern und Verwaltet neuer Maschinen.
+Weiste den erkannten ID`s den richtigen Maschinen Name zu.
 
 ----------
 ### Machine ###
@@ -20,7 +28,6 @@ Attribute
 |ID| int| ID von dem AR Tag|
 | Lampen| [Lamps](ColorDetection)| Zustand der Lampensäule|
 
-
 ----------
 
 ### Allgemein ###
@@ -28,7 +35,6 @@ Attribute
  - HashMap (hmMachine)
 - Key: [Machine](Machine) Name (String)
 - Inhalt: [Machine](Machine)
-
 
 
 ----------
