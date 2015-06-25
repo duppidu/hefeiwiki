@@ -13,7 +13,7 @@
 [Markerdetection & MarkerCoordinates](Markerdetection_Markercoordinates)
 ***  
 ## Servo/Grippercontrol
-[Servo / Grippercontrol]()
+[Servo / Grippercontrol](ServoGripperControl)
 ***
 
 ## Environment Sensing
