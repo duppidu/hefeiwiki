@@ -1,4 +1,4 @@
-[Back](DokuSolidus)  
+[Home](home) [Back](DokuSolidus)  
 
 ----------
 
