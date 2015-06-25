@@ -1,4 +1,4 @@
-## Laserscanner
+# Laserscanner
 
 Die Laserscanner-Klasse ist die Klasse, welche gebraucht wird für den Robotino.  
 Sie braucht fast alle Klassen des EnvirementSensing-Packages.  
@@ -13,3 +13,7 @@ Eine Liste mit erkannten Linien wird dazu durch verschiedene Filter geschickt.
 | MinNumberReflectionsFilter | Klasse | Filtert Linien aus, die aus weniger Punkten bestehen als vordefiniert. Siehe auch: [LineExtraction](LineExtraction) |  
 | Längenfilter | Methode | Filtert Linien aus, die kürzer oder länger sind als einen bestimmten Längenranges |  
 | Zonenfilter | Methode | Filtert Linien aus, deren Mittelpunkt sich nicht in der Zone befindet, in der gesucht wird. |   
+
+## Zonenfilter
+![Zonenfilter](https://gitlab.com/solidus/hefei/uploads/c5c3ed08a385eeb83627dfad3541a558/Zonenfilter.JPG)  
+Der Robotino sucht in dem von der Refbox gemeldeten Feld nach einer Maschine. Er erkennt zwei Maschinen, die in Frage kommen. Mithilfe der Überprüfung ob der Mittelpunkt der erkannten Kante in der selben Zone ist, wie gesucht wird, wird die andere Maschine rausgefiltert.
