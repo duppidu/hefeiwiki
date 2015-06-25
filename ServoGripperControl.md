@@ -23,8 +23,10 @@ With this Servobrick you can control up to 7 servos over USB with Java.
  - BrickDeamon
  - BrickViewer
  
- Download these programs form the thinkerforge downloadpage.
- [Download](http://www.tinkerforge.com/de/doc/Downloads.html)
+ Download these programs form the thinkerforge downloadpage.  
+ 
+ [Download](http://www.tinkerforge.com/de/doc/Downloads.html)  
+
 
 Install the programs with the command sudo dpkg --install "programname"
 
