@@ -12,7 +12,14 @@
 ----------
 ### Allgemein ###
 
-Diese Klasse handelt die Explorations-Phase des Spiels. Aufgerufen wird die Klasse von der State Machine.Die Klasse Stellt im Ablauf der Explorationphase ein zentrales Kommunikationsglied zwischen den Klassen Refbox, Waycontroller StateMachine, Marker-, LampDetection und den Anderen Robotinos dar. Zudem werden die Angefahrenen und erkannten MPS Daten gespeichert und Übermittelt. 
+Diese Klasse handelt die Explorations-Phase des Spiels.  
+Aufgerufen wird die Klasse von der State Machine.  
+Die Klasse Stellt im Ablauf der Explorationphase ein zentrales Kommunikationsglied zwischen den Klassen Refbox,  
+Waycontroller StateMachine, Marker-, LampDetection und den Anderen Robotinos dar.
+Es werden fix einprogrammierte Ziele an die entsprechenden Robis gesendet,  
+damit wird die Suche der MPS beschleunigt und verhindert,  
+dass zwei Robis am selbern Ort suchen.    
+Zudem werden die Angefahrenen und erkannten MPS Daten gespeichert und Übermittelt. 
 
 Ein Sequenz Diagramm finden sie  [Hier](ExploCommunication)
  
