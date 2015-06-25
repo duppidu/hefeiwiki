@@ -89,6 +89,7 @@ Nun folg der Abgleich mit dem WWW
 ```
 git fetch origin +refs/heads/*:refs/heads/* --prune
 ```
+kein git pull möglich
 
 mit 
 ```
