@@ -13,8 +13,8 @@
 
 ### Beschreibung ###
 
-Zuständig für das speichern und Verwaltet neuer Maschinen.
-Weiste den erkannten ID`s den richtigen Maschinen Name zu.
+Zuständig für das speichern und Verwaltet neuer Maschinen.   
+Weiste den erkannten ID`s den richtigen Maschinen Name zu.   
 
 ----------
 ### Machine ###
