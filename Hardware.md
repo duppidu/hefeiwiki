@@ -121,6 +121,10 @@ The enclosure is mounted on the plate of the Robotino.
   
 ####  Mount for Motedisprofile:
 
+Mount
+
+![Motedisprofilholder](https://gitlab.com/solidus/hefei/uploads/0e3ffb524fd94cf9e4883fc5f7e70224/Motedisprofilholder.JPG)
+
 This part was created to mount a 40x20 Motedis profile on the plate of Robotino.
 
 To mount **1** Profile you need the following parts:
