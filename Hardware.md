@@ -22,16 +22,17 @@ We added the following hardware to the Robotino:
 ####  Laser Module:
 
 Measures distances to objects in a range of 270 degrees.  
-#####  Lifecams:
+
+####  Lifecams:
 
 The upper cam is for colordetection.
 The lower cam is for the ALVAR Marker detection.  
   
-#####  Servobrick:  
+####  Servobrick:  
 
 The Servobrick controls the rc-servos of the gripper.  
   
-#####  Servos:
+####  Servos:
 
 The servos control the claw of the gripper.  
 
@@ -42,7 +43,7 @@ We use 3d-printed mounts to mount our hardware parts.
 
 The Lasermount, IR-Sensormount were created by Ramon Däster and will not be explained here.  
   
-#####  Camera Mount:
+####  Camera Mount:
 
 The camera must be panable, so you can adjust it by changing it's angle.
 The cameramount consists of three parts:
@@ -50,6 +51,18 @@ The cameramount consists of three parts:
  - Mount for Motedisprofile
  - Basic camera enclosure
  - lid
+
+ProfileMount  
+
+![ProfileMount](https://gitlab.com/solidus/hefei/uploads/605d2e1090f02146894b0ae2c19ac85a/Halter_Profil.JPG)
+
+Basic Enclosure
+
+![Basis](https://gitlab.com/solidus/hefei/uploads/5ea8f5e716b9c9addf538f93b10cd399/Basis.JPG)
+
+Lid  
+
+![Deckel](https://gitlab.com/solidus/hefei/uploads/9f7c34f9d451a76d3b105c33e543b57a/Deckel.JPG)
 
 The difference between the upper cammount and the lower cammount is just the Mount for the Motedisprofile which has different mountingholes.
  
@@ -61,13 +74,23 @@ The difference between the upper cammount and the lower cammount is just the Mou
  - 2 x M5 t-nut
  - 1 x M5x10mm (lower cam)  
   
-#####  Gripper:
+####  Gripper:
 
 The gripper consists of 3 parts.
 
  - Claw left
  - Claw right
  - Servomount
+
+Servomount
+
+![ServoMount](https://gitlab.com/solidus/hefei/uploads/fa661fab4e33e4800dafb5557062b2d1/ServoMount.JPG)
+
+
+Claws
+
+![Greifer](https://gitlab.com/solidus/hefei/uploads/cb877748f87ae5cf54f5c071b23b8c46/Greifer.JPG)
+
 
 To put the gripper together you need the following screws and nuts:
 
@@ -81,7 +104,7 @@ The claws are mounted directly to the servowheel with the selfcutting screws (sc
 
 
   
-#####  Servobrick enclosure:
+####  Servobrick enclosure:
 
 For the servobrick we created just an enclosure with one mounting screw.
 
@@ -95,7 +118,7 @@ To put the enclosure together you need the following screws and nuts:
 The enclosure is mounted on the plate of the Robotino.  
 
   
-#####  Mount for Motedisprofile:
+####  Mount for Motedisprofile:
 
 This part was created to mount a 40x20 Motedis profile on the plate of Robotino.
 
@@ -107,4 +130,3 @@ To mount **1** Profile you need the following parts:
 2x M5 t-nut
 
 
-> Written with [StackEdit](https://stackedit.io/).
