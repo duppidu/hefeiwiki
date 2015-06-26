@@ -46,3 +46,4 @@ Field Topics
 | What   | Topic | 
 | :------- | ----: |
 | Job Anfrage (Production "Robi sendet seine Nummer") |/field/job/getjob|
+| Maschinen werden Gesendet um Feld zu vervollständigen|/field/complete/machine|
