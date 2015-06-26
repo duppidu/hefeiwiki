@@ -18,7 +18,7 @@ Mögliche Funktionen erkannt und ausgewertet.
 
 ### Materiell ###
 
-Wir haben das ´RuleBook´ durchgelesen und Analysiert.    
+Wir haben das `RuleBook` durchgelesen und Analysiert.    
 
 ----------
 
@@ -33,11 +33,11 @@ Das spiel besteht aus 3 verschiedenen Phasen.
 Wir benötigen im ganzen 3 Haupttklassen.  
 Klasse 1:  
 Handelt die Explorationsphase
--  Koordinieren von Robotinos 
+ - Koordinieren von Robotinos 
 - Welcher Robi sucht wo    
 Klasse 2:  
 Handelt die Productionsphase
--  Koordinieren von Robotinos   
+ - Koordinieren von Robotinos   
 - Welcher Robi Produziert was 
 Klasse 3:   
 Handelt das komplette Feld inc Maschinen.  
