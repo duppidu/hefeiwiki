@@ -41,7 +41,6 @@
 [ProductAssembly](ProductAssembly)  
 [ProductControllLocal](ProductControllLocal)  
 [ProductControllMain](ProductControllMain)  
-[ProductCommunication](ProductCommunication)  
 [ZoneCommander](ZoneCommander)  
 [Zones](Zones)  
 ***
