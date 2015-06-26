@@ -35,11 +35,13 @@ Wir benötigen im ganzen 3 Haupttklassen.
 #### Klasse 1:  
 Handelt die Explorationsphase
  - Koordinieren von Robotinos 
-- Welcher Robi sucht wo  
+- Welcher Robi sucht wo nach Maschinen    
   
 #### Klasse 2:  
 Handelt die Productionsphase
- - Koordinieren von Robotinos   
+ - Koordinieren von Robotinos
+- Welcher Robi Produziert wo  
+- Welcher Robi Produziert wann     
 - Welcher Robi Produziert was 
 
 #### Klasse 3:   
