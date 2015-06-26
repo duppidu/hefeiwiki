@@ -40,6 +40,7 @@ The servos control the claw of the gripper.
 ## 3D-Printed Parts
 
 We use 3d-printed mounts to mount our hardware parts.
+The parts were designed in Autodesk Inventor (files in the end of the document)
 
 The Lasermount, IR-Sensormount were created by Ramon Däster and will not be explained here.  
   
@@ -130,3 +131,9 @@ To mount **1** Profile you need the following parts:
 2x M5 t-nut
 
 
+[ProfilHalter40x20.ipt](https://gitlab.com/solidus/hefei/uploads/5d1a57199a21b30931de73247bcd127e/ProfilHalter40x20.ipt)
+[Gripper2.ipt](https://gitlab.com/solidus/hefei/uploads/7522f1326cae10d3a1e65cfb1839ab1f/Gripper2.ipt)
+[ServoMount.ipt](https://gitlab.com/solidus/hefei/uploads/bf7343178af6ca9608e27aaf3118b46f/ServoMount.ipt)
+[deckel.ipt](https://gitlab.com/solidus/hefei/uploads/4c881a0af4097c9101a96d7789042450/deckel.ipt)
+[HalterBasis.ipt](https://gitlab.com/solidus/hefei/uploads/4b35c822a5f103abc0797939a98e3c78/HalterBasis.ipt)
+[HalterProfil.ipt](https://gitlab.com/solidus/hefei/uploads/16f549ad7393cfdb01d48a312f9fed04/HalterProfil.ipt)
