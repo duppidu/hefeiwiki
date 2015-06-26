@@ -21,3 +21,8 @@ Eine Liste mit erkannten Linien wird dazu durch verschiedene Filter geschickt.
 1. Der Robotino sucht in dem von der Refbox gemeldeten Feld nach einer Maschine.
 2. Er erkennt zwei Maschinen, die in Frage kommen.
 3. Mithilfe der Überprüfung ob der Mittelpunkt der erkannten Kante in der selben Zone ist, wie gesucht wird, wird die andere Maschine rausgefiltert.
+
+***
+
+![Mittelpunkt](https://gitlab.com/solidus/hefei/uploads/e4533bfbe15334df738d41d9c2ab5bed/Mittelpunkt.JPG)  
+Hier wird die Maschine nicht rausgefiltert, weil der Mittelpunkt sich noch in der Zone befindet.
