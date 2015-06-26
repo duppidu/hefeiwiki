@@ -66,7 +66,8 @@
 ***
 
 ## State Machine
-[PoeStateMachine](PoeStateMachine)
+[PoeStateMachine](PoeStateMachine)  
+[StateMachine](StateMachine)
 ***
 ## Virtual Box
 [Virtual Box Xubuntu Image](VBoxXubuntuOVA)  
