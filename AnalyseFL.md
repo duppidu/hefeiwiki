@@ -32,12 +32,12 @@ Das spiel besteht aus 3 verschiedenen Phasen.
 
 Wir benötigen im ganzen 3 Haupttklassen.  
 
-# Klasse 1: # 
+#### Klasse 1: ##### 
 Handelt die Explorationsphase
  - Koordinieren von Robotinos 
 - Welcher Robi sucht wo  
   
-# Klasse 2: # 
+## Klasse 2: ## 
 Handelt die Productionsphase
  - Koordinieren von Robotinos   
 - Welcher Robi Produziert was 
