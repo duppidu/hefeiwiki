@@ -44,6 +44,6 @@ Alle Farben werden in HSV definiert. HSV ist ein Farbcode der in 3 Zahlen angebe
 Die Farbe wird in ein Scalar gespeichert in diesem können die drei Werte in einem bereich von 0-255 gespeichert.   
 Das bedeutet dass die Werte konvertiert werden müssen sprich für die Farbe 360° = 255 und in der Sättigung und Helligkeit 100% = 255.	
 
-Mit Hsv_min und Hsv_max wird die Farbe definiert
+Mit Hsv_min und Hsv_max wird die Farbe definiert. Im unkonvertierten Bild wird nun überprüft welche Farbe in die Reichweite der definierten 
 
    
