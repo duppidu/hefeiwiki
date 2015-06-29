@@ -30,7 +30,7 @@ Dies wird fortlaufend und selbstständig durchgeführt.
 | ProductControllMain| jobHandler()|Statische Liste von Jobs einlesen, bei jedem Aufruf wird der kleinste Job zurückgegeben und gelöscht|X|
 | ProductControllMain| MQTT|Über Main dem Brocker Robi Nummer senden. Bei empfangen `jobHandler` aufrufen und mit sout kontrollieren |X|
 | Zones|Zones()|Mittels sout kontrollieren, ob bei dem Konstruktoraufruf die ArrayListe richtig gefüllt worden sind |X|
-| Zones|zoneDedector()|Statischer Übergabewert[Koordinate](Coord) festlegen, kontrollieren ob der Rückgabe wert dem Richtigen Name entspricht ||
+| Zones|zoneDedector()|Statischer Übergabewert[Koordinate](Coord) festlegen, kontrollieren ob der Rückgabe wert dem Richtigen Name entspricht |X|
 
 ----------
 
