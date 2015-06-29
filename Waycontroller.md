@@ -15,5 +15,9 @@ Die calcInOutCoord()-Methode berrechnet Die Input- und Outputanfahrtspunkte soba
 Sobald der Roboter die Maschine angefahen hat, wird der Methode mitgeteilt ob er auf der Input oder Output-Seite ist. Anschliessend werden die  Anfahrtskoordinaten, welche 50cm von der Maschine entfernt sind berrechnet. Jenachdem ob es ob der Roboter auf auf Input- oder Output-Seite steht, werden an das entsprechende Topic die Anfahrtskoordinaten gesendet. Nachdem berrechnet die Methode den auf der Maschine gegenüberliegende Anfahrtspunkt. Auch diese Koordinaten werden anschliessend auf das entsprechende Topic gesendet.  
 Um trigonometrisch immer die richtigen Distanzen auf der X- und der Y-Achse zu erhalten, sind vier rechenbediengungen Notwendig.  
   
-
-
+Wenn die Maschine auf folgenden Winkeln steht:
+  
+-Zwischen 0° und 90°, Sinus und Cosinus positiv.  
+-Zwischen 90° und 1800°, Sinus positiv und Cosinus negativ.  
+-Zwischen 180° und 270°, Sinus und Cosinus negativ. Vertausch nach Goniometrie von Sinus und Cosinus Funktion zu horizontaler und vertikaler Geraden   
+-Zwischen 270° und 360°, Sinus negativ und Cosinus positiv. Vertausch nach Goniometrie von Sinus und Cosinus Funktion zu horizontaler und vertikaler Geraden   
