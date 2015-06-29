@@ -22,5 +22,16 @@ Wenn die Maschine auf folgenden Winkeln steht:
 -Zwischen 180° und 270°, Sinus und Cosinus negativ.   
 -Zwischen 270° und 360°, Sinus negativ und Cosinus positiv. Vertausch nach Goniometrie von Sinus und Cosinus Funktion zu horizontaler und vertikaler Geraden   
   
-
-![Trigo](https://gitlab.com/solidus/hefei/uploads/a88ebeb4663cf3871c57513ed170315e/Trigo.jpg)
+  
+![Trigo](https://gitlab.com/solidus/hefei/uploads/a88ebeb4663cf3871c57513ed170315e/Trigo.jpg)  
+  
+## public void connectionLost(Throwable thrwbl)  
+Gibt eine Exception aus, sobald die Verbindung mit dem Broker verloren geht.  
+  
+## public void messageArrived(String topic, MqttMessage message)  
+Empfang-Methode von Broker. In dieser Methode wird überprüft ob auf den korrekten Topics  Meldungen erscheinen.  
+Auf dem Topic Target werden die Zielkoordinaten als Coord-Klasse empfangen.  
+Auf dem Topic Actions wird der Auftrag als String empfangen.  
+  
+## public synchronized void deliveryComplete(IMqttDeliveryToken imdt)  
+Meldet dem Broker, dass die Nachricht empfangen wurde.
