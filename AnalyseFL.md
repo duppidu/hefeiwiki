@@ -50,5 +50,9 @@ Handelt das komplette Feld inc Maschinen.
 - Speichern der Maschinen
 - Verwalten der Maschinen
 
+### Kommunikation ####
+
+Die Kommunikation wird mittels MQTT gewährleistet.  
+
 
 ----------
