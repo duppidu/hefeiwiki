@@ -5,9 +5,13 @@ Diese Schneise wird nun bis Hin zum Zielpunkt auf Hindernisse überprüft. Dies 
 wird nun ein Hindernis erkennt, wird überprüft ob sich das Hindernis mehr auf der rechten Seite befindet oder auf der linken Seite.
 Auf der Seite auf weniger Hindernispunkte liegen wird ausgewichen bis keine Punkte mehr vorhanden sind.  
   
-## public void run()  
+## public WayAnalyzer()
   
 
+  
+## public void run()  
+  
+In der run()-Methode werden zyklisch die Laserwerte von 270° eingelesen, der Weg bis zum Ziel wird aktualisiert, und die aktuellen Koordinaten werden   eingelesen. Ausserdem wird die avoidingDetector()-Methode aufgerufen welche die Schneise überprüft. Die run()-Methode wird alle 50 Millisekunden gezündet.
 
 ## public void avoidingDetector()  
 
