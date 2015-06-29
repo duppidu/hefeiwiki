@@ -15,6 +15,14 @@ Der LocalTest beinhaltet das Testen der einzelnen Klassen Local auf dem PC.
 Gegebenenfalls schon mit dem MQTT Brocker.  
 Dies wird fortlaufend und selbstständig durchgeführt. 
 
+| Klasse| Funktion | Beschreibung| I.O.| 
+| :------- | --- | --- | :---- |
+| ExploControll|jobHandler()|Gibt es die Richtige Koordinate zurück? Ändern der Robi Nummer (1,2,3) |X |
+|Machine| | ||
+| ProductAssembly| | ||
+| ProductControllLocal||||
+| ProductControllMain| |||
+| Zones||||
 ----------
 
 ### SoftTest ###
