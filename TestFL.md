@@ -19,7 +19,7 @@ Dies wird fortlaufend und selbstständig durchgeführt.
 | :------- | --- | --- | :---- |
 | ExploControll|jobHandler()|Gibt es die Richtige Koordinate zurück? Ändern der Robi Nummer (1,2,3) |X |
 | ExploControll|saveMachine()|Übergabewerte statisch setzen mit sout kontrollieren ob In & Out der Maschine richtig gespeichert wurden |X |
-| ExploControll|handleexploCoords()| | |
+| ExploControll|handleexploCoords()| Übergabewert (Array) statisch setzen, mit sout testen ob jeder Array platz um eins nach hinten verschoben wurde|X |
 | ExploControll|MQTT|Alles über MQTT senden und über die Run Methode  die Funktionen `saveMachine()`,`handleexploCoords` & `jobHandler()` aufrufen  |X |
 |Machine|idToName() |Statischer Übergabewert festlegen(int), mit sout kontrollieren ob der richtige String zurückkommt |X|  
 |Machine|fill() |Statischer Übergabewert festlegen([Maschine](Machine)), mit sout kontrollieren ob die richtigen [Maschinen](Machine) in der HMap gespeichert wurden |X|
