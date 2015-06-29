@@ -36,7 +36,8 @@ Alle Farben werden in HSV definiert. HSV ist ein Farbcode der in 3 Zahlen angebe
 - Die erste Zahl gibt durch einen Winkel an um welche Farbe es sich handelt  
 - Die zweite Zahl definiert die Sättigung der Farbe
 - Die dritte Zahl definiert die Helligkeit  
-
+  
+  
 Die Farbe wird in ein Scalar gespeichert in diesem können die drei Werte in einem bereich von 0-255 gespeichert.   
 Das bedeutet dass die Werte konvertiert werden müssen sprich für die Farbe 360° = 255 und in der Sättigung und Helligkeit 100% = 255.	
 
