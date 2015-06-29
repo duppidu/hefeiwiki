@@ -33,7 +33,7 @@
 [Coord](Coord)  
 [Speed](Speed)  
 [Wayanalyzer](Wayanalyzer)  
-[CrashControll](CrashControll)
+[CrashController](CrashController)
 ***
 
 ## Fieldcommander
