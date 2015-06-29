@@ -14,12 +14,17 @@ Der Konstruktor instanziert die Kommunikation zum Broker, lädt die benötigten 
 In der run()-Methode werden zyklisch die Laserwerte von 270° eingelesen, der Weg bis zum Ziel wird aktualisiert, und die aktuellen Koordinaten werden   eingelesen. Ausserdem wird die avoidingDetector()-Methode aufgerufen welche die Schneise überprüft. Die run()-Methode wird alle 50 Millisekunden gezündet.
 
 ## public void avoidingDetector()  
-
-
+  
+Der avoidingDetector() geht in einer while-Schlaufe für die linke Seite die Positionen vom 91° bis 180° und für die rechte Seite die Positionen 0° bis 89° durch.
+Die Schlaufe beinhaltet ein einen Vergleichs-Algorythmus welche der kleinste Laserwert speichert, sofern dieser nicht den Wert 0 aufweist. Dieser Wert wird dann übergeben, wenn ausgewichen werden muss. In der Schlaufe wird als nächstes Überprüft
+  
 ## public void avoidLeft(int disObstacle, double angle)  
+  
 
-
+  
 ## public void avoidLeft(int disObstacle, double angle)
+  
 
-
-## public boolean routeBlocked(int laserArrayPosition)
+  
+## public boolean routeBlocked(int laserArrayPosition)  
+  
