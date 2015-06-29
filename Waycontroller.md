@@ -12,4 +12,8 @@ Die run()-Methode wird vom Scheduler zyklisch alle 75 Millisekunden gezündet. D
   
 ## public void calcInOutCoord()  
 Die calcInOutCoord()-Methode berrechnet Die Input- und Outputanfahrtspunkte sobald sie aufgerufen wird. Die Berrechnungen decken sämtliche Positionen wie die Maschine stehen kann ab. Die Methode benötigt das Wissen ob sie auf der In - oder der Output Seite steht.  
-Sobald der Roboter die Maschine angefahen hat, wird der Methode mitgeteilt ob Input oder Output-Seite. 
+Sobald der Roboter die Maschine angefahen hat, wird der Methode mitgeteilt ob er auf der Input oder Output-Seite ist. Anschliessend werden die  Anfahrtskoordinaten, welche 50cm von der Maschine entfernt sind berrechnet. Jenachdem ob es ob der Roboter auf auf Input- oder Output-Seite steht, werden an das entsprechende Topic die Anfahrtskoordinaten gesendet. Nachdem berrechnet die Methode den auf der Maschine gegenüberliegende Anfahrtspunkt. Auch diese Koordinaten werden anschliessend auf das entsprechende Topic gesendet.  
+Um trigonometrisch immer die richtigen Distanzen auf der X- und der Y-Achse zu erhalten, sind vier rechenbediengungen Notwendig.  
+  
+
+
