@@ -16,7 +16,9 @@ In der run()-Methode werden zyklisch die Laserwerte von 270° eingelesen, der We
 ## public void avoidingDetector()  
   
 Der avoidingDetector() geht in einer while-Schlaufe für die linke Seite die Positionen vom 91° bis 180° und für die rechte Seite die Positionen 0° bis 89° durch.
-Die Schlaufe beinhaltet ein einen Vergleichs-Algorythmus welche der kleinste Laserwert speichert, sofern dieser nicht den Wert 0 aufweist. Dieser Wert wird dann übergeben, wenn ausgewichen werden muss. In der Schlaufe wird als nächstes Überprüft
+Die Schlaufen beinhalten ein einen Vergleichs-Algorythmus welche der kleinste Laserwert speichert, sofern dieser nicht den Wert 0 aufweist. Dieser Wert wird dann übergeben, wenn ausgewichen werden muss. In den Schlaufen wird als nächstes Überprüft ob sich ein Hindernis in der Schneise befindet. Sobald der Laser nacheinander mehr ungültige Werte enthält als vorgegeben sind wird die Ausweiche Priorität um einen Punkt erhöht. Wenn Weniger Hindernisse aufeinander Detektiert werden als vorgegeben wird der Zähler wieder auf 0 gesetzt.  
+Diese Überwachung ist benötigt, um ungültige Werte auszufiltern. Wenn die Ausweichspriorität auf einer Seite auf höher oder gleich 1 ist wird ausgewichen.  
+Sollten beide Seiten Hindernis-Prioritäten aufweisen, hat jene mit dem Höheren Wert Priorität.
   
 ## public void avoidLeft(int disObstacle, double angle)  
   
