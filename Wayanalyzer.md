@@ -7,7 +7,7 @@ Auf der Seite auf weniger Hindernispunkte liegen wird ausgewichen bis keine Punk
   
 ## public WayAnalyzer()
   
-
+Der Konstruktor instanziert die Kommunikation zum Broker, lädt die benötigten Parameter aus dem drive.xml und dem staticDistanceParams.xml-File und weist diese den Variabeln zu. Aus dem drive.xml- file wird die Höchstgeschwindigkeit ausgelesen und aus dem staticDistanceParams.xml-File werden die Verzögerungs- und Ausweichedistanzen ausgelesen. Zudem werden die Azahl der Laserpunkte welche Nacheinander ungültig sein müssen festgelegt und die Schneisenbreite eingelesen.
   
 ## public void run()  
   
