@@ -21,3 +21,6 @@ Wenn die Maschine auf folgenden Winkeln steht:
 -Zwischen 90° und 1800°, Sinus positiv und Cosinus negativ.  
 -Zwischen 180° und 270°, Sinus und Cosinus negativ. Vertausch nach Goniometrie von Sinus und Cosinus Funktion zu horizontaler und vertikaler Geraden   
 -Zwischen 270° und 360°, Sinus negativ und Cosinus positiv. Vertausch nach Goniometrie von Sinus und Cosinus Funktion zu horizontaler und vertikaler Geraden   
+  
+
+![Trigo](https://gitlab.com/solidus/hefei/uploads/a88ebeb4663cf3871c57513ed170315e/Trigo.jpg)
