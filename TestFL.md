@@ -24,8 +24,9 @@ Dies wird fortlaufend und selbstständig durchgeführt.
 |Machine|idToName() |Statischer Übergabewert festlegen(int), mit sout kontrollieren ob der richtige String zurückkommt |X|  
 |Machine|fill() |Statischer Übergabewert festlegen([Maschine](Machine)), mit sout kontrollieren ob die richtigen [Maschinen](Machine) in der HMap gespeichert wurden |X|
 |Machine|machineSecondSideGenerator() |Statischer Übergabewert festlegen(int & [Koordinaten](Coord)), mit sout kontrollieren ob die richtigen [Maschinen](Machine) zurückkommt |X|
-| ProductAssembly| | ||
-| ProductControllLocal||||
+| ProductAssembly| initProdPlan()|Aufrufen der Funktion, mittels sout kontrollieren ob an den richtigen plätze das richtige gespeichert wurde |X|
+| ProductControllLocal|initAssignement()|Übergabewert(int) statisch festlegen(Produktenummer), mittels sout kontrollieren ob die Liste nach `initProdPlan` richtig zusammengestellt wurde|X|
+| ProductControllLocal|MQTT|Über das Main mittels Befehl "backwards" muss jedesmal eine [Koordinate](Coord) der entsprechenden [Maschine](Machine) gesendet werden|X|  
 | ProductControllMain| |||
 | Zones||||
 ----------
