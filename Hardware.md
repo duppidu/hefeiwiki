@@ -79,11 +79,15 @@ Lid
 #### Upper Camera Mount:
 
 Basic Enclosure:
-![LC1](https://gitlab.com/solidus/hefei/uploads/b89834202b78091e5a55a542cb811bcc/LC1.JPG)
+
+![LC2](https://gitlab.com/solidus/hefei/uploads/1a6d4d0bc4b17341f442aa4e62d5fe32/LC2.JPG)
 
 Tower Mount:
-![LC2](https://gitlab.com/solidus/hefei/uploads/1a6d4d0bc4b17341f442aa4e62d5fe32/LC2.JPG)
+
+![LC1](https://gitlab.com/solidus/hefei/uploads/b89834202b78091e5a55a542cb811bcc/LC1.JPG)
+
 Lid:
+
 ![Deckel](https://gitlab.com/solidus/hefei/uploads/9f7c34f9d451a76d3b105c33e543b57a/Deckel.JPG)
   
 
