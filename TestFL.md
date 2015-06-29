@@ -27,8 +27,11 @@ Dies wird fortlaufend und selbstständig durchgeführt.
 | ProductAssembly| initProdPlan()|Aufrufen der Funktion, mittels sout kontrollieren ob an den richtigen plätze das richtige gespeichert wurde |X|
 | ProductControllLocal|initAssignement()|Übergabewert(int) statisch festlegen(Produktenummer), mittels sout kontrollieren ob die Liste nach `initProdPlan` richtig zusammengestellt wurde|X|
 | ProductControllLocal|MQTT|Über das Main mittels Befehl "backwards" muss jedesmal eine [Koordinate](Coord) der entsprechenden [Maschine](Machine) gesendet werden|X|  
-| ProductControllMain| |||
-| Zones||||
+| ProductControllMain| jobHandler()|Statische Liste von Jobs einlesen, bei jedem Aufruf wird der kleinste Job zurückgegeben und gelöscht|X|
+| ProductControllMain| MQTT|Über Main dem Brocker Robi Nummer senden. Bei empfangen `jobHandler` aufrufen und mit sout kontrollieren |X|
+| Zones|Zones()|Mittels sout kontrollieren, ob bei dem Konstruktoraufruf die ArrayListe richtig gefüllt worden sind |X|
+| Zones|zoneDedector()|Statischer Übergabewert[Koordinate](Coord) festlegen, kontrollieren ob der Rückgabe wert dem Richtigen Name entspricht ||
+
 ----------
 
 ### SoftTest ###
