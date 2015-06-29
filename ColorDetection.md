@@ -17,15 +17,27 @@ Wird in unter 10% der Fälle Licht detektiert giltet die Lampe als nicht Leuchte
 Wir in ca der hälfte der Fälle Leuchten dedektiert blinkt die Lampe.  
   
 **Leuchten**  
-Wird in ca 90% der Fälle Leuchten detektiert Leuchtet die Lampe.    
+Wird in ca 90% der Fälle Leuchten detektiert Leuchtet die Lampe.      
     
 ![Lifeline](https://gitlab.com/solidus/hefei/uploads/e1c974047b56d253f2a56a7f93a7f0a3/Lifeline.JPG)  
     
-### trackColor()  
+### Farberkennung   
   
-In der Methode trackColor wird die ganze Bildumwandlung gemacht und in einem Switch Case dan nach der jeweiligen Farbe gesucht. Bei Aufruf dieser Methode wird die Farbe nur einmal überprüft.  
+Die Farbdedektierung wird in 2 Bildern gemacht, zum einen im normalen Bild in RGB und zum andern im HSV konvertierten Bild.  
   
+#### HSV  
+  
+Alle Farben werden in HSV definiert. HSV ist ein Farbcode der in 3 Zahlen angeben wird.    
+  
+![HSV_color_space](https://gitlab.com/solidus/hefei/uploads/8028743baa238d7c90889414cbefa423/HSV_color_space.png)
+![HSV_cone](https://gitlab.com/solidus/hefei/uploads/fc0c1707ccb3c582bcb3fbac5aaf187b/HSV_cone.jpg)
+
+
+: 1. 	
+
+Mit Hsv_min und Hsv_max wird die Farbe definiert
+
    
 
 
-
+![HSV_cone](https://gitlab.com/solidus/hefei/uploads/fc0c1707ccb3c582bcb3fbac5aaf187b/HSV_cone.jpg)
