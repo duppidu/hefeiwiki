@@ -29,5 +29,7 @@ Ist das Hindernis zu weit entfern, werden die Geschwindigkeiten beibehalten. Um 
   
 Die avoidLeft()-Methode wird aufgerufen, wenn auf der linken Seite ein Hindernis detektiert wurde. Sie überprüft Ahnand des mitgegebenen Laserwertes und dessen Winkel, wie schnell ausgewichen werden muss. Desto nöher das Hindernis ist, desto schneller wird nach rechts ausgewichen und die Vorwärtsgeschwindigkeit verzögert. Ist das Hindernis zu weit entfern, werden die Geschwindigkeiten beibehalten. Um die effektive Distanz zum Hindernis zu erhalten wird der Laserwert trigonometrisch mit dem Winkel verrechnet.
   
-## public boolean routeBlocked(int laserArrayPosition)  
+## public boolean routeBlocked(int laserArrayPosition, int distance)  
   
+Die routeIsBlocked() Methode detektiert Anhand eines einzeln Laserstrahls ob die gewünschte Route direkt frei ist oder nicht.  
+Als Mitgabewert benötigt sie die Laserposition und dessen Vergleichsdistanz. Sie gibt "true" zurück, wenn auf die verlangte Distanz ein Hindernis vorliegt.
