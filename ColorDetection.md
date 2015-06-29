@@ -17,7 +17,9 @@ Wird in unter 10% der Fälle Licht detektiert giltet die Lampe als nicht Leuchte
 Wir in ca der hälfte der Fälle Leuchten dedektiert blinkt die Lampe.  
   
 **Leuchten**  
-Wird in ca 90% der Fälle Leuchten detektiert Leuchtet die Lampe.      
+Wird in ca 90% der Fälle Leuchten detektiert Leuchtet die Lampe.  
+  
+     
     
 ![Lifeline](https://gitlab.com/solidus/hefei/uploads/e1c974047b56d253f2a56a7f93a7f0a3/Lifeline.JPG)  
     
