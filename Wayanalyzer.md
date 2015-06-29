@@ -22,11 +22,12 @@ Sollten beide Seiten Hindernis-Prioritäten aufweisen, hat jene mit dem Höheren
   
 ## public void avoidLeft(int disObstacle, double angle)  
   
-
+Die avoidLeft()-Methode wird aufgerufen, wenn auf der rechten Seite ein Hindernis detektiert wurde. Sie überprüft Ahnand des mitgegebenen Laserwertes und dessen Winkel, wie schnell ausgewichen werden muss. Desto nöher das Hindernis ist, desto schneller wird nach links ausgewichen und die Vorwärtsgeschwindigkeit verzögert.
+Ist das Hindernis zu weit entfern, werden die Geschwindigkeiten beibehalten. Um die effektive Distanz zum Hindernis zu erhalten wird der Laserwert trigonometrisch mit dem Winkel verrechnet.
   
 ## public void avoidLeft(int disObstacle, double angle)
   
-
+Die avoidLeft()-Methode wird aufgerufen, wenn auf der linken Seite ein Hindernis detektiert wurde. Sie überprüft Ahnand des mitgegebenen Laserwertes und dessen Winkel, wie schnell ausgewichen werden muss. Desto nöher das Hindernis ist, desto schneller wird nach rechts ausgewichen und die Vorwärtsgeschwindigkeit verzögert. Ist das Hindernis zu weit entfern, werden die Geschwindigkeiten beibehalten. Um die effektive Distanz zum Hindernis zu erhalten wird der Laserwert trigonometrisch mit dem Winkel verrechnet.
   
 ## public boolean routeBlocked(int laserArrayPosition)  
   
