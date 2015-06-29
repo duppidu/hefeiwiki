@@ -21,6 +21,7 @@
 | Zones| 0| X|
 | Test| X| 0|
 | Machine| 0| X|
+| Wiki| X| X|
 | Doku| X| X|
 
 
