@@ -31,11 +31,13 @@ Alle Farben werden in HSV definiert. HSV ist ein Farbcode der in 3 Zahlen angebe
   
 ![HSV_color_space](https://gitlab.com/solidus/hefei/uploads/8028743baa238d7c90889414cbefa423/HSV_color_space.png)
 ![HSV_cone](https://gitlab.com/solidus/hefei/uploads/fc0c1707ccb3c582bcb3fbac5aaf187b/HSV_cone.jpg)
-
-
-- Die erste Zahl gibt durch einen Winkel an um welche Farbe es sich handlet  
+  
+  
+- Die erste Zahl gibt durch einen Winkel an um welche Farbe es sich handelt  
 - Die zweite Zahl definiert die Sättigung der Farbe
-- Die dritte Zahl definiert die helligkeit	
+- Die dritte Zahl definiert die Helligkeit  
+
+Die Farbe wird in ein Scalar gespeichert in diesem können die drei Werte in einem bereich von 0-255 gespeichert, das bedeutet dass die Werte konvertiert werden müssen sprich für die Farbe 360° = 255 und in der Sättigung und Helligkeit 100% = 255.	
 
 Mit Hsv_min und Hsv_max wird die Farbe definiert
 
