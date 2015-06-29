@@ -19,7 +19,8 @@ Dies wird fortlaufend und selbstständig durchgeführt.
 | :------- | --- | --- | :---- |
 | ExploControll|jobHandler()|Gibt es die Richtige Koordinate zurück? Ändern der Robi Nummer (1,2,3) |X |
 | ExploControll|saveMachine()|Übergabewerte statisch setzen mit sout kontrollieren ob In & Out der Maschine richtig gespeichert wurden |X |
-| ExploControll|MQTT|Alles über MQTT senden und über die Run Methode  die Funktionen `saveMachine()` & `jobHandler()` aufrufen  |X |
+| ExploControll|handleexploCoords()| | |
+| ExploControll|MQTT|Alles über MQTT senden und über die Run Methode  die Funktionen `saveMachine()`,`handleexploCoords` & `jobHandler()` aufrufen  |X |
 |Machine| | ||
 | ProductAssembly| | ||
 | ProductControllLocal||||
