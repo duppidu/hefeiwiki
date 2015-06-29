@@ -28,11 +28,11 @@
 
 ## Drive
 [Drive](Drive)  
-[Waycontroller](Waycontroller)  
+[WayController](WayController)  
 [Positioncontroller](Positioncontroller)  
 [Coord](Coord)  
 [Speed](Speed)  
-[Wayanalyzer](Wayanalyzer)  
+[WayAnalyzer](WayAnalyzer)  
 [CrashController](CrashController)
 ***
 
