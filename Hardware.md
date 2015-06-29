@@ -44,7 +44,7 @@ The parts were designed in Autodesk Inventor (files in the end of the document)
 
 The Lasermount, IR-Sensormount were created by Ramon Däster and will not be explained here.  
   
-####  Camera Mount:
+#### Upper Camera Mount:
 
 The camera must be panable, so you can adjust it by changing it's angle.
 The cameramount consists of three parts:
@@ -65,16 +65,36 @@ Lid
 
 ![Deckel](https://gitlab.com/solidus/hefei/uploads/9f7c34f9d451a76d3b105c33e543b57a/Deckel.JPG)
 
-The difference between the upper cammount and the lower cammount is just the Mount for the Motedisprofile which has different mountingholes.
+
  
  To put the cameramount together you need the following screws and nuts:
  
- - 2 x M3x16mm and nut
+ - 2 x M3x20mm and nut
  -  1 x M3x10mm and nut
  - 2 x M5x10mm (upper cam)
  - 2 x M5 t-nut
  - 1 x M5x10mm (lower cam)  
+
+
+#### Upper Camera Mount:
+
+Basic Enclosure:
+![LC1](https://gitlab.com/solidus/hefei/uploads/b89834202b78091e5a55a542cb811bcc/LC1.JPG)
+
+Tower Mount:
+![LC2](https://gitlab.com/solidus/hefei/uploads/1a6d4d0bc4b17341f442aa4e62d5fe32/LC2.JPG)
+Lid:
+![Deckel](https://gitlab.com/solidus/hefei/uploads/9f7c34f9d451a76d3b105c33e543b57a/Deckel.JPG)
   
+
+ 
+ To put the cameramount together you need the following screws and nuts:
+ 
+ - 2 x M3x20mm and nut
+ - 1 x M5x10mm 
+ - 2 x M5x10mm and nut
+
+
 ####  Gripper:
 
 The gripper consists of 3 parts.
@@ -141,3 +161,4 @@ To mount **1** Profile you need the following parts:
 [deckel.ipt](https://gitlab.com/solidus/hefei/uploads/4c881a0af4097c9101a96d7789042450/deckel.ipt)
 [HalterBasis.ipt](https://gitlab.com/solidus/hefei/uploads/4b35c822a5f103abc0797939a98e3c78/HalterBasis.ipt)
 [HalterProfil.ipt](https://gitlab.com/solidus/hefei/uploads/16f549ad7393cfdb01d48a312f9fed04/HalterProfil.ipt)
+
