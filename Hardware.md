@@ -1,9 +1,13 @@
 #  Hardware
 
 --------------------
+
 Author: Simon Zeltner
+
 Class: HF2A 2015
+
 Date: 26.6.2015
+
 Version: 1.0  
 
 ----------------------------
