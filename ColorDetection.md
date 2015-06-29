@@ -38,6 +38,3 @@ Alle Farben werden in HSV definiert. HSV ist ein Farbcode der in 3 Zahlen angebe
 Mit Hsv_min und Hsv_max wird die Farbe definiert
 
    
-
-
-![HSV_cone](https://gitlab.com/solidus/hefei/uploads/fc0c1707ccb3c582bcb3fbac5aaf187b/HSV_cone.jpg)
