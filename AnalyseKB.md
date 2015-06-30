@@ -36,7 +36,7 @@ Es soll mit Hilfe von von Skizzen sämtlich Situationen skizziert werden wie die
   
 ### WayAnalyzer:  
   
-Der Roboter soll die Zielkoordinaten erreichen ohne dabei ein Hindernis zu berühren. Die Hindernisse, müssen Umfahren werden können ohne das der Zielpunkt verloren geht.
+Der Roboter soll die Zielkoordinaten erreichen ohne dabei ein Hindernis zu berühren. Die Hindernisse, müssen Umfahren werden können ohne das der Zielpunkt verloren geht. Der Einfluss der Fahrdynamik, soll per Broker an die Driveklasse weitergegeben werden.
   
 ### WayController:  
   
