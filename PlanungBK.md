@@ -9,16 +9,16 @@
   
 | Aufgabe| Ken| Bryan| 
 | :------- | --- | :---- |
-| WayAnalyzer prog.| X| 0|
-| CrashController| X| 0|
-| WayController| X| 0|
-| Drive| 0| X|
-| WayAnalyzer IBN| X| X|
-| CrashController IBN| X| 0|
-| WayController opt.| X| 0|
-| Drive - WayAnalyzer komm.| 0| X|
-| Wiki| X| X|
-| Doku| X| X|
+| WayAnalyzer programmierung| X| 0|
+| CrashController programmierung| X| 0|
+| WayController programmierung| X| 0|
+| Drive programmierung| 0| X|
+| WayAnalyzer Inbetriebnahme| X| X|
+| CrashController Inbetriebnahme| X| 0|
+| WayController optimierung| X| 0|
+| WayAnalyzer zu Drive Kommunikation| 0| X|
+| Wiki technisch| X| X|
+| Wiki Dokumentation| X| X|
   
 ## Zeitplanung  
   
