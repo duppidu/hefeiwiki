@@ -29,4 +29,3 @@ Bei jedem Aufruf wird die Beschleunigung der aktuellen Geschwindigkeit dazu addi
 ## Approach
 
 ## Explore
-![Treppensignal](https://gitlab.com/solidus/hefei/uploads/a70756c478f66f30390dd1396c457d3d/Treppensignal.PNG)
