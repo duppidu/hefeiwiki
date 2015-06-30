@@ -5,6 +5,8 @@ Diese Schneise wird nun bis Hin zum Zielpunkt auf Hindernisse überprüft. Dies 
 wird nun ein Hindernis erkennt, wird überprüft ob sich das Hindernis mehr auf der rechten Seite befindet oder auf der linken Seite.
 Auf der Seite auf weniger Hindernispunkte liegen wird ausgewichen bis keine Punkte mehr vorhanden sind.  
   
+![FlowChart_WayAnalyzer](https://gitlab.com/solidus/hefei/uploads/08f9372eb12c4436aa8b3eeb85c117d9/FlowChart_WayAnalyzer.jpg)  
+  
 ## public WayAnalyzer()
   
 Der Konstruktor instanziert die Kommunikation zum Broker, lädt die benötigten Parameter aus dem drive.xml und dem staticDistanceParams.xml-File und weist diese den Variabeln zu. Aus dem drive.xml- file wird die Höchstgeschwindigkeit ausgelesen und aus dem staticDistanceParams.xml-File werden die Verzögerungs- und Ausweichedistanzen ausgelesen. Zudem werden die Azahl der Laserpunkte welche Nacheinander ungültig sein müssen festgelegt und die Schneisenbreite eingelesen.
@@ -33,3 +35,4 @@ Die avoidLeft()-Methode wird aufgerufen, wenn auf der linken Seite ein Hindernis
   
 Die routeIsBlocked() Methode detektiert Anhand eines einzeln Laserstrahls ob die gewünschte Route direkt frei ist oder nicht.  
 Als Mitgabewert benötigt sie die Laserposition und dessen Vergleichsdistanz. Sie gibt "true" zurück, wenn auf die verlangte Distanz ein Hindernis vorliegt.
+
