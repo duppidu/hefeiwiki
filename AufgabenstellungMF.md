@@ -24,6 +24,11 @@ Unsere Aufgabe besteht darin:
 ### Spezifisch ###
 
 #### Laserscanner
+Die Aufgabenstellung in diesem Bereich bestand darin, den bestehenden Code so zu erweitern, dass er für unsere Aufgabe nützlich ist.  
+- Erkannte Kanten auswerten
+- Weitere Filter hinzufügen
+- Anfahrpunkt und Anfahrwinkel vor der Maschine berechnen
+
 
 #### StateMachine
 
