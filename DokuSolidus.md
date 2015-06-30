@@ -1,5 +1,9 @@
 [Home](home) 
-
+## Allgemein
+[Aufgabenstellug](AufgabenstellungTeam)
+[Ziel und Resultat](ZielUndResultatTeam)
+[Sitzungsprotokolle](Sitzungsprotokolle)
+[Reflektionen](Reflektionen)
 ## Guppe
 ### Thomas, Simon
 Content  
@@ -35,12 +39,5 @@ Content
 
 
 ## Reflektionen
-[Thomas D](ThomasD)  
-[Simon](Simon)  
-[Felix](Felix)  
-[Florian](Florian)  
-[Michael](Michael)  
-[Ken](Ken)  
-[Bryan](Bryan)  
-[Lukas](Lukas)  
+
 ***
