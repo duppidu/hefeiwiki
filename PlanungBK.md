@@ -1,33 +1,24 @@
 [Home](home) [Back](DokuSolidus)  
-
-----------
-
-### Inhalt ###
+  
+## Inhalt  
+  
 - Arbeitsaufteilung
 - Zeitplanung
-
-----------
-
-### Arbeitsaufteilung ###
-
-| Aufgabe| Lukas| Felix| 
+  
+## Arbeitsaufteilung  
+  
+| Aufgabe| Ken| Bryan| 
 | :------- | --- | :---- |
-| MQTT| X| 0|
-| Linux| X| 0|
-|ExploControll| X| X|
-| Machine| 0| X|
-| ProductAssembly| 0| X|
-| ProductControllLocal| 0| X|
-| ProductControllMain| X| X|
-| Zones| 0| X|
-| Test| X| 0|
-| Machine| 0| X|
+| WayAnalyzer prog.| X| 0|
+| CrashController| X| 0|
+| WayController| X| 0|
+| Drive| 0| X|
+| WayAnalyzer IBN| X| X|
+| CrashController IBN| X| 0|
+| WayController opt.| X| 0|
+| Drive - WayAnalyzer komm.| 0| X|
 | Wiki| X| X|
 | Doku| X| X|
-
-
-----------
-
-### Zeitplanung ###
-
-----------
+  
+## Zeitplanung  
+  
