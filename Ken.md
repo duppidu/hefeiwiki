@@ -1,3 +1,11 @@
 [Home](home) [Back](Reflektionen)  
   
-## Reflexion
+## Reflexion  
+
+Der Projektmanagement Kurs ging für mich wie im Fluge vorbei. Das liegt wohl daran, dass wir alle sehr viel zu tun hatten. Ich bin mit meinen Aufgaben mehr oder weniger sehr gut voran gekommen.  
+Die Inbetriebnahme des WayAnalyzers hat sich als schwierig erwiesen. Die Grundidee mit der Schneise zu arbeiten, hat sich als eine gute Idee herausgestellt. Leider aber klappte meine erster Versuch die Ausweichepriorität zu realisieren nicht. In der Praxis fuhr der Robotino schlussendlich gleich einer Sinuswelle. Ich musste noch einmal viel Zeit in das Debugging des Codes investieren. Die Geschwindigkeitsübergabe des Wayanalyzer an die Driveklasse stellte sich ebenfalls als problematisch dar. Die Geschwindigkeit, welche der WayAnalyzer sendete wurde häufig überschrieben. Dies führte ebenfalls zu Störungen.  
+  
+Ich persönlich bin kein Freund unseres Repositoriums "GitLab". Ich hatte sehr oft Probleme und verlor ziemlich viel Stunden an Arbeit. Während dem Push-Vorgang traten häufig Fehler auf, welche mir meine Code löschten anstelle diesen zu veröffentlichen. Als ich Bericht im Wiki schrieb, hatte ich zwischendurch das Problem, dass mir beim Speichervorgang mein frisch geschriebener Text verloren ging. Dies war sehr ärgerlich, ich habe es satt meine Arbeit doppelt zu erledigen. Schlussendlich speichere ich meinen Code und meinen Text regelmässug in einem Text-File. Nun eigentlich ist doch das Ziel des Repositoriums, dass man eigentlich nicht sine Arbeit verliert und keine Text-Files erstellen muss um den Code und Text zu sichern!  
+  
+Ich merke gut, dass unser Teammitglieder schon ziemlich lange und intensiv miteinander Arbeiten. Dies zeigt sich daran, dass zwischendurch die Geduld verloren geht und selten kommt es zu kleineren Auseinandersetzungen.  
+Das Positive aber ist das wir mitllerweile ziemlich genau Wissen, wo das Wessen stärken zu liegen und wie sie hervorzulocken sind. Wir sind zudem nun alle mehr oder weniger Experten auf unseren Gebieten.
