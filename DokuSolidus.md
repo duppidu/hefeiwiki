@@ -2,7 +2,7 @@
 
 ## Guppe
 ### Thomas, Simon
-Content
+Content  
 [Konzept](KonzeptST)  
 [Lösungen](LoesungenST)  
 [Planung](PlanungST)  
