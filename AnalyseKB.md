@@ -22,7 +22,7 @@ Die WayController wurde bereits im Poe-Modul ausprogrammiert, ist aber noch nie 
   
 ### WayAnalyzer:  
   
-
+Um den Fahrablauf auszutesten wird ein Versuchsaufbau benötigt. Der Versuchsaufbau soll Ausweichssituationen simulieren, so wie diese am RoboCup ebenfalls auftreten werden. Die Ausweichedynamik soll im Solidus-Raum mit Hilfe der Versuchs-MPS und Kartonkisten ausgetestet werden.
   
 ### WayController:  
   
