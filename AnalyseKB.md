@@ -36,7 +36,7 @@ Um den Fahrablauf auszutesten wird ein Versuchsaufbau benötigt. Der Versuchsauf
   
 ### WayAnalyzer:  
   
-
+Der Roboter soll die Zielkoordinaten erreichen ohne dabei ein Hindernis zu berühren. Die Hindernisse, müssen Umfahren werden können ohne das der Zielpunkt verloren geht.
   
 ### WayController:  
   
