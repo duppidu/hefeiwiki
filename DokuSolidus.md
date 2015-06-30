@@ -1,9 +1,10 @@
 [Home](home) 
-## Allgemein
-[Aufgabenstellug](AufgabenstellungTeam)
-[Ziel und Resultat](ZielUndResultatTeam)
-[Sitzungsprotokolle](Sitzungsprotokolle)
-[Reflektionen](Reflektionen)
+## Allgemein  
+[Aufgabenstellug](AufgabenstellungTeam)  
+[Ziel und Resultat](ZielUndResultatTeam)  
+[Sitzungsprotokolle](Sitzungsprotokolle)  
+[Reflektionen](Reflektionen)  
+  
 ## Guppe
 ### Thomas, Simon
 Content  
