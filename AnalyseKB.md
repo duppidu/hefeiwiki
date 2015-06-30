@@ -1,6 +1,6 @@
 ## Inhalt  
 
-- Visuell
+- Gedanken
 - Materiell
 - Ergebnis
 
@@ -16,7 +16,7 @@ Es sollen die Input- und Outputkoordinaten der MPS berrechnet werden können. Di
   
 ### CrashController:  
   
-
+Sobald ein Crash geschieht soll der Roboter stoppen. Es soll falls möglich aber ein Crasch verhindert werden, oder diesen dem gegnirischen Team zugeschoben werden. Dazu braucht es eine Klasse welche versucht dies zu regeln.
   
 ## Materiell  
   
@@ -30,7 +30,7 @@ Es soll mit Hilfe von von Skizzen sämtlich Situationen skizziert werden wie die
   
 ### CrashController:  
   
-
+Um einen Crash zu verhindern oder diesen dem anderern Team zuzuschieben, sollen die Infrarot sensoren verwendet werden. Um weiteren Schaden während Kollisionen zu vermeiden wird der Bumper verwendet.
   
 ## Ergebnis  
   
@@ -45,5 +45,5 @@ Die punkte müssen berrechnet werden können da der Roboter die MPS-Station opti
   
 ### CrashController:  
   
-
+Wenn sich ein Objekt dem Roboter nähert sollen die Antriebe deaktiviert werden, dass der Roboter stehen bleibt um einen Crash zu verhindern oder den gegnerischen Roboter zu die Kollision herbeiführen zu lassen. Sobald eine Kollision geschehen sollte, soll der Roboter die Antriebe ebenfalls ausschalten. Dies massnahme ist um Schäden zu verhindern und um dem Wayanalyzer Zeit zu geben das Wegfahren zu Koordinieren.
   
