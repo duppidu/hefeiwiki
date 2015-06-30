@@ -5,6 +5,6 @@
 [Aufgabenstellung](AufgabenstellungKB)  
 [Analyse](AnalyseKB)  
 [Projektziel](ProjektzielKB)  
-[Schnitstellen](SchnitstellenKB)  
+[Schnittstellen](SchnittstellenKB)  
 
 ----------
