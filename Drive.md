@@ -14,7 +14,7 @@ Dieser Ablauf wurde aus dem Grund gewählt, weil der Laserscanner nur den vorder
 Die Differenz zwischen der Zeilkoordinate und aktuellen Koordinate bestimt die Drehrichtung. Befindet sie sich diese zwischen 0° und 180° oder ist kleiner als -180° so dreht sich der Robotino im Uhrzeigersinn. Beträgt die Differenz mehr als 180° oder zwischen 0° und -180° so wäre der Weg im Uhrzeigersinn länger als der im Gegenuhrzeigersinn.
 
 ## Accelerate
-Bei jedem Aufruf wird die Beschleunigung der aktuellen Geschwindigkeit übergeben. Dadurch entsteht ein Treppensignal, dass durch den Beschleunigungswert und Zykluszeit verändert werden kann. 
+Bei jedem Aufruf wird die Beschleunigung der aktuellen Geschwindigkeit dazu addiert. Dadurch entsteht ein Treppensignal, dass durch den Beschleunigungswert und Zykluszeit verändert werden kann. 
 
 ![Treppensignal](https://gitlab.com/solidus/hefei/uploads/a70756c478f66f30390dd1396c457d3d/Treppensignal.PNG)
 
