@@ -1,8 +1,7 @@
 ## Inhalt  
-- Schnitstellen
-
-
-## Schnitstellen  
+- Schnittstellen  
+  
+## Schnittstellen  
 
 - GitLab  
 - NetBeans IDE 8.0.2  
