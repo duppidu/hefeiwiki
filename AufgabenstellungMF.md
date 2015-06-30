@@ -23,11 +23,10 @@ Unsere Aufgabe besteht darin:
 
 ### Spezifisch ###
 
-Unseren Zuständigkeitsbereich bezieht sich auf den [Fieldcommander](WikiSolidus). 
-Der [Fieldcommander](WikiSolidus) ist dafür zuständig, um die Komplette Explorations und Productionsphase zu handeln.  
-- Koordinieren der Roboter
-- Verwalten des Spielfeldes.  
-- Speichern und Verwalten der [Machinen](Machine).  
-- Senden von ziel [Koordinaten](Coord).   
+#### Laserscanner
+
+#### StateMachine
+
+#### Refbox
 
 ----------
