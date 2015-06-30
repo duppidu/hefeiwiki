@@ -1,3 +1,5 @@
+[Home](home) [Back](DokuSolidus)  
+  
 ## Inhalt  
 
 - Gedanken
