@@ -4,7 +4,7 @@
 - Materiell
 - Ergebnis
 
-## Visuell 
+## Gedanken 
   
 ### WayAnalyzer:  
   
@@ -12,7 +12,7 @@ Die WayController wurde bereits im Poe-Modul ausprogrammiert, ist aber noch nie 
   
 ### WayController:  
   
-
+Es sollen die Input- und Outputkoordinaten der MPS berrechnet werden können. Diese Aufgabe muss mit Hilfe von Trigonometrie gelöst werden, das ds feld in X- und Y-Achsen unterteilt ist.
   
 ### CrashController:  
   
@@ -26,7 +26,7 @@ Um den Fahrablauf auszutesten wird ein Versuchsaufbau benötigt. Der Versuchsauf
   
 ### WayController:  
   
-
+Es soll mit Hilfe von von Skizzen sämtlich Situationen skizziert werden wie die Maschine steht. Aus den Skizzen sollen die Positionsüberprüfungen übernommen werden können. Die Prüfbedingungen müssen die korrekten Formeln aufrufen können um an ein brauchbares Resultat zu gelangen. Die koordinaten sollen an die State-Machhine weitergeleitet werden können.
   
 ### CrashController:  
   
@@ -40,7 +40,8 @@ Der Roboter soll die Zielkoordinaten erreichen ohne dabei ein Hindernis zu berü
   
 ### WayController:  
   
-
+Sobald der Waycontroller von der State-Machine erfährt, ob das detektierte AR-Tag eine Input- oder Outputseite signalisiert, werden die Punkte berrechnet. 
+Die punkte müssen berrechnet werden können da der Roboter die MPS-Station optimal Anfahren können muss, und er nicht auf optimaler Position steht wenn das Tag erkannt wird. Die Koordinaten sollen per Broker auf das entsprechende Topic gesendet werden können.
   
 ### CrashController:  
   
