@@ -1,4 +1,6 @@
-[Home](home) 
+[Home](home)  
+     
+   
 ## Allgemein  
 [Aufgabenstellug](AufgabenstellungTeam)  
 [Ziel und Resultat](ZielUndResultatTeam)  
