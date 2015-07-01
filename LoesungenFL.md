@@ -3,10 +3,14 @@
 ----------
 
 ### Inhalt ###
- - Lösung
-- <a href="#ak">Allgemeine Kommunikation</a>
-- <a href="#kk">Klassen Kommunikation</a>
-- <a href="#pck">Product Controll Kommunikation</a>  
+- Lösung
+ - <a href="#ak">Allgemeine Kommunikation</a>
+  - <a href="#kk">Klassen Kommunikation</a>  
+   -<a href="#p2">Phase 2</a>  
+   -<a href="#p3">Phase 3</a>
+   -<a href="#db">DB</a>
+   -<a href="#prod">Product</a>
+ - <a href="#pck">Product Controll Kommunikation</a>  
 
 
 ----------
@@ -34,48 +38,48 @@ Die Kommunikation zwischen den einzelnen Klassen sieht wie folgt aus:
 - Die beiden Klassen  [ProductControllMain](ProductControllMain) und [ProductControllLocal](ProductControllLocal) besitzen eine Verbindung zu den beiden Brokern Main und Local mittels Router über Wifi.  
 - Je nachdem welche Phase aktiv ist (Init/Explo/Product) wird die Klasse [ExploControll](ExploControll) oder [ProductControllLocal](ProductControllLocal) aufgerufen.  
 
-#### Phase 2  
+#### <a name="p2">Phase 2</a>  
  
 - Die Klass [ExploControll](ExploControll) ist für das komplette Handling der ExplorationsPhase Zuständig. Diese Klasse benötigt unbedingt die Klasse [Zones](Zones) die für die Verwaltung der Felder zuständig ist.  
 - Die in der ExplorationsPhase Dedectierten [Maschinen](Machine) werden in der [Maschinen](Machine) Klasse gespeichert und verwaltet.  
 
-#### Phase 3  
+#### <a name="p3">Phase 3</a>  
  
 - Die Klasse [ProductControllLocal](ProductControllLocal) ist für die komplette Produktionsphase zuständig und wird von der übergeordneten Klasse [ProductControllMain](ProductControllMain) bei der Koordination und Kommunikation der Roboter unterstützt.  
 - Die Klasse [ProductControllLocal](ProductControllLocal) Besitzt die Klasse [ProductAssembly](ProductAssembly) dessen Aufgabe es ist, die zu fertigende Produkte in Einzelne Produktionsschritte aufzuteilen. 
 - Die Klasse [ProductControllLocal](ProductControllLocal) benötigt zudem die Daten der Klasse [Machine](Machine) die zuvor in der Explorationsphase von der Klasse [ExploControll](ExploControll) gefüllt wurde. Mithilfe dieser Klassen werden immer die richtigen [Koordinaten](Coords) auf den Broker gesendet.  
 
-#### DB ####
+#### <a name="db">DB</a> ####
 
 Unsere Klassen besitzen 5 verschiedene Speicherelemente.
 
 ![DB](https://gitlab.com/solidus/hefei/uploads/867f6f423e4d008395342da81ffadc8a/DB.PNG)
 
-**Product:**
+**<a name="prod">Product:</a>**
 - ArrayList.   
 - Statisch einprogrammiert.  
 - Sind die einzelnen Produktionsschritte für jedes Produkt gespeichert. 
 - Bsp. "Produkt 1" = BaseStation/CapStation/DeliveryStation.   
 
-**Machine:**  
+**<a name="machine">Machine:</a>**  
 - Hash Map.  
 - Wird Dynamisch in der Explorations Phase von [ExploControll](ExploControll) gefüllt. 
 - Sind alle [Maschinen](Machien) von unserem Team abgespeichert.  
 
-**refbZone:**
+**<a name="rbz">refbZone:</a>**
 - Array.  
 - Wird Dynamisch bei dem Start der Productions Phase gefüllt. 
 - Sind zu explorierende [Zonen](Zones) gespeichert.  
 - Information bekommen wir von der RefBox.  
 - Bsp. "Z1-Z2-Z3-Z7-Z12-Z20"
 
-**Job:**
+**<a name="j">Job:</a>**
 - ArrayList.  
 - Wird Dynamisch in der Productions Phase gefüllt.
 - Beinhaltet alle zu Produzierende Produkte.  
 - Bsp. 1,2,4,2,2,1.    
 
-**coord:**
+**<a name="co">coord:</a>**
 - Array.  
 - Beinhaltet alle Eckpunkt(rechter unterer Ecken) [Koordinaten](Coord) von jeder [Zone](Zones).
 - Array Platz entspricht [Zonen](Zones) Nummer.    
