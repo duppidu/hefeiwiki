@@ -10,12 +10,13 @@
 ## Guppe
 ### Thomas, Simon
 Content  
-[Konzept](KonzeptST)  
-[Resultat](ResultatST)  
+[Konzept](KonzeptST)
 [Planung](PlanungST)  
+[Vorgehen](VorgehenST) 
+[Lösungen](LoesungenST)  
 [Software](SoftwareST)  
 [Test](TestST)  
-[Ergebnisse](ErgebnisseST) 
+
 ***
 ### Bryan, Ken
 Content  
