@@ -4,9 +4,10 @@
 
 ### Inhalt ###
 - Lösung
-- Allgemeinekommunikation
-- Klassenkommunikation
-- 
+- Allgemeine Kommunikation
+- Klassen Kommunikation
+- Product Controll Kommunikation
+
 
 
 ----------
@@ -49,6 +50,13 @@ Die Klasse [ProductControllLocal](ProductControllLocal) benötigt zudem die Date
 
 
 ----------
+
+### ProductControllKommunikation ###
+
+In der Product Controll Kommunikation ist ersichtlich wie die beiden Klassen [ProductControllLocal](ProductControllLocal) und [ProductControllMain](ProductControllMain) miteinander Kommunizieren und interagieren.  
+Alle verarbeiteten Informationen (neue Ziele) werden mittels Broker dem [Drive](Drive) gesendet.  
+
+![ProduktionCom](https://gitlab.com/solidus/hefei/uploads/cc3db5bbea66aec3b49fbbd55d8d98be/ProduktionCom.PNG)
 
 
 ----------
