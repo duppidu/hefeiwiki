@@ -26,6 +26,7 @@ Auf einem RaspberryPi läuft seperat ein main Broker, der die übergeordnete Kom
 Auf einem main Computer läuft ein kleines Java Programm [ProductControllMain](ProductControllMain), dessen Zuständigkeit es ist, die Produktionsphase zu handeln  
 und die saubere Arbeitsaufteilung unter den Robis gehandelt wird.    
 Die gesamte Kommunikation läuft über ein 5GHz/2,4GHz Router über den auch die Informationen der Refbox empfangen werden.  
+
 ----------
 
 ### Klassenkommunikation ###
