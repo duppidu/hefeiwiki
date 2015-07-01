@@ -6,6 +6,8 @@
 Um die Lampenerkennung stabiler zu machen soll der Bereich in dem sich die Farbe befindet eingegrenzt werden.   
 Zusätzlich soll überprüft werden ob das erkennen von Licht stabiler ist als das überprüfen von Farben.
 
+Informationen über die OpenCV Bibliothek sind recht schwierig zu finden, die meisten Infos sind wohl über Programmbeispiele aus dem Internet zu erhalten.
+
 ## Simon
 
 ### Mechanisch:
