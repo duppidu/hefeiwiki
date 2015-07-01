@@ -11,7 +11,7 @@
 ### Thomas, Simon
 Content  
 [Konzept](KonzeptST)  
-[Lösungen](LoesungenST)  
+[Resultat](ResultatST)  
 [Planung](PlanungST)  
 [Software](SoftwareST)  
 [Test](TestST)  
