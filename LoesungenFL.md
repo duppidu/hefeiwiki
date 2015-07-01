@@ -56,7 +56,9 @@ Die Klasse [ProductControllLocal](ProductControllLocal) benötigt zudem die Date
 In der Product Controll Kommunikation ist ersichtlich wie die beiden Klassen [ProductControllLocal](ProductControllLocal) und [ProductControllMain](ProductControllMain) miteinander Kommunizieren und interagieren.  
 Alle verarbeiteten Informationen (neue Ziele) werden mittels Broker dem [Drive](Drive) gesendet.  
 
-![ProduktionCom](https://gitlab.com/solidus/hefei/uploads/cc3db5bbea66aec3b49fbbd55d8d98be/ProduktionCom.PNG)
+![ProduktionCom](https://gitlab.com/solidus/hefei/uploads/09112bbaa859a3604cea2f76c2154477/ProduktionCom.PNG)
+
+
 
 Sobald die Klasse [Drive](Drive) dem Broker auf das entsprechende [Topic](MqttTopics) einen String "backwards" sendet ist das für die Klasse [ProductControllLocal](ProductControllLocal) das Signal, dass das [Drive](Drive) einen neuen Befehl benötigt.  
 Das [ProductControllLocal](ProductControllLocal) sendet eine Job Anfrage dem [ProductControllMain](ProductControllMain).  Dies sucht nach einem speziellen Algorythmus einen geeigneten Job aus und übermittelt diesen dem [ProductControllLocal](ProductControllLocal).  
