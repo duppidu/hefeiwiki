@@ -30,9 +30,8 @@ Die einfachen Jobs werden zuerst abgearbeitet.
 ### Communication ###
 
 Die Kommunikation wird mittels MQTT gewährleistet!  
-Das UML beschreibt dies, mit den entsprechenden Pfaden und Inhalten.  
+Ein entsprechendes UML finden sie [hier](LoesungenFL)
 
-
-![ProduktionCom](https://gitlab.com/solidus/hefei/uploads/399e165f29bf71a49581d8893accdf12/ProduktionCom.PNG)  
+ 
 
 ----------
