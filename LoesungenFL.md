@@ -8,6 +8,7 @@
 - Klassenkommunikation
 - 
 
+
 ----------
 ### Lösung ###
 
@@ -35,11 +36,15 @@ Die Kommunikation zwischen den einzelnen Klassen sieht wie folgt aus:
 
 ![Loesungen](https://gitlab.com/solidus/hefei/uploads/f1cb45b9c4ae08631722db55f34cdc5f/Loesungen.PNG)
 
+
+Die beiden Klassen  [ProductControllMain](ProductControllMain) und [ProductControllLocal](ProductControllLocal) besitzen eine Verbindung zu den beiden Brokern Main und Local.  
+Je nachdem welche Phase aktiv ist (Init/Explo/Product) wird die Klasse ExploControll oder ProductControll aufgerufen.  
+
 ----------
 
 
 ----------
-### UML ###
+
 
 
 
