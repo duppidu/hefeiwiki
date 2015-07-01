@@ -9,12 +9,6 @@
 - Product Controll Kommunikation
 
 
-
-----------
-### Lösung ###
-
-
-
 ----------
 
 ### Allgemeine Kommunikation ###
@@ -73,4 +67,3 @@ Ist der Job komplett abgearbeitet wird von dem [ProductControllLocal](ProductCon
 
 
 
-----------
