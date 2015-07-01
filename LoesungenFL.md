@@ -3,9 +3,9 @@
 ----------
 
 ### Inhalt ###
-- Lösung
- - <a href="#ak">Allgemeine Kommunikation</a>
-  - <a href="#kk">Klassen Kommunikation</a>  
+
+- <a href="#ak">Allgemeine Kommunikation</a>
+- <a href="#kk">Klassen Kommunikation</a>  
    -<a href="#p2">Phase 2</a>  
    -<a href="#p3">Phase 3</a>  
    -<a href="#db">DB</a>  
