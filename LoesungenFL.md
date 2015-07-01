@@ -29,7 +29,7 @@ Die gesamte Kommunikation läuft über ein 5GHz/2,4GHz Router über den auch die
 
 Die Kommunikation zwischen den einzelnen Klassen sieht wie folgt aus:
 
-![Loesungen](https://gitlab.com/solidus/hefei/uploads/f1cb45b9c4ae08631722db55f34cdc5f/Loesungen.PNG)
+![Loesungen2](https://gitlab.com/solidus/hefei/uploads/3f56fc07950844dfc472cc910c11dbc6/Loesungen2.PNG)
 
 
 Die beiden Klassen  [ProductControllMain](ProductControllMain) und [ProductControllLocal](ProductControllLocal) besitzen eine Verbindung zu den beiden Brokern Main und Local mittels Router über Wifi.  
