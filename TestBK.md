@@ -1,15 +1,11 @@
 [Home](home) [Back](DokuSolidus)  
-
-----------
-
-### Inhalt ###
-- LocalTest
-- SoftTest
-- HardTest
-
-----------
-
-### LocalTest ###
+  
+## Inhalt
+  
+- SoftwareTest
+- HardwareTest
+  
+## LocalTest  
 
 Der LocalTest beinhaltet das Testen der einzelnen Klassen Local auf dem PC.  
 Gegebenenfalls schon mit dem MQTT Brocker.  
