@@ -32,7 +32,7 @@ Die Aufgabenstellung in diesem Bereich bestand darin, den bestehenden Code so zu
 
 
 #### StateMachine
-
+Die StateMachine muss immer mindestens so weit ausgebaut sein, dass der aktuelle Codeteil ausgeführt werden kann. 
 #### Refbox
 
 ----------
