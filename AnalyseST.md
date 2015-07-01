@@ -1,3 +1,6 @@
+[Home](home)   
+[Back](KonzeptST)   
+
 ## Thomas
 
 Um die Lampenerkennung stabiler zu machen soll der Bereich in dem sich die Farbe befindet eingegrenzt werden.   
