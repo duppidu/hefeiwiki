@@ -3,7 +3,7 @@
 ----------
 
 ### Inhalt ###
-- Lösung
+ - Lösung
 - Allgemeine Kommunikation
 - Klassen Kommunikation
 - Product Controll Kommunikation
