@@ -4,8 +4,7 @@
 ----------
 
 [Aufgabenstellung](AufgabenstellungST)  
-[Analyse](AnalyseST)  
-[Projektziel](ProjektzielST)  
+[Analyse](AnalyseST)   
 [Schnitstellen](SchnitstellenST)  
 
 ----------
