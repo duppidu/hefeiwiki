@@ -6,15 +6,15 @@
 
 - <a href="#ak">Allgemeine Kommunikation</a>
 - <a href="#kk">Klassen Kommunikation</a>  
-   -<a href="#p2">Phase 2</a>  
-   -<a href="#p3">Phase 3</a>  
-   -<a href="#db">DB</a>  
-     -<a href="#prod">Product</a> 
-     -<a href="#ma">Machine</a>  
-     -<a href="#rbz">refbZone</a>
-     -<a href="#j">Job</a>  
-     -<a href="#c">coord</a>
- - <a href="#pck">Product Controll Kommunikation</a>  
+	- <a href="#p2">Phase 2</a>  
+        - <a href="#p3">Phase 3</a>  
+        - <a href="#db">DB</a>  
+		- <a href="#prod">Product</a> 
+		- <a href="#ma">Machine</a>  
+		- <a href="#rbz">refbZone</a>
+  		- <a href="#j">Job</a>  
+		- <a href="#c">coord</a>
+- <a href="#pck">Product Controll Kommunikation</a>  
 
 
 ----------
