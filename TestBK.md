@@ -32,9 +32,9 @@ w = weggelassen
 | WayAnalyzer|routeBlocked|Es muss in der vorgegeben Distanz ein Hindernis geziehlt abgefragt werden können  |0 |
 |WayController|calcInOutCoord() | Es müssen von der Input Seite die Input- und die Outputkoordinaten berrechnte werden können |0|
 |WayController|calcInOutCoord() | Es müssen von der Output Seite die Input- und die Outputkoordinaten berrechnte werden können |0|  
-|WayController|calcInOutCoord() | Werden Koordinaten auf "input" und "Output" Topic gesendet |0|
-|WayController|messageArrived() |Statischer Übergabewert festlegen([Maschine](Machine)), mit sout kontrollieren ob die richtigen [Maschinen](Machine) in der HMap gespeichert wurden |X|
-|CrashController|crash() |Statischer Übergabewert festlegen(int & [Koordinaten](Coord)), mit sout kontrollieren ob die richtigen [Maschinen](Machine) zurückkommt |X|
+|WayController|calcInOutCoord() | Werden Koordinaten auf das "input" und das "Output" Topic gesendet |0|
+|WayController|messageArrived() | Werden die Meldungen aus den Topics richtig ausgelesen und geparst |X|
+|CrashController|crash() |Wird der Wert "true" zurückgegeben, sobald bumperControll() oder infraredSensoring() "true" zurückgeben|X|
 | CrashController| bumperControl()|Aufrufen der Funktion, mittels sout kontrollieren ob an den richtigen plätze das richtige gespeichert wurde |X|
 | CrashController| infraredSonsoring()|Übergabewert(int) statisch festlegen(Produktenummer), mittels sout kontrollieren ob die Liste nach `initProdPlan` richtig zusammengestellt wurde|X|
 | | ()| |X|
