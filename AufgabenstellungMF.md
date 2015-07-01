@@ -26,7 +26,7 @@ Unsere Aufgabe besteht darin:
 #### Laserscanner
 Die Aufgabenstellung in diesem Bereich bestand darin, den bestehenden Code so zu erweitern, dass er für unsere Aufgabe nützlich ist.  
 - Erkannte Kanten auswerten
-- Weitere [Filter](Filter) hinzufügen
+- Weitere [Filter](Laserscanner) hinzufügen
 - Anfahrpunkt und Anfahrwinkel vor der Maschine berechnen
 
 
