@@ -3,13 +3,13 @@
 ----------
 
 ### Inhalt ###
-- Ziele
+- <a href="#z">Ziele</a>
 
 
 
 ----------
 
-### Ziele ###
+### <a name="z">Ziele</a> ###
 
 Eine ausprogrammierter [Fieldcommander](WikiSolidus) in dem bereichen Explorationsphase.  
 - Speichern von [Maschinen](Machine)  
