@@ -14,8 +14,7 @@ Der genau Ablauf der Colordetection ist Hier zu finden:
 
 | Klasse| Funktion | Beschreibung| I.O.| 
 | :------- | --- | --- | :---- |
-| Start-Up|programStartup()|Start-Up instanziert in einer Schrittkette 
-die Color detection |X |
+| Start-Up|programStartup()|Start-Up instanziert in einer Schrittkette die Color detection |X |
 | ExploControll|saveMachine()|Übergabewerte statisch setzen mit sout kontrollieren ob In & Out der Maschine richtig gespeichert wurden |X |
 
 
