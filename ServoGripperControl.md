@@ -1,6 +1,6 @@
 #  Gripper / Servocontrol
 
-----------
+---------------------------------------------------------
 
 
 Author: Simon Zeltner 
@@ -11,7 +11,7 @@ Date: 25.6.2015
 
 Version: 1.0
 
-----------
+-------------------------------------------------------------
 ##  Hardware
 
 To control the gripper we use two standard RC-servos and a Servobrick by thinkerforge.
