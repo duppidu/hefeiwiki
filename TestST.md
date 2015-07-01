@@ -15,7 +15,10 @@ Der genau Ablauf der Colordetection ist Hier zu finden:
 | Klasse| Funktion | Beschreibung| I.O.| 
 | :------- | --- | --- | :---- |
 | Start-Up|programStartup()|Start-Up instanziert in einer Schrittkette die Color detection |X |
-| ExploControll|saveMachine()|Übergabewerte statisch setzen mit sout kontrollieren ob In & Out der Maschine richtig gespeichert wurden |X |
+| ColorDetection|Colordetection()|Starten der Kamera |X |
+| ColorDetection|Colordetection()|Verbinden zum Broker|X |
+| ColorDetection|Colordetection()|Starten des Schedulers aus dem Scheduler-pool im Main |X |
+| ColorDetection|run()|Scheduler dreht im Lehrlauf und wartet immer 1 sec|X |
 
 
 ![Testbericht_Color](https://gitlab.com/solidus/hefei/uploads/0e1fab2df30107ad4c6e44111aeff4db/Testbericht_Color.JPG)
