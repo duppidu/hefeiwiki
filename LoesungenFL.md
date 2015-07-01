@@ -47,15 +47,35 @@ Unsere Klasse besitzen 5 verschiedene Speicherelemente.
 
 ![DB](https://gitlab.com/solidus/hefei/uploads/867f6f423e4d008395342da81ffadc8a/DB.PNG)
 
-**Product**
+**Product:**
+- ArrayList.   
+- Statisch einprogrammiert.  
+- Sind die einzelnen Produktionsschritte für jedes Produkt gespeichert. 
+- Bsp. "Produkt 1" = BaseStation/CapStation/DeliveryStation.   
 
-**Machine**
+**Machine:**  
+- Hash Map.  
+- Wird Dynamisch in der Explorations Phase von [ExploControll](ExploControll) gefüllt. 
+- Sind alle [Maschinen](Machien) von unserem Team abgespeichert.  
 
-**refbZone**
+**refbZone:**
+- Array.  
+- Wird Dynamisch bei dem Start der Productions Phase gefüllt. 
+- Sind zu explorierende [Zonen](Zones) gespeichert.  
+- Information bekommen wir von der RefBox.  
+- Bsp. "Z1-Z2-Z3-Z7-Z12-Z20"
 
-**Job**
+**Job:**
+- ArrayList.  
+- Wird Dynamisch in der Productions Phase gefüllt.
+- Beinhaltet alle zu Produzierende Produkte.  
+- Bsp. 1,2,4,2,2,1.    
 
-**coord**
+**coord:**
+- Array.  
+- Beinhaltet alle Eckpunkt(rechter unterer Ecken) [Koordinaten](Coord) von jeder [Zone](Zones).
+- Array Platz entspricht [Zonen](Zones) Nummer.    
+- Bsp. 1. new [Coord](Coords)(32,32,32).  
 
 ----------
 
