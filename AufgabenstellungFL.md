@@ -28,6 +28,9 @@ Der [Fieldcommander](WikiSolidus) ist dafür zuständig, um die Komplette Explor
 - Koordinieren der Roboter
 - Verwalten des Spielfeldes.  
 - Speichern und Verwalten der [Machinen](Machine).  
-- Senden von ziel [Koordinaten](Coord).   
+- Senden von ziel [Koordinaten](Coord).
+- Verwalten der Produkte.  
+- Verteilen von Jobs.  
+   
 
 ----------
