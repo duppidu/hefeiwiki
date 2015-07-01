@@ -88,12 +88,12 @@ Alle verarbeiteten Informationen (neue Ziele) werden mittels Broker dem [Drive](
 
 
 
-Sobald die Klasse [Drive](Drive) dem Broker auf das entsprechende [Topic](MqttTopics) einen String "backwards" sendet ist das für die Klasse [ProductControllLocal](ProductControllLocal) das Signal, dass das [Drive](Drive) einen neuen Befehl benötigt.  
-Das [ProductControllLocal](ProductControllLocal) sendet eine Job Anfrage dem [ProductControllMain](ProductControllMain).  Dies sucht nach einem speziellen Algorythmus einen geeigneten Job aus und übermittelt diesen dem [ProductControllLocal](ProductControllLocal).  
-Der neu erhaltene Job wird nun vom [ProductControllLocal](ProductControllLocal) in einzelne Arbeitsschritte aufgeteilt.  
-Die erste anzufahrende [Koordinate](Coords) wird gleich an das [Drive](Drive) weitergeleitet.  
-Auf jede weitere "backwards" Anfrage wird nun die nexte anzufahrende [Koordinate](Coords) gesendet.  
-Ist der Job komplett abgearbeitet wird von dem [ProductControllLocal](ProductControllLocal) eine neue Job Anfrage an den [ProductControllMain](ProductControllMain) gesendet.  
+- Sobald die Klasse [Drive](Drive) dem Broker auf das entsprechende [Topic](MqttTopics) einen String "backwards" sendet ist das für die Klasse [ProductControllLocal](ProductControllLocal) das Signal, dass das [Drive](Drive) einen neuen Befehl benötigt.  
+- Das [ProductControllLocal](ProductControllLocal) sendet eine Job Anfrage dem [ProductControllMain](ProductControllMain).  Dies sucht nach einem speziellen Algorythmus einen geeigneten Job aus und übermittelt diesen dem [ProductControllLocal](ProductControllLocal).  
+- Der neu erhaltene Job wird nun vom [ProductControllLocal](ProductControllLocal) in einzelne Arbeitsschritte aufgeteilt.  
+- Die erste anzufahrende [Koordinate](Coords) wird gleich an das [Drive](Drive) weitergeleitet.  
+- Auf jede weitere "backwards" Anfrage wird nun die nexte anzufahrende [Koordinate](Coords) gesendet.  
+- Ist der Job komplett abgearbeitet wird von dem [ProductControllLocal](ProductControllLocal) eine neue Job Anfrage an den [ProductControllMain](ProductControllMain) gesendet.  
 
  
 ----------
