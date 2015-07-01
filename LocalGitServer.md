@@ -54,14 +54,14 @@ Damit ist auf dem Raspberry alles Vorbereitet
 
 ## Konfigurieren (Netbeans)
  Laden des aktuellen codes auf das Pi. Darum als erstes die Aktuellen Codezeilen Herunterladen
-- > Git  
+ - > Git
 - >> Remote 
 - >>> Pull 
 
 Push Menue aufrufen (rechtsklick auf Projekt)
-> - Git  
-> - - Remote  
-> - -- Push  
+> - Git
+> -- Remote
+>  - -- Push
 
 im Push Fenster Wählen wir:
 ```
@@ -83,21 +83,24 @@ pi
 
 ## Direktes Aktualisieren des PI
 Nun geben wir Git die Addresse des Projekts auf Gitlab um direkt zu Synchronisieren
+```
+remote add origin https://gitlab.com/solidus/hefei.git
+```
+wobei origin das kürzel für die https addresse ist und beliebig gesetzt
+werden kann
+
 
 damit haben wir die Addresse unter dem namen origin gespeichert
 Nun folg der Abgleich mit dem WWW
 ```
 git fetch origin +refs/heads/*:refs/heads/* --prune
 ```
-kein git pull möglich
 
 mit 
 ```
 git log main
 ```
 (main steht für den Branch) Sollte nun der letzte Aktuelle Commit zu Sehen seit
-
-
 
 Um das Repository im WWW zu aktualisieren wird 
 ```
