@@ -54,8 +54,8 @@
 
 ## RefBox 
 [Configuration](ConfigurationOfRefbox)  
-[Manual](ManualOfRefbox2014)  
-[Manual](ManualOfRefbox2015) 
+[Manual 2014](ManualOfRefbox2014)  
+[Manual 2015](ManualOfRefbox2015)  
 [New Messages](Messages2015)  
 ***
 
