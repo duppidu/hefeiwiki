@@ -28,6 +28,7 @@ Die Aufgabenstellung in diesem Bereich bestand darin, den bestehenden Code so zu
 - Erkannte Kanten auswerten
 - Weitere [Filter](Laserscanner) hinzufügen
 - Anfahrpunkt und Anfahrwinkel vor der Maschine berechnen
+- Distanzwerte zur Verfügung stellen ([Wayanalyzer](Wayanalyzer), [PositionSet](PositionSet))
 
 
 #### StateMachine
