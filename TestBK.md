@@ -26,7 +26,7 @@ Dies wird fortlaufend und selbstständig durchgeführt.
 | | ()| |X|
 | | ()| |X|
 | | ()| |X|
-
+gugus
 ----------
 
 ### SoftTest ###
