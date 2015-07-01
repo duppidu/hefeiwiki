@@ -1,9 +1,7 @@
 [Home](home)   
-[Back](ResultatST)   
+[Back](DokuSolidus)    
 
-***
-
-
+----------
 
 
 
