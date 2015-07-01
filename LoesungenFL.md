@@ -38,7 +38,7 @@ Die Kommunikation zwischen den einzelnen Klassen sieht wie folgt aus:
 
 
 Die beiden Klassen  [ProductControllMain](ProductControllMain) und [ProductControllLocal](ProductControllLocal) besitzen eine Verbindung zu den beiden Brokern Main und Local.  
-Je nachdem welche Phase aktiv ist (Init/Explo/Product) wird die Klasse ExploControll oder ProductControll aufgerufen.  
+Je nachdem welche Phase aktiv ist (Init/Explo/Product) wird die Klasse [ExploControll](ExploControll) oder [ProductControllLocal](ProductControllLocal) aufgerufen.  
 
 ----------
 
