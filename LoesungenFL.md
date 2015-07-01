@@ -43,7 +43,7 @@ Die Klasse [ProductControllLocal](ProductControllLocal) Besitzt die Klasse [Prod
 Die Klasse [ProductControllLocal](ProductControllLocal) benötigt zudem die Daten der Klasse [Machine](Machine) die zuvor in der Explorationsphase von der Klasse [ExploControll](ExploControll) gefüllt wurde. Mithilfe dieser Klassen werden immer die richtigen [Koordinaten](Coords) auf den Broker gesendet.
 #### DB ####
 
-Unsere Klasse besitzen 5 verschiedene Speicherelemente.
+Unsere Klassen besitzen 5 verschiedene Speicherelemente.
 
 ![DB](https://gitlab.com/solidus/hefei/uploads/867f6f423e4d008395342da81ffadc8a/DB.PNG)
 
