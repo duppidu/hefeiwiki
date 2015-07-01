@@ -1,4 +1,3 @@
 
-
-[Vorgehen](VorgehenST)
-[Lösungen](LösungenST)
+[Vorgehen](VorgehenST)  
+[Lösungen](LoesungenST)
