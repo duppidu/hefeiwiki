@@ -3,4 +3,6 @@
 
 ***
 
-## Thomas
+## Thomas  
+
+Die einzige Schnittstelle zu dem restliche Programm läuft über den Broker 
