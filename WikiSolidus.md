@@ -43,8 +43,7 @@
 [Machine](Machine)  
 [ProductAssembly](ProductAssembly)  
 [ProductControllLocal](ProductControllLocal)  
-[ProductControllMain](ProductControllMain)  
-[ZoneCommander](ZoneCommander)  
+[ProductControllMain](ProductControllMain)   
 [Zones](Zones)  
 ***
 
