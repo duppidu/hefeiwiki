@@ -160,7 +160,7 @@ Nach der Eingabe der gewünschten Auflösung, sollte der Eintrag folgendermassen
 | **16 (65K)** | 785 | 788 | 791  | 794 | 834 | 884 |  
 | **24 (16M)** | 786 | 789 | 792 | 795 |  |  |  
 
-## <a name="SM1.3">LXDE unter Fedora installieren</a>
+## <a name="SM2.3">LXDE unter Fedora installieren</a>
 ### LXDE installieren
 	yum groupinstall lxde-desktop
 
