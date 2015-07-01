@@ -4,14 +4,14 @@
 
 ### Inhalt ###
  - Lösung
-- Allgemeine Kommunikation
+- <a href="ak">Allgemeine Kommunikation</a>
 - Klassen Kommunikation
 - Product Controll Kommunikation  
 
 
 ----------
 
-### Allgemeine Kommunikation ###
+### <a name="ak">Allgemeine Kommunikation</a> ###
 
 
 ![MainCom](https://gitlab.com/solidus/hefei/uploads/66b056e53a3628f06be19debaf31ca93/MainCom.PNG)
