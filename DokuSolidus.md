@@ -14,7 +14,6 @@ Content
 [Planung](PlanungST)    
 [Vorgehen](VorgehenST)   
 [Lösungen](LoesungenST)   
-[Software](SoftwareST)     
 [Test](TestST)    
 
 ***
