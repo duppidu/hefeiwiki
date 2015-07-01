@@ -3,12 +3,12 @@
 ----------
 
 ### Inhalt ###
-- Arbeitsaufteilung
-- Zeitplanung
+- <a href="#aa">Arbeitsaufteilung</a>
+- <a href="#zp">Zeitplanung</a>
 
 ----------
 
-### Arbeitsaufteilung ###
+### <a name="aa">Arbeitsaufteilung</a> ###
 
 | Aufgabe| Lukas| Felix| 
 | :------- | --- | :---- |
@@ -28,6 +28,6 @@
 
 ----------
 
-### Zeitplanung ###
+### <a name="zp">Zeitplanung</a> ###
 
 ----------
