@@ -1,4 +1,8 @@
+[Home](home) [Back](Reflektionen)  
 
-### Reflexion von Felix Bärtschi ###
+
+----------
+
+### Reflektion von Felix Bärtschi ###
 
 ----------
