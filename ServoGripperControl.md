@@ -1,9 +1,14 @@
 #  Gripper / Servocontrol
 
 ----------
+
+
 Author: Simon Zeltner 
+
 Class: HF2A 2015
+
 Date: 25.6.2015
+
 Version: 1.0
 
 ----------
