@@ -51,5 +51,6 @@ If the topic receives a message called "close" instead, the ServoControl program
 Every open/close process will be displayed as a system output.
 
 
+###  Diagram
 
-> Written with [StackEdit](https://stackedit.io/)
+![Servo](https://gitlab.com/solidus/hefei/uploads/c8b25efd7d5be614823c1d5a4135b167/Servo.JPG)
