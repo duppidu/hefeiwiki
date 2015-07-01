@@ -39,7 +39,7 @@ Die Kommunikation zwischen den einzelnen Klassen sieht wie folgt aus:
 
 Die beiden Klassen  [ProductControllMain](ProductControllMain) und [ProductControllLocal](ProductControllLocal) besitzen eine Verbindung zu den beiden Brokern Main und Local mittels Router über Wifi.  
 Je nachdem welche Phase aktiv ist (Init/Explo/Product) wird die Klasse [ExploControll](ExploControll) oder [ProductControllLocal](ProductControllLocal) aufgerufen.
-#### Phase 2 ####   
+#### Phase 2 #### 
 Die Klass [ExploControll](ExploControll) ist für das komplette Handling der ExplorationsPhase Zuständig. Diese Klasse benötigt unbedingt die Klasse [Zones](Zones) die für die Verwaltung der Felder zuständig ist.  
 Die in der ExplorationsPhase Dedectierten [Maschinen](Machine) werden in der [Maschinen](Machine) Klasse gespeichert und verwaltet.  
 #### Phase 3 ####
