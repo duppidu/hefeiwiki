@@ -9,7 +9,11 @@
    -<a href="#p2">Phase 2</a>  
    -<a href="#p3">Phase 3</a>  
    -<a href="#db">DB</a>  
-   -<a href="#prod">Product</a>  
+     -<a href="#prod">Product</a> 
+     -<a href="#ma">Machine</a>  
+     -<a href="#rbz">refbZone</a>
+     -<a href="#j">Job</a>  
+     -<a href="#c">coord</a>
  - <a href="#pck">Product Controll Kommunikation</a>  
 
 
@@ -61,7 +65,7 @@ Unsere Klassen besitzen 5 verschiedene Speicherelemente.
 - Sind die einzelnen Produktionsschritte für jedes Produkt gespeichert. 
 - Bsp. "Produkt 1" = BaseStation/CapStation/DeliveryStation.   
 
-**<a name="machine">Machine:</a>**  
+**<a name="ma">Machine:</a>**  
 - Hash Map.  
 - Wird Dynamisch in der Explorations Phase von [ExploControll](ExploControll) gefüllt. 
 - Sind alle [Maschinen](Machien) von unserem Team abgespeichert.  
