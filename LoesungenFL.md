@@ -5,8 +5,8 @@
 ### Inhalt ###
  - Lösung
 - <a href="#ak">Allgemeine Kommunikation</a>
-- Klassen Kommunikation
-- Product Controll Kommunikation  
+- <a href="#kk">Klassen Kommunikation</a>
+- <a href="#pck">Product Controll Kommunikation</a>  
 
 
 ----------
@@ -25,7 +25,7 @@ und die saubere Arbeitsaufteilung unter den Robis gehandelt wird.
 
 ----------
 
-### Klassenkommunikation ###
+### <a name="kk">Klassenkommunikation</a> ###
 
 Die Kommunikation zwischen den einzelnen Klassen sieht wie folgt aus:
 
@@ -83,7 +83,7 @@ Unsere Klassen besitzen 5 verschiedene Speicherelemente.
 
 ----------
 
-### ProductControllKommunikation ###
+### <a name="pck">ProductControllKommunikation</a> ###
 
 In der Product Controll Kommunikation ist ersichtlich wie die beiden Klassen [ProductControllLocal](ProductControllLocal) und [ProductControllMain](ProductControllMain) miteinander Kommunizieren und interagieren.  
 Alle verarbeiteten Informationen (neue Ziele) werden mittels Broker dem [Drive](Drive) gesendet.  
