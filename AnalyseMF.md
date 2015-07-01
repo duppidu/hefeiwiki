@@ -1,3 +1,5 @@
+[Home](home)  
+[Back](KonzeptMF)  
 ### Laserscanner
 Aus dem mehrheitlich unkommentierten Code des environmentsensing muss ein grober Überblick geschaffen werden. Die Linien werden bereits [extrahiert](LineExtraction) und gefiltert. Es müssen noch mehr Filter eingefügt werden (nach Zonen, nach Länge). Ein Algorithmus muss programmiert werden, der einen Punkt vor der Maschine errechnet. Ausserdem muss der Punkt vom Laser aus auf das absolute Spielfeld umgerechnet werden.
 ### StateMachine
