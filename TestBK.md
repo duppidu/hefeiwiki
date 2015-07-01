@@ -2,14 +2,12 @@
   
 ## Inhalt
   
-- SoftwareTest
+- Testkriterien und Auswertung
 - HardwareTest
   
-## LocalTest  
-
-Der LocalTest beinhaltet das Testen der einzelnen Klassen Local auf dem PC.  
-Gegebenenfalls schon mit dem MQTT Brocker.  
-Dies wird fortlaufend und selbstständig durchgeführt.
+## Testkriterien und Auswertung  
+  
+Um die Funktionen während der Inbetriebnahme wurde eine Checkliste erstellt. Diese enthält die Prüfriterien.  
   
 x = funktionstüchtig  
 0 = Nicht geprüft  
@@ -35,25 +33,24 @@ w = weggelassen
 |WayController|calcInOutCoord() | Werden Koordinaten auf das "input" und das "Output" Topic gesendet |0|
 |WayController|messageArrived() | Werden die Meldungen aus den Topics richtig ausgelesen und geparst |X|
 |CrashController|crash() |Wird der Wert "true" zurückgegeben, sobald bumperControll() oder infraredSensoring() "true" zurückgeben|X|
-| CrashController| bumperControl()|Aufrufen der Funktion, mittels sout kontrollieren ob an den richtigen plätze das richtige gespeichert wurde |X|
-| CrashController| infraredSonsoring()|Übergabewert(int) statisch festlegen(Produktenummer), mittels sout kontrollieren ob die Liste nach `initProdPlan` richtig zusammengestellt wurde|X|
+| CrashController| bumperControl()|Es muss der Wert "true" zurückgegeben werden wen der Bumper mechanisch betätigt ist |X|
+| CrashController| infraredSonsoring()|Es muss der Wert "true" zurückgegeben werden wen einer der InfrarotSensoren einen ungültigen Wert aufweist|X|
+| Drive| ...()|... |X|
 | | ()| |X|
 | | ()| |X|
 | | ()| |X|
-| | ()| |X|
 
 
-## SoftTest  
-
-Der SoftTes beinhaltet das Testen des Programmes auf dem Robotino.  
-Die Methoden werden über die StateMachine aufgerufen.  
-Dies ist der Realitätsnahster Test den wir bei uns ind der Schule durchführen können.  
-
-----------
-
-### HardTest ###
-
-Der HardTest wird an dem SolidusCup vor Ort durchgeführt.  
-Mit den richtigen MPS [Machinen](Machine), dem richtigen Spielfeld und der Originalen RefBox.  
-
-----------
+## Prüfverfahren WayAnalyzer
+  
+Der WayAnalyzer wurde auf einer Hindernisbahn Inbetriebgenommen und Überprüft auf dessen Funktion.
+Die viselle Überprüfung wurde durch beobachten des Ausweichverhalten des Roboter geprüft. Die Arbeitswerte der Klassen und Methoden wurden mit Hilfe von Ausgabe der Konsole überprüft
+  
+## Prüfverfahren WayController, calcInOut()
+  
+Leider reicht die Zeit nicht mehr im Projektmanagement-Kurs den Softwarstand soweit zu bringen, dass die Koordinatenerechnungen In Betrieb genommen worden sind.
+  
+## Prüfverfahren CrashController
+  
+Der Crashcontroller wurde aufdessen Funktion überprüft, in dem man den Bumper betätigte oder ein Objekt vor jeden einzelnen der Infrarotsensoren hielt.
+  
