@@ -43,6 +43,11 @@ Safety 1: If the file exists, but nothing is in it, it will be deleted.
 Safety 2: The C++ program deletes the file.
 Safety3: The Java program deletes the file.
 
+
+###  Diagram
+
+![ID](https://gitlab.com/solidus/hefei/uploads/973237e619578206c70833c482c20300/ID.JPG)
+
 #  Markercoordinates
 
 We need the Coordinates of the ALVAR marker to align the Robotino to the MPS. For this a C++ program takes the X-coordinates the marker has in the videopicture (0 is right).
@@ -50,6 +55,4 @@ We need the Coordinates of the ALVAR marker to align the Robotino to the MPS. Fo
 The way it works is pretty much the same as the way of the markerdetection. The only difference is that there is no MQTT communication. There is a method in the Java program, which returns the X-coordinates value.
 
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+![COordinates](https://gitlab.com/solidus/hefei/uploads/13af6683c5470657dc53e85ab0fe3464/COordinates.JPG)
