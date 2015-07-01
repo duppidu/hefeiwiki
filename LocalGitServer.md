@@ -59,7 +59,7 @@ Damit ist auf dem Raspberry alles Vorbereitet
 - >>> Pull 
 
 Push Menue aufrufen (rechtsklick auf Projekt)
-> - Git
+> - Git  
 > -- Remote
 >  - -- Push
 
