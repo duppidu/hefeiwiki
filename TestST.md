@@ -10,11 +10,12 @@ Der genau Ablauf der Colordetection ist Hier zu finden:
 
 ### Testplan
 
-*Situation:* 
+**Situation:**  Die Kamera soll beim starten des Programms gestartet werden und nach erhalten des Startbefehles soll die Kameraerkennung gestartet werden.
 
 | Klasse| Funktion | Beschreibung| I.O.| 
 | :------- | --- | --- | :---- |
-| ExploControll|jobHandler()|Gibt es die Richtige Koordinate zurück? Ändern der Robi Nummer (1,2,3) |X |
+| Start-Up|programStartup()|Start-Up instanziert in einer Schrittkette 
+die Color detection |X |
 | ExploControll|saveMachine()|Übergabewerte statisch setzen mit sout kontrollieren ob In & Out der Maschine richtig gespeichert wurden |X |
 
 
