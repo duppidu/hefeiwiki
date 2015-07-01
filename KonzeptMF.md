@@ -5,7 +5,6 @@
 
 [Aufgabenstellung](AufgabenstellungMF)  
 [Analyse](AnalyseMF)  
-[Projektziel](ProjektzielMF)  
 [Schnittstellen](SchnittstellenMF)  
 
 ----------
