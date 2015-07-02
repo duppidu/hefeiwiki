@@ -1,5 +1,6 @@
-[Home](home) [Back](KonzeptBK)  
-  
+[Home](home)  
+[DokuSolidus](DokuSolidus)  
+[Konzept](KonzeptBK)  
 ## Inhalt  
 
 - Gedanken
