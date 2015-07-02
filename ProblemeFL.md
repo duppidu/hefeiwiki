@@ -27,8 +27,8 @@
 | Wiki| | |
 | Wiki| | |
 | | | |
-| Hardware| | |
-| Hardware| | |
+| Hardware|Die Studierenden im 1 Jahr benötigten die Robotinos |Absprache mit den 1 Jahr Studenten und Robi Aufteilung |
+| Hardware| Zu wenig Robotinos zum Testen der Programme (nach Verschiffen nach China)|Abwechselndes Testen (viel Totzeit) |
 | Hardware| | |
 | Hardware| | |
 | | | |
