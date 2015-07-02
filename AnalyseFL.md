@@ -15,7 +15,7 @@
 ----------
 ### <a name="v">Visuell</a> ###
 
-Wir haben die Internen Videos des letztjährigen Robocup und die vorhandenen Videos im [Yotube](https://www.youtube.com/) Analysiert.  
+Wir haben die Internen Videos des letztjährigen Robocup und die vorhandenen Videos im [Yotube](https://www.youtube.com/results?search_query=robocup+2014+logistics+league) Analysiert.  
 Mögliche Funktionen erkannt und ausgewertet.   
 
 ----------
