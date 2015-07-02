@@ -12,7 +12,7 @@
 ### <a name="z">Ziele</a> ###
 
 
-Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Explorationsphase.  
+- Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Explorationsphase.  
 
 
 | Aufgabe| Muss| Kann| 
