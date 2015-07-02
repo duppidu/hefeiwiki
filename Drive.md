@@ -21,11 +21,17 @@ Bei jedem Aufruf wird die Beschleunigung der aktuellen Geschwindigkeit dazu addi
 
 ## Travel
 
+Im travel() wird nur die Geschwindigkeit beibehalten und gewartet bis die Abbremszone erreicht wird. Sobald diese erreicht wird wird ein "true" zurückgegeben.
 
 ## Decelerate
 
+Die Geschwindigkeit wird auf aproachSpeed zurückgesetzt. Sobald da Ziel erreicht wird werden die Antriebe ausgeschalten.
+
 ## Go to Target
+
+Das goToTarget ist ein wichtiger Bestandteil der Drive Klasse. Diese Methode steuert de Ablauf der einzelnen Methoden die aufgerufen werden um den Robotino zum Ziel zu führen.
+
+## Explore
 
 ## Approach
 
-## Explore
