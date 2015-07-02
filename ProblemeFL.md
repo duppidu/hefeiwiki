@@ -1,5 +1,5 @@
-| Problem| Lösung|  
-| :-------  |:---- |
-| Koordinaten| [Coord](Coord)| 
-|ID| int|
-| Lampen| [Lamps](ColorDetection)| 
+| Thema| Problem| Lösung| 
+| :------- | --- | :---- |
+| Broker| Im messageArrived können keine `Funktionen()` ausgeführt werden | Eigene `RUN` Methode|
+|| | |
+| | | |
