@@ -64,4 +64,6 @@ Der genau Ablauf der Markerdetection, Colordetection und ServoControl ist hier z
 | :------- | --- | --- | :---- |
 | ServoControl|setServoSettings()|Setzt Einstellungen für die Servos|X |
 | ServoControl|initializeMqtt)|Generiert Verbindung zum MQTT (Callback)|X |
-| ServoControl|messageArrived()||X |
+| ServoControl|messageArrived()|Überprüft das Topic auf die gewünschten Nachrichten|X |
+| ServoControl|openGripper()|Bringt die Servos in die "offen" Stellung|X |
+| ServoControl|closeGripper()|Bringt die Servos in die "geschlossen" Stellung|X |
