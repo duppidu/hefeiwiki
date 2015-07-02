@@ -18,8 +18,8 @@ Hierzu fand ich ein selbstständiges Projekt am besten.
 
 #### <a name="p">Programm</a> ####
 
-Ich habe sehr viel über das Programmieren in Java gelernt.
-Konnte mich eigenständig in die Programmierung von Array,List,Map,Kommunikation und Algorithmen vertiefen.
+Ich habe sehr viel über das Programmieren in Java gelernt.  
+Konnte mich eigenständig in die Programmierung von Array,List,Map,Kommunikation und Algorithmen vertiefen.  
 Die gelernten Grundlagen wurden vertieft und erweitert.  
 Ich durfte den MQTT Broker Kennenlernen, der bereitet mir anfangs zwar grosse Mühe, jedoch ist es eine sehr einfache art und weise zu Kommunizieren.  
 
