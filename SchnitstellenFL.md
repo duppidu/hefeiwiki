@@ -16,7 +16,7 @@
 - Java 1.8.0_45  
 - MQTT 0.0.13  
 - GitLab  
-- Linux Ubuntu 
+- [Linux](https://de.wikipedia.org/wiki/Linux) Ubuntu 
 
 
 ----------
