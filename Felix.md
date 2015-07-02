@@ -25,6 +25,8 @@ Ich durfte den MQTT Broker Kennenlernen, der bereitet mir anfangs zwar grosse M�
 Auch an dem selbst neu erlernten Wiki Syntax habe ich sehr grossen Gefallen gefunden.  
 Damit man an einem grösseren Projekt in einem Team arbeiten kann, benötigt man gute koordinative Fähigkeiten.  
 Sobald mehrere Personen an einem File arbeiten kommt es sonst schnell zu Programm Problemen. Auch mit einem Git.  
+Code technisch hatte ich die wenigsten Probleme. Meist waren die Probleme anderweitig.  
+
  
 
 #### <a name="t">Team :hearts: </a> ####
