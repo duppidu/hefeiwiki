@@ -5,7 +5,7 @@
  - <a href="#a">Allgemein</a>
  - <a href="#p">Programm</a>
  - <a href="#p">Team</a>
- - <a href="#p">Hardware</a>
+
 
 ----------
 
@@ -31,11 +31,6 @@ Dies führte nach einer gewissen Zeit zu kleineren Spannungen im Team.
 Man fing an sich gegenseitig zu Korrigieren und sich über andere Aufzuregen.  
 Wir konnten diese kleineren Differenzen jedoch immer gut lösen.  
 Ich habe das Gefühl wir waren/sind ein grossartiges Team, das meist eine harmonische Stimmung zu Pflegen wusste.  
-
-
-
-#### <a name="h">Hardware</a> ###
-
 
 
 ----------
