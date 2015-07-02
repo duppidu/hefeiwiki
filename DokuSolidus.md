@@ -9,7 +9,7 @@
 [Reflektionen](Reflektionen)    
 *** 
  
-## Guppe
+## Gruppe
 ### Thomas, Simon 
 [Konzept](KonzeptST)  
 [Planung](PlanungST)    
