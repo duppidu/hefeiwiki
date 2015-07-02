@@ -48,7 +48,7 @@ Der genau Ablauf der Markerdetection, Colordetection und ServoControl ist hier z
 | MarkerDetection|terminateDetection()| Beendet C++ Prozess und JavaProgramm|X |
 
 
-**Situation:**  Das JavaProgramm soll gstartet werden, welches das C++ Programm startet und die Position eines Marker detektieren soll. Nach dem detektieren soll die Position des Markers als Rückgabewert an die Drive Klasse gesendet werden.
+**Situation:**  Das JavaProgramm soll gstartet werden, welches dann das C++ Programm startet und die Position eines Marker detektieren soll. Nach dem detektieren soll die Position des Markers als Rückgabewert an die Drive Klasse gesendet werden.
 
 
 | Klasse| Funktion | Beschreibung| I.O.| 
@@ -56,3 +56,12 @@ Der genau Ablauf der Markerdetection, Colordetection und ServoControl ist hier z
 | MarkerCoordinates|startCoordinateDetection()| Startet C++ Programm|X |
 | MarkerCoordinates|coordinatesDetection()|Detektiert Marker und speichert Wert in Variable und gibt Wert als Rückgabewert aus|X |
 | MarkerCoordinates|terminateCoordinateDetection()|Beendet C++ und Java Programm|X |
+
+**Situation:**  Die Servos sollen über einen Befehl des MQTT Brokers geöffnet und geschlossen werden.
+
+
+| Klasse| Funktion | Beschreibung| I.O.| 
+| :------- | --- | --- | :---- |
+| ServoControl|setServoSettings()|Setzt Einstellungen für die Servos|X |
+| ServoControl|initializeMqtt)|Generiert Verbindung zum MQTT (Callback)|X |
+| ServoControl|messageArrived()||X |
