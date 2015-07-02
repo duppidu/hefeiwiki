@@ -27,7 +27,8 @@ Die Steuerung der Servos wird über ein ServoBrick von thinkerforge erledigt. Di
 #  Aufgetretene Probleme:
 
 ##  Thomas
-
+  
+Das abstellen der Kamera erwies sich als schwierig das wir nie herausfanden wieso wir das Kamera Captuer nicht wider lösen konnten, da es Funktionierte wenn wir das Programm seperat testeten. Dadurch entschieden wir uns die ColorDetection(ColorDetection) so umzuschreiben dass sie im Start-Up gestartet wird und dan auf auf einen Befehl vom Broker wartet bis die Detektierung gestartet wird und danach wider in den Stand-by Modus geht. 
 
 ##  Simon
 
