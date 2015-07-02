@@ -25,7 +25,7 @@
 | [Test](TestFL)| X| 0|
 | [Machine](Machine)| 0| X|
 | [Wiki](https://gitlab.com/gitlab-org/gitlab-ce/blob/6-4-stable/doc/markdown/markdown.md)| X| X|
-| Doku| X| X|
+| [Doku](DokuSolidus)| X| X|
 | GitPi aufsetzen| X| 0|
 | Netzwerk auf Robotino's konfigurieren| X| 0|
 | Restart| X| 0|
