@@ -27,14 +27,14 @@ Damit man an einem grösseren Projekt in einem Team arbeiten kann, benötigt man
 Sobald mehrere Personen an einem File arbeiten kommt es sonst schnell zu Programm Problemen. Auch mit einem Git.  
  
 
-#### <a name="t">Team</a> ####
+#### <a name="t">Team :hearts: </a> ####
 
 Unser 8 Köpfiges Team war eine sehr lange Zeit an dem gleichen Projekt beschäftigt.  
 Dies führte nach einer gewissen Zeit zu kleineren Spannungen im Team.  
 Man fing an, sich gegenseitig zu Korrigieren und sich über andere Aufzuregen.  
 Wir konnten diese kleineren Differenzen jedoch immer gut lösen.  
 Ich habe das Gefühl, wir waren/sind ein grossartiges Team, das meist eine harmonische Stimmung zu Pflegen wusste. 
-:hearts:  
+ 
 
 
 ----------
