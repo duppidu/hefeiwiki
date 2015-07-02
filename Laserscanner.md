@@ -26,3 +26,6 @@ Eine Liste mit erkannten Linien wird dazu durch verschiedene Filter geschickt.
 
 ![Mittelpunkt](https://gitlab.com/solidus/hefei/uploads/e4533bfbe15334df738d41d9c2ab5bed/Mittelpunkt.JPG)  
 Hier wird die Maschine nicht rausgefiltert, weil der Mittelpunkt sich noch in der Zone befindet.
+
+## Koordinatenumrechnung
+Die Punkte (Anfahrpunkt, Mittelpunkt der Maschine), die berechnet wurden sind auf einem Koordinatenfeld bei welchem der Laserscanner der Nullpunkt bildet.
