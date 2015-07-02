@@ -11,12 +11,12 @@
 
 ### <a name="r">Reflektion von Felix Bärtschi</a> ###
 
-#### <a name="a">Allgemein</a> ####
+#### <a name="a">Allgemein </a> ####
 
 Die beste Arte etwas zu lernen ist, wen man es selber macht.    
 Hierzu fand ich schon immer ein selbstständiges Projekt am besten.  
 
-#### <a name="p">Programm</a> ####
+#### <a name="p">Programm :computer: </a> ####
 
 Ich habe sehr viel über das Programmieren in Java gelernt.  
 Konnte mich eigenständig in die Programmierung von Array,List,Map,Kommunikation und diversen Algorithmen vertiefen.  
