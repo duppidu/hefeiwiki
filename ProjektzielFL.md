@@ -24,6 +24,9 @@ Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Exploratio
 |Zu Produzierende Produkte von RefBox Speichern||X|
 |Produkte in Arbeitsschritte aufteilen||X|
 |Produkt abarbeiten/fertigstellen||X|
+|Wiki aktuell halten|X||
+|Doku im Wiki schreiben|X||
+
 
 
  
