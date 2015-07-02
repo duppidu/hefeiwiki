@@ -4,8 +4,17 @@
 ---------------------
 
 # WaAnalyzer
+## CPU Auslastung
 
+In einem erste Schritt wurde die CPU Auslastung von 120% auf 15%-20% verringert. Um dies erreichen zu können haben wir die Berechnungen mit den Laserpunkten optimiert. Diese Berechnungen werden jetzt ein Mal durchgeführt und danach auf ein Variable geschrieben.
 
+## Links oder rechts?
+
+Damit der Robotino den einfacheren Weg nimmt wird als erstes das gesamte Blickfeld des Lasers berechnet und danach entschieden ob er sich nach links oder rechts bewegen muss. Dies konnte mit einem Zähler einfach realisiert werden, indem die Punkte auf der linken und rechten Seite gezählt werden und danach zusammen verglichen werden. Der Robotino weicht dann auf die Seite aus auf welcher sich weniger Störpunkte befinden.
+
+## Geschwindigkeit
+
+Die Geschwindigkeit wird mittels Laserwert bestimmt. Dieser wird mit 6 IF Vergleichen verglichen indem sich verschiedene X und Y Geschwindigkeiten befinden. Diese Methode ist leider noch statisch da die momentan die einfachste Möglichkeit ist diese Aufgabe zu lösen.
 
 # Drive
 
