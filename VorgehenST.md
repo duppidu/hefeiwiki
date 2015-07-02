@@ -15,3 +15,5 @@ Ich habe dann Schritt für Schritt das Programm so abgeändert das es für die A
 Um die Position der Farbe auszulesen habe ich zuerst mit OpenCV Linien in die Gefundene Farbe gelegt. Diese Linien konnten dann über ein Array ausgelesen werden und so konnten die Position der Anfangs-und Endpunkte ermittelt werden.
 
 
+
+
