@@ -14,7 +14,7 @@
 | :------- | --- | :---- |
 | Broker| Im messageArrived können keine `Funktionen()` die ein MQTT Send enthalten ausgeführt werden | Eigene `RUN` Methode|
 |Broker| MQTT Callback vergessen zu Setzen | Strukturiertes aubauen der MQTT Kommunikation |
-|Broker | | |
+|Broker | Senden von Objekten|Objekt Serializable machen oder als "String" senden|
 | | | |
 | Java| erster arrayplazt Leer beim aufsplitten des String "-Z1-Z2..."| Gesamtes Array um 1 Plazt hochschieben |
 | Java| | |
