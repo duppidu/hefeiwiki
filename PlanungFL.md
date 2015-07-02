@@ -4,8 +4,8 @@
 
 ### Inhalt ###
 - <a href="#aa">Arbeitsaufteilung</a>
-- <a href="#zp">Zeitplanung</a>
- -<a href="#e">Erklärung</a>
+- <a href="#zp">Zeitplanung</a>  
+	- <a href="#e">Erklärung</a>
 
 ----------
 
