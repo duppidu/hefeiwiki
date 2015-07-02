@@ -8,6 +8,7 @@ Um ein Ziel schnell, genau und sicher anfahren zu können haben wir als Team fol
 3. Fahren
 4. Bremsen
 5. Ausrichten  
+
 Dieser Ablauf wurde aus dem Grund gewählt, weil der Laserscanner nur den vorderen Bereich des Robotinos bewachen kann und somit dieser Nicht rückwärts vefahren darf.
 
 ## Align
