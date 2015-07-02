@@ -22,4 +22,4 @@
   
 ## Zeitplanung  
   
-![Zeitplanung](https://gitlab.com/solidus/hefei/uploads/33801b78d1c1fb7ea183f763b1e35899/Zeitplanung.PNG)
+![Zeitplanung](https://gitlab.com/solidus/hefei/uploads/89a26518d8b9c2d9df8fe975e650e141/Zeitplanung.PNG)
