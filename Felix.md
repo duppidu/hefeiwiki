@@ -33,7 +33,8 @@ Unser 8 Köpfiges Team war eine sehr lange Zeit an dem gleichen Projekt beschäf
 Dies führte nach einer gewissen Zeit zu kleineren Spannungen im Team.  
 Man fing an, sich gegenseitig zu Korrigieren und sich über andere Aufzuregen.  
 Wir konnten diese kleineren Differenzen jedoch immer gut lösen.  
-Ich habe das Gefühl, wir waren/sind ein grossartiges Team, das meist eine harmonische Stimmung zu Pflegen wusste.  
+Ich habe das Gefühl, wir waren/sind ein grossartiges Team, das meist eine harmonische Stimmung zu Pflegen wusste. 
+:hearts:  
 
 
 ----------
