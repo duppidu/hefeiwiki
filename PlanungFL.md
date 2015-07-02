@@ -26,7 +26,7 @@
 | Doku| X| X|
 | GitPi aufsetzen| X| 0|
 | Netzwerk auf Robotino's konfigurieren| X| 0|
-
+| Restart| X| 0|
 ----------
 
 ### <a name="zp">Zeitplanung</a> ###
