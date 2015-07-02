@@ -58,7 +58,8 @@ Handelt das komplette Feld inc Maschinen.
 
 #### <a name="com">Kommunikation</a> #####
 
-Die Kommunikation wird mittels MQTT gewährleistet.  
+- Die Kommunikation Intern wird mittels MQTT im Robotino gewährleistet.  
+- Die Kommunikation Extern wird mittels MQTT auf einem extrenen Computer gewährleistet.
 
 
 ----------
