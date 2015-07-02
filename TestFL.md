@@ -43,15 +43,21 @@ Dies ist der Realitätsnahster Test den wir bei uns ind der Schule durchführen 
 | Klasse| Funktion | Beschreibung| I.O.| 
 | :------- | --- | --- | :---- |
 |Refbox / ExploControll|Felder Senden| Sendet die Belegten Felder von der Refbox an den Explocontroll|X |
-|Explocontroll / Drive | Coords Senden | verarbeitet die Belegten Felder in Coords und sendet diese entsprechend der Robot Nr. Weiter |X |
+|Explocontroll / Drive | Coords Senden | verarbeitet die Belegten Felder in [Koordinaten](Coord) und sendet diese entsprechend der Robot Nr. Weiter an den [Wayocntroller](WayController) |X |
+|Explocontroll / Drive| Coords erhalten | Input und Output [Koordinaten](Coord) vom Drive erhalten und in der Richtigen Maschine Speichern| |
 |Explocontroll / MarkerDetection| Tag ID erhalten | Tag ID erhalten und Speichern |X |
-|Explocontroll / ColorDetection| Lampe erhalten | Tag ID erhalten und Speichern |X |
-|Explocontroll / Drive| Coords erhalten | Tag ID erhalten und Speichern |X |
+|Explocontroll / ColorDetection| Lampe erhalten | Lampe erhalten und speichern welche die jeweiligen Zustände(R, O, G) ausgibt |X |
+|Explocontroll | Maschine Speichern |Kontrollieren ob bei erhalt von Backwards die Vorder und Hinterseite der maschine korrekt gespeichert wurde | |
+|Explocontroll / Drive | Neue Coords Senden | Weitere [Koordinate](Coord) senden um das 2te feld zu entdecken | |
+
+Der Test wurde anhand des Sequenz Diagramms der [ExploCommunication](ExploCommunication) teilweise durchgeführt und abgehandelt
+Leider konnten wir den Test noch nicht beenden. Wir mussten darauf warten, bis das ausweichen zuverlässig Funktionierte und befassten uns desshalb mit 
+dem ausprogrammieren der Produktion. 
 ----------
 
 ### <a name="ht">HardTest</a> ###
 
-Der HardTest wird an dem SolidusCup vor Ort durchgeführt.  
+Der HardTest wird an dem RoboCup vor Ort durchgeführt.  
 Mit den richtigen MPS [Machinen](Machine), dem richtigen Spielfeld und der Originalen RefBox.  
 
 ----------
