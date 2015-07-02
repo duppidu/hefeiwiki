@@ -1,5 +1,6 @@
-[Home](home) [Back](KonzeptBK)  
-  
+[Home](home)  
+[DokuSolidus](DokuSolidus)  
+[Konzept](KonzeptBK)    
 ## Projektziel  
 
 Bis zum Ende des Projektmanagement Kurses soll der Robotino:  
