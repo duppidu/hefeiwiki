@@ -5,6 +5,7 @@
 ### Inhalt ###
 - <a href="#aa">Arbeitsaufteilung</a>
 - <a href="#zp">Zeitplanung</a>
+ -<a href="#e">Erklärung</a>
 
 ----------
 
@@ -39,7 +40,7 @@
 | Brown| Blue| Black|  
 ||||
 
-#### <a name="e">Erklärung</a> ####
+#### <a name="e">Erklärung</a> ####  
 
 | Arbeit| Beschreibung|   
 | :------ | :---- |
