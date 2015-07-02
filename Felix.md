@@ -14,14 +14,15 @@
 #### <a name="a">Allgemein</a> ####
 
 Die beste Arte etwas zu lernen ist, wen man es selber macht.    
-Hierzu fand ich ein selbstständiges Projekt am besten.  
+Hierzu fand ich schon immer ein selbstständiges Projekt am besten.  
 
 #### <a name="p">Programm</a> ####
 
 Ich habe sehr viel über das Programmieren in Java gelernt.  
 Konnte mich eigenständig in die Programmierung von Array,List,Map,Kommunikation und Algorithmen vertiefen.  
 Die gelernten Grundlagen wurden vertieft und erweitert.  
-Ich durfte den MQTT Broker Kennenlernen, der bereitet mir anfangs zwar grosse Mühe, jedoch ist es eine sehr einfache art und weise zu Kommunizieren.  
+Ich durfte den MQTT Broker Kennenlernen, der bereitet mir anfangs zwar grosse Mühe, jedoch ist es eine sehr einfache art und weise zu Kommunizieren. 
+Auch an dem selbst neu erlernten Wiki Syntax habe ich sehr grossen Gefallen gefunden.  
 
 #### <a name="t">Team</a> ####
 
@@ -34,5 +35,7 @@ Ich habe das Gefühl wir waren/sind ein grossartiges Team, das meist eine harmon
 
 
 #### <a name="h">Hardware</a> ###
+
+
 
 ----------
