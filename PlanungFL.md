@@ -46,7 +46,7 @@
 | GitPi Aufsetzen| Durch dass,das wir immer wider neue Robis erhalten hatten mussten diese wider neu konfiguriert werden|   
 |Netzwerk auf Robotino's konfigurieren|Durch dass,das wir immer wider neue Robis erhalten hatten mussten diese wider neu konfiguriert werden|
 |Restart|Wurde aus druck gründen noch nicht in die Wege geleitet (War auch kein Ziel)|
-|[ProductAssembly](ProductAssembly]  |Statischer Teil muss vor Ort angepasst werden (kein Ziel)| 
+|[ProductAssembly](ProductAssembly)  |Statischer Teil muss vor Ort angepasst werden (kein Ziel)| 
 |[ProductControllLocal](ProductControllLocal) | Noch nicht :100: % fertig (kein Ziel)| 
 | [ProductControllMain](ProductControllMain)| Noch nicht :100: % fertig (kein Ziel)| 
 
