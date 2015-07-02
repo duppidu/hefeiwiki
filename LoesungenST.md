@@ -24,7 +24,12 @@ Damit wir die ALVAR Bibliothek verwenden können obwohl wir nur Java verwenden, 
 Die Steuerung der Servos wird über ein ServoBrick von thinkerforge erledigt. Dieser ist über USB am Robotino angeschlossen. Das Javaprogramm steuert also diesen Servobrick an. Im Programm können diverse Parameter für die Servosteuerung gesetzt werden wie zum Beispiel Beschleunigung öffnen/schliessen, Geschwindigkeit öffnen/schliessen usw. . Anschliessend wird über einen MQTT-Callback ein Topic des MQTT Brokers überprüft auf die Inputs "open" oder "close". Je nach Input verfahren die Servos in eine definierte "open-position" oder "close-position". 
 
 
-###  Aufgetretene Probleme:
+#  Aufgetretene Probleme:
+
+##  Thomas
+
+
+##  Simon
 
 Eines der Hauptprobleme bei dieser Arbeit war das Installieren, Kompilieren und Einbinden der Bibliotheken. Dies war sehr schwierig, weshalb ich auch Hilfe von Alain Rohr dabei benötigte. Genau durch diese Probleme konnte ich jedoch extrem viel lernen.
 
