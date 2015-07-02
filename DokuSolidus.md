@@ -27,9 +27,9 @@
 ***
 ### Michael, Florian
 [Konzept](KonzeptMF)  
-[Lösungen](LoesungenMF)  
 [Planung](PlanungMF)  
-[Software](SoftwareMF)  
+[Vorgehen](VorgehenMF)  
+[Lösungen](LoesungenMF)  
 [Test](TestMF)  
 ***
 ### Felix, Lukas 
