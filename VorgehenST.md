@@ -14,6 +14,8 @@ Mit diesem Programm stellte ich dann fest wie die Farberkennung in OpenCV funkti
 Ich habe dann Schritt für Schritt das Programm so abgeändert das es für die Anwendung einer Lampensäulen Detektierung geeignet ist.  
 Um die Position der Farbe auszulesen habe ich zuerst mit OpenCV Linien in die Gefundene Farbe gelegt. Diese Linien konnten dann über ein Array ausgelesen werden und so konnten die Position der Anfangs-und Endpunkte ermittelt werden.
 
+Um die Broker-Verbindung zu erstellen schaute ich an wie dies in anderen Programmteilen gelöst wurde. Welches Topic zu verwenden war fand ich in einer von Lukas erstellten Liste.
+
 
 
 
