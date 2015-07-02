@@ -14,16 +14,16 @@
 
 | Aufgabe| Muss| Kann| Erreicht|
 | :------- | --- | :---- | :---- |
-|Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Explorationsphase| X| | X|
-|Speichern von [Maschinen](Machine) Input| X| | X|
-|Speichern von [Maschinen](Machine) Output| X| | X|
-|Automatischer Ablauf der Explorationsphase| X| | X|
-|Arbeitsaufteilung der Robis in Explorationsphase|| X| X|
-|Zu Produzierende Produkte von RefBox Speichern||X| |
-|Produkte in Arbeitsschritte aufteilen||X| |
-|Produkt abarbeiten/fertigstellen||X| |
-|Wiki aktuell halten|X|| X|
-|Doku im Wiki schreiben|X|| X|
+|Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Explorationsphase| X| | :+1: |
+|Speichern von [Maschinen](Machine) Input| X| | :+1:|
+|Speichern von [Maschinen](Machine) Output| X| | :+1:|
+|Automatischer Ablauf der Explorationsphase| X| | :+1:|
+|Arbeitsaufteilung der Robis in Explorationsphase|| X| :+1:|
+|Zu Produzierende Produkte von RefBox Speichern||X| :-1: |
+|Produkte in Arbeitsschritte aufteilen||X|:-1: |
+|Produkt abarbeiten/fertigstellen||X|:-1: |
+|Wiki aktuell halten|X|| :+1:|
+|Doku im Wiki schreiben|X|| :+1:|
 
 
 
