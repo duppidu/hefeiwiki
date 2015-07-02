@@ -21,10 +21,9 @@ Content
 ### Bryan, Ken
 Content  
 [Konzept](KonzeptBK)  
-[Lösungen](LoesungenBK)  
-[Planung](PlanungBK)  
-[Software](SoftwareBK)  
-[Test](TestBK)  
+[Planung](PlanungBK)    
+[Test](TestBK)
+[Lösungen](LoesungenBK)    
 [Ergebnisse](ErgebnisseBK) 
 ***
 ### Michael, Florian
