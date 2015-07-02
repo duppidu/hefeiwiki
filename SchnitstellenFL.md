@@ -34,7 +34,7 @@
 | [ExploControll](ExploControll)|[Machine](Machine)|Senden von [Machine](Machine) zum speichern|
 ||||
 |[ProductControllLocal](ProductControllLocal)|[Machine](Machine)|Erhalten von [Coord](Coord)|
-|[ProductControllLocal](ProductControllLocal)|[ProductControllMain](ProductControllMain)|Empfangen von neuen Jobs|
+|[ProductControllLocal](ProductControllLocal)|[ProductControllMain](ProductControllMain)|Empfangen von neuen [Jobs](ProductControllMain)|
 |[ProductControllLocal](ProductControllLocal)|[Drive](Drive)|Senden von neuen [Coord](Coord)|
 
 
