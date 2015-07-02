@@ -1,7 +1,11 @@
 [Home](home) [Back](KonzeptBK)  
   
-## Inhalt  
-- Schnittstellen  
+# Drive
+
+Das Drive hat mehrere Schnittstellen die benötigt werden. Diese sind:
+- MQTT Broker, für die aktuelle Position und Aschwichgeschwindigkeiten
+- Omnidrive, für die Ansteuerung der Antriebe
+- MarkerCoordinates, zur Positionierung des Robotinos vor der MPS
   
 ## Schnittstellen  
 
