@@ -40,6 +40,13 @@ Der SoftTes beinhaltet das Testen des Programmes auf dem Robotino.
 Die Methoden werden über die StateMachine aufgerufen.  
 Dies ist der Realitätsnahster Test den wir bei uns ind der Schule durchführen können.  
 
+| Klasse| Funktion | Beschreibung| I.O.| 
+| :------- | --- | --- | :---- |
+|Refbox / ExploControll|Felder Senden| Sendet die Belegten Felder von der Refbox an den Explocontroll|X |
+|Explocontroll / Drive | Coords Senden | verarbeitet die Belegten Felder in Coords und sendet diese entsprechend der Robot Nr. Weiter |X |
+|Explocontroll / MarkerDetection| Tag ID erhalten | Tag ID erhalten und Speichern |X |
+|Explocontroll / ColorDetection| Lampe erhalten | Tag ID erhalten und Speichern |X |
+|Explocontroll / Drive| Coords erhalten | Tag ID erhalten und Speichern |X |
 ----------
 
 ### <a name="ht">HardTest</a> ###
