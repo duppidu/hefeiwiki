@@ -35,7 +35,7 @@
 Legende:  
  
 | Felix| Lukas| Alle|  
-| :------- | --- | :---- |
+| :-1: ------ | --- | :---- |
 | Brown| Blue| Black|  
 ||||
 
