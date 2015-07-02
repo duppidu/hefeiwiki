@@ -23,7 +23,7 @@
 
 ### <a name="sc">Schnittellen Code</a> ###
 
-- Kommunikation zwischen ``Klasse 1`` und ``Klasse 2``
+- Kommunikation zwischen ``Klasse 1`` und ``Klasse 2``.
 
 | Klasse 1| Klasse 2| Beschreibung|  
 | :------- | --- | :---- |
