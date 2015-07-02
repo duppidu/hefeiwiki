@@ -26,7 +26,6 @@
 [Lösungen](LoesungenBK)  
 ***
 ### Michael, Florian
-Content  
 [Konzept](KonzeptMF)  
 [Lösungen](LoesungenMF)  
 [Planung](PlanungMF)  
