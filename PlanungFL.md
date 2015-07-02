@@ -13,7 +13,6 @@
 | Aufgabe| Lukas| Felix| 
 | :------- | --- | :---- |
 | MQTT| X| 0|
-| Linux| X| 0|
 |ExploControll| X| X|
 | Machine| 0| X|
 | ProductAssembly| 0| X|
