@@ -31,4 +31,8 @@ Hier wird die Maschine nicht rausgefiltert, weil der Mittelpunkt sich noch in de
 Die Punkte (Anfahrpunkt, Mittelpunkt der Maschine), die berechnet wurden sind auf einem Koordinatenfeld bei welchem der Laserscanner der Nullpunkt bildet.  
 Da der Punkt aber auf dem absoluten Koordinatenfeld gebraucht wird, muss der Punkt umgerechnet werden.
 ![Koordinatenumrechnung](https://gitlab.com/solidus/hefei/uploads/5a3c5468e2204352509efb44447cc7f3/Koordinatenumrechnung.JPG)  
-Das ist der Zustand, den wir vor der Umrechnung haben.
+Das ist der Zustand, den wir vor der Umrechnung haben.  
+Zuerst wird der Winkel ausgeglichen, das heisst um 90 Grad gedreht.  
+Danach wird eine Koordinatenrotation vorgenommen mit folgender Formel:
+![translation](https://gitlab.com/solidus/hefei/uploads/11610a35d510e83181e5cf3b74676d55/translation.JPG)  
+Wenn dann die beiden Koordinatenfelder die selbe Ausrichtung haben, muss der Punkt nur noch durch Koordinatentranslation verschoben werden.
