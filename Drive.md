@@ -25,13 +25,25 @@ Im travel() wird nur die Geschwindigkeit beibehalten und gewartet bis die Abbrem
 
 ## Decelerate
 
-Die Geschwindigkeit wird auf aproachSpeed zurückgesetzt. Sobald da Ziel erreicht wird werden die Antriebe ausgeschalten.
+Die Geschwindigkeit wird auf approachSpeed zurückgesetzt. Sobald da Ziel erreicht wird werden die Antriebe ausgeschalten.
 
 ## Go to Target
 
-Das goToTarget ist ein wichtiger Bestandteil der Drive Klasse. Diese Methode steuert de Ablauf der einzelnen Methoden die aufgerufen werden um den Robotino zum Ziel zu führen.
+Das goToTarget ist ein wichtiger Bestandteil der Drive Klasse. Diese Methode steuert de Ablauf der einzelnen Methoden die aufgerufen werden um den Robotino zum Ziel zu führen. Die Abfolge die dabei aufgerufen wird ist:
+- Align, richtet den Robotino in Richtung des Ziels aus.
+- Accelerate, beschleunigt den Robotino in X Richtung.
+- Travel, der Robotino fährt in die Abbremszone.
+- Decelerate, bremst und führt den Robotino bis zum Ziel.
+- Align, richtet den Robotino anhand der Zielkoordinaten aus.  
+
+Beim ersten Align wird eine Koordinatenklasse mitgegeben die 0 als X und Y Wert beinhaltet. Jedoch der Phi Wert ist der der ausgerechnet wurde um das Ziel geradlinig erreichen zu können.  
+In den Schritten Accelerate, Travel und Decelerate wird jewils die Align Methode zusätzlich aufgerufen. Dies wird benötigt um die kleinen Abweichungen beim Drehen zu kompensieren.  
+Das zweite Align wird mit der Zielkoordinate aufgerufen damit sich der Robotino in die Richtung des Ziels dreht.
 
 ## Explore
 
+Die Explore Methode wird benutzt um das Zusammenspiel zwischen Kantenerkennung und Drive zu steuern. Hat der Robotino ein Feld erreicht so wird die Kantenerkennung gestartet. Wird eine Kante erkannt so fährt das Drive vor diese hin. Wird jedoch keine Kante erkannt so wird dem Drive automatisch ein neuse Ziel gesetzt und dort wird das ganze erneut gestartet.
+
 ## Approach
 
+Die Approach Methode ist dafür zuständig dass der Robotino vor das Band fährt. Dies wird durch den Laser, den Infrarot Sensor und der Kamera gesteuert. Der Laser wird benötigt um den Robotino rechtwinklig an der MPS auszurichten. Die Kamera Positioniert den Robotino vor dem AR Tag damit das Band gerade angefahren werden kann. Der Infrarot Sensor misst den Abstand zwischen Robotino und MPS. Wird haben bewusst den Sensor und nicht den Laser gewählt da die Laserdaten grössere Abweichungen aufweisen die die der Infrarot Sensoren.
