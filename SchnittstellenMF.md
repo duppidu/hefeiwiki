@@ -8,4 +8,4 @@ Die einzigen Schnittstellen des Laserscanners sind im [Wayanalyzer](Wayanalyzer)
 
 ## StateMachine
 
-Die StateMachine kommuniziert ausschliesslich mit dem Broker. Auf verschiedenen Topics werden Messages empfangen. Auf anderen werden Befehle gesendet. Zu genaueren Informationen zu den Topics: 
+Die StateMachine kommuniziert ausschliesslich mit dem Broker. Auf verschiedenen Topics werden Messages empfangen. Auf anderen werden Befehle gesendet. Zu genaueren Informationen zu den Topics: [Mqtt Topics](MqttTopics)
