@@ -35,10 +35,10 @@ w = weggelassen
 |CrashController|crash() |Wird der Wert "true" zurückgegeben, sobald bumperControll() oder infraredSensoring() "true" zurückgeben|X|
 | CrashController| bumperControl()|Es muss der Wert "true" zurückgegeben werden wen der Bumper mechanisch betätigt ist |X|
 | CrashController| infraredSonsoring()|Es muss der Wert "true" zurückgegeben werden wen einer der InfrarotSensoren einen ungültigen Wert aufweist|X|
-| Drive| ...()|... |X|
-| | ()| |X|
-| | ()| |X|
-| | ()| |X|
+| Drive| goToTarget()|Der Robotino fährt auf die gewünschte Position und gibt "true" zurück. |X|
+| Drive| explore()| Der Robotino fährt von einer Ecke zu anderen und sucht nach Kanten. Sobald er eine Hat wird diese angefahren.|X|
+| Drive| approach()| Der Robotino fährt vor die MPS hin und gibt ein "true" zurück.|X|
+| Drive| Ausweichen| Die Drive Klasse verarbeitet die Geschwindigkeiten die vom WayAnalyzer geschickt werden und weicht mit der entsprechnenden Geschwindigkeit aus.|X|
 
 
 ## Prüfverfahren WayAnalyzer
@@ -53,4 +53,8 @@ Leider reicht die Zeit nicht mehr im Projektmanagement-Kurs den Softwarstand sow
 ## Prüfverfahren CrashController
   
 Der Crashcontroller wurde aufdessen Funktion überprüft, in dem man den Bumper betätigte oder ein Objekt vor jeden einzelnen der Infrarotsensoren hielt.
+
+## Prüfverfahren Drive
+
+Damit die Drive Klasse überprüft werden kann, müssen alle möglichen Szenarien simuliert werden. Die beinhaltet das Ausweichen, den Stopp und das Weiterfahren nach einem Crash.
   
