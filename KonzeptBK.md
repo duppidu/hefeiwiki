@@ -1,5 +1,5 @@
 [Home](home)  
-[Back](DokuSolidus)  
+[DokuSolidus](DokuSolidus)  
 
 ----------
 
