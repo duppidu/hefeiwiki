@@ -33,6 +33,6 @@
 | Hardware| | |
 | | | |
 | Planung| | |
-| Planng| | |
+| Planung| | |
 
 ----------
