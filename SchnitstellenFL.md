@@ -3,12 +3,12 @@
 ----------
 
 ### Inhalt ###
-- <a href="#sp">Schnitstellen Programme</a>
-- <a href="#sc">Schnitstellen Code</a>
+- <a href="#sp">Schnittstellen Programme</a>
+- <a href="#sc">Schnittstellen Code</a>
 
 ----------
 
-### <a name="sp">Schnittstellen Programme</a> ###
+### <a name="sp">Schnittstelle Programme</a> ###
 
 - Windows 8.0 64 Bit  
 - NetBeans IDE 8.0.2  
