@@ -14,11 +14,20 @@ Um die Vollständige Kommunikation mit senden und empfangen zu realisieren musst
 
 ##  Simon
 
-###  MarkerCoordinates:
+####  MarkerCoordinates:
 
 Damit wir die ALVAR Bibliothek verwenden können obwohl wir nur Java verwenden, benutzte ich JNA (JavaNativeAccess). Das geschriebene Javaprogramm ruft generiert also einen neuen Prozess, in welchem das C++ Programm läuft. Dieses prüft nun das Kamerabild auf einen Marker und gibt seine Position als return Wert zurück. Aufgrund des Umstandes, dass dieser Wert in Pixel angegeben wird, kann man die Position des Markers sehr genau bestimmen. Mit diesem Wert arbeitet nun Bryans Drive Klasse weiter und kann so den Robotino anhand des Markers ausrichten. 
 
 
-###  ServoControl:
+####  ServoControl:
 
 Die Steuerung der Servos wird über ein ServoBrick von thinkerforge erledigt. Dieser ist über USB am Robotino angeschlossen. Das Javaprogramm steuert also diesen Servobrick an. Im Programm können diverse Parameter für die Servosteuerung gesetzt werden wie zum Beispiel Beschleunigung öffnen/schliessen, Geschwindigkeit öffnen/schliessen usw. . Anschliessend wird über einen MQTT-Callback ein Topic des MQTT Brokers überprüft auf die Inputs "open" oder "close". Je nach Input verfahren die Servos in eine definierte "open-position" oder "close-position". 
+
+
+###  Aufgetretene Probleme:
+
+Eines der Hauptprobleme bei dieser Arbeit war das Installieren, Kompilieren und Einbinden der Bibliotheken. Dies war sehr schwierig, weshalb ich auch Hilfe von Alain Rohr dabei benötigte. Genau durch diese Probleme konnte ich jedoch extrem viel lernen.
+
+Ein anderes Problem waren die sehr spärlichen Informationen über das AR-Tag System. Auch nach langer Recherche per Google konnte ich nur sehr wenig brauchbare Informationen finden, was die Frage aufwarf weshalb das Robocup Komitee unbedingt AR-Tags verwenden wollte. 
+
+Eine Herausforderung (kein Problem) war das programmieren von C++ Programmen. Da ich nur sehr wenig Erfahrung damit hatte musste ich viel nachlesen und die Differenzen zwischen Java und C++ herausfinden. Durch gute Tutorials und Texte konnte das aber gut gelöst werden.
