@@ -5,7 +5,7 @@
 
 ## Thomas  
 
-Der genau Ablauf der Colordetection ist Hier zu finden:
+Der genau Ablauf der Colordetection ist hier zu finden:
 [ColorDetection](ColorDetection)
 
 ### Testplan
@@ -26,3 +26,33 @@ Der genau Ablauf der Colordetection ist Hier zu finden:
 | ColorDetection|mqttSend()|Senden des Lamp Objekts an den Broker|X |
 | ColorDetection|controll()|versetzt den Scheduler wider in den Leerlauf|X |
 
+
+## Simon
+
+Der genau Ablauf der Markerdetection, Colordetection und ServoControl ist hier zu finden:
+[Markerdetection & MarkerCoordinates](Markerdetection_Markercoordinates)
+[Servo / Grippercontrol](ServoGripperControl)
+
+### Testplan
+
+**Situation:**  Das JavaProgramm soll gstartet werden, welches das C++ Programm startet und einen Marker detektieren soll. Nach dem detektieren soll die ID des Markers zum MQTT Broker gesendet werden.
+
+
+| Klasse| Funktion | Beschreibung| I.O.| 
+| :------- | --- | --- | :---- |
+| MarkerDetection|MarkerDetection()| Ruft init() auf|X |
+| MarkerDetection|init()| Erstellt einen Thread im gemeinsamen threadpool und startet startDetection()|X |
+| MarkerDetection|startDetection()| Startet C++ Programm|X |
+| MarkerDetection|run()|Führt detection() aus solange Thread läuft|X |
+| MarkerDetection|mqttSend()|Sendet die Tag ID zum MQTT Broker|X |
+| MarkerDetection|terminateDetection()| Beendet C++ Prozess und JavaProgramm|X |
+
+
+**Situation:**  Das JavaProgramm soll gstartet werden, welches das C++ Programm startet und die Position eines Marker detektieren soll. Nach dem detektieren soll die Position des Markers als Rückgabewert an die Drive Klasse gesendet werden.
+
+
+| Klasse| Funktion | Beschreibung| I.O.| 
+| :------- | --- | --- | :---- |
+| MarkerCoordinates|startCoordinateDetection()| Startet C++ Programm|X |
+| MarkerCoordinates|coordinatesDetection()|Detektiert Marker und speichert Wert in Variable und gibt Wert als Rückgabewert aus|X |
+| MarkerCoordinates|terminateCoordinateDetection()|Beendet C++ und Java Programm|X |
