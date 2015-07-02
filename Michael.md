@@ -13,4 +13,4 @@ Die Stimmung wahr mehrheitlich gut. Neben kleinen Unstimmigkeiten zog das Team a
 
   
 #### Dokumentation  
-  
+Auch die Dokumentation wurde dieses Mal schon besser gemacht. Es gibt natürlich immer noch Verbesserungsmöglichkeiten. Diagramme kann man nie genug haben. Jedoch muss man auch sehen, dass unsere Zeit sehr begrenzt ist. Dadurch müssen wir den Schwerpunkt auf das Programmieren legen. Die Programmteile müssen auch getestet werden, was enorm viel Zeit verschlingt. 
