@@ -12,11 +12,9 @@
 ### <a name="z">Ziele</a> ###
 
 
-- Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Explorationsphase.  
-
-
 | Aufgabe| Muss| Kann| 
 | :------- | --- | :---- |
+|Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Explorationsphase| X| |
 |Speichern von [Maschinen](Machine) Input| X| |
 |Speichern von [Maschinen](Machine) Output| X| |
 |Automatischer Ablauf der Explorationsphase| X| |
