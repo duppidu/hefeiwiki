@@ -23,7 +23,7 @@
 ### <a name="sc">Schnittellen Code</a> ###
 
 
-| Klasse 1| Klasse 2| Beschreibung||  
+| Klasse 1| Klasse 2| Beschreibung|  
 | :------- | --- | :---- |
 | [ExploControll](ExploControll)| [Drive](Drive)| Senden von [Coord](Coord)|
 | [ExploControll](ExploControll)| [ColorDedection](ColorDetection)| Empfangen [Lampen](Lamps)|
