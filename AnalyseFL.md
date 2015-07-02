@@ -29,6 +29,8 @@ Wir haben das [`RuleBook`](http://www.robocup-logistics.org/rules/rulebook2015.p
 
 ### <a name="e">Ergebnis</a> ###
 
+![Ideen](https://gitlab.com/solidus/hefei/uploads/4a56788e0908c8e418d145f45fbb2c49/Ideen.PNG)
+
 Das spiel besteht aus 3 verschiedenen Phasen.
 - Start Up
 - Explorationsphase
