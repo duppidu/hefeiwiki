@@ -31,7 +31,7 @@ Wir haben das [`RuleBook`](http://www.robocup-logistics.org/rules/rulebook2015.p
 
 ![Ideen](https://gitlab.com/solidus/hefei/uploads/4a56788e0908c8e418d145f45fbb2c49/Ideen.PNG)
 
-Das spiel besteht aus 3 verschiedenen Phasen.
+Das spiel besteht aus 3 verschiedenen Phasen. Wobei wir erst in den zwei letzten Phasen zum tragen kommen.
 - Start Up
 - Explorationsphase
 - Productionsphase
