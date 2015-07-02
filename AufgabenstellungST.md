@@ -4,7 +4,7 @@
 ## Thomas  
     
 Der Zuständigkeitsbereich von mir lag in der Programierung der Optischen Erkennung der Lampensäule sowie die Koordination des Teams.  
-Die Farberkennung soll bis ende PM fehlerfrei und stabil funktionieren und soll zusätzlich über den Broker gestartet werden können.
+Die Farberkennung soll bis ende PM fehlerfrei und stabil funktionieren und soll zusätzlich über den Broker gestartet werden können.  
 Zudem soll über den gesamten erstellten Code ein Wiki sowie eine Dokumentation erstellt werden.  
 
 ## Simon
