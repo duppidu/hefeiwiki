@@ -28,4 +28,7 @@ Eine Liste mit erkannten Linien wird dazu durch verschiedene Filter geschickt.
 Hier wird die Maschine nicht rausgefiltert, weil der Mittelpunkt sich noch in der Zone befindet.
 
 ## Koordinatenumrechnung
-Die Punkte (Anfahrpunkt, Mittelpunkt der Maschine), die berechnet wurden sind auf einem Koordinatenfeld bei welchem der Laserscanner der Nullpunkt bildet.
+Die Punkte (Anfahrpunkt, Mittelpunkt der Maschine), die berechnet wurden sind auf einem Koordinatenfeld bei welchem der Laserscanner der Nullpunkt bildet.  
+Da der Punkt aber auf dem absoluten Koordinatenfeld gebraucht wird, muss der Punkt umgerechnet werden.
+![Koordinatenumrechnung](https://gitlab.com/solidus/hefei/uploads/5a3c5468e2204352509efb44447cc7f3/Koordinatenumrechnung.JPG)  
+Das ist der Zustand, den wir vor der Umrechnung haben.
