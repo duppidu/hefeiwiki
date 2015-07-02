@@ -3,7 +3,7 @@
    
 ## Allgemein  
 [Aufgabenstellug](AufgabenstellungTeam)  
-[Ziel und Resultat](ZielUndResultatTeam)  
+[Test und Resultat](TestUndResultatTeam)  
 [Sitzungsprotokolle](Sitzungsprotokolle)  
 [Reflektionen](Reflektionen)  
   
