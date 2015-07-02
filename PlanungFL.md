@@ -33,14 +33,14 @@
 
 ![zeitplanung](https://gitlab.com/solidus/hefei/uploads/defd3276d4dafe59add5227c164072ef/zeitplanung.PNG)
 
-#### <a name="l">Legende:</a> ####  
+#### <a name="l">Legende:</a>  
 
 | Felix| Lukas| Alle|  
 | :------ | --- | :---- |
 | Brown| Blue| Black|  
 ||||
 
-#### <a name="e">Erklärung</a> ####  
+#### <a name="e">Erklärung</a> 
 
 | Arbeit| Beschreibung|   
 | :------ | :---- |
