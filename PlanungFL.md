@@ -14,14 +14,14 @@
 | Aufgabe| Lukas| Felix| 
 | :------- | --- | :---- |
 | MQTT| X| 0|
-|ExploControll| X| X|
-| Machine| 0| X|
-| ProductAssembly| 0| X|
-| ProductControllLocal| 0| X|
-| ProductControllMain| X| X|
-| Zones| 0| X|
+|[ExploControll](ExploControll)| X| X|
+| [Machine](Machine)| 0| X|
+| [ProductAssembly](ProductAssembly)| 0| X|
+| [ProductControllLocal](ProductControllLocal)| 0| X|
+| [ProductControllMain](ProductControllMain)| X| X|
+| [Zones](Zones)| 0| X|
 | Test| X| 0|
-| Machine| 0| X|
+| [Machine](Machine)| 0| X|
 | [Wiki](https://gitlab.com/gitlab-org/gitlab-ce/blob/6-4-stable/doc/markdown/markdown.md)| X| X|
 | Doku| X| X|
 | GitPi aufsetzen| X| 0|
