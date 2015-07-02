@@ -16,7 +16,7 @@
 - [Java 1.8.0_45](https://blogs.oracle.com/stevenChan/entry/jre_1_8_0_45)  
 - [MQTT 0.0.13](http://www.jensd.de/wordpress/?p=1780)  
 - [GitLab](https://gitlab.com/)  
-- [Linux](https://de.wikipedia.org/wiki/Linux) Ubuntu 
+- [Linux Ubuntu ](https://de.wikipedia.org/wiki/Linux) 
 
 
 ----------
