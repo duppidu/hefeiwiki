@@ -2,3 +2,6 @@
 [Back](KonzeptMF)  
 ## RefBox
 ![Schnittstellen](https://gitlab.com/solidus/hefei/uploads/4a7cd0b9b5cf1010b0687d039165404a/Schnittstellen.png)
+
+## Laserscanner
+Die einzigen Schnittstellen des Laserscanners sind im [Wayanalyzer](Wayanalyzer) und im [Drive](Drive). Da der Laserscanner Singleton gemacht wird, kann der Laserscanner überall dort aufgerufen werden, wo er gebraucht wird.
