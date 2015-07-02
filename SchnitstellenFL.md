@@ -10,12 +10,12 @@
 
 ### <a name="sp">Schnittstelle Programme</a> ###
 
-- Windows 8.0 64 Bit
-- Windows 8.1 64 Bit  
-- NetBeans IDE 8.0.2  
-- Java 1.8.0_45  
-- MQTT 0.0.13  
-- GitLab  
+- [Windows 8.0 64 Bit](https://de.wikipedia.org/wiki/Microsoft_Windows_8)
+- [Windows 8.1 64 Bit](https://de.wikipedia.org/wiki/Microsoft_Windows_8)  
+- [NetBeans IDE 8.0.2](http://www.oracle.com/technetwork/articles/javase/jdk-netbeans-jsp-142931.html)  
+- [Java 1.8.0_45](https://blogs.oracle.com/stevenChan/entry/jre_1_8_0_45)  
+- [MQTT 0.0.13](http://www.jensd.de/wordpress/?p=1780)  
+- [GitLab](https://gitlab.com/)  
 - [Linux](https://de.wikipedia.org/wiki/Linux) Ubuntu 
 
 
