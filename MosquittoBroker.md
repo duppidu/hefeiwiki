@@ -7,9 +7,6 @@ Raspberry Pi als MQTT Broker
 #### Inhalt
 - <a href="#in">Installation</a>
 - <a href="#mq">MQTT.fx</a>
-- <a href="#kn">Konfiguration Netbeans</a>
-- <a href="#da">Direktes Aktualisieren</a>
-
 
 Wir Verwenden während des Robocps zusätzlich zu den Robotinos 2 Raspberry pi
 Die Raspberry Übernehmen folgende Aufgaben:
