@@ -21,8 +21,8 @@
 ### Bryan, Ken  
 [Konzept](KonzeptBK)  
 [Planung](PlanungBK)  
-[Vorgehen](VorgehenBK) 
-[Lösungen](LoesungenBK)   
+[Vorgehen](VorgehenBK)  
+[Lösungen](LoesungenBK)  
 [Test](TestBK)  
 ***
 ### Michael, Florian
