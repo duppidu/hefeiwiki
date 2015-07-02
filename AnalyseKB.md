@@ -63,5 +63,6 @@ Wenn sich ein Objekt dem Roboter nähert sollen die Antriebe deaktiviert werden,
 
 ### Drive
 
-Durch Absprache mit dem Team wurde bei der goToTarget Methode die machineAlign Methode hinzugefügt damit diese automatisch durch das Drive aufgerufen wird. Die machineAlign und targetAlign Methode wurden zur Align Methode zusammengeführt. Der Grund dafür ist dass diese Methoden sehr ähnlich sind und durch wenige Änderungen zusammengeführt werden können. Die Kommunikation zwischen WayAnalyzer und Drive wurde mittels Speed Klasse realisiert. Diese wird vom WayAnalyzer geschrieben und dann über den Broker gesendet. Das Drive empfängt diese Klasse dann und überschreibt danach die eigenen Geschwindigkeiten.
+Die Drive Klasse sollte danach komplett optimiert sein damit diese in China keine Fehler mehr beinhaltet. Die CPU Auslastung sollte ausserdem auch niedriger sein. Das Ausweichen kommuniziert einwandfrei mit dem Drive.
+
   
