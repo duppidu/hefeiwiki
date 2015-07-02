@@ -17,13 +17,14 @@ Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Exploratio
 
 | Aufgabe| Muss| Kann| 
 | :------- | --- | :---- |
-| Speichern von [Maschinen](Machine)| X| |
+|Speichern von [Maschinen](Machine) Input| X| |
+|Speichern von [Maschinen](Machine) Output| X| |
 |Automatischer Ablauf der Explorationsphase| X| |
-| Arbeitsaufteilung in Explo Phase| X| |
-|Produkte Speichern||X|
+|Arbeitsaufteilung der Robis in Explorationsphase| X| |
+|Zu Produzierende Produkte von RefBox Speichern||X|
 |Produkte in Arbeitsschritte aufteilen||X|
-||||
-||||
+|Produkt abarbeiten/fertigstellen||X|
+
 
  
  
