@@ -2,6 +2,8 @@
 [DokuSolidus](DokuSolidus)  
 [Konzept](KonzeptBK)  
   
+----------
+
 ## Aufgabenstellung  
   
 Für den Kurs Projektmanagement wurden im Team Solidus wie schon zuvor Ziele definiert. Diese Ziel bauen auf dem Kurs Projekt orientiertes Engineering auf.  
