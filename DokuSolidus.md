@@ -7,7 +7,8 @@
 [Planung](PlanungTeam)   
 [Sitzungsprotokolle](Sitzungsprotokolle)     
 [Reflektionen](Reflektionen)    
-  
+*** 
+ 
 ## Guppe
 ### Thomas, Simon
 Content  
@@ -21,9 +22,10 @@ Content
 ### Bryan, Ken
 Content  
 [Konzept](KonzeptBK)  
-[Planung](PlanungBK)    
-[Test](TestBK)
-[Lösungen](LoesungenBK)    
+[Lösungen](LoesungenBK)  
+[Planung](PlanungBK)  
+[Software](SoftwareBK)  
+[Test](TestBK)  
 [Ergebnisse](ErgebnisseBK) 
 ***
 ### Michael, Florian
