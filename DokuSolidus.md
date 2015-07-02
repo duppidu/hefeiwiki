@@ -10,8 +10,7 @@
 *** 
  
 ## Guppe
-### Thomas, Simon
-Content  
+### Thomas, Simon 
 [Konzept](KonzeptST)  
 [Planung](PlanungST)    
 [Vorgehen](VorgehenST)   
@@ -19,8 +18,7 @@ Content
 [Test](TestST)    
 
 ***
-### Bryan, Ken
-Content  
+### Bryan, Ken  
 [Konzept](KonzeptBK)  
 [Planung](PlanungBK)  
 [Vorgehen](VorgehenBK)  
@@ -36,8 +34,7 @@ Content
 [Test](TestMF)  
 [Ergebnisse](ErgebnisseMF)
 ***
-### Felix, Lukas
-Content  
+### Felix, Lukas 
 [Konzept](KonzeptFL)  
 [Lösungen](LoesungenFL)  
 [Planung](PlanungFL)  
