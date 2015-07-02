@@ -18,7 +18,6 @@ Unsere Aufgabe besteht darin:
 - Von der [RefBox](WikiSolidus) erhaltene Produktionsaufträge selbstständig abzuwickeln und abzuliefern.    
  
 
-
 ----------
 
 ### <a name="s">Spezifisch</a> ###
@@ -26,7 +25,7 @@ Unsere Aufgabe besteht darin:
 Unseren Zuständigkeitsbereich bezieht sich auf den [Fieldcommander](WikiSolidus). 
 Der [Fieldcommander](WikiSolidus) ist dafür zuständig, um die Komplette Explorations und Productionsphase zu handeln.  
 - Koordinieren der Roboter
-- Verwalten des Spielfeldes.  
+- Verwalten des [Spielfeldes](Zones).  
 - Speichern und Verwalten der [Machinen](Machine).  
 - Senden von ziel [Koordinaten](Coord).
 - Verwalten der Produkte.  
