@@ -32,7 +32,6 @@ Content
 [Planung](PlanungMF)  
 [Software](SoftwareMF)  
 [Test](TestMF)  
-[Ergebnisse](ErgebnisseMF)
 ***
 ### Felix, Lukas 
 [Konzept](KonzeptFL)  
