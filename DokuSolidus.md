@@ -3,10 +3,10 @@
    
 ## Allgemein  
 [Aufgabenstellug](AufgabenstellungTeam)  
-[Test und Resultat](TestUndResultatTeam) 
-[Planung](PlanungTeam) 
-[Sitzungsprotokolle](Sitzungsprotokolle)  
-[Reflektionen](Reflektionen)  
+[Test und Resultat](TestUndResultatTeam)  
+[Planung](PlanungTeam)   
+[Sitzungsprotokolle](Sitzungsprotokolle)     
+[Reflektionen](Reflektionen)    
   
 ## Guppe
 ### Thomas, Simon
