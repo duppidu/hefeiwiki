@@ -11,5 +11,5 @@ Im PM verbrachte ich einen grossen Teil der Zeit mit konstruieren und Design von
 
 ##  Team
 
-Die Zusammenarbeit im Team war super! Dadurch dass alle hochmotiviert sind gab es auch keine Probleme mit der Zusammenarbeit. Auch konnten Konflikte und Spannungen gut durch unsere festgelegten Sitzungen verhindert oder abgebaut werden. Ich fühlte mich sehr 
+Die Zusammenarbeit im Team war super! Dadurch dass alle hochmotiviert sind gab es auch keine Probleme mit der Zusammenarbeit. Auch konnten Konflikte und Spannungen gut durch unsere festgelegten Sitzungen verhindert oder abgebaut werden. Ich fühlte mich sehr wohl im Team, ich würde jederzeit wieder in der selben Konstellation arbeiten.
 
