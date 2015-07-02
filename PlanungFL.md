@@ -24,7 +24,8 @@
 | Machine| 0| X|
 | Wiki| X| X|
 | Doku| X| X|
-
+| GitPi aufsetzen| X| 0|
+| Netzwerk auf Robotino's konfigurieren| X| 0|
 
 ----------
 
