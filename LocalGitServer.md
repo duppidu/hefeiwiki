@@ -3,6 +3,14 @@
 
 Raspberry Pi als Local Git Server
 ===================
+
+
+- <a href="#in">Installation</a>
+- <a href="#ki">Konfiguration Raspberry</a>
+- <a href="#kn">Konfiguration Netbeans</a>
+- <a href="#da">Direktes Aktualisieren</a>
+
+
 Wir Verwenden während des Robocps zusätzlich zu den Robotinos 2 Raspberry pi
 Die Raspberry Übernehmen folgende Aufgaben:
 > - Zentraler MQTT Broker für die Kommunikation der Robotinos
@@ -10,7 +18,8 @@ Die Raspberry Übernehmen folgende Aufgaben:
 
 
 
-## Installation
+
+## <a name="in">Installation
 #### Vor der Installation Bringen wir die Software auf dem Raspberry auf den neusten Stand
 ```
 sudo apt-get update
@@ -31,7 +40,7 @@ Ist das Programm nicht installiert:
 wird wider nachgefragt ob der Benötigte Speicher belegt werden Soll -> Möchten Sie Fortfahren [ J/N ]
 
 
-## Konfigurieren und Initialisieren (PI)
+## <a name="ki">Konfigurieren und Initialisieren (PI)
 
 Nun ist die Software soweit fertig und wir begeben uns zur Konfiguration
 mit:
@@ -52,14 +61,14 @@ git init --bare
 ```
 Damit ist auf dem Raspberry alles Vorbereitet
 
-## Konfigurieren (Netbeans)
+## <a name="kn">Konfigurieren (Netbeans)
  Laden des aktuellen codes auf das Pi. Darum als erstes die Aktuellen Codezeilen Herunterladen
  - > Git
 - >> Remote 
 - >>> Pull 
 
 Push Menue aufrufen (rechtsklick auf Projekt)
-> - Git  
+> - Git
 > -- Remote
 >  - -- Push
 
@@ -81,7 +90,7 @@ pi
 ```
  
 
-## Direktes Aktualisieren des PI
+## <a name="da">Direktes Aktualisieren des PI
 Nun geben wir Git die Addresse des Projekts auf Gitlab um direkt zu Synchronisieren
 ```
 remote add origin https://gitlab.com/solidus/hefei.git
