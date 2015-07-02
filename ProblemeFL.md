@@ -13,7 +13,18 @@
 | Thema| Problem| Lösung| 
 | :------- | --- | :---- |
 | Broker| Im messageArrived können keine `Funktionen()` ausgeführt werden | Eigene `RUN` Methode|
-|| | |
+|Broker| | |
+|Broker | | |
 | | | |
+|Java | | |
+| Java| | |
+| Java| | |
+|Java | | |
+| | | |
+| | | |
+| Wiki| | |
+| Wiki| | |
+| Wiki| | |
+| Wiki| | |
 
 ----------
