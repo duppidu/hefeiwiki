@@ -5,7 +5,8 @@
 
 ## Thomas  
 
-Die einzige Schnittstelle zu dem restliche Programm läuft über den Broker. Über diesen wird das Programm gestartet und am ende der Überprüfung ein Lampen-Objekt übermittelt.
+Die einzige Schnittstelle zu dem restliche Programm läuft über den Broker. Über diesen wird das Programm gestartet und am ende der Überprüfung ein Lampen-Objekt übermittelt.  
+Die Kamera ist die einzige Hardware-technische Schnittstelle in meinem Programmteil, dies kann einfach über den USB angeschlossen werden.
 
 ##  Simon
 
