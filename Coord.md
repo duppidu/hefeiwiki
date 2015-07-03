@@ -1,21 +1,6 @@
 Coord
 ===================
 
-Attribute
-----------
-
-public Coord()
------------
-Default Konstruktor.
-
-public Coord(double x, double y, double phi)
------------
-Setzt die Koordinatenklasse auf die x, y und phi Werte die übergeben werden.
-
-Getter
------------
-Für x, y und phi besteht je eine get Methode.
-
 public Coord sub(Coord pos)
 -----------
 Rechnet die Differenz zwischen zweit Coord Klassen. z.B. coord1.sub(coord2) ==> coord1.x - coord2.x , coord1.y - coord2.y und coord1.phi - coord2.phi.
@@ -26,15 +11,16 @@ Berechnet aus der Positionsdifferenz (Zielposition - aktuelle Position) den Ausr
 
 public boolean inRangeXY(Coord actual, double toleranz)
 -----------
-Vergleicht ob sich der Robotino in der übergebenen Toleranz befindet. Solange sich der Robotino ausserhalb dieses Bereiches befindet wird ein False zurückgegeben.
+Vergleicht ob sich der Robotino in der übergebenen Toleranz befindet. Es werden dabei nur die X und Y Werte berücksichtigt. Solange sich der Robotino ausserhalb desBereiches befindet wird ein False zurückgegeben.
 
-public boolean inRangeXY(Coord actual, double toleranz, double faktor)
+public boolean inRangePhi(Coord actual, double toleranz)
 -----------
-Vergleicht ob sich der Robotino in der übergebenen Toleranz befindet. Diese wird mit einem übergebenen Faktor multipliziert. Solange sich der Robotino ausserhalb dieses Bereiches befindet wird ein False zurückgegeben.
+Vergleicht ob sich der Robotino in der übergebenen Toleranz befindet. Es wird dabei nur der Winkel berücksichtigt Solange sich der Robotino ausserhalb des Bereiches befindet wird ein False zurückgegeben.
 
-public boolean inTargetRange(Coord actual, double toleranz, double faktor)
-------------
-Wird speziell für das targetAlign verwendet.
+public boolean inRangePhi(Coord actual, double toleranz, double faktor)
+-----------
+Vergleicht ob sich der Robotino in der übergebenen Toleranz befindet. Es wird dabei nur der Winkel berücksichtigt. Die Toleranz wird bei dieser Methode mit einem Faktor multipliziert. Solange sich der Robotino ausserhalb des Bereiches befindet wird ein False zurückgegeben.
+
 
 
 
