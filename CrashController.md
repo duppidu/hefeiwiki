@@ -2,7 +2,7 @@
   
 public CrashController()  
   
-Im Konstruktor des CrashControllers, werden über JNA der Bumper und in einem Array den die 9 InfrarotSensoren des Roboters instanziert.  
+Im Konstruktor des CrashControllers, werden über JNA der Bumper und die 9 InfrarotSensoren des Roboters instanziert.  
 Es werden zudem die Vergleichsdistanzen aus dem drive.xml-File ausgelesen. Der Sensor an der Front benötigt ein grössere Vergleichsdistanz als die Restlichen. Er ist mechanisch weiter hinten montiert.
 
 public synchronized boolean crash()  
@@ -11,7 +11,7 @@ Die Methode crash() ruft die beiden Methoden infraredSensoring() und bumperContr
   
 public synchronized boolean infraredSensoring()  
   
-Diese Methode ruft ein einer Schlaufe sämtliche Sensorwerte auf und vergleicht diese mit dem parameter. Ist einer der Infrarotwerte kleiner dann gibt die Methode "true" zurück. Der Sensor an der Front (Position 0) wird auf einen anderen Wer verglichen, da er mechanisch weiter hinten montiert ist.
+Diese Methode ruft ein einer Schlaufe sämtliche Sensorwerte auf und vergleicht diese mit dem Parameter. Ist einer der Infrarotwerte kleiner dann gibt die Methode "true" zurück. Der Sensor an der Front (Position 0) wird auf einen anderen Wert verglichen, da er mechanisch weiter hinten montiert ist.
   
 public synchronized boolean bumperControl()  
   
