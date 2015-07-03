@@ -22,9 +22,16 @@
 | ColorDetection|controll()|versetzt den Scheduler wider in den Leerlauf|X |
 
 
-###Resultat
+### Resultat  
 
 | Teilziel| Resultat |
 | :------- | --- |
-| | |
-| | |
+| Der Start-Up Fall muss ausprogrammiert sein.| Start-Up ist bis zum aktuellen Stand ausprogrammiert |
+| Driveklassen müssen funktionstüchtig und fehlerfrei arbeiten | Sind ausprogrammiert |
+| State-Machine muss funktionsbereit sein | State-Machine ist auf dem aktuellen Stand|
+| Zentralbroker muss Kommunikation zwischen Robotinos ermöglichen | Zentraler Broker ist eingerichtet |
+| Restart-Funktion um Java-Programm neu zu starten | Restart wurde noch nicht angegangen |
+| Robotino mechanisch komplett mit Greifer und Lösung für Bauteil abgriff | Die Teile sind fertig gedruckt und zusammengesetzt |
+| Jeder Programmteil muss über ein angemessenes Diagramm verfügen (Klassendiag, Sequencediag, etc…) | Jeder hat sein Diagramm erstellt|
+| Cupvorbereitungen müssen getroffen sein (Packlisten, Materialisten, Finanzierungen, Impfungen) | Listen wurden erstellt und Abklärungen getroffen |
+| Refbox muss funktionieren | Refbox ist noch nicht soweit |
