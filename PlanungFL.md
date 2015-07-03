@@ -52,5 +52,6 @@
 |[ProductAssembly](ProductAssembly)  |Statischer Teil muss vor Ort angepasst werden (kein Ziel)| 
 |[ProductControllLocal](ProductControllLocal) | Noch nicht :100: % fertig (kein Ziel)| 
 | [ProductControllMain](ProductControllMain)| Noch nicht :100: % fertig (kein Ziel)| 
+| [Zones](Zones)| Wurde gegen ende noch optimiert und mit einer anderen Klasse verbunden| 
 
 ----------
