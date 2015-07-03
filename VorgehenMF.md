@@ -21,3 +21,7 @@ Die Möglichkeiten des Images haben sich bewährt. Obwohl das beim gegenwärtige
 Einer der gemieteten Roboter war eine kleinere Version. Das heisst langsamerer Prozessor und vor allem eine kleinere Festplatte. Leider hat auch PartImage einen kleinen Haken. Das Image kann nur auf eine gleich grosse oder grössere Partition, als die Quellpartition des Images, gespielt werden. 
 
 Für ein nächstes Mal sollte besser auch betrachtet werden, wie wahrscheinlich es ist, dass das Image auf einen kleineren Robotino geladen wird. Es wäre möglich die Partition zu verkleinern, ein Image zu erstellen und dann die Partition wieder zu vergrössern. Aktuell braucht das ganze System mit allen Programmen weniger als 10GB an Speicher. Müsste das Image doch auf eine grössere Partition, als die Quellpartition des Images, gespielt werden, so kann das Image problemlos aufgespielt werden. Danach kann die Partition mit GParted, welches ebenfalls auf der SystemRescueCD vorhanden ist, wieder vergrössert werden. Selber habe ich das nicht probiert, nach den Anleitungen und Foren im Internet sollte dies aber problemlos möglich sein.
+
+## Laserscanner
+
+## StateMachine
