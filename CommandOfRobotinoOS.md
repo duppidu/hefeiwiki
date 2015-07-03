@@ -1,7 +1,7 @@
 ## RobotinoOS
 
 ----
-Autor: Florian Gehrig  
+Autor: Florian Gehrig, Michael Johner  
 Klasse: HF2A  
 Datum: 27. Mai 2015  
 Version: 1.0  
