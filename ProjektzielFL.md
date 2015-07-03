@@ -11,7 +11,6 @@
 
 ### <a name="z">Ziele</a> ###
 
-<div style="background-color:yellow"> Block </div>
 | Aufgabe| Muss| Kann| Erreicht :+1: |
 | :------- | --- | :---- | :---- |
 |Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Explorationsphase| X| | X |
