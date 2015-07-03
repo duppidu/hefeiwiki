@@ -2,7 +2,7 @@
   
 ## Reflexion  
 
-Der Projektmanagement Kurs ging für mich wie im Fluge vorbei. Das liegt wohl daran, dass wir alle sehr viel zu tun hatten. Ich bin mit meinen Aufgaben mehr oder weniger gut voran gekommen.  
+Das Prozessmodul ging für mich wie im Fluge vorbei. Das liegt wohl daran, dass wir alle sehr viel zu tun hatten. Ich bin mit meinen Aufgaben mehr oder weniger gut voran gekommen.  
   
 #### Softwarearbeiten  
   
@@ -13,7 +13,7 @@ Als ich den Crashcontroller programmierte, stellte ich fest, dass das die Api2 R
   
 #### Repositorium GitLab  
   
-Ich persönlich bin kein Freund unseres Repositoriums "GitLab". Ich hatte sehr oft Probleme und verlor ziemlich viel Stunden an Arbeit. Während dem Push-Vorgang traten bei mir häufig Fehler auf, welche mir meine Code löschten, anstelle diesen zu veröffentlichen. Als ich Bericht im Wiki schrieb, hatte ich ebenfalls das Problem, dass mir zwischendurch, während dem Speichervorgang mein frisch geschriebener Text verloren ging. Dies ist sehr ärgerlich, ich habe es satt meine Arbeit doppelt zu erledigen. Mittlerweile speichere ich meinen Code und meinen Text regelmässig in einem Text-File. Eigentlich ist doch das Ziel des Repositoriums, dass man seine Arbeit nichz verliert und keine Text-Files erstellen muss um den Code und Text zu sichern!  
+Ich persönlich bin kein Freund unseres Repositoriums "GitLab". Ich hatte sehr oft Probleme und verlor ziemlich viel Stunden an Arbeit. Während dem Push-Vorgang traten bei mir häufig Fehler auf, welche mir meine Code löschten, anstelle diesen zu veröffentlichen. Als ich Bericht im Wiki schrieb, hatte ich ebenfalls das Problem, dass mir zwischendurch, während dem Speichervorgang mein frisch geschriebener Text verloren ging. Dies ist sehr ärgerlich, ich habe es satt meine Arbeit doppelt zu erledigen. Mittlerweile speichere ich meinen Code und meinen Text regelmässig in einem Text-File. Eigentlich ist doch das Ziel des Repositoriums, dass man seine Arbeit nicht verliert und keine Text-Files erstellen muss um den Code und Text zu sichern!  
   
 #### Team  
   
