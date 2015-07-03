@@ -1,5 +1,5 @@
 [Home](home)  
-[Back](WikiSolidus)
+[Back](DokuSolidus)
 ***
 ## Diagramme
 ### StateMachine
