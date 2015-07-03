@@ -14,6 +14,7 @@
 		- <a href="#rbz">refbZone</a>
   		- <a href="#j">Job</a>  
 		- <a href="#co">coord</a>
+- <a href="#kd">Klassen Diagramm</a>  
 - <a href="#pck">Product Controll Kommunikation</a>  
 
 
@@ -109,6 +110,11 @@ Alle verarbeiteten Informationen (neue Ziele) werden mittels Broker dem [Drive](
 
  
 ----------
+### <a name="kd">KlassenDiagramm</a> ###
 
+![Klassendia](https://gitlab.com/solidus/hefei/uploads/409afed35ef77beea3231a27cda0fae9/Klassendia.PNG)
+
+
+----------
 
 
