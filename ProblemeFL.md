@@ -32,7 +32,7 @@
 | Hardware| | |
 | Hardware| | |
 | | | |
-| Planung| | |
+| Planung|Es gestaltet sich schwierig eine Planung zu Etwas zu machen, von dem man nicht viel Ahnung hat. Wir hatten keine Ahnung was wie möglich ist |Probieren |
 | Planung| | |
 
 ----------
