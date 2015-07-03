@@ -3,9 +3,9 @@
 
 ***
 
-### Testplan
+## Testplan
 
-**Situation:**  Die Kamera soll beim starten des Programms gestartet werden und nach erhalten des Startbefehles soll die Kameraerkennung gestartet werden.
+**Situation:**  Eine Explophase mit der Erkennung von 2 Maschinen soll getestet werden.
 
 | Klasse| Funktion | Beschreibung| I.O.| 
 | :------- | --- | --- | :---- |
@@ -22,8 +22,13 @@
 | ColorDetection|controll()|versetzt den Scheduler wider in den Leerlauf|X |
 
 
-### Resultat  
+## Resultat  
 
+Die ExplorationsPhase erwies sich als schwieriger als erst angenommen. Ende PM Kurs ist es uns jedoch möglich 2 Maschinen zu entdecken und diese abzuspeichern. 
+Leider konnten wir nicht all unsere Ziele vom PM erfüllen da sich einige unerwartete Probleme auftraten. Beispielsweise das Ausweichen des Robotinos erwies sich als schwieriger als angenommen. Ebenfalls wurde die Problematik mit der Refbox noch nicht behoben.  
+Das herstellen eines ersten Produktes war ein zu hohes Ziel und wird jetzt in der nächsten Projektphase der Diplomarbeit weiterverfolgt.
+
+### Teilziele:
 | Teilziel| Resultat |
 | :------- | --- |
 | Der Start-Up Fall muss ausprogrammiert sein.| Start-Up ist bis zum aktuellen Stand ausprogrammiert |
