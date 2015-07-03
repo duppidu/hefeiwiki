@@ -2,7 +2,7 @@
      
    
 ## Allgemein  
-[Aufgabenstellug](AufgabenstellungTeam)  
+[Aufgabenstellung](AufgabenstellungTeam)  
 [Test und Resultat](TestUndResultatTeam)  
 [Planung](PlanungTeam)   
 [Sitzungsprotokolle](Sitzungsprotokolle)     
