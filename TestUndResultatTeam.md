@@ -7,19 +7,22 @@
 
 **Situation:**  Eine Explophase mit der Erkennung von 2 Maschinen soll getestet werden.
 
-| Klasse| Funktion | Beschreibung| I.O.| 
+| Klasse|  Beschreibung| Resultat | I.O.| 
 | :------- | --- | --- | :---- |
-| Start-Up|programStartup()|Start-Up instanziert in einer Schrittkette die Color detection |X |
-| ColorDetection|Colordetection()|Starten der Kamera |X |
-| ColorDetection|Colordetection()|Verbinden zum Broker|X |
-| ColorDetection|Colordetection()|Starten des Schedulers aus dem Scheduler-pool im Main |X |
-| ColorDetection|run()|Scheduler dreht im Lehrlauf und wartet immer 1 sec|X |
-| ColorDetection|messageArrived()|String mit dem Inhalt "start" kommt beim Broker an. Dadurch wird messageArrived() aufgerufen und diese Startet dan die überprüfung |X |
-| ColorDetection|run()|Starten der Überprüfung durch zyklischen Aufruf von trackColor() und controll()|X |
-| ColorDetection|controll()|startet nachdem jede Farbe 41 mal überprüft wurde lightAnalyse()|X |
-| ColorDetection|lightAnalyse()|Auswerten der überpüften Farbe und abspeichern in das Lamp Objekt|X |
-| ColorDetection|mqttSend()|Senden des Lamp Objekts an den Broker|X |
-| ColorDetection|controll()|versetzt den Scheduler wider in den Leerlauf|X |
+| Start-Up|Start-Up ruft Statemaschine auf |Funktioniert|X |
+| Statemaschine|Nullen|Konntet noch nicht getestet werden | 0 |
+| Statemaschine|goToTarget aufs Feld|Konnte noch nicht getestet werden|0 |
+| Drive|Fährt auf das Feld| goToTarget Funktioniert somit wird er auch fahren |X |
+| Statemaschine| ruft Explokonroller auf und schickt Felder| Funktioniert |X |
+| Explokontroller|gibt dem Drive die Werte der Zone in der Explort werden muss|Funktioniert |X |
+| Drive|Fährt zu erster Zone|Funktioniert|X |
+| Laser|Suchen nach Kanten|Kannten werden erkannt|X |
+| Drive|Ausrichten|Robotino richtet sich aus|X |
+| TagErkennung|Die Kamera muss das Tag erkennen|Funktioniert über weite distanzen|X |
+| Lampenerkennung|Soll den Wert der Lampe überprüfen und senden|Funktioniert|X |
+| Drive|Fahre in nächste Zone|Funktioniert noch nicht sauber da wir das Ausweichen noch nicht testen konnten|0 |
+| Ausweichen|Robotino soll zuverlässig Objekten ausweichen|Konnte leider noch nicht getestet werden da wir keinen funktionstüchtigen Robi hatten|0 |
+
 
 
 ## Resultat  
