@@ -14,7 +14,7 @@
   
 ### WayAnalyzer:  
   
-Die WayController wurde bereits im Poe-Modul ausprogrammiert, ist aber nicht getestet worden. Die Inbetriebnahme ist deshalb nötig um visuelle Feedbacks, welche die Software an bestimmten Punkten zurück gibt, zu erhalten. Der Überblick über den Testablauf muss beibehalten werden können, die Methoden müssen einzeln auf deren Funktion geprüft werden können.
+Der WayController wurde bereits im Poe-Modul ausprogrammiert, ist aber nicht getestet worden. Die Inbetriebnahme ist deshalb nötig um visuelle Feedbacks, welche die Software an bestimmten Punkten zurück gibt, zu erhalten. Der Überblick über den Testablauf muss beibehalten werden können, die Methoden müssen einzeln auf deren Funktion geprüft werden können.
   
 ### WayController:  
   
