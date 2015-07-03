@@ -1,7 +1,7 @@
 ## Backup des RobotinoOS
 
 ----
-Autor: Florian Gehrig  
+Autor: Florian Gehrig, Michael Johner  
 Klasse: HF2A  
 Datum: 08. Juni 2015  
 Version: 1.0  
