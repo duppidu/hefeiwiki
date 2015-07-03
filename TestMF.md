@@ -14,3 +14,7 @@ Der Laserscanner erkennt die richtige Maschine, wenn er im guten Winkel dazu ste
 ### StateMachine
 
 Die StateMachine wurde noch nicht in der Praxis getestet.
+
+### Refbox
+Die Kommunikation mit der Refbox wurde getestet. Grundsätzlich funktioniert sie. Momentan gibt es aber noch ein Problem mit der neusten Version der Refbox. 
+Von den diversen Meldungen wurden bereits einige analysiert. Bei der ExplorationInfo und der OrderInfo gibt es bislang noch einige Unklarheiten über die empfangenen Nachrichten. Die sollten gelöst werden, sobald die neuste Version funktioniert.
