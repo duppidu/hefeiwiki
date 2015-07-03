@@ -16,8 +16,8 @@
 |Broker| MQTT Callback vergessen zu Setzen | Strukturiertes aubauen der MQTT Kommunikation |
 |Broker | Senden von Objekten|Objekt Serializable machen oder als "String" senden|
 | | | |
-| Java| erster arrayplazt Leer beim aufsplitten des String "-Z1-Z2..."| Gesamtes Array um 1 Plazt hochschieben |
-| Java| | |
+| Java| Erster arrayplazt Leer beim aufsplitten des String "-Z1-Z2..."| Gesamtes Array um 1 Plazt hochschieben |
+| Java| Es werden RollBock mässig noch immer diverse Sachen angepasst, daher stimmt das Programm nicht mehr  |Immer wider leichte Anpassungen vornehmen |
 | Java| | |
 | Java| | |
 | Java| | |
