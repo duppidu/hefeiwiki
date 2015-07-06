@@ -47,3 +47,4 @@ Field Topics
 | :------- | ----: |
 | Job Anfrage (Production "Robi sendet seine Nummer") |/field/job/getjob|
 | Maschinen werden Gesendet um Feld zu vervollständigen|/field/complete/machine|
+| Komplette Maschinen Map wird zur Sicherheit gesendet|/field/MapAll/machine|
