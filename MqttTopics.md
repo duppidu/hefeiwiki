@@ -37,7 +37,7 @@ Local Topics
 |Greifer (open/)|/robo/local/grippercontrol|
 |Aktuelle Spielphase von Refbox|/robo/local/refbox/state|
 |Position Initialisiert|/robo/local/pos/init|
-
+|Robotino Neustarten|/robo/local/restart|
 
 
 Field Topics
