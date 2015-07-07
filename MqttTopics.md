@@ -35,7 +35,8 @@ Local Topics
 | Senden von neuem Job an Robi 2 |/robo/local/job/newjob2|
 | Senden von neuem Job an Robi 3 |/robo/local/job/newjob3|
 |Greifer (open/)|/robo/local/grippercontrol|
-|Aktuelle Spielphase von Refbox|/robo/local/refbox/state|
+|Aktuelle Spielphase von Refbox|/robo/local/refbox/phase|
+|Aktueller Spielphase von Refbox|/robo/local/refbox/state|
 |Position Initialisiert|/robo/local/pos/init|
 |Robotino Neustarten|/robo/local/restart|
 
