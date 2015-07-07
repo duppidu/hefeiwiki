@@ -116,7 +116,7 @@ Die Refbox akzeptiert Stream-Client-Verbindungen auf Port TCP 4444. Während dem
 Der öffentliche Broadcast-Kanal ist auf Port UDP 4444 eingerichtet. Teams können auf diesem Kanal nur zuhören, aber nicht senden.   
 
 **Teamkanal**  
-Es sind zwei Teamkanäle auf Port UDP 4441 (Cyan) und 4441 (Magenta). Jeder Kanal wird mit einem teamspezifischen Verschlüsselungsschlüssel, den das Team, vor dem Wettkampf, vorbereitet und mitbringt, verschlüsselt (und könnte später noch geändert werden, sollte Bedarf bestehen). Es wird gebraucht für die private Kommunikation zwischen den Teams und der Refbox.  
+Es sind zwei Teamkanäle auf Port UDP 4441 (Cyan) und 4442 (Magenta). Jeder Kanal wird mit einem teamspezifischen Verschlüsselungsschlüssel, den das Team, vor dem Wettkampf, vorbereitet und mitbringt, verschlüsselt (und könnte später noch geändert werden, sollte Bedarf bestehen). Es wird gebraucht für die private Kommunikation zwischen den Teams und der Refbox.  
 ### <a name="SM1.3.2">Verschlüsselungsaufbau</a>
 Die Verschlüsselung auf dem Teamkanal sollte nur konfiguriert werden, wenn die Refbox dem jeweiligen Teamnamen eine der zwei Farben ankündigt. Teams können niemals Nachrichten über den privaten Teamkanal senden, wenn er für ein anderes Team als das Eigene konfiguriert ist.  
 Der empfohlene Durchlauf für die Verschlüsselung aufzubauen ist:
