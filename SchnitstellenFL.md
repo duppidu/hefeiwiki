@@ -31,9 +31,9 @@
 | [ExploControll](ExploControll)| [ColorDedection](ColorDetection)| Empfangen [Lampen](Lamps)|
 | [ExploControll](ExploControll)| [Marker Dedection](Markerdetection_Markercoordinates)| Empfangen [TagID](Markerdetection_Markercoordinates)|
 | [ExploControll](ExploControll)|[Statemachine](StateMachine)|Erhalten von [Zonen](Zones)|
-| [ExploControll](ExploControll)|[Machine](Machine)|Senden von [Machine](Machine) zum speichern|
+| [ExploControll](ExploControll)|[MPS](MPS)|Senden von [MPS](MPS) zum speichern|
 ||||
-|[ProductControllLocal](ProductControllLocal)|[Machine](Machine)|Erhalten von [Coord](Coord)|
+|[ProductControllLocal](ProductControllLocal)|[MPS](MPS)|Erhalten von [Coord](Coord)|
 |[ProductControllLocal](ProductControllLocal)|[ProductControllMain](ProductControllMain)|Empfangen von neuen [Jobs](ProductControllMain)|
 |[ProductControllLocal](ProductControllLocal)|[Drive](Drive)|Senden von neuen [Coord](Coord)|
 
