@@ -55,10 +55,10 @@ Rükgabewert = [Coord](Coord) der zu explorierenden [Zone](Zones)
 
 ### saveMachine() ###
 
-- Speichert eine neu detektierte [Maschine](Machine) mittels der Funktion [fill()](Machine).     
+- Speichert eine neu detektierte [Maschine](Machine) mittels der Funktion [fill()](MPS).     
 - Ermittelt [MPS](Machine) Informationen von der gegenüberliegenden Seite.   
-- Speichert die Gegenüberliegende Seite der [MPS](Machine) mit theoretische errechneten Werten mittels der Funktion [fill()](Machine).   
-- Überprüft beim Speichern einer neuen [MPS](Machine) ob es wirklich eine neue [MPS](Machine) ist!
+- Speichert die Gegenüberliegende Seite der [MPS](Machine) mit theoretische errechneten Werten mittels der Funktion [fill()](MPS).   
+- Überprüft beim Speichern einer neuen [MPS](MPS) ob es wirklich eine neue [MPS](MPS) ist!
 
 ----------
 ### handleexploCoords() ###
