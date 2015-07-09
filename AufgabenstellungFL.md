@@ -26,7 +26,7 @@ Unseren Zuständigkeitsbereich bezieht sich auf den [Fieldcommander](WikiSolidus
 Der [Fieldcommander](WikiSolidus) ist dafür zuständig, um die Komplette Explorations und Productionsphase zu handeln.  
 - Koordinieren der Roboter
 - Verwalten des [Spielfeldes](Zones).  
-- Speichern und Verwalten der [Machinen](Machine).  
+- Speichern und Verwalten der [MPS](MPS).  
 - Senden von ziel [Koordinaten](Coord).
 - Verwalten der Produkte.  
 - Verteilen von Jobs.  
