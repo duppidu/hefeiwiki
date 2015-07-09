@@ -14,8 +14,8 @@
 | Aufgabe| Muss| Kann| Erreicht :+1: |
 | :------- | --- | :---- | :---- |
 |Eine ausprogrammierter [Fieldcommander](WikiSolidus) in den bereichen Explorationsphase| X| | X |
-|Speichern von [Maschinen](Machine) Input| X| | X|
-|Speichern von [Maschinen](Machine) Output| X| | X|
+|Speichern von [MPS](MPS) Input| X| | X|
+|Speichern von [MPS](MPS) Output| X| | X|
 |Automatischer Ablauf der Explorationsphase| X| | X|
 |Arbeitsaufteilung der Robis in Explorationsphase|| X| X|
 |Zu Produzierende Produkte von RefBox Speichern||X|  |
