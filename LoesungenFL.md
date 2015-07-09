@@ -10,7 +10,7 @@
 	- <a href="#p3">Phase 3</a>
 	- <a href="#db">DB</a>
 		- <a href="#prod">Product</a> 
-		- <a href="#ma">Machine</a>  
+		- <a href="#ma">MPS</a>  
 		- <a href="#rbz">refbZone</a>
   		- <a href="#j">Job</a>  
 		- <a href="#co">coord</a>
@@ -46,13 +46,13 @@ Die Kommunikation zwischen den einzelnen Klassen sieht wie folgt aus:
 #### <a name="p2">Phase 2</a>  
  
 - Die Klass [ExploControll](ExploControll) ist für das komplette Handling der ExplorationsPhase Zuständig. Diese Klasse benötigt unbedingt die Klasse [Zones](Zones) die für die Verwaltung der Felder zuständig ist.  
-- Die in der ExplorationsPhase Dedectierten [Maschinen](Machine) werden in der [Maschinen](Machine) Klasse gespeichert und verwaltet.  
+- Die in der ExplorationsPhase Dedectierten [MPS](MPS) werden in der [MPS](MPS) Klasse gespeichert und verwaltet.  
 
 #### <a name="p3">Phase 3</a>  
  
 - Die Klasse [ProductControllLocal](ProductControllLocal) ist für die komplette Produktionsphase zuständig und wird von der übergeordneten Klasse [ProductControllMain](ProductControllMain) bei der Koordination und Kommunikation der Roboter unterstützt.  
 - Die Klasse [ProductControllLocal](ProductControllLocal) Besitzt die Klasse [ProductAssembly](ProductAssembly) dessen Aufgabe es ist, die zu fertigende Produkte in Einzelne Produktionsschritte aufzuteilen. 
-- Die Klasse [ProductControllLocal](ProductControllLocal) benötigt zudem die Daten der Klasse [Machine](Machine) die zuvor in der Explorationsphase von der Klasse [ExploControll](ExploControll) gefüllt wurde. Mithilfe dieser Klassen werden immer die richtigen [Koordinaten](Coords) auf den Broker gesendet.  
+- Die Klasse [ProductControllLocal](ProductControllLocal) benötigt zudem die Daten der Klasse [MPS](MPS) die zuvor in der Explorationsphase von der Klasse [ExploControll](ExploControll) gefüllt wurde. Mithilfe dieser Klassen werden immer die richtigen [Koordinaten](Coords) auf den Broker gesendet.  
 
 #### <a name="db">DB</a> ####
 
@@ -69,7 +69,7 @@ Unsere Klassen besitzen 5 verschiedene Speicherelemente.
 **<a name="ma">Machine:</a>**  
 - Hash Map.  
 - Wird Dynamisch in der Explorations Phase von [ExploControll](ExploControll) gefüllt. 
-- Sind alle [Maschinen](Machien) von unserem Team abgespeichert.  
+- Sind alle [MPS](MPS) von unserem Team abgespeichert.  
 
 **<a name="rbz">refbZone:</a>**
 - Array.  
