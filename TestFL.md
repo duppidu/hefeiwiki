@@ -21,12 +21,12 @@ Dies wird fortlaufend und selbstständig durchgeführt.
 | ExploControll|saveMachine()|Übergabewerte statisch setzen mit sout kontrollieren ob In & Out der Maschine richtig gespeichert wurden |X |
 | ExploControll|handleexploCoords()| Übergabewert (Array) statisch setzen, mit sout testen ob jeder Array platz um eins nach hinten verschoben wurde|X |
 | ExploControll|MQTT|Alles über MQTT senden und über die Run Methode  die Funktionen `saveMachine()`,`handleexploCoords` & `jobHandler()` aufrufen  |X |
-|Machine|idToName() |Statischer Übergabewert festlegen(int), mit sout kontrollieren ob der richtige String zurückkommt |X|  
-|Machine|fill() |Statischer Übergabewert festlegen([Maschine](Machine)), mit sout kontrollieren ob die richtigen [Maschinen](Machine) in der HMap gespeichert wurden |X|
-|Machine|machineSecondSideGenerator() |Statischer Übergabewert festlegen(int & [Koordinaten](Coord)), mit sout kontrollieren ob die richtigen [Maschinen](Machine) zurückkommt |X|
+|MPS|idToName() |Statischer Übergabewert festlegen(int), mit sout kontrollieren ob der richtige String zurückkommt |X|  
+|MPS|fill() |Statischer Übergabewert festlegen([MPS](MPS)), mit sout kontrollieren ob die richtigen [MPS](MPS) in der HMap gespeichert wurden |X|
+|MPS|machineSecondSideGenerator() |Statischer Übergabewert festlegen(int & [Koordinaten](Coord)), mit sout kontrollieren ob die richtigen [MPS](MPS) zurückkommt |X|
 | ProductAssembly| initProdPlan()|Aufrufen der Funktion, mittels sout kontrollieren ob an den richtigen plätze das richtige gespeichert wurde |X|
 | ProductControllLocal|initAssignement()|Übergabewert(int) statisch festlegen(Produktenummer), mittels sout kontrollieren ob die Liste nach `initProdPlan` richtig zusammengestellt wurde|X|
-| ProductControllLocal|MQTT|Über das Main mittels Befehl "backwards" muss jedesmal eine [Koordinate](Coord) der entsprechenden [Maschine](Machine) gesendet werden|X|  
+| ProductControllLocal|MQTT|Über das Main mittels Befehl "backwards" muss jedesmal eine [Koordinate](Coord) der entsprechenden [MPS](MPS) gesendet werden|X|  
 | ProductControllMain| jobHandler()|Statische Liste von Jobs einlesen, bei jedem Aufruf wird der kleinste Job zurückgegeben und gelöscht|X|
 | ProductControllMain| MQTT|Über Main dem Brocker Robi Nummer senden. Bei empfangen `jobHandler` aufrufen und mit sout kontrollieren |X|
 | Zones|Zones()|Mittels sout kontrollieren, ob bei dem Konstruktoraufruf die ArrayListe richtig gefüllt worden sind |X|
@@ -43,11 +43,11 @@ Dies ist der Realitätsnahster Test den wir bei uns ind der Schule durchführen 
 | Klasse| Funktion | Beschreibung| I.O.| 
 | :------- | --- | --- | :---- |
 |Refbox / ExploControll|Felder Senden| Sendet die Belegten Felder von der Refbox an den Explocontroll|X |
-|Explocontroll / Drive | Coords Senden | verarbeitet die Belegten Felder in [Koordinaten](Coord) und sendet diese entsprechend der Robot Nr. Weiter an den [Wayocntroller](WayController) |X |
-|Explocontroll / Drive| Coords erhalten | Input und Output [Koordinaten](Coord) vom Drive erhalten und in der Richtigen Maschine Speichern| |
+|Explocontroll / Drive | Coords Senden | verarbeitet die Belegten Felder in [Koordinaten](Coord) und sendet diese entsprechend der Robot Nr. Weiter an den [Waycontroller](WayController) |X |
+|Explocontroll / Drive| Coords erhalten | Input und Output [Koordinaten](Coord) vom Drive erhalten und in der Richtigen MPS Speichern| |
 |Explocontroll / MarkerDetection| Tag ID erhalten | Tag ID erhalten und Speichern |X |
 |Explocontroll / ColorDetection| Lampe erhalten | Lampe erhalten und speichern welche die jeweiligen Zustände(R, O, G) ausgibt |X |
-|Explocontroll | Maschine Speichern |Kontrollieren ob bei erhalt von Backwards die Vorder und Hinterseite der maschine korrekt gespeichert wurde | |
+|Explocontroll | MPS Speichern |Kontrollieren ob bei erhalt von Backwards die Vorder und Hinterseite der maschine korrekt gespeichert wurde | |
 |Explocontroll / Drive | Neue Coords Senden | Weitere [Koordinate](Coord) senden um das 2te feld zu entdecken | |
 
 Der Test wurde anhand des Sequenz Diagramms der [ExploCommunication](ExploCommunication) teilweise durchgeführt und abgehandelt
