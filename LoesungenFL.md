@@ -66,7 +66,7 @@ Unsere Klassen besitzen 5 verschiedene Speicherelemente.
 - Sind die einzelnen Produktionsschritte für jedes Produkt gespeichert. 
 - Bsp. "Produkt 1" = BaseStation/CapStation/DeliveryStation.   
 
-**<a name="ma">Machine:</a>**  
+**<a name="ma">MPS:</a>**  
 - Hash Map.  
 - Wird Dynamisch in der Explorations Phase von [ExploControll](ExploControll) gefüllt. 
 - Sind alle [MPS](MPS) von unserem Team abgespeichert.  
