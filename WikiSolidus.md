@@ -78,7 +78,7 @@
 [MQTT Topics](MqttTopics)   
 [ExploControll](ExploControll)     
 [ExploCommunication](ExploCommunication)  
-[Machine](Machine)  
+[MPS](Machine)  
 [ProductAssembly](ProductAssembly)  
 [ProductControllLocal](ProductControllLocal)  
 [ProductControllMain](ProductControllMain)   
