@@ -49,3 +49,4 @@ Field Topics
 | Maschinen werden Gesendet um Feld zu vervollständigen|/field/complete/machine|
 | Komplette Maschinen Map wird zur Sicherheit gesendet|/field/map/machine|
 | Sendet Robotinonummer des Robotinos, welcher bereit auf dem Feld steht|/field/stateMachine/onField|
+| Alle Zonen von Refbox als String Bsp: "Z1-Z2-Z3"|/field/refbox/zones|
