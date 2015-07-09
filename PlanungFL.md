@@ -23,7 +23,7 @@
 | [ProductControllMain](ProductControllMain)| 0| X|
 | [Zones](Zones)| 0| X|
 | [Test](TestFL)| X| 0|
-| [Machine](Machine)| 0| X|
+| [MPS](MPS)| 0| X|
 | [Wiki](https://gitlab.com/gitlab-org/gitlab-ce/blob/6-4-stable/doc/markdown/markdown.md)| X| X|
 | [Doku](DokuSolidus)| X| X|
 | GitPi aufsetzen| X| 0|
