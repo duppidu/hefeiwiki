@@ -38,7 +38,7 @@ Attribute
 ### Allgemein ###
 
  - HashMap (hmMachine)
-- Key: [Machine](Machine) Name (String)
+- Key: [MPS](Machine) Name (String)
 - Inhalt: [MPS](Machine)
 
 
