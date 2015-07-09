@@ -18,7 +18,7 @@
 | | | |
 | Java| Erster arrayplazt Leer beim aufsplitten des String "-Z1-Z2..."| Gesamtes Array um 1 Plazt hochschieben |
 | Java| Es werden RollBock mässig noch immer diverse Sachen angepasst, daher stimmt das Programm nicht mehr  |Immer wider leichte Anpassungen vornehmen |
-| Java| | |
+| Java| Wir mussten die Klasse Machine in MPS umbenennen wegen Konfliken mit der Refbox | alle Teile Probiert umzubenennen |
 | Java| | |
 | Java| | |
 | | | |
