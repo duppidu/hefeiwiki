@@ -14,7 +14,12 @@
 ### Beschreibung ###
 
 Zuständig für das speichern und Verwaltet neuer Maschinen.   
-Weiste den erkannten ID`s den richtigen Maschinen Name zu.   
+Weiste den erkannten ID`s den richtigen Maschinen Name zu. 
+
+#### Umbenannt
+Gegen Aussen mussten wir den Namen der Klasse nachträglich abändern, da bei der Kommunikation mit der Refbox bereits der Begriff Machine verwendet wird.
+Somit konnten wir den nicht auch verwenden und haben uns für den Namen MPS.  
+Aus diesem Grund kann noch der Begriff Machine vorkommen welcher jedoch gleichbedeutend mit MPS ist. 
 
 ----------
 ### Machine ###
@@ -34,7 +39,7 @@ Attribute
 
  - HashMap (hmMachine)
 - Key: [Machine](Machine) Name (String)
-- Inhalt: [Machine](Machine)
+- Inhalt: [MPS](Machine)
 
 
 ----------
@@ -42,9 +47,9 @@ Attribute
 ### idToName() ###
 
 - Uebergabewert = Tag ID (int)
-- Return = [Machine](Machine) Name (String)
+- Return = [MPS](Machine) Name (String)
 
-Wandelt die Tag ID von der [Maschine](Machine) ihn ihren dazugehörigen Namen um.
+Wandelt die Tag ID von der [MPS](Machine) ihn ihren dazugehörigen Namen um.
 
 
 ----------
