@@ -16,11 +16,11 @@
 ***
 ### Lancom  
 [Configuration](ConfigurationOfLancom)
-***
+***  
 ### Raspberry Pi  
-[Local Git Server](LocalGitServer)
-[Local Wiki Server](LocalWikiServer)  
-[Mosquitto Broker](MosquittoBroker) 
+[Local Git Server](LocalGitServer)  
+[Local Wiki Server](LocalWikiServer)    
+[Mosquitto Broker](MosquittoBroker)  
 ***
 ### RobotinoOS  
 [Kommandos](CommandOfRobotinoOS)  
