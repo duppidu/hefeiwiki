@@ -4,7 +4,7 @@
 Autor: Florian Gehrig  
 Klasse: HF2A  
 Datum: 08. Juni 2015  
-Version: 1.0  
+Version: 2.0  
 
 ----
 - <a href="#SM1">Config-File</a>
@@ -17,7 +17,7 @@ Version: 1.0
 
 ## <a name="SM2">Default-Eintrag</a>
 
-	    %YAML 1.2
+	   %YAML 1.2
 	%TAG ! tag:fawkesrobotics.org,cfg/
 	---
 	# Configuration meta information document
@@ -47,22 +47,22 @@ Version: 1.0
 	    # type: 1(incoming station), 2(singel p&p), 3(double p&p), 4(delivery station)
 	    stations:
 	      C-BS:
-	        active: true
+	        active: false
 	        type: BS
 	        host: !ipv4 192.168.2.27
 	        port: !tcp-port 502
 	      C-CS1:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.24
 	        port: !tcp-port 502
 	        type: CS
 	      C-CS2:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.25
 	        port: !tcp-port 502
 	        type: CS
 	      C-RS1:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.23
 	        port: !tcp-port 502
 	        type: RS
@@ -72,37 +72,37 @@ Version: 1.0
 	        port: !tcp-port 502
 	        type: RS
 	      C-DS:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.28
 	        port: !tcp-port 502
 	        type: DS
 	      M-BS:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.33
 	        port: !tcp-port 502
 	        type: BS
 	      M-CS1:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.30
 	        port: !tcp-port 502
 	        type: CS
 	      M-CS2:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.32
 	        port: !tcp-port 502
 	        type: CS  
 	      M-RS1:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.31
 	        port: !tcp-port 502
 	        type: RS
 	      M-RS2:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.34
 	        port: !tcp-port 502
 	        type: RS
 	      M-DS:
-	        active: true
+	        active: false
 	        host: !ipv4 192.168.2.29
 	        port: !tcp-port 502
 	        type: DS
@@ -178,7 +178,7 @@ Version: 1.0
 ----------
 ## <a name="SM3">Neue Konfiguration</a>
 
-	    %YAML 1.2
+	   	%YAML 1.2
 	%TAG ! tag:fawkesrobotics.org,cfg/
 	---
 	# Configuration meta information document
@@ -192,7 +192,7 @@ Version: 1.0
 	
 	llsfrb:
 	  log:
-	    level: info
+	    level: debug # Wird zum Entwickeln auf Debug gestellt.
 	    general: refbox.log
 	    clips: clips.log
 	    game: game.log
@@ -204,7 +204,7 @@ Version: 1.0
 	    test-lights: true
 	
 	  mps:
-	    enable: true
+	    enable: false # Die MPS muss auf false sein, da keine zur Verfügung steht.
 	    # type: 1(incoming station), 2(singel p&p), 3(double p&p), 4(delivery station)
 	    stations:
 	      C-BS:
@@ -273,9 +273,9 @@ Version: 1.0
 	    timer-interval: 40
 	
 	    main: refbox
-	    debug: false
+	    debug: true # Ist das Debuggen eingeschaltet, werden Meldungen in der Shell ausgegeben.
 	    # debug levels: 0 ~ none, 1 ~ minimal, 2 ~ more, 3 ~ maximum
-	    debug-level: 2
+	    debug-level: 3 # Mit dem Debuglevel 3 werden alle Meldungen ausgegeben, auch das BeaconSignal.
 	    unwatch-facts: [time, signal, gamestate]
 	    unwatch-rules: [retract-time,
 	                    game-update-gametime-points, game-update-last-time,
@@ -290,25 +290,25 @@ Version: 1.0
 	    server-port: !tcp-port 4444
 	    
 	    public-peer:
-	      #host: !ipv4 192.168.122.255
-	      host: !ipv4 192.168.56.255
-	      #port: !udp-port 4444
-	      send-port: !udp-port 4444
-	      recv-port: !udp-port 4445
+	      host: !ipv4 192.168.56.255 # Die Broadcast-Adresse kommt vom Host-only-Adapter von der Virtualbox.
+	      #host: !ipv4 127.0.0.1
+	      port: !udp-port 4444 # Je nach Anwendung muss der Port für das Senden und Empfangen gleich sein.
+	      #send-port: !udp-port 4444
+	      #recv-port: !udp-port 4445
 	
 	    cyan-peer:
-	      #host: !ipv4 192.168.122.255
 	      host: !ipv4 192.168.56.255
-	      #port: !udp-port 4441
-	      send-port: !udp-port 4441
-	      recv-port: !udp-port 4446
+	      #host: !ipv4 127.0.0.1
+	      port: !udp-port 4441
+	      #send-port: !udp-port 4441
+	      #recv-port: !udp-port 4446
 	
 	    magenta-peer:
-	      #host: !ipv4 192.168.122.255
 	      host: !ipv4 192.168.56.255
-	      #port: !udp-port 4442
-	      send-port: !udp-port 4442
-	      recv-port: !udp-port 4447
+	      #host: !ipv4 127.0.0.1
+	      port: !udp-port 4442
+	      #send-port: !udp-port 4442
+	      #recv-port: !udp-port 4447
 	
 	  mongodb:
 	    enable: false
@@ -319,16 +319,16 @@ Version: 1.0
 	      protobuf: llsfrb.protobuf
 	
 	  game:
-	    teams: [Solidus]
+	    teams: [Solidus] # Der Teamname muss eingetragen werden.
 	    crypto-keys:
-	      Solidus: randomkey
+	      Solidus: randomkey # Für den privaten Kanal muss ein Schlüssel eingegeben werden.
 	
 	  shell:
 	    refbox-host: localhost
 	    refbox-port: 4444
 	
 	  simulation:
-	    enable: false
+	    enable: true # Falls die MPS auf false ist, muss dafür die Simulation auf true sein.
 	    # synchronize refbox time with the time of a simulation 
 	    time-sync:
 	      enable: false
@@ -338,4 +338,4 @@ Version: 1.0
 
 	      
 ----
-Last edited by Florian Gehrig at 10. Juni 2015
+Last edited by Florian Gehrig at 10. Juli 2015
