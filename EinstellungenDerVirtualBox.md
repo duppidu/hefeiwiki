@@ -3,13 +3,15 @@
 Autor: Florian Gehrig  
 Klasse: HF2A  
 Datum: 22. Juni 2015  
-Version: 2.0  
-Quellen:  [Thomas Krenn, Netzwerkkonfiguration in VirtualBox](https://www.thomas-krenn.com/de/wiki/Netzwerkkonfiguration_in_VirtualBox) | [CSB, Forum](http://www.csb.vu/threads/fedora-ohne-grafische-oberfl%C3%A4che-wie.121543/) | [Wikipedia, Runlevel](https://de.wikipedia.org/wiki/Runlevel) | [Fedoraproject, Forum](https://ask.fedoraproject.org/en/question/10097/fedora-17-text-mode-screen-resolution/) | [Vincent Verhagen](http://www.vincentverhagen.nl/2008/08/03/how-to-change-console-resolution-on-linux-rhel-centos-fedora-etc/) | [CCM.net](http://ccm.net/faq/40878-fedora-21-switching-to-lxde) | [LXDE Wiki](http://wiki.lxde.org/de/Fedora) | [Raspberry Pi, Forum](https://www.raspberrypi.org/forums/viewtopic.php?f=26&t=14577) | [Chip](http://praxistipps.chip.de/virtualbox-festplatte-nachtraeglich-vergroessern_27503) | [developer-BLOG](https://developer-blog.net/administration/virtualisierung/virtualbox-virtuelle-festplatte-vergroessern/) | [Thomas Krenn, LVM vergrössern](https://www.thomas-krenn.com/de/wiki/LVM_vergr%C3%B6%C3%9Fern) | [Google Developers, Developer Guide](https://developers.google.com/protocol-buffers/docs/overview) | [Google Developers, Java Reference](https://developers.google.com/protocol-buffers/docs/reference/java-generated#package) | [Google Developers, aktueller Compiler](https://developers.google.com/protocol-buffers/docs/downloads) | [Maven Repository, Protocol Buffer Java API](http://mvnrepository.com/artifact/com.google.protobuf/protobuf-java) | [Protobuf Googlecode, Compiler](https://protobuf.googlecode.com/svn/rc/) | [NetBeans Installationsanleitung](https://netbeans.org/community/releases/80/install.html) | [If-not-true-then-false.com](http://www.if-not-true-then-false.com/2014/install-oracle-java-8-on-fedora-centos-rhel/) | [EasyLinux](http://www.easylinux.de/2004/11/077-guru-sudo/) | [Krivatech Blog](http://krivatech.blogspot.ch/2013/01/yaml-syntax-highlighting-in-gedit.html)
+Version: 3.0  
+Quellen:  [Thomas Krenn, Netzwerkkonfiguration in VirtualBox](https://www.thomas-krenn.com/de/wiki/Netzwerkkonfiguration_in_VirtualBox) | [CSB, Forum](http://www.csb.vu/threads/fedora-ohne-grafische-oberfl%C3%A4che-wie.121543/) | [Wikipedia, Runlevel](https://de.wikipedia.org/wiki/Runlevel) | [Fedoraproject, Forum](https://ask.fedoraproject.org/en/question/10097/fedora-17-text-mode-screen-resolution/) | [Vincent Verhagen](http://www.vincentverhagen.nl/2008/08/03/how-to-change-console-resolution-on-linux-rhel-centos-fedora-etc/) | [CCM.net](http://ccm.net/faq/40878-fedora-21-switching-to-lxde) | [LXDE Wiki](http://wiki.lxde.org/de/Fedora) | [Raspberry Pi, Forum](https://www.raspberrypi.org/forums/viewtopic.php?f=26&t=14577) | [Chip](http://praxistipps.chip.de/virtualbox-festplatte-nachtraeglich-vergroessern_27503) | [developer-BLOG](https://developer-blog.net/administration/virtualisierung/virtualbox-virtuelle-festplatte-vergroessern/) | [Thomas Krenn, LVM vergrössern](https://www.thomas-krenn.com/de/wiki/LVM_vergr%C3%B6%C3%9Fern) | [Google Developers, Developer Guide](https://developers.google.com/protocol-buffers/docs/overview) | [Google Developers, Java Reference](https://developers.google.com/protocol-buffers/docs/reference/java-generated#package) | [Google Developers, aktueller Compiler](https://developers.google.com/protocol-buffers/docs/downloads) | [Maven Repository, Protocol Buffer Java API](http://mvnrepository.com/artifact/com.google.protobuf/protobuf-java) | [Protobuf Googlecode, Compiler](https://protobuf.googlecode.com/svn/rc/) | [NetBeans Installationsanleitung](https://netbeans.org/community/releases/80/install.html) | [If-not-true-then-false.com](http://www.if-not-true-then-false.com/2014/install-oracle-java-8-on-fedora-centos-rhel/) | [EasyLinux](http://www.easylinux.de/2004/11/077-guru-sudo/) | [Krivatech Blog](http://krivatech.blogspot.ch/2013/01/yaml-syntax-highlighting-in-gedit.html) | [MyLittleTechBlog](https://mylittletechblog.wordpress.com/2013/04/06/virtuelle-maschinen-alternativ-umziehen-unter-oracles-virtual-box/)
 
 ----
 - <a href="#SM1">Oracle VM VirtualBox</a>
 	- <a href="#SM1.1">Netzwerkkonfigurationen</a>
 	- <a href="#SM1.2">In Virtualbox nachträglich Festplatten vergrössern</a>
+	- <a href="#SM1.3">Virtuelle Maschine verschieben</a>
+	- <a href="#SM1.4">IP-Adresse des Host-only-Adapters ändern</a>
 - <a href="#SM2">Fedora</a>
 	- <a href="#SM2.1">Text-Modus</a>
 	- <a href="#SM2.2">Auflösung im Text-Modus</a>
@@ -78,6 +80,11 @@ wird das Dateisystem vergrössert. Der [Pfad] kann je nach verwendetem Gastsyste
 	df -h
 
 kann überprüft werden, ob die Vergrösserung funktioniert hat. Die Grösse sollte nun gleich sein, wie bei der Windowskonsole resp. bei Gparted eingestellt wurde.
+## <a name="SM1.3">Virtuelle Maschine verschieben</a>
+Da eine virtuelle Maschine auf der Festplatte sehr viel Platz wegnimmt, wird es eventuell nötig, dass die Maschine auf eine externe Festplatte verschoben wird. Dies kann aber leider nicht über das GUI gemacht werden. Zunächst muss die Maschine auf den neuen Ort verschoben werden. Dann muss der VirtualBox noch beigebracht werden, dass die Maschine nun an einem anderen Pfad zu finden ist. Dazu muss unter ***C:\Users\IhrBenutzername\\.VirtualBox*** die Datei ***VirtualBox.xml*** geöffnet werden. Am Besten mit Notepad++, das ist übersichtlich und mit Syntax-Hervorhebung. In der Datei sind unter MachineRegistry alle Maschinen mit ihrem Speicherort aufgeführt. Der Speicherort kann geändert und die Datei abgespeichert werden. Sobald VirtualBox wieder gestartet wird erkennt es die Maschinen wieder.
+## <a name="SM1.4">IP-Adresse des Host-only-Adapters ändern</a>
+Die IP-Adresse des Host-only-Adapters ist standartmässig auf 192.168.56.0 gesetzt. Um dies zu ändern kann unter ***C:\Users\IhrBenutzername\\.VirtualBox*** die Datei ***VirtualBox.xml*** geöffnet werden. Unter NetserviceRegistry sind alle Parameter für den Adapter definiert. Die Änderungen können auch im GUI unter ***Datei > Globale Einstellungen > Netzwerk*** vorgenommen werden.
+
 # <a name="SM2">Fedora</a>
 ## <a name="SM2.1">Text-Modus</a>
 Mit folgenden Code kann das Runlevel eingestellt werde:
@@ -350,6 +357,6 @@ Im Ordner "dest" sollten nun die kompilierten Dateien gespeichert sein. Zum Beis
 
 
 ----
-Last edited by Florian Gehrig at 12. Juli 2015
+Last edited by Florian Gehrig at 13. Juli 2015
 
 
