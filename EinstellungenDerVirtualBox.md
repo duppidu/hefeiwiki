@@ -3,8 +3,8 @@
 Autor: Florian Gehrig  
 Klasse: HF2A  
 Datum: 22. Juni 2015  
-Version: 1.0  
-Quellen:  [Thomas Krenn, Netzwerkkonfiguration in VirtualBox](https://www.thomas-krenn.com/de/wiki/Netzwerkkonfiguration_in_VirtualBox) | [CSB, Forum](http://www.csb.vu/threads/fedora-ohne-grafische-oberfl%C3%A4che-wie.121543/) | [Wikipedia, Runlevel](https://de.wikipedia.org/wiki/Runlevel) | [Fedoraproject, Forum](https://ask.fedoraproject.org/en/question/10097/fedora-17-text-mode-screen-resolution/) | [Vincent Verhagen](http://www.vincentverhagen.nl/2008/08/03/how-to-change-console-resolution-on-linux-rhel-centos-fedora-etc/) | [CCM.net](http://ccm.net/faq/40878-fedora-21-switching-to-lxde) | [LXDE Wiki](http://wiki.lxde.org/de/Fedora) | [Raspberry Pi, Forum](https://www.raspberrypi.org/forums/viewtopic.php?f=26&t=14577) | [Chip](http://praxistipps.chip.de/virtualbox-festplatte-nachtraeglich-vergroessern_27503) | [developer-BLOG](https://developer-blog.net/administration/virtualisierung/virtualbox-virtuelle-festplatte-vergroessern/) | [Thomas Krenn, LVM vergrössern](https://www.thomas-krenn.com/de/wiki/LVM_vergr%C3%B6%C3%9Fern) | [Google Developers, Developer Guide](https://developers.google.com/protocol-buffers/docs/overview) | [Google Developers, Java Reference](https://developers.google.com/protocol-buffers/docs/reference/java-generated#package) | [Google Developers, aktueller Compiler](https://developers.google.com/protocol-buffers/docs/downloads) | [Maven Repository, Protocol Buffer Java API](http://mvnrepository.com/artifact/com.google.protobuf/protobuf-java) | [Protobuf Googlecode, Compiler](https://protobuf.googlecode.com/svn/rc/) | [NetBeans Installationsanleitung](https://netbeans.org/community/releases/80/install.html) | [If-not-true-then-false.com](http://www.if-not-true-then-false.com/2014/install-oracle-java-8-on-fedora-centos-rhel/)
+Version: 2.0  
+Quellen:  [Thomas Krenn, Netzwerkkonfiguration in VirtualBox](https://www.thomas-krenn.com/de/wiki/Netzwerkkonfiguration_in_VirtualBox) | [CSB, Forum](http://www.csb.vu/threads/fedora-ohne-grafische-oberfl%C3%A4che-wie.121543/) | [Wikipedia, Runlevel](https://de.wikipedia.org/wiki/Runlevel) | [Fedoraproject, Forum](https://ask.fedoraproject.org/en/question/10097/fedora-17-text-mode-screen-resolution/) | [Vincent Verhagen](http://www.vincentverhagen.nl/2008/08/03/how-to-change-console-resolution-on-linux-rhel-centos-fedora-etc/) | [CCM.net](http://ccm.net/faq/40878-fedora-21-switching-to-lxde) | [LXDE Wiki](http://wiki.lxde.org/de/Fedora) | [Raspberry Pi, Forum](https://www.raspberrypi.org/forums/viewtopic.php?f=26&t=14577) | [Chip](http://praxistipps.chip.de/virtualbox-festplatte-nachtraeglich-vergroessern_27503) | [developer-BLOG](https://developer-blog.net/administration/virtualisierung/virtualbox-virtuelle-festplatte-vergroessern/) | [Thomas Krenn, LVM vergrössern](https://www.thomas-krenn.com/de/wiki/LVM_vergr%C3%B6%C3%9Fern) | [Google Developers, Developer Guide](https://developers.google.com/protocol-buffers/docs/overview) | [Google Developers, Java Reference](https://developers.google.com/protocol-buffers/docs/reference/java-generated#package) | [Google Developers, aktueller Compiler](https://developers.google.com/protocol-buffers/docs/downloads) | [Maven Repository, Protocol Buffer Java API](http://mvnrepository.com/artifact/com.google.protobuf/protobuf-java) | [Protobuf Googlecode, Compiler](https://protobuf.googlecode.com/svn/rc/) | [NetBeans Installationsanleitung](https://netbeans.org/community/releases/80/install.html) | [If-not-true-then-false.com](http://www.if-not-true-then-false.com/2014/install-oracle-java-8-on-fedora-centos-rhel/) | [EasyLinux](http://www.easylinux.de/2004/11/077-guru-sudo/) | [Krivatech Blog](http://krivatech.blogspot.ch/2013/01/yaml-syntax-highlighting-in-gedit.html)
 
 ----
 - <a href="#SM1">Oracle VM VirtualBox</a>
@@ -15,6 +15,8 @@ Quellen:  [Thomas Krenn, Netzwerkkonfiguration in VirtualBox](https://www.thomas
 	- <a href="#SM2.2">Auflösung im Text-Modus</a>
 	- <a href="#SM2.3">LXDE unter Fedora installieren</a>
 	- <a href="#SM2.4">NetBeans unter Fedora 21 installieren</a>
+	- <a href="#SM2.4">Benutzer ist nicht in der sudoers-Datei</a>
+	- <a href="#SM2.4">Gedit die YAML-Syntax-Hervorhebung beibringen</a>
 - <a href="#SM3">Protobuf</a>
 	- <a href="#SM3.1">Java-Compiler unter Linux</a>
 	- <a href="#SM3.2">Java-Compiler unter Windows</a> 
@@ -234,6 +236,32 @@ Das Problem ist, das OpenJDK installiert wurde. Das die Installation von NetBean
 
 Nach der Ausführung dieser Kommandos kann das NetBeans installiert werden.
 
+## <a name="SM2.5">Benutzer ist nicht in der sudoers-Datei</a>
+Manchmal kann es vorkommen, dass bei der Installation nicht richtig vorgegangen wurde. Dann ist der Benutzer nicht in der Gruppe *sudo*. Wird ein Befehl mit sudo ausgeführt, kommt folgende Fehlermeldung:
+> [Benutzername] ist nicht in der sudoers-Datei. Dieser Vorfall wird gemeldet.
+
+Um dieses Problem zu umgehen, muss mit **su** in den root-Modus gewechselt und dann die sudoers-Datei mit einem Editor geöffnet werden.
+	
+	su
+	nano /etc/sudoers
+In der Datei ist diese Zeile zu finden
+
+	root    ALL=(ALL) ALL
+diese sollte nun wie folgt geändert werden
+
+	root		  ALL=(ALL) ALL
+	[Benutzer]    ALL=(ALL) ALL
+danach die Datei speichern und das System neu starten. Danach sollte der Fehler bei einem sudo-Befehl nicht mehr erschienen.
+
+## <a name="SM2.6">Gedit die YAML-Syntax-Hervorhebung beibringen</a>
+Der Editor Gedit unterstützt die Syntax-Hervorhebung von YAML-Dateien. Die Config-Datei der Refbox ist in diesem Format gespeichert. Mit der Syntax-Hervorhebung erleichtert sich die Bedienung beim Abändern von Parametern. Wird der Editor nachträglich installiert ist die Hervorhebung für dieses Format nicht bereits vorinstalliert. Mit den folgenden Befehlen kann sie aber nachinstalliert werden.
+	
+	sudo yum install subversion
+	cd /tmp && svn checkout http://masood.googlecode.com/svn/trunk/yaml-language-spec/
+	cd yaml-language-spec/
+	sudo cp yaml.lang /usr/share/gtksourceview-3.0/language-specs/
+	sudo chmod 644 /usr/share/gtksourceview-3.0/language-specs/yaml.lang
+
 # <a name="SM3">Protobuf</a>
 Protocol Buffers, kurz Protobuf, von Google ist eine eigene Programmiersprache, um auf einfache Weise serialisierte Strukturdaten zu erstellen. Mit der Sprache werden die Schnittstellen beschrieben. Der Code steht dann in einer .proto-Datei bereit. Mit einem Compiler können dann die so erstellten .proto-Dateien für die Implementierung in anderen Sprachen, wie C++, Java und Python, kompiliert werden. Bei Java beispielsweise wird beim Kompilieren eine .java-Datei ausgegeben. Unter den folgenden Links gibt es weiterführende Informationen.
 
@@ -322,5 +350,6 @@ Im Ordner "dest" sollten nun die kompilierten Dateien gespeichert sein. Zum Beis
 
 
 ----
-Last edited by Florian Gehrig at 23. Juni 2015
+Last edited by Florian Gehrig at 12. Juli 2015
+
 
