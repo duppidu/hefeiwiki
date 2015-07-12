@@ -17,8 +17,8 @@ Quellen:  [Thomas Krenn, Netzwerkkonfiguration in VirtualBox](https://www.thomas
 	- <a href="#SM2.2">Auflösung im Text-Modus</a>
 	- <a href="#SM2.3">LXDE unter Fedora installieren</a>
 	- <a href="#SM2.4">NetBeans unter Fedora 21 installieren</a>
-	- <a href="#SM2.4">Benutzer ist nicht in der sudoers-Datei</a>
-	- <a href="#SM2.4">Gedit die YAML-Syntax-Hervorhebung beibringen</a>
+	- <a href="#SM2.5">Benutzer ist nicht in der sudoers-Datei</a>
+	- <a href="#SM2.6">Gedit die YAML-Syntax-Hervorhebung beibringen</a>
 - <a href="#SM3">Protobuf</a>
 	- <a href="#SM3.1">Java-Compiler unter Linux</a>
 	- <a href="#SM3.2">Java-Compiler unter Windows</a> 
