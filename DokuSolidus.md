@@ -19,11 +19,18 @@
 
 ***
 ### Bryan, Ken  
+#### Prozessmodul
 [Konzept](KonzeptBK)  
 [Planung](PlanungBK)  
 [Vorgehen](VorgehenBK)  
 [Lösungen](LoesungenBK)  
 [Test](TestBK)  
+#### Diplomarbeit
+[Konzept](KonzeptBKDA)  
+[Planung](PlanungBKDA)  
+[Vorgehen](VorgehenBKDA)  
+[Lösungen](LoesungenBKDA)  
+[Test](TestBKDA) 
 ***
 ### Michael, Florian
 [Konzept](KonzeptMF)  
