@@ -1,3 +1,6 @@
+[Home](home)  
+[Wiki](WikiSolidus)  
+
 ## WayController  
 Der WayController steuert den ganzen Fahrablauf. Er kommuniziert via Broker mit der State-Machine, von dieser, werden die Aufträge an den WayController abgegeben. Zudem berechnet er die Anfahrtspunkte Input- und Outputseitig der MPS welche via Broker vom ExploController abgespeichert.
   
