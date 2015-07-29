@@ -39,7 +39,7 @@ Die avoidLeft()-Methode wird aufgerufen, wenn auf der linken Seite ein Hindernis
   
 Sobald der Robotino einem Objekt ausweicht bewegt sich dieser seitwärts. Um zu Überprüfen ob sich ein Objekt auf der linken Seite im Weg befindet wird die Methode checkLeftSide() verwendet. Die Überprüfung wird folgendermassen durch geführt: Sobald der Roboter Links ausweicht wird die Methode aufgerufen. Durch eine while-Schlaufe werden die Positionen 165° bis 195° fortlaufend auf einen im staticDistanceParams.xml-File parametrierbaren Wert verglichen. Sobald mehr als der parametrierte Wert aufeinanderfolgende unzulässige Laserwerte entdeckt werden, wird die Methode setAvoidspeedRight aufgerufen. Dieser Vergleichsalgorythmus basiert auf dem selben wie der avoidingDetector() ihn verwendet.
   
-## checkLeftSide()  
+## checkRightSide()  
   
 Sobald der Robotino einem Objekt ausweicht bewegt sich dieser seitwärts. Um zu Überprüfen ob sich ein Objekt auf der linken Seite im Weg befindet wird die Methode checkRightSide() verwendet. Die Überprüfung wird folgendermassen durchgeführt: Sobald der Roboter Links ausweicht wird die Methode aufgerufen. Durch eine while-Schlaufe werden die Positionen -15° bis 15° fortlaufend auf einen im staticDistanceParams.xml-File parametrierbaren Wert verglichen. Sobald mehr als der parametrierte Wert aufeinanderfolgende unzulässige Laserwerte entdeckt werden, wird die Methode setAvoidspeedLeft aufgerufen. Dieser Vergleichsalgorythmus basiert auf dem selben wie der avoidingDetector() ihn verwendet.
 
