@@ -6,7 +6,9 @@
 Der WayAnalyzer erkennt mit Hilfe des Lasers ob Hindernisse im Weg sind. Er berechnet eine Schneise, welche von der Distanz her bis zum Zielpunkt reicht.  
 Diese Schneise wird nun bis Hin zum Zielpunkt auf Hindernisse überprüft. Dies geschieht zyklisch.  
 wird nun ein Hindernis erkennt, wird überprüft ob sich das Hindernis mehr auf der rechten Seite befindet oder auf der linken Seite.
-Auf der Seite auf weniger Hindernispunkte liegen wird ausgewichen bis keine Punkte mehr vorhanden sind.  
+Auf der Seite auf weniger Hindernispunkte liegen wird ausgewichen bis keine Punkte mehr vorhanden sind. 
+
+  
   
 ![WayAnalyzerFlowChart](https://gitlab.com/solidus/hefei/uploads/e4ca2986f7aa3470cca39c53ceac1a53/WayAnalyzerFlowChart.jpg) 
   
@@ -18,12 +20,24 @@ Der Konstruktor instanziert die Kommunikation zum Broker, lädt die benötigten 
   
 In der run()-Methode werden zyklisch die Laserwerte von 270° eingelesen, der Weg bis zum Ziel wird aktualisiert, und die aktuellen Koordinaten werden   eingelesen. Ausserdem wird die avoidingDetector()-Methode aufgerufen welche die Schneise überprüft. Die run()-Methode wird alle 50 Millisekunden gezündet.
 
+![LaserArray](https://gitlab.com/solidus/hefei/uploads/51cc28feda4f1219ae5d6efe309c7889/LaserArray.jpg)  
+
 ## public void avoidingDetector()  
   
 Der avoidingDetector() geht in einer while-Schlaufe für die linke Seite die Positionen vom 91° bis 180° und für die rechte Seite die Positionen 0° bis 89° durch.
-Die Schlaufen beinhalten ein einen Vergleichs-Algorythmus welche der kleinste Laserwert speichert, sofern dieser nicht den Wert 0 aufweist. Dieser Wert wird dann übergeben, wenn ausgewichen werden muss. In den Schlaufen wird als nächstes Überprüft ob sich ein Hindernis in der Schneise befindet. Sobald der Laser nacheinander mehr ungültige Werte enthält als vorgegeben sind wird die Ausweiche Priorität um einen Punkt erhöht. Wenn Weniger Hindernisse aufeinander Detektiert werden als vorgegeben wird der Zähler wieder auf 0 gesetzt.  
+Die Schlaufen beinhalten ein einen Vergleichs-Algorythmus welche der kleinste Laserwert speichert, sofern dieser nicht den Wert 0 aufweist. Dieser Wert wird dann übergeben, wenn ausgewichen werden muss. In den Schlaufen wird als nächstes Überprüft ob sich ein Hindernis in der Schneise befindet. Sobald der Laser nacheinander mehr ungültige Werte enthält als vorgegeben sind wird die Ausweiche Priorität um einen Punkt erhöht. Wenn Weniger Hindernisse aufeinander Detektiert werden als vorgegeben wird der Zähler wieder auf 0 gesetzt.
+
+![Fahrschneise](https://gitlab.com/solidus/hefei/uploads/b8def5cc5948997301d36a09770d5fa6/Fahrschneise.jpg) 
+  
 Diese Überwachung ist benötigt, um ungültige Werte auszufiltern. Wenn die Ausweichspriorität auf einer Seite auf höher oder gleich 1 ist wird ausgewichen.  
 Sollten beide Seiten Hindernis-Prioritäten aufweisen, hat jene mit dem höheren Wert Priorität.
+
+![AusweichsSituationen](https://gitlab.com/solidus/hefei/uploads/775de6a7d063e9d24b93477ef2481265/AusweichsSituationen.jpg) 
+  
+  
+  
+  
+![Routen](https://gitlab.com/solidus/hefei/uploads/306a7a149029c6c4239decf4f7198ace/Routen.jpg)   
   
 ## public void setAvoidspeedLeft (int disObstacle, double angle)  
   
@@ -37,11 +51,16 @@ Die avoidLeft()-Methode wird aufgerufen, wenn auf der linken Seite ein Hindernis
   
 ## checkLeftSide()  
   
-Sobald der Robotino einem Objekt ausweicht bewegt sich dieser seitwärts. Um zu Überprüfen ob sich ein Objekt auf der linken Seite im Weg befindet wird die Methode checkLeftSide() verwendet. Die Überprüfung wird folgendermassen durch geführt: Sobald der Roboter Links ausweicht wird die Methode aufgerufen. Durch eine while-Schlaufe werden die Positionen 165° bis 195° fortlaufend auf einen im staticDistanceParams.xml-File parametrierbaren Wert verglichen. Sobald mehr als der parametrierte Wert aufeinanderfolgende unzulässige Laserwerte entdeckt werden, wird die Methode setAvoidspeedRight aufgerufen. Dieser Vergleichsalgorythmus basiert auf dem selben wie der avoidingDetector() ihn verwendet.
+Sobald der Robotino einem Objekt ausweicht bewegt sich dieser seitwärts. Um zu Überprüfen ob sich ein Objekt auf der linken Seite im Weg befindet wird die Methode checkLeftSide() verwendet. Die Überprüfung wird folgendermassen durch geführt: Sobald der Roboter Links ausweicht wird die Methode aufgerufen. Durch eine while-Schlaufe werden die Positionen 165° bis 195° fortlaufend auf einen im staticDistanceParams.xml-File parametrierbaren Wert verglichen. Sobald mehr als der parametrierte Wert aufeinanderfolgende unzulässige Laserwerte entdeckt werden, wird die Methode setAvoidspeedRight aufgerufen. Dieser Vergleichsalgorythmus basiert auf dem selben wie der avoidingDetector() ihn verwendet.  
+
+![checkLeftSide](https://gitlab.com/solidus/hefei/uploads/a4a7ce30edadf7fa82bce4a2c923581c/checkLeftSide.jpg)  
   
 ## checkRightSide()  
   
-Sobald der Robotino einem Objekt ausweicht bewegt sich dieser seitwärts. Um zu Überprüfen ob sich ein Objekt auf der linken Seite im Weg befindet wird die Methode checkRightSide() verwendet. Die Überprüfung wird folgendermassen durchgeführt: Sobald der Roboter Links ausweicht wird die Methode aufgerufen. Durch eine while-Schlaufe werden die Positionen -15° bis 15° fortlaufend auf einen im staticDistanceParams.xml-File parametrierbaren Wert verglichen. Sobald mehr als der parametrierte Wert aufeinanderfolgende unzulässige Laserwerte entdeckt werden, wird die Methode setAvoidspeedLeft aufgerufen. Dieser Vergleichsalgorythmus basiert auf dem selben wie der avoidingDetector() ihn verwendet.
+Sobald der Robotino einem Objekt ausweicht bewegt sich dieser seitwärts. Um zu Überprüfen ob sich ein Objekt auf der linken Seite im Weg befindet wird die Methode checkRightSide() verwendet. Die Überprüfung wird folgendermassen durchgeführt: Sobald der Roboter Links ausweicht wird die Methode aufgerufen. Durch eine while-Schlaufe werden die Positionen -15° bis 15° fortlaufend auf einen im staticDistanceParams.xml-File parametrierbaren Wert verglichen. Sobald mehr als der parametrierte Wert aufeinanderfolgende unzulässige Laserwerte entdeckt werden, wird die Methode setAvoidspeedLeft aufgerufen. Dieser Vergleichsalgorythmus basiert auf dem selben wie der avoidingDetector() ihn verwendet.  
+
+
+![checkRightSide](https://gitlab.com/solidus/hefei/uploads/c0be0bb827687b76779b343bcf73f0d5/checkRightSide.jpg)  
 
   
 ## public boolean routeBlocked(int laserArrayPosition, int distance)  
@@ -54,6 +73,13 @@ Als Mitgabewert benötigt sie die Laserposition und dessen Vergleichsdistanz. Si
   
 Diese Methode, Überprüft ob der Roboter sich einem Objekt nähert oder sich ein Objekt dem Roboter nähert. Sobald ein Sensor einen ungültigen Wert aufweist, wird in die entgegengesetzte Richtung gefahren bis alle Werte wieder in einem gültigen Bereich stehen.
   
+![InfraredSensoring](https://gitlab.com/solidus/hefei/uploads/23ce961af647471aeccb24bc0e90af83/InfraredSensoring.jpg)  
+
+
+
+
+
+
 
 
 
