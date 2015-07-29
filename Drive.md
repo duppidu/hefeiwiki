@@ -46,10 +46,27 @@ Das zweite Align wird mit der Zielkoordinate aufgerufen damit sich der Robotino 
 
 ## Explore
 
-Die Explore Methode wird benutzt um das Zusammenspiel zwischen Kantenerkennung und Drive zu steuern. Hat der Robotino ein Feld erreicht so wird die Kantenerkennung gestartet. Wird eine Kante erkannt so fährt das Drive vor diese hin. Wird jedoch keine Kante erkannt so wird dem Drive automatisch ein neuse Ziel gesetzt und dort wird das ganze erneut gestartet. Sobald der Robotino vor der MPS steht wird auf dem Brokertopic einen String mit "mps" gesendet. Kann der Robotino nach den vier Eckpunkten keine Kante erkennen wird ein "next" auf den Broker gesendet. Dieses wird auch gesendet wenn der Laser keinen Gegenstand in der Zone findet. Das "next" stoppt die Explore Methode und fordert eine neue Zone an damit Zeit gespart werden kann.
+Die Explore Methode wird benutzt um das Zusammenspiel zwischen Kantenerkennung und Drive zu steuern. 
+![ExploreUR](https://gitlab.com/solidus/hefei/uploads/d1f4d3e3bb906b955187853d0c5488b4/ExploreUR.PNG)  
 
-Die Erfahrung an Robocup in Hefei brachte hervor dass dies ohne Komplikationen gut funktionierte. Um mehr Zeit sparen zu können müsste einerseits der vom der Kantenerkennung gegebenen Punkt weiter von der MPS entfernt sein. Die zweite Methode um Zeit zu sparen ist mit der Tagerkennung frühzeitig erkennen ob es eine Output oder Inputseite ist und dementsprechend die richtige Seite anfahren.
+Hat der Robotino ein Feld erreicht so wird die Kantenerkennung gestartet. Findet diese eine Kante die nicht der Länge einer aktiven Seite entspricht so wird dem Robotino ein neues Ziel gesetzt. Dieses befindet sich immer in der nächsten Ecke.  
+
+![ExploreOR](https://gitlab.com/solidus/hefei/uploads/4ad5920fa2b7a82ca47369896dea784c/ExploreOR.PNG)  
+
+Die Kantenerkennung scannt ein zweites Mal. Wird eine Kante erkannt so fährt das Drive vor diese hin.  
+
+![MPS](https://gitlab.com/solidus/hefei/uploads/ae8f360c933b75e8f3e166cb77549275/MPS.PNG)
+
+Sobald der Robotino vor der MPS steht wird gibt diese Methode ein True zurück und wird somit nicht mehr aufgerufen.
+
+![next](https://gitlab.com/solidus/hefei/uploads/36ae58be68974affc10dff31e35d374d/next.PNG)
+
+Wird ein leeres Feld oder keine passende Kannte in der letzten Ecke erkannt wird ein "next" auf den Broker gesendet. Dies ist ein Aufruf an den Explocontrol damit der Robotino ein neues Feld zum entdecken bekommt.
+
+Die Erfahrung an Robocup in Hefei brachte hervor dass dies ohne Komplikationen gut funktionierte. Um mehr Zeit sparen zu können müsste einerseits der vom der Kantenerkennung gegebenen Punkt weiter von der MPS entfernt sein. Die zweite Methode um Zeit zu sparen ist mit der Tagerkennung frühzeitig erkennen ob es eine Output oder Input Seite ist und dementsprechend die richtige Seite anfahren.
 
 ## Approach
 
 Die Approach Methode ist dafür zuständig dass der Robotino vor das Band fährt. Dies wird durch den Laser, den Infrarot Sensor und der Kamera gesteuert. Der Laser wird benötigt um den Robotino rechtwinklig an der MPS auszurichten. Die Kamera Positioniert den Robotino vor dem AR Tag damit das Band gerade angefahren werden kann. Der Infrarot Sensor misst den Abstand zwischen Robotino und MPS. Wird haben bewusst den Sensor und nicht den Laser gewählt da die Laserdaten grössere Abweichungen aufweisen als die der Infrarot Sensoren.
+
+
