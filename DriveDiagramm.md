@@ -1,4 +1,4 @@
 [Home](home)  
 [Wiki](WikiSolidus)  
 
-![Drive](https://gitlab.com/solidus/hefei/uploads/0d1369a743f0723c97c278f3416ad8cf/Drive.JPG)
+![DriveGruppeDiagramm](https://gitlab.com/solidus/hefei/uploads/28576f5bf08c0b32b6cd256ee6cb35fd/DriveGruppeDiagramm.PNG)
