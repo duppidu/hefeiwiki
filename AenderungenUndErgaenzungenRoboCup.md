@@ -1,4 +1,5 @@
-
+[Home](home)  
+[Wiki](WikiSolidus)  
 
 ## WayAnalyzer  
   
