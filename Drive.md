@@ -15,7 +15,7 @@ Um ein Ziel schnell, genau und sicher anfahren zu können haben wir als Team fol
 Dieser Ablauf wurde aus dem Grund gewählt, weil der Laserscanner nur den vorderen Bereich des Robotinos bewachen kann und somit dieser Nicht rückwärts vefahren darf.
 
 ## Align
-Beim Aufruf dieser Methode wird ein Ziel mitgeliefert. Die Differenz zwischen der Zeilkoordinate und aktuellen Koordinate bestimt die Drehrichtung. Befindet sie sich diese zwischen 0° und 180° oder ist kleiner als -180° so dreht sich der Robotino im Uhrzeigersinn. Beträgt die Differenz mehr als 180° oder zwischen 0° und -180° so wäre der Weg im Uhrzeigersinn länger als der im Gegenuhrzeigersinn.
+Beim Aufruf dieser Methode wird ein Ziel mitgeliefert. Die Differenz zwischen der Zeilkoordinate und aktuellen Koordinate bestimt die Drehrichtung. Befindet sie sich diese zwischen 0° und 180° oder ist kleiner als -180° so dreht sich der Robotino im Uhrzeigersinn. Beträgt die Differenz mehr als 180° oder zwischen 0° und -180° so wäre der Weg im Uhrzeigersinn länger als der im Gegenuhrzeigersinn. Damit der Robotino so schnell wie möglich und genau genug den gewünschten Winkel erreicht wurde beschlossen zwei verschiedene Geschwindigkeiten zu nehmen. Überschreitet die Differenz zwischen dem Zielwinkel und aktuellen Winkel einen eingestellten Wert verfährt der Robotino mit der zehnfachen Geschwindigkeit. Sobald der eingestellte Wert unterschritten wird, wird die Geschwindigkeit reduziert und somit ein genaueres Verfahren ermöglicht.
 
 ## Accelerate
 Bei jedem Aufruf wird die Beschleunigung der aktuellen Geschwindigkeit dazu addiert. Dadurch entsteht ein Treppensignal, dass durch den Beschleunigungswert und Zykluszeit verändert werden kann. 
@@ -29,7 +29,7 @@ Im travel() wird nur die Geschwindigkeit beibehalten und gewartet bis die Abbrem
 
 ## Decelerate
 
-Die Geschwindigkeit wird auf approachSpeed zurückgesetzt. Sobald da Ziel erreicht wird werden die Antriebe ausgeschalten.
+Die Geschwindigkeit wird auf approachSpeed zurückgesetzt. Sobald das Ziel erreicht wird werden die Antriebe ausgeschaltet.
 
 ## Go to Target
 
@@ -70,4 +70,8 @@ Die Erfahrung an Robocup in Hefei brachte hervor dass dies ohne Komplikationen g
 
 Die Approach Methode ist dafür zuständig dass der Robotino vor das Band fährt. Dies wird durch den Laser, den Infrarot Sensor und der Kamera gesteuert. Der Laser wird benötigt um den Robotino rechtwinklig an der MPS auszurichten. Die Kamera Positioniert den Robotino vor dem AR Tag damit das Band gerade angefahren werden kann. Der Infrarot Sensor misst den Abstand zwischen Robotino und MPS. Wird haben bewusst den Sensor und nicht den Laser gewählt da die Laserdaten grössere Abweichungen aufweisen als die der Infrarot Sensoren.
 
+## MessageArrived
 
+In der messageArrived Methode kommen alle Nachrichten, die auf dem Broker verschickt werden, an. Damit die Topics nicht vertauscht werden wird jeder Algorithmus in einem IF aufgerufen. Dieses IF vergleicht das Topic, der Nachricht die angekommen ist, mit dem gewünschten Topic.
+Beim TopicActual ist dieser Algorithmus sehr einfach. Das Objekt das versendet wurde wird in ein Coord Objekt gecastet und danach auf eine lokale Variable geschrieben.
+Beim TopicAvoidingSpeed ist der Code etwas komplexer. Falls das goToTargetCase sich im "targeAlign" oder "machineAlign" befindet werden die Nachrichten nicht beachtet. Sobald sich der Robotino vorwärts bewegt werden die Nachrichten des WayAnlyzer beachtet. Sobald eine Geschwindigkeit übergeben wird, wird diese auf die lokalen Variablen geschrieben. Kommt jedoch eine unwahrscheinliche Geschwindigkeit wird die Geschwindigkeit auf den Default Wert des aktuellen Status gesetzt. 
