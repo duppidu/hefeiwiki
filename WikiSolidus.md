@@ -73,7 +73,7 @@
 [Speed](Speed)  
 [WayAnalyzer](WayAnalyzer)  
 [CrashController](CrashController)  
-[Änderungen und Ergänzungen RoboCup](AenderungenUndErgänzungenRoboCup)  
+[Änderungen und Ergänzungen RoboCup](AenderungenUndErgaenzungenRoboCup)  
 ***
 
 ### Fieldcommander
