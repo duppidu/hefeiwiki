@@ -25,17 +25,34 @@ Die Schlaufen beinhalten ein einen Vergleichs-Algorythmus welche der kleinste La
 Diese Überwachung ist benötigt, um ungültige Werte auszufiltern. Wenn die Ausweichspriorität auf einer Seite auf höher oder gleich 1 ist wird ausgewichen.  
 Sollten beide Seiten Hindernis-Prioritäten aufweisen, hat jene mit dem höheren Wert Priorität.
   
-## public void avoidLeft(int disObstacle, double angle)  
+## public void setAvoidspeedLeft (int disObstacle, double angle)  
   
 Die avoidLeft()-Methode wird aufgerufen, wenn auf der rechten Seite ein Hindernis detektiert wurde. Sie überprüft Ahnand des mitgegebenen Laserwertes und dessen Winkel, wie schnell ausgewichen werden muss. Desto höher das Hindernis ist, desto schneller wird nach links ausgewichen und die Vorwärtsgeschwindigkeit verzögert.
 Ist das Hindernis zu weit entfernt, werden die Geschwindigkeiten beibehalten. Um die effektive Distanz zum Hindernis zu erhalten wird der Laserwert trigonometrisch mit dem Winkel verrechnet.
   
-## public void avoidLeft(int disObstacle, double angle)
+## public void setAvoidspeedRight (int disObstacle, double angle)
   
 Die avoidLeft()-Methode wird aufgerufen, wenn auf der linken Seite ein Hindernis detektiert wurde. Sie überprüft Anhand des mitgegebenen Laserwertes und dessen Winkel, wie schnell ausgewichen werden muss. Desto höher das Hindernis ist, desto schneller wird nach rechts ausgewichen und die Vorwärtsgeschwindigkeit verzögert. Ist das Hindernis zu weit entfernt, werden die Geschwindigkeiten beibehalten. Um die effektive Distanz zum Hindernis zu erhalten wird der Laserwert trigonometrisch mit dem Winkel verrechnet.
   
+  
+## checkLeftSide()  
+  
+Sobald der Robotino einem Objekt ausweicht bewegt sich dieser seitwärts. Um zu Überprüfen ob sich ein Objekt auf der linken Seite im Weg befindet wird die Methode checkLeftSide() verwendet. Die Überprüfung wird folgendermassen durch geführt: Sobald der Roboter Links ausweicht wird die Methode aufgerufen. Durch eine while-Schlaufe werden die Positionen 165° bis 195° fortlaufend auf einen im staticDistanceParams.xml-File parametrierbaren Wert verglichen. Sobald mehr als der parametrierte Wert aufeinanderfolgende unzulässige Laserwerte entdeckt werden, wird die Methode setAvoidspeedRight aufgerufen. Dieser Vergleichsalgorythmus basiert auf dem selben wie der avoidingDetector() ihn verwendet.
+  
+## checkLeftSide()  
+  
+Sobald der Robotino einem Objekt ausweicht bewegt sich dieser seitwärts. Um zu Überprüfen ob sich ein Objekt auf der linken Seite im Weg befindet wird die Methode checkRightSide() verwendet. Die Überprüfung wird folgendermassen durchgeführt: Sobald der Roboter Links ausweicht wird die Methode aufgerufen. Durch eine while-Schlaufe werden die Positionen -15° bis 15° fortlaufend auf einen im staticDistanceParams.xml-File parametrierbaren Wert verglichen. Sobald mehr als der parametrierte Wert aufeinanderfolgende unzulässige Laserwerte entdeckt werden, wird die Methode setAvoidspeedLeft aufgerufen. Dieser Vergleichsalgorythmus basiert auf dem selben wie der avoidingDetector() ihn verwendet.
+
+  
 ## public boolean routeBlocked(int laserArrayPosition, int distance)  
   
-Die routeIsBlocked() Methode detektiert Anhand eines einzeln Laserstrahls ob die gewünschte Route direkt frei ist oder nicht.  
+Die routeIsBlocked() Methode detektiert Anhand eines einzelnen Laserstrahls ob die gewünschte Route direkt frei ist oder nicht.  
 Als Mitgabewert benötigt sie die Laserposition und dessen Vergleichsdistanz. Sie gibt "true" zurück, wenn auf die verlangte Distanz ein Hindernis vorliegt.
+  
+  
+## public void infraredSensoring()  
+  
+Diese Methode, Überprüft ob der Roboter sich einem Objekt nähert oder sich ein Objekt dem Roboter nähert. Sobald ein Sensor einen ungültigen Wert aufweist, wird in die entgegengesetzte Richtung gefahren bis alle Werte wieder in einem gültigen Bereich stehen.
+  
+
 
