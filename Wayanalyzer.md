@@ -8,7 +8,7 @@ Diese Schneise wird nun bis Hin zum Zielpunkt auf Hindernisse überprüft. Dies 
 wird nun ein Hindernis erkennt, wird überprüft ob sich das Hindernis mehr auf der rechten Seite befindet oder auf der linken Seite.
 Auf der Seite auf weniger Hindernispunkte liegen wird ausgewichen bis keine Punkte mehr vorhanden sind.  
   
-![FlowChart_WayAnalyzer](https://gitlab.com/solidus/hefei/uploads/08f9372eb12c4436aa8b3eeb85c117d9/FlowChart_WayAnalyzer.jpg)  
+![WayAnalyzerFlowChart](https://gitlab.com/solidus/hefei/uploads/e4ca2986f7aa3470cca39c53ceac1a53/WayAnalyzerFlowChart.jpg) 
   
 ## public WayAnalyzer()
   
@@ -54,5 +54,6 @@ Als Mitgabewert benötigt sie die Laserposition und dessen Vergleichsdistanz. Si
   
 Diese Methode, Überprüft ob der Roboter sich einem Objekt nähert oder sich ein Objekt dem Roboter nähert. Sobald ein Sensor einen ungültigen Wert aufweist, wird in die entgegengesetzte Richtung gefahren bis alle Werte wieder in einem gültigen Bereich stehen.
   
+
 
 
