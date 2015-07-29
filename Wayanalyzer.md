@@ -1,3 +1,6 @@
+[Home](home)  
+[Wiki](WikiSolidus)  
+
 ## WayAnalyzer  
   
 Der WayAnalyzer erkennt mit Hilfe des Lasers ob Hindernisse im Weg sind. Er berechnet eine Schneise, welche von der Distanz her bis zum Zielpunkt reicht.  
