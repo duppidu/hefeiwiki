@@ -44,6 +44,8 @@ Diese Graphik visualisiert, wie sich der Robotino zwischen komplexen Objektanord
   
 Diese Graphik deckt sämtliche Maschinenanordnungen ab, wie diese am Rande des Spielfeldes stehen können. Damit der Robotino nicht aus dem Spielfeld fährt wurde eine verbotene Zone vor den Spielfeldenden designt. Der Roboter darf diese verbotene Zone befahren, aber er darf nicht gegen die Bande ausweichen, sollte er ein Hindernis detektieren.
 Die Grösse der Abstände können im staticDistanceParams.xml-File parametriert werden.  
+Blaue Rechtecke = MPS  
+Rote Zone       = verbotene Zone  
   
 Sobald die setAvoidspeedLeft()- oder setAvoidspeedRight()-Methode die Ausweichegeschwindigkeiten errechnet hat, wird verglichen ob sich seit dem letzten Zyklus die Geschwindigkeiten verändert haben.
 Wenn sich diese Verändert haben, wird die Speed-Klasse per Broker auf das "avoidingSpeed"-Topic gesendet.
@@ -85,12 +87,8 @@ Als Mitgabewert benötigt sie die Laserposition und dessen Vergleichsdistanz. Si
 Diese Methode, Überprüft ob der Roboter sich einem Objekt nähert oder sich ein Objekt dem Roboter nähert. Sobald ein Sensor einen ungültigen Wert aufweist, wird in die entgegengesetzte Richtung gefahren bis alle Werte wieder in einem gültigen Bereich stehen.
   
 ![InfraredSensoring](https://gitlab.com/solidus/hefei/uploads/23ce961af647471aeccb24bc0e90af83/InfraredSensoring.jpg)  
-
-
-
-
-
-
-
+Die Graphik visualisiert, in welche Richtung der Robotino ausweicht wenn ein oder mehrere Infrarotsensoren einen ungültigen Wert aufweisen.  
+Blauer Pfeil  = Fahrtrichtung  
+Rote Strahlen = Infrarot-Sichtfeld
 
 
