@@ -5,12 +5,13 @@
 Die ColorDetection wird in einem separaten .jar File gestartet.  
 Dies hat folgende Gründe:
 - mit OpenCV unter Java war es nicht möglich die Kamera-Verbindung zu trennen.  
-- mit dauerhaft laufender Kamera machte das C++ Programm zur Markererkennung Probleme mit der Device Auswahl.   
-Der Aufruf wir in der StateMachine mit dem Befehl     
- Runtime.getRuntime().exec(new String[]  
+- mit dauerhaft laufender Kamera machte das C++ Programm zur Markererkennung Probleme mit der Device Auswahl.  
+     
+Der Aufruf wir in der StateMachine mit dem Befehl       
+Runtime.getRuntime().exec(new String[]     
                     {  
                         "java", "-jar", "/home/robotino/hefei/ColorDetection.jar"  
-                    });  
+                    });    
   
 ## Grundlegender Programmablauf 
 Beim instanzieren des Programms wird die Kamera gestartet und das Kamera-bild auf eine Matrix gelegt.
