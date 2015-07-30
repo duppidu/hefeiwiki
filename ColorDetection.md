@@ -5,14 +5,14 @@
 Die ColorDetection wird in einem separaten .jar File gestartet.  
 Dies hat folgende Gründe:
 - mit OpenCV unter Java war es nicht möglich die Kamera-Verbindung zu trennen.  
-- mit dauerhaft laufender Kamera machte das C++ Programm zur Markererkennung Probleme mit der Device Auswahl. 
-Der Aufruf wir in der StateMachine mit dem Befehl   
+- mit dauerhaft laufender Kamera machte das C++ Programm zur Markererkennung Probleme mit der Device Auswahl.   
+Der Aufruf wir in der StateMachine mit dem Befehl     
  Runtime.getRuntime().exec(new String[]  
                     {  
                         "java", "-jar", "/home/robotino/hefei/ColorDetection.jar"  
                     });  
   
-## Ablauf  
+## Grundlegender Programmablauf 
 Beim instanzieren des Programms wird die Kamera gestartet und das Kamera-bild auf eine Matrix gelegt.
   
 
@@ -39,7 +39,7 @@ Wird in ca 90% der Fälle Leuchten detektiert Leuchtet die Lampe.
     
 ### Farberkennung   
   
-Die Farbdedektierung wird in 2 Bildern gemacht, zum einen im normalen Bild in RGB und zum andern im HSV konvertierten Bild.  
+Die Farbdedektierung wird in 2 Bildern gemacht, zum einen im normalen Bild in RGB und zum andren im HSV konvertierten Bild. Nach dem Starten der Kamera muss das Programm mindestens 5 Sekunden Pausieren da sie in dieser Zeit noch fokussieren muss 
   
 #### HSV  
   
@@ -53,13 +53,25 @@ Alle Farben werden in HSV definiert. HSV ist ein Farbcode der in 3 Zahlen angebe
 - Die zweite Zahl definiert die Sättigung der Farbe
 - Die dritte Zahl definiert die Helligkeit         
       
-  
+
        
 Die Farbe wird in ein Scalar gespeichert in diesem können die drei Werte in einem bereich von 0-255 gespeichert.   
-Das bedeutet dass die Werte konvertiert werden müssen sprich für die Farbe 360° = 255 und in der Sättigung und Helligkeit 100% = 255.	
+Das bedeutet dass die Werte konvertiert werden müssen sprich für die Farbe 360° = 255 und in der Sättigung und Helligkeit 100% = 255.  	
 
-Mit Hsv_min und Hsv_max wird die Farbe definiert. Im unkonvertierten Bild wird nun überprüft welche Farbe in der Tolleranz von Hsv_min und max liegt danach wird das Bild in ein HSV Bild Konvertiert und die gleiche überprüfung mit Hsv2_min und Hsv2_max gemacht.  
-Nach dieser Überprüfung welche Farbe in beiden Bildern am gleichen Ort vorhanden ist.  
+#### Vorgegen zur Suche einer Farbe  
+
+Mit Hsv_min und Hsv_max wird die Farbe definiert. Im unkonvertierten Bild wird nun überprüft welche Farbe in der Toleranz von Hsv_min und max liegt danach wird das Bild in ein HSV Bild Konvertiert und die gleiche überprüfung mit Hsv2_min und Hsv2_max gemacht.  
+Nach dieser Überprüfung vergleicht das Programm in Welchen Bereichen beide Überprüfungen übereinstimmen. Somit hat man dann eine genaue Farbsuche.
+
+#### Bereichseinschränkung
+
+Um den Bereich festzulegen in dem das Programm suchen soll werden zuerst in Jeden gefundenen Farbbereich Linien gezeichnet dies geschieht über die Methode  Imgproc.HoughLinesP()     
+Nach dem einzeichnen wir durch eine Schlaufe die Daten aller gefundenen Linien ausgelesen. In diesen Daten befinden sich dann auch Informationen zu den Positionen der Eckpunkte der Linien in X und Y.  
+Mit einer einfachen If() Bedingung wird dann die Position eingegänzt.  
+
+
+
+ 
 
 
 
