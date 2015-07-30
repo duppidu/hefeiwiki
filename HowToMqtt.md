@@ -13,7 +13,7 @@
 - <a name="delcomp">deliveryComplete(IMqttDeliveryToken imdt)</a>
 
 
-## <a name="lib">Library</a>  
+## <a name="lib">Library
 Um dei MQTT Funktionen im Java zu verwenden, muss zuerst die entsprechende
 Library im Netbeans eingebunden werden  
 Die Library kann [Hier](https://repo.eclipse.org/content/repositories/paho-releases/org/eclipse/paho/mqtt-client/0.4.0/mqtt-client-0.4.0.jar) Heruntergeladen Werden
@@ -21,7 +21,7 @@ Zudem muss sichergestellt werden, dass ein Mqtt Server im Netzwerk online ist mi
 [Hier](MosquittoBroker) ist das Tutorial dazu.  
 ***
 
-## <a name="com">MQTT COM  </a>
+## <a name="com">MQTT COM
 In Unserem Projekt haben wir im Package Comm die Klasse MqttCom die enthaltenen Funktionen und Schritte zum aufbau der  
 Kommunikation mit dem Broker werden hier in einzelnen Codeabschnitten erklärt. 
 ***
@@ -84,7 +84,7 @@ ObjectOutputStream o = null;
 für das senden ausschlaggebend ist der Topic als String und die Message als beliebiges Objekt mit implements Serzalizable(hier obj). 
 
 
-### <a name="sst">Strings Senden</a>
+### <a name="sst">Strings Senden
 Das Senden eines Strings ist wesentlich einfacher.
 ```
 message.setPayload(msg.getBytes());
@@ -98,7 +98,7 @@ erneut bei den Teilnemer gesendet(retained = boolean).
 ```
 message.setRetained(retained);
 ```
-### <a name="RecMsg">Nachrichten Empfangen(nicht in MqttCom)</a>
+### <a name="RecMsg">Nachrichten Empfangen(nicht in MqttCom)
 Um in einer Klasse eine Nachricht zu empfangen, egal ob Objekt oder String, müssen
 zuerst 3 Dinge gemacht werden.
 In der Klasse muss "implements MqttCallback" hinzugefügt werden und die untenstehenden Codezeilen
@@ -117,7 +117,7 @@ Mit dem implements MqttCallback werden 3 Methoden erzwungen.
 >- deliveryComplete(IMqttDeliveryToken imdt)  
 >-- wird nach jedem erfolgreichen senden aufgerufen  
 
-### <a name="msgArr">MessageArrived(String topic, MqttMessage message) </a>
+### <a name="msgArr">MessageArrived(String topic, MqttMessage message)
 Diese Methode wird immer dann aufgerufen, wenn auf einem Subscribten Topic eine Nachricht gesendet wird.
 der Methode werden bei jeder Nachricht der entsprechende Topic und die Nachricht selber übergeben. 
 mit einem Case im MessageArrived kann sehr effizient auf die Topics geprüft werden und ensprechend reagiert werden.   
@@ -126,7 +126,7 @@ mit einem Case im MessageArrived kann sehr effizient auf die Topics geprüft wer
 > In der MessageArrived Methode können weder Sendeaktionen mit dem MQTT noch grosse Methoden aufgerufen werden. Desshalb wird vielfach in Verbindung > mit der MqttCom auch ein scheduliertes Run verwendet und mit booleans als bindeglied gearbeitet. 
 > 
   
-#### <a name="RecObj">Objekte Empfangen</a>
+#### <a name="RecObj">Objekte Empfangen
 Ist im MessageArrived das empfangen von Objekten nötig, werden folgende Codezeilen benötigt
 ```
 ByteArrayInputStream b = new ByteArrayInputStream(message.getPayload());
@@ -140,7 +140,7 @@ lamps = (Lamps) d;
 Wichtig ist, dass die Objekte welche gesendet werden je Topic genau definiert sind. Ist das nicht der Fall, kommt es bei der Lezten Zeile im Oberen abschnitt bei der Castingoperation zu einem Fehler. 
 ist das Objekt lamps welches wir vom Broker erhalten haben erst mal gespeichert, wird bei jeder Message arrived wider überschrieben. 
 
-#### <a name="RecSt">String Empfangen</a>
+#### <a name="RecSt">String Empfangen
 Ein String zu empfangen ist wesentlich einfacher. Es empfielt sich jedoch auch hier mit einem Case zu arbeiten.
 ```
 message.toString(); //Reicht um ein String auszugeben
