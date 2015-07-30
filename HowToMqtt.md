@@ -41,10 +41,12 @@ private MqttMessage message;
 ```
 sind die Variablen bekannt, wird ein neuer Client erstellt
 und die Borker Ip und den Benutzernamen
+
 > #### !!! Wichtig !!!
 > Der Benutzernamen innerhalb des ganzen Mqtt darf nirgendwo gleich sein. Auch unter 3 Robotinos nicht
 > bei der Auswahl des Nutzernamens muss mit der RobotNr aus dem cfg file gearbeitet werden oder einer 
 > immer andere Nummer oder Name
+  
 ```
 client = new MqttClient(BorkerIp, ClientId);
 ```
@@ -108,12 +110,12 @@ mit dem client.subscribe(topic) empfängt mann jede nachricht von entsprechenden
 und mit dem client.setCallback(reciever) wird bestimmt wer die Nachrichten erhält also in den meisten fällen this für die eigene Klasse.   
 Mit dem implements MqttCallback werden 3 Methoden erzwungen.
 
->- messageArrived(String topic, MqttMessage message)
->-- wird immer dann aufgerufen, wenn auf einem subscribten Topic eine Nachricht ankommt
->- connectionLost(Throwable thrwbl)
->-- wird aufgerufen sobald die verbindung zum Mqtt server unerwartet verloren geht
->- deliveryComplete(IMqttDeliveryToken imdt)
->-- wird nach jedem erfolgreichen senden aufgerufen
+>- messageArrived(String topic, MqttMessage message)  
+>-- wird immer dann aufgerufen, wenn auf einem subscribten Topic eine Nachricht ankommt  
+>- connectionLost(Throwable thrwbl)  
+>-- wird aufgerufen sobald die verbindung zum Mqtt server unerwartet verloren geht  
+>- deliveryComplete(IMqttDeliveryToken imdt)  
+>-- wird nach jedem erfolgreichen senden aufgerufen  
 
 ### <a name="msgArr">MessageArrived(String topic, MqttMessage message) </a>
 Diese Methode wird immer dann aufgerufen, wenn auf einem Subscribten Topic eine Nachricht gesendet wird.
@@ -121,8 +123,9 @@ der Methode werden bei jeder Nachricht der entsprechende Topic und die Nachricht
 mit einem Case im MessageArrived kann sehr effizient auf die Topics geprüft werden und ensprechend reagiert werden.   
 
 > #### Wichtig !!
-> In der MessageArrived Methode können weder Sendeaktionen mit dem MQTT noch grosse Methoden aufgerufen werden. Desshalb wird vielfach in Verbindung mit der MqttCom auch ein scheduliertes Run verwendet und mit booleans als bindeglied gearbeitet. 
+> In der MessageArrived Methode können weder Sendeaktionen mit dem MQTT noch grosse Methoden aufgerufen werden. Desshalb wird vielfach in Verbindung > mit der MqttCom auch ein scheduliertes Run verwendet und mit booleans als bindeglied gearbeitet. 
 > 
+  
 #### <a name="RecObj">Objekte Empfangen</a>
 Ist im MessageArrived das empfangen von Objekten nötig, werden folgende Codezeilen benötigt
 ```
