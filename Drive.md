@@ -70,8 +70,8 @@ Die Erfahrung an Robocup in Hefei brachte hervor dass dies ohne Komplikationen g
 
 Die Approach Methode ist dafür zuständig dass der Robotino vor das Band oder die vier verschiedenen Offset Positionen fährt. Dies wird durch den Laser, den Infrarot Sensor und der Kamera gesteuert. Der Laser wird benötigt um den Robotino rechtwinklig an der MPS auszurichten. Die Kamera Positioniert den Robotino vor dem AR Tag damit das Band gerade angefahren werden kann. Durch den Übergabewert wird danach bestimmt auf welche Position der Roboter fahren muss. Wird ein 0 mitgegeben so fährt der Robotino direkt vor das Band. Jedoch wenn eine Zahl von 1 bis 4 mitgegeben wirdfährt der Robotino zuerst noch seitwärts bis er vor der Position steht. Der Infrarot Sensor misst den Abstand zwischen Robotino und MPS. Wird haben bewusst den Sensor und nicht den Laser gewählt da die Laserdaten grössere Abweichungen aufweisen als die der Infrarot Sensoren.
 
-![CSPositionen](https://gitlab.com/solidus/hefei/uploads/c659396081ac62456f1baadb8d1e7193/CSPositionen.PNG)
-![RSPositionen](https://gitlab.com/solidus/hefei/uploads/955d694bfeaa9c782ba5b33c1554ee5a/RSPositionen.PNG)
+![CSPositionen](https://gitlab.com/solidus/hefei/uploads/3d0c968f5dc95c71b784070992bcac95/CSPositionen.PNG)
+![RSPositionen](https://gitlab.com/solidus/hefei/uploads/238c07724a4c79b227db8beb36ca21e4/RSPositionen.PNG)
 
 ## MessageArrived
 
