@@ -1,7 +1,20 @@
 # Color Detection  
+ 
+## Aufruf  
+
+Die ColorDetection wird in einem separaten .jar File gestartet.  
+Dies hat folgende Gründe:
+- mit OpenCV unter Java war es nicht möglich die Kamera-Verbindung zu trennen.  
+- mit dauerhaft laufender Kamera machte das C++ Programm zur Markererkennung Probleme mit der Device Auswahl. 
+Der Aufruf wir in der StateMachine mit dem Befehl   
+ Runtime.getRuntime().exec(new String[]  
+                    {  
+                        "java", "-jar", "/home/robotino/hefei/ColorDetection.jar"  
+                    });  
   
+## Ablauf  
 Beim instanzieren des Programms wird die Kamera gestartet und das Kamera-bild auf eine Matrix gelegt.
-Die Methode messageArrived() wartet auf eine Nachricht auf dem Color Topic des Brokers, falls die Nachricht einen String mit dem Inhalt "start" beinhaltet startet die Farbüberprüfung.  
+  
 
 Nun wird in der run() Methode trackColor gestartet.  
 
@@ -21,7 +34,8 @@ Wird in ca 90% der Fälle Leuchten detektiert Leuchtet die Lampe.
   
      
     
-![Lifeline](https://gitlab.com/solidus/hefei/uploads/e1c974047b56d253f2a56a7f93a7f0a3/Lifeline.JPG)  
+   
+![Diagramm](https://gitlab.com/solidus/hefei/uploads/1354c7f2143496a12a9e465143b67e62/Diagramm.JPG)  
     
 ### Farberkennung   
   
@@ -49,4 +63,3 @@ Nach dieser Überprüfung welche Farbe in beiden Bildern am gleichen Ort vorhand
 
 
 
-   
