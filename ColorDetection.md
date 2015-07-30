@@ -69,9 +69,20 @@ Um den Bereich festzulegen in dem das Programm suchen soll werden zuerst in Jede
 Nach dem einzeichnen wir durch eine Schlaufe die Daten aller gefundenen Linien ausgelesen. In diesen Daten befinden sich dann auch Informationen zu den Positionen der Eckpunkte der Linien in X und Y.  
 Mit einer einfachen If() Bedingung wird dann die Position eingegänzt.  
 
+![AbendPlayoffs1](https://gitlab.com/solidus/hefei/uploads/6a7e1d7b544066d7107dbe91131a0d6b/AbendPlayoffs1.JPG)
+
+Die blauen Bereiche auf dem Bild sind die erkannten Farbberieiche. Falls nun eine Farbe im Suchbereich ist wird in diesen schwarze Linien gezeichnet wie auf diesem Bild in der grünen Lampe ersichtlich ist.
+  
+  
+  
+Falls nun nach 40 Überprüfungen jeder Farbe keine als Leuchten gemeldet wurde wird der Bereich nun um 40 Pixel (ein halbes grünes Häuschen) nach links und falls da immer noch nichts erkennt wird noch nach rechts verschoben.  
+
+#### Spezialfall Deliveristation
+
+Das Programm überprüft vor jeder Dedektierung um was für einen Maschinen Typ es sich handelt. Steht der Robotino vor einer DS muss der Suchbereich geändert werden da die Position der Lampe der DS nicht am gleichen Ort ist wie bei den anderen Maschinen.  
+Der Maschinen Typ wird mit der Broker Methode messageArrived() ausgelesen.  
 
 
  
-
 
 
