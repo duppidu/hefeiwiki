@@ -35,7 +35,7 @@
 
 - Der Greifer muss mit Servos höhenverstellbar sein.  
   Die Produkte können bei dem Transport etwas nach unten rutschen und passen dann nicht auf das nächste Band.  
-- Die Angriffsfläche des Greifers muss mindestes so gross sein, dass das grösste Produkt umfasst werden kann.   
+- Die Angriffsfläche des Greifers muss mindestes so gross sein, dass das grösste Produkt komplet Umfasst werden kann.   
   Beim Fahren kann das Produkt auseinanderfalle (Boden ist teilweise sehr uneben).  
 
 #### <a name="pp">Programm</a> ####
