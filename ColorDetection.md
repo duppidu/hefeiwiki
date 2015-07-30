@@ -12,6 +12,7 @@ Runtime.getRuntime().exec(new String[]
                     {  
                         "java", "-jar", "/home/robotino/hefei/ColorDetection.jar"  
                     });    
+Durch diesen wird ein neuer Prozess gestartet.  
   
 ## Grundlegender Programmablauf 
 Beim instanzieren des Programms wird die Kamera gestartet und das Kamera-bild auf eine Matrix gelegt.
@@ -83,7 +84,7 @@ Falls nun nach 40 Überprüfungen jeder Farbe keine als Leuchten gemeldet wurde 
 Das Programm überprüft vor jeder Dedektierung um was für einen Maschinen Typ es sich handelt. Steht der Robotino vor einer DS muss der Suchbereich geändert werden da die Position der Lampe der DS nicht am gleichen Ort ist wie bei den anderen Maschinen.  
 Der Maschinen Typ wird mit der Broker Methode messageArrived() ausgelesen.  
 
-
+![PositionDS](https://gitlab.com/solidus/hefei/uploads/f4c408249ac2560dcbe2bf5acc9aa119/PositionDS.JPG)  
  
-
+Verschobene Position der DS.
 
