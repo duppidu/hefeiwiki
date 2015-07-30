@@ -20,8 +20,10 @@ Um trigonometrisch immer die richtigen Distanzen auf der X- und der Y-Achse zu e
   
 Wenn die Maschine auf folgenden Winkeln steht:
   
+![OutputPointCalc](https://gitlab.com/solidus/hefei/uploads/0a061bb62d836877e8d4117ab6c5a80b/OutputPointCalc.jpg)
   
-![trigo](https://gitlab.com/solidus/hefei/uploads/94f695987bd4ca1c240bd6e08b8cf1a5/trigo.jpg)  
+![InputPointCalc](https://gitlab.com/solidus/hefei/uploads/4a6609e74a94a574c66c3de88134a24c/InputPointCalc.jpg)
+  
   
 ## public void calcActCoord()  
   
@@ -38,4 +40,5 @@ Auf dem Topic Actions wird der Auftrag als String empfangen.
   
 ## public synchronized void deliveryComplete(IMqttDeliveryToken imdt)  
 Meldet dem Broker, dass die Nachricht empfangen wurde.
+
 
