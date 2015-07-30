@@ -4,7 +4,6 @@
 ----------
 
 [Aufgabenstellung](AufgabenstellungKBDA)  
-[Analyse](AnalyseKBDA)   
-[Schnittstellen](SchnittstellenKBDA)  
+[Analyse](AnalyseKBDA)    
 
 ----------
