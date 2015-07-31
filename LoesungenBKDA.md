@@ -3,9 +3,24 @@
 
 ---------------------
 
-## WayAnalyzer
+## WayAnalyzer  
+### InfrarotSensor Ausweichmanöver  
+  
+D
+  
+### Komplexe Objektanordnungen  
+  
 
+  
+### Hindernischeck während ausweichen   
+  
 
+  
+### Zwischenraum Erkennung  
+  
+
+  
+  
 ## Drive
 ### Anpassung für Produktion
 
@@ -19,3 +34,4 @@ Damit die Parameter überhaupt angepasst werden können müssen die Robotinos fa
 
 ## WayController  
   
+Da wir bis zum RoboCup leider nie in die Produktionsphase gekommen sind, sind die Programmierungen für die Produktionphase nie getestet worden. Theoretisch müssten die Ergänzungen für die Produktonsphase funktionieren. Der Code wurde zur Kontrolle mehrmals Schritt für Schritt gedanklich durchlaufen.
