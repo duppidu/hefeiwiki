@@ -26,8 +26,9 @@ Diese Spezialfälle müssen einzeln getestet werden.
   
 Der WayController muss bereit sein um die Antriebe während der Produktionsphase ansteuern zu können. Hierzu, müssen einige Casefälle erstellt werden oder erweitert werden.  
 Einige Unterschiede welche gemacht werden müssen sind:
-- approach Während der Exploration werden in diesem Fall die Input und Output Anfahrtspunkte errechnet. Während der Produktion wird berechnet Anhand der gespeicherten Maschinenkoordinaten, wo der Robotino steht.
- 
+- approach Während der Exploration werden in diesem Fall die Input und Output Anfahrtspunkte errechnet. Während der Produktion wird berechnet Anhand der gespeicherten Maschinenkoordinaten, wo der Robotino steht. Dafür muss von einem Topic die aktuelle Spielphase empfangen werden.
+- Da die MPS mehre Positionen aufweist, welche während der Prduktion angefahren werden müssen, werden entsprechend so viele approach Casefälle vorhanden sein müssen.  
+  
 Es sollen die Input- und Outputkoordinaten der MPS berechnet werden können. Diese Aufgabe muss mit Hilfe von Trigonometrie gelöst werden, da das Feld in X- und Y-Achsen unterteilt ist.
 
 ### Drive
@@ -38,7 +39,15 @@ Um die zusätzlichen Positionen an den Capstations und Ringstations anfahren zu 
   
 ### WayAnalyzer:  
   
-Um den Fahrablauf auszutesten wird ein Versuchsaufbau benötigt. Der Versuchsaufbau soll Ausweichsituationen simulieren, so wie diese am RoboCup ebenfalls auftreten werden. Die Ausweichedynamik soll im Solidus-Raum mit Hilfe der Versuchs-MPS und Kartonkisten ausgetestet werden.
+Um den Fahrablauf auszutesten wird ein Versuchsaufbau benötigt. Der Versuchsaufbau soll Ausweichsituationen simulieren, so wie diese am RoboCup ebenfalls auftreten werden. Die Ausweichedynamik soll im Solidus-Raum mit Hilfe der Versuchs-MPS und Kartonkisten ausgetestet werden.  
+Diese Tests schliessen ein:
+- Hinausmanövrieren zwischen komplexen Hindernisanordnungen.
+- Während dem ausweichen seitwärts mit keinem Objekt kollidieren.
+- Dynamisch vor Hinderniskontakt Geschwindigkeit in X- und Y-Richtung regulieren.
+- Nicht durch falsches Ausweichen aus dem Feld zu fahren.
+- Nicht versuchen zwischen zwei Objekten hindurch zu zwängen wenn der Abstand zu klein ist.
+- Nicht vor einem Hindernis hin und her schwenken
+Die komplexen Hindernisanordnungen sind im technischen Wiki unter WayAnalyzer ersichtlich.
   
 ### WayController:  
 
