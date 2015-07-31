@@ -6,11 +6,16 @@
 ## WayAnalyzer  
 ### InfrarotSensor Ausweichmanöver  
   
-D
+Zuerst war die Infrarot-Distanzüberwachung in der CrashController-Klasse programmiert. Das neu mit den Infrarotsensoren auch ausgewichen werden muss, wurde das Ausweichen mit ihnen in der WayAnalyzer-Klasse programmiert.  
+Folgende Bewegungen wurden programmiert, wenn mindestens ein Sensor einen ungültigen Wert aufweist:
+- Die vorderen drei Sensoren lassen den Robotino rückwärts fahren.  
+- Die linken zwei Sensoren lassen den Robotino nach rechts fahren.
+- Die hinteren zwei Sensoren lassen den Robotino nach vorne fahren.
+- Die rechten zwei Sensoren lassen den Robotino nach links fahren.
   
 ### Komplexe Objektanordnungen  
   
-
+Durch die dynamisch Formel zu der Hindernis-Distanzüberwachung kann sich der Roboter bei Frontalen und seitens kombinierten Hindernissen rückwärts von den Objekten entfernen. Um dies zu realisieren wurde ebenfalls der Ausweichsmerker der Zwischenraumerkennung benötigt
   
 ### Hindernischeck während ausweichen   
   
