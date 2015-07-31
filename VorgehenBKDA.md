@@ -5,6 +5,9 @@
 
 ### WayAnalyzer  
 
+Der Wayanalyzer darf nicht nur einfachen Objekten ausweichen können, so wie er es bis Ende Prozessmodul getan hat. Er muss ihnen auch Ausweichen können, wenn die Objekte in komplexen Anordnungen zueinander stehen. 
+Wenn der Robotino in unmittelbarer Nähe der Bande steht, darf er nicht gegen die Bande oder das Spielfeldende ausweichen. Da der Robotino seitwärts ausweicht und die Schneise immer in Fahrtrichtung verläuft, braucht es beim Ausweichen eine separate Möglichkeit die Seiten zu überwachen. Die Schneise ist für Seitwärtsbewegungen zu klein um schnell genug ausweichen lassen zu können. Sollte der Robotino vor einem Gang stehen, welcher zu klein ist um durchfahren zu können muss er begreifen, dass er seitwärts weiterfahren muss. Er soll nicht vor dem zu schmalen Gang hin und her fahren.
+
 
   
 ### WayController  
@@ -13,7 +16,7 @@ Damit die Produktion funktionieren kann, muss die Driveklasse korrekt angesteuer
 Des weiteren, besitzen die "MPS" diverse Anfahrpositionen.
 - Die Cap-Station besitzt nebst dem Band drei weitere Anfahrtspositionen.
 - Die Ringstation besitzt nebst dem Band eine weitere Anfahrtsposition.
-Der Robotino fährt zuerst auf die Position vor der Maschine, als nächstes wird ein "approach.2" empfangen. Dann fährt der Robotino entsprechend nicht zum Band, sondern zu dem versetzten Liegeplatz. Anschliessend soll das dort stationierte Teil gegriffen und rückwärts gefahren werden.
+Der Robotino fährt zuerst auf die Position vor der Maschine, als nächstes wird ein "approach.2" empfangen. Dann fährt der Robotino entsprechend nicht zum Band, sondern zu dem versetzten Liegeplatz Nummer 2. Anschliessend soll das dort stationierte Teil gegriffen und rückwärts gefahren werden. Anschliessend wird ein "approach" durchgeführt. Der Robotino fährt dann vor zum Band der Mps und setzt seine Koordinaten neu.
   
 
 ### Drive
