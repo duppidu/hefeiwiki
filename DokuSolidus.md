@@ -30,7 +30,7 @@
 [Planung](PlanungBKDA)  
 [Vorgehen](VorgehenBKDA)  
 [Lösungen](LoesungenBKDA)  
-[Test](TestBKDA) 
+[Test](TestBKDA)  
 [Tagebücher](TagebuecherBK)
 ***
 ### Michael, Florian
