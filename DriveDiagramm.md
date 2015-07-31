@@ -9,15 +9,16 @@ Auf diesem Diagramm sind alle Klassen die mit der Drive Gruppe zusammenhängen a
 
 ## Sequenzdiagramme
 
-![SequenceDrive](https://gitlab.com/solidus/hefei/uploads/f3346af5bfde99c2a64eed493ebd8a8c/SequenceDrive.PNG)
+![SequenceDrive](https://gitlab.com/solidus/hefei/uploads/a88c811ee44702082a32b2b4dd7c9c13/SequenceDrive.PNG)
 
 Dieses Diagramm beschreibt die Art und Weise wie die Kommunikation im inneren des Drive Gruppe funktioniert. Die Befehle kommen über den Broker bis zum WayController. Dieser wertet diese aus und ruft die entsprechende Methode der Drive Klasse auf. Sobald diese ein True zurück gibt wird eine Nachricht auf den Broker gesendet.
 
-
-![SequenceDriveAusweichen](https://gitlab.com/solidus/hefei/uploads/55ee9a23ebab9d4d84dd667d8f8fa6b4/SequenceDriveAusweichen.PNG)
+![SequenceDriveAusweichen](https://gitlab.com/solidus/hefei/uploads/c42a9d751587d37f051edcc8854996d9/SequenceDriveAusweichen.PNG)
 
 Wird während des Fahrens ein Hindernis auf der Strecke entdeckt, berechnet der WayAnalyzer die Ausweichgeschwindigkeit und gibt diese über den Broker dem Drive weiter. Diese wird durch das Drive verarbeitet und dem Omnidrive weitergeleitet.
 
-![SequenceDriveCrash](https://gitlab.com/solidus/hefei/uploads/83ce8e3bee05e863c48628f138d0fb72/SequenceDriveCrash.PNG)
+![SequenceDriveCrash](https://gitlab.com/solidus/hefei/uploads/85a3b862a6710e6cde2e1fa43ce7833a/SequenceDriveCrash.PNG)
 
 Wird aus irgend einem Grund ein Crash erkannt, wird der CrashController dem WayController dieses melden. Der WayController ruft dann unverzüglich die stop Methode des Drives auf. Wird der Bumper nicht mehr aktiviert so ruft der WayController die Methoden des Drives wieder auf.
+
+
