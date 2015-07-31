@@ -14,12 +14,20 @@
   
 ### WayAnalyzer:  
   
-Die Formel die die Geschwindigkeiten berechnet muss gut durchdacht werden, damit diese schnell getestet werden kann. Auch einzelne Spezialfälle müssen behandelt werden können, zum Beispiel der Robotino soll beim Ausweichen das Spielfeld nicht verlassen. Diese Spezialfälle müssen einzeln getestet werden.
+Die Formel die die Geschwindigkeiten berechnet muss gut durchdacht werden, damit diese schnell getestet werden kann. Auch einzelne Spezialfälle müssen behandelt werden können.  
+zum Beispiel:  
+- Der Robotino soll beim Ausweichen das Spielfeld nicht verlassen.  
+- Der Robotino darf während dem Ausweichen seitwärts mit keinen Objekten kollidieren.  
+- Der Robotino muss erkennen ob eine Lücke zwischen den Maschinen befahrbar ist.
+
+Diese Spezialfälle müssen einzeln getestet werden.
   
 ### WayController:  
   
-Ken bitte usfülle
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Der WayController muss bereit sein um die Antriebe während der Produktionsphase ansteuern zu können. Hierzu, müssen einige Casefälle erstellt werden oder erweitert werden.  
+Einige Unterschiede welche gemacht werden müssen sind:
+- approach Während der Exploration werden in diesem Fall die Input und Output Anfahrtspunkte errechnet. Während der Produktion wird berechnet Anhand der gespeicherten Maschinenkoordinaten, wo der Robotino steht.
+ 
 Es sollen die Input- und Outputkoordinaten der MPS berechnet werden können. Diese Aufgabe muss mit Hilfe von Trigonometrie gelöst werden, da das Feld in X- und Y-Achsen unterteilt ist.
 
 ### Drive
