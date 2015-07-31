@@ -23,5 +23,4 @@
   
 ## Zeitplanung  
   
-Zeitplanung neu machen!!!!
-![Zeitplanung](https://gitlab.com/solidus/hefei/uploads/89a26518d8b9c2d9df8fe975e650e141/Zeitplanung.PNG)
+![Zeitplanung](https://gitlab.com/solidus/hefei/uploads/be2c3cc9bf23c66356ffa2c8833d2124/Zeitplanung.PNG)
