@@ -10,7 +10,7 @@ Ich habe mir um die lange Flugzeit zu nutzen, an den Dokumentationen der Diplom-
   
 Das Schlafen im Flugzeug war sehr mühsam. Wir sind um Ortszeit 7 Uhr angekommen das war nach Schweizer Zeit 01:00 Uhr. Anschliessend sind wir mit der Magnetschwebebahn zu der Metrostation gefahren und von dort aus zu Hauptbahnhof. Glücklicherweise begleiten uns zwei Einheimische Damen. Mit deren Hilfe konnten wir die Zugfahrt nach Hefei arrangieren. Der Schnellzug welcher um Mittagszeit losgeht, war leider bereits ausgebucht. Wir fuhren kur vor vier Nachmittags mit dem Regionalzug in Richtung Hefei.  
   
-Tag 3, 17.07.2015  
+### Tag 3, 17.07.2015  
    
 Nach circa 5 Stunden Schlaf wurde ich von dem Wecker geweckt. Während dem Frühstück probierte ich von dem lecker aussehenden Stück Tofu welches ich mir an dem Buffet ergatterte. Das vermeintliche Stück Tofu entpuppte sich als etwas Weiches das schmeckte wie Satans Hinterteil. Durch die Schärfe verstärkte sich dieser Eindruck sogar noch.  
 Wir ritten mit ein paar stillen, freundlichen und thailändischen Studenten zum Messegelände auf welchem der RoboCup stattfand. Nachdem wir eine Stunde anstanden um die Polizei-Sicherheitskontrolle zu passieren gelangten wir in das Gebäude. Es war verboten, Getränke, zu meinen Ungunsten als Raucher, auch Feuerzeuge mit in die Halle zu nehmen. Thomas Z. und Thomas D besorgten nach dem Eintritt in die Halle die Cup-Unterlagen.  
