@@ -19,11 +19,11 @@ Durch die dynamisch Formel zu der Hindernis-Distanzüberwachung kann sich der Ro
   
 ### Hindernischeck während ausweichen   
   
-Der Robotino verfährt während dem Ausweichen seitwärts. Damit es keine Kollisionen geben kann, wurden die Methoden checkLeftSide() und checkRightSide() entwickelt. Die Methoden unterscheiden sich nur in den Richtungen welche sie überwachen. 
+Der Robotino verfährt während dem Ausweichen seitwärts. Damit es keine Kollisionen geben kann, wurden die Methoden checkLeftSide() und checkRightSide() entwickelt. Die Methoden unterscheiden sich nur in den Richtungen welche sie überwachen. Während dem Ausweichen wird die entsprechende Methode aufgerufen. Diese vergleicht in einer breite von 30° die Laserwerte. sind mehr als fünf aufeinander folgende Laserwerte ungültig wird in die andere Richtung ausgewichen. Dies geschieht auf beide Seiten. Die Menge der aufeinander folgenden Laserwerte sind parametrierbar (Siehe tech. Wiki WayAnalyzer). 
   
 ### Zwischenraum Erkennung  
   
-
+Der Robotino darf nicht versuchen durch eine zu schmale Schneise zu fahren und dann davor hin un her zu schwingen. Um dieses Problem zu lösen, wird ein Boolean gesetzt um sich zu Merken in welche Richtung bereits beschlossen wurde auszuweichen. So wird der Robotino vor einer zu kleinen Lücke nicht versuchen zwischendurch zu fahren und dann nicht beginnen zu schwingen. Dieser Boolean wird zurück gesetzt, sobald ein Hindernis direkt seitwärts detektiert wird oder er in die verbotene Zone vor der Bande fährt.
   
   
 ## Drive
