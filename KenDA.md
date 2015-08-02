@@ -23,3 +23,5 @@ Ich war am Abend vor dem finalen Spiel ein bisschen enttäuscht von dem Team. Ic
   
 #### Dokumentation  
   
+Das Ziel unserer Diplom Arbeit war auch unseren Code so gut zu beschreiben, dass unsere Nachgänger mit unserem Code arbeiten können. Die Schwierigkeit lag daran, dass ich da ich selber eine tiefe Einsicht in unseren Code habe nichts zu vergessen. Für mich ist vieles klar, was unter Umständen für meinen Nachfolger nicht klar sein muss. Ich habe mir sehr Mühe gegeben mich in jemanden Hineinzuversetzten welcher keine Ahnung von meiner Arbeit hat. Dazu habe ich auch viel mit Graphiken gearbeitet um meine Gedankengänge zu veranschaulichen. Das Sprichwort ein Bild sagt mehr als Tausend Wort hat eben doch Hände und Füsse.  
+Immer wenn ich während dem RoboCup Wartezeiten hatte oder niemandem helfen konnte habe ich dokumentiert und kommentiert. Mein Ziel war es bevor ich nach Wrexham reisen würde meine Arbeit beendet zu haben. Leider habe ich dies nicht geschafft. Glücklicherweise hatte ich noch Zeit in Wrexham meine Arbeit abzuschliessen.
