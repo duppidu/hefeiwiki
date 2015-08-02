@@ -20,8 +20,13 @@ w = weggelassen
 |Drive | Parameter angepasst | Die Parameter so anpassen dass der Robotino schnell und genau sein Ziel erreicht.| x|
 |WayAnalyzer| Dynamische Formel| Mit dynamischen Geschwindigkeiten ausweichen. |x|
 |WayAnalyzer| Parameter angepasst | Parameter für die dynamische Formel anpassen.|x|
-|WayController| Anpassungen Produktion| Der WayController mit den verschiedenen Anfahrmöglichkeiten testen.| 0|
 |WayAnalyzer| Ausweichen mit Infrarot| Die Infrarot halten immer einen Mindestabstand zu den Hindernissen.|x|
+|WayAnalyzer| komplexe Hindernisanordnung| Aus komplexen Objektanordnungen hinaus oder hindurc manövrieren.|x|
+|WayAnalyzer| Ausweiche Überwachung| Der Roboter erkennt während Seitwärtsbewegungen Hindernisse.|x|
+|WayAnalyzer| Auf schmale Gänge reagieren| Der Roboter versucht nicht durch zu schmale Gänge zu fahren. Er umfährt solche.|x|
+|WayController| Anpassungen Produktion| Der WayController mit den verschiedenen Anfahrmöglichkeiten testen.| 0|
+|WayController| Anfahrtspunkte berechnen| Korrektur der Berechnungen der Anfahrtspunkte.| 0|
+
  
 
 
@@ -29,8 +34,12 @@ w = weggelassen
 
 Das Prüfverfahren lief gleich wie im Prozessmodul, dass bedeutet der Robotino musste durch einen Hindernisparcours fahren ohne dass er einen Crash verursacht. Dabei wurden die Parameter der Formel verändert und die optimalen Werte im Kofig Flie festgehalten.
 
-## Prüfverfahren WayController
+## Prüfverfahren WayController  
 
+Die Berechnungen für die Anfahrtspunkt welche im PM-Kurs programmiert wurden, waren leider Fehlerhaft. Entsprechend wurden die Trigonometrischen Fehler gefunden und behoben.  
+  
+Da wir bis zum RoboCup leider nie in die Produktionsphase gekommen sind, sind die Programmierungen für die Produktionphase nie getestet worden. Theoretisch müssten die Ergänzungen für die Produktonsphase funktionieren. Der Code wurde zur Kontrolle mehrmals Schritt für Schritt gedanklich durchlaufen.  
+  
 ## Prüfverfahren Drive
 
 Die approach Methode konnte nicht getestet werden da die Zeit nicht gereicht hat. Am Robocup wurde die gesamte Zeit in die Exploration gesteckt. Aus diesem Grund konnte keine Zeile der Produktionsphase getestet werden.
