@@ -38,7 +38,5 @@ Damit die Parameter überhaupt angepasst werden können müssen die Robotinos fa
 
 
 ## WayController  
-
-Die Berechnungen für die Anfahrtspunkt welche im PM-Kurs programmiert wurden, waren leider Fehlerhaft. Entsprechend wurden die Trigonometrischen Fehler gefunden und behoben.
   
-Da wir bis zum RoboCup leider nie in die Produktionsphase gekommen sind, sind die Programmierungen für die Produktionphase nie getestet worden. Theoretisch müssten die Ergänzungen für die Produktonsphase funktionieren. Der Code wurde zur Kontrolle mehrmals Schritt für Schritt gedanklich durchlaufen.
+Damit auf die verschiedenen Positionen einer MPS gefahren werden kann, wurden im WayController die Case-Fälle erweitert. Je nachdem welche Meldung der ProductionController auf den Broker schreibt fällt das Case in einen anderen Aufgabenstatus. die Aufzurufende "approach"-Methode blieb gleich aber es muss eine andere Zahl als Übergabewert mitgegeben werden. 
