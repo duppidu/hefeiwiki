@@ -30,14 +30,13 @@ w = weggelassen
  
 
 
-## Prüfverfahren WayAnalyzer
+## Prüfverfahren WayAnalyzer  
 
 Das Prüfverfahren lief gleich wie im Prozessmodul, dass bedeutet der Robotino musste durch einen Hindernisparcours fahren ohne dass er einen Crash verursacht. Dabei wurden die Parameter der Formel verändert und die optimalen Werte im Kofig Flie festgehalten.
 Es wurde getestet:  
 - Es wurden mehrere Objekt sehr Nahe aneinander in verschiedenen Winkel aufgestellt. So musste er die Seiten während dem Ausweichen überprüfen, durfte nicht vor einer zu schmalen Schneise hängen bleiben, nicht in ungültige Zonen fahren und er musste es an das Tiel schaffen.
-- Es wurde überprüft ob der Roboter mit Hilfe der Infrarotsensoren richtig auswich. Indem man ihm schnell und Nahe genug ein Hindernis in die Fahrbahn stellte.
--
-
+- Es wurde überprüft ob der Roboter mit Hilfe der Infrarotsensoren richtig auswich. Indem man ihm schnell und Nahe genug ein Hindernis in die Fahrbahn stellte.  
+  
 ## Prüfverfahren WayController  
 
 Die Berechnungen für die Anfahrtspunkt welche im PM-Kurs programmiert wurden, waren leider Fehlerhaft. Entsprechend wurden die Trigonometrischen Fehler gefunden und behoben. Dies geschah mit Hilfe des Brokers und den Loglisten. Die Berechneten Koordinaten wurden nachgerechnet. Anschliessend wurden die Formeln nochmals Überprüft und den Fehler in der Trigonometrischen Formel behoben. 
