@@ -18,7 +18,8 @@ Ich war noch Schiedsrichter. Zwischendurch musste ich also ein Spiel überwachen
   
 #### Team  
   
-
+Ich fand sehr schön, das unser Team bis zum Ende gut Motiviert war. Ansonsten hätte es uns nicht gereicht den zweiten Platz zu machen. Sobald es irgendwo ein Problem gab begannen all diejenigen welche gerade etwas weniger zu tun hatten zu helfen das Problem zu lösen. Natürlich war die Stimmung zwischendurch auch gereizt. Dies lag wohl daran, dass man gewisse Maröttchen von den Kameraden bereits zu gut kannte und einem diese zwischendurch Nervten. Wir arbeiteten mittlerweile auch schon lange und sehr Nahe aufeinander.  
+Ich war am Abend vor dem finalen Spiel ein bisschen enttäuscht von dem Team. Ich bestand darauf, das wir an dem Abend bis spät am Abend arbeiten. Der Grossteil des Teams befand aber es bringe nichts mehr gutes wenn wir weiterarbeiten. Ich wurde zu meinem Ärger überstimmt. Wenn ich eine Sieg riechen kann werde ich enorm Ehrgeizig.  
   
 #### Dokumentation  
   
