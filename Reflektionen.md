@@ -2,9 +2,7 @@
 [Back](DokuSolidus)    
 
 ***
-[Home](home) [Back](Reflektionen)  
   
-## Reflexion  
 ### Reflektionen Prozessmodul
   
 [Thomas D](ThomasD)  
@@ -18,11 +16,10 @@
   
 ### Reflektionen Diplom Arbeit
   
-[Thomas D](ThomasD)  
-[Simon](Simon)  
-[Felix](Felix)  
-[Florian](Florian)  
-[Michael](Michael)  
-[Ken](Ken)  
-[Bryan](Bryan)  
-[Lukas](Lukas)  
+[Thomas D](ThomasDDA)  
+[Felix](FelixDA)  
+[Florian](FlorianDA)  
+[Michael](MichaelDA)  
+[Ken](KenDA)  
+[Bryan](BryanDA)  
+[Lukas](LukasDA)  
