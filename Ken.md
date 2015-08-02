@@ -18,7 +18,7 @@ Ich persönlich bin kein Freund unseres Repositoriums "GitLab". Ich hatte sehr o
 #### Team  
   
 Ich merke gut, dass unser Teammitglieder schon ziemlich lange und intensiv miteinander Arbeiten. Dies zeigt sich daran, dass zwischendurch die Geduld verloren geht und selten kommt es zu kleineren Auseinandersetzungen.  
-Das Positive ist das wir mittlerweile ziemlich genau Wissen, wo das Wessen stärken zu liegen und wie sie hervorzulocken sind. Wir sind nun alle mehr oder weniger Experten auf unseren Gebieten. Wir können alle nach wie vor von uns behaupten, dass unsere Motivation sehr gross ist unser Bestes zu geben.
+Das Positive ist das wir mittlerweile ziemlich genau Wissen, wo das wessen stärken liegen und wie sie hervorzulocken sind. Wir sind nun alle mehr oder weniger Experten auf unseren Gebieten. Wir können alle nach wie vor von uns behaupten, dass unsere Motivation sehr gross ist unser Bestes zu geben.
   
 #### Dokumentation  
   
