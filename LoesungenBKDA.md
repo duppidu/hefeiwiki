@@ -39,4 +39,5 @@ Damit die Parameter überhaupt angepasst werden können müssen die Robotinos fa
 
 ## WayController  
   
-Damit auf die verschiedenen Positionen einer MPS gefahren werden kann, wurden im WayController die Case-Fälle erweitert. Je nachdem welche Meldung der ProductionController auf den Broker schreibt fällt das Case in einen anderen Aufgabenstatus. die Aufzurufende "approach"-Methode blieb gleich aber es muss eine andere Zahl als Übergabewert mitgegeben werden. 
+Damit auf die verschiedenen Positionen einer MPS gefahren werden kann, wurden im WayController die Case-Fälle erweitert. Je nachdem welche Meldung der ProductionController auf den Broker schreibt fällt das Case in einen anderen Aufgabenstatus. die Aufzurufende "approach"-Methode blieb gleich aber es muss eine andere Zahl als Übergabewert mitgegeben werden.  
+Die Methode "approach" mit dem Übergabewert "0" wird in der Explorations- und in der Produktionsphase verwendet. Lediglich die Berechnungen unterscheiden sich. Dafür muss zusätzlich auf das Topic "phase" gehört werden. In der Explorationsphase werden nach "apprach(0)" die MPS Input- und Outputkoordinaten berechnet. Während der Produktion werden nach "apprach(0)" die Koordinaten des Robotinos neu gesetzt.
