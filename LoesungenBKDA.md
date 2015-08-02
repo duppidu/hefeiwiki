@@ -19,7 +19,7 @@ Durch die dynamisch Formel zu der Hindernis-Distanzüberwachung kann sich der Ro
   
 ### Hindernischeck während ausweichen   
   
-
+Der Robotino verfährt während dem Ausweichen seitwärts. Damit es keine Kollisionen geben kann, wurden die Methoden checkLeftSide() und checkRightSide() entwickelt. Die Methoden unterscheiden sich nur in den Richtungen welche sie überwachen. 
   
 ### Zwischenraum Erkennung  
   
