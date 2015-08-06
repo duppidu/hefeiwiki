@@ -6,17 +6,18 @@
 ### WayAnalyzer  
 
 Der Wayanalyzer darf nicht nur einfachen Objekten ausweichen können, so wie er es bis Ende Prozessmodul getan hat. Er muss ihnen auch Ausweichen können, wenn die Objekte in komplexen Anordnungen zueinander stehen. 
-Wenn der Robotino in unmittelbarer Nähe der Bande steht, darf er nicht gegen die Bande oder das Spielfeldende ausweichen. Da der Robotino seitwärts ausweicht und die Schneise immer in Fahrtrichtung verläuft, braucht es beim Ausweichen eine separate Möglichkeit die Seiten zu überwachen. Die Schneise ist für Seitwärtsbewegungen zu klein um schnell genug ausweichen lassen zu können. Sollte der Robotino vor einem Gang stehen, welcher zu klein ist um durchfahren zu können muss er begreifen, dass er seitwärts weiterfahren muss. Er soll nicht vor dem zu schmalen Gang hin und her fahren.
+Wenn der Robotino in unmittelbarer Nähe der Bande steht, darf er nicht gegen die Bande oder das Spielfeldende ausweichen. Da der Robotino seitwärts ausweicht und die Schneise immer in Fahrtrichtung verläuft, braucht es beim Ausweichen eine separate Möglichkeit die Seiten zu überwachen. Die Schneise ist für Seitwärtsbewegung zu klein um schnell genug ausweichen lassen zu können. Sollte der Robotino vor einer Schneise stehen, welche zu klein ist um durchfahren zu können, muss er begreifen dass er seitwärts weiterfahren muss.
 
 
   
 ### WayController  
   
-Damit die Produktion funktionieren kann, muss die Driveklasse korrekt angesteuert werden. Dazu muss der Waycontroller erweitert werden. In der Exploration werden die Input- und Output-Anfahrtspunkte berechnet. Nun müssen für die Produktion auch die Koordinaten neu gesetzt werden. Jedes mal wenn in der Produktion ein "approach" (das Annähern zu einer MPS) durchgeführt wird, werden die Koordinaten neu gesetzt. So kann die Positionsgenauigkeit aufrecht erhalten werden.  
-Des weiteren, besitzen die "MPS" diverse Anfahrpositionen.
-- Die Cap-Station besitzt nebst dem Band drei weitere Anfahrtspositionen.
-- Die Ringstation besitzt nebst dem Band eine weitere Anfahrtsposition.  
-Der Robotino fährt zuerst auf die Position vor der Maschine, als nächstes wird ein "approach.2" empfangen. Dann fährt der Robotino entsprechend nicht zum Band, sondern zu dem versetzten Liegeplatz Nummer 2. Anschliessend soll das dort stationierte Teil gegriffen und rückwärts gefahren werden. Anschliessend wird ein "approach" durchgeführt. Der Robotino fährt dann vor zum Band der Mps und setzt seine Koordinaten neu.
+#### Schlupf eleminieren
+Damit der Schlupf, der beim Fahren entsteht, kompensiert werden kann, wird die Position nach jedem approach in der Produktionsphase auf den gespeicherten Wert zurückgesetzt. Da die gespeicherte Position einen halben Meter von der MPS entfernt ist muss die aktuelle Position des Robotinos berechnet werden bevor sie dem Positioncontroller übergeben wird.
+
+#### Offsetpositionen anfahren
+Die erhaltenen Nachrichten auf dem actions Topic enthalten die Informationen darüber welche Offsetposition der Robotino für die Produktion anfahren muss. Je nach Information wird ein anderer Übergabewert der approach Methode übergeben. Diese fährt danach an die gewünschte Position hin damit das Werkstück gegriffen werden kann. Nur die CS und RS haben zusätzliche Offsetpositionen auf der Input Seite die angefahren werden können.
+
   
 
 ### Drive
