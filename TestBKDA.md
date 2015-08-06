@@ -32,16 +32,17 @@ w = weggelassen
 
 ## Prüfverfahren WayAnalyzer  
 
-Das Prüfverfahren lief gleich wie im Prozessmodul, dass bedeutet der Robotino musste durch einen Hindernisparcours fahren ohne dass er einen Crash verursacht. Dabei wurden die Parameter der Formel verändert und die optimalen Werte im Kofig Flie festgehalten.
+Das Prüfverfahren lief gleich wie im Prozessmodul, dass bedeutet der Robotino musste durch einen Hindernisparcours fahren ohne dass er einen Crash verursacht. Dabei wurden die Parameter der Formel verändert und die optimalen Werte im Konfig File festgehalten.
 Es wurde getestet:  
-- Es wurden mehrere Objekt sehr Nahe aneinander in verschiedenen Winkel aufgestellt. So musste er die Seiten während dem Ausweichen überprüfen, durfte nicht vor einer zu schmalen Schneise hängen bleiben, nicht in ungültige Zonen fahren und er musste es an das Tiel schaffen.
-- Es wurde überprüft ob der Roboter mit Hilfe der Infrarotsensoren richtig auswich. Indem man ihm schnell und Nahe genug ein Hindernis in die Fahrbahn stellte.  
+- Bevor der Robotino ausweicht wird mit den Laserwerten überprüft ob sich kein Objekt auf der Seite befindet.
+- Ist die breite der Schneise kleiner als die parametrierte Mindestbreite soll er weiter ausweichen.
+- Es wurde überprüft ob der Roboter mit Hilfe der Infrarotsensoren richtig ausweicht. Indem ein niedriges Hindernis, dass nicht vom Laser erfasst wird, in den Weg gestellt wurde.  
   
 ## Prüfverfahren WayController  
 
-Die Berechnungen für die Anfahrtspunkt welche im PM-Kurs programmiert wurden, waren leider Fehlerhaft. Entsprechend wurden die Trigonometrischen Fehler gefunden und behoben. Dies geschah mit Hilfe des Brokers und den Loglisten. Die Berechneten Koordinaten wurden nachgerechnet. Anschliessend wurden die Formeln nochmals Überprüft und den Fehler in der Trigonometrischen Formel behoben. 
+Die Berechnungen für die Anfahrtspunkt welche im PM-Kurs programmiert wurden, waren leider Fehlerhaft. Entsprechend wurden die Trigonometrischen Fehler gefunden und behoben. 
   
-Da wir bis zum RoboCup leider nie in die Produktionsphase gekommen sind, sind die Programmierungen für die Produktionphase nie getestet worden. Theoretisch müssten die Ergänzungen für die Produktonsphase funktionieren. Der Code wurde zur Kontrolle mehrmals Schritt für Schritt gedanklich durchlaufen.  
+Da wir bis zum Robocup leider nie in die Produktionsphase gekommen sind, sind die Programmteile für die Produktionphase nie getestet worden. Theoretisch müssten die Ergänzungen für die Produktonsphase funktionieren. Der Code wurde zur Kontrolle mehrmals Schritt für Schritt gedanklich durchlaufen.  
   
 ## Prüfverfahren Drive
 
