@@ -17,6 +17,7 @@ zuerst 4 Dinge gemacht werden.
 2. In der Klasse muss "implements MqttCallback" hinzugefügt werden.  
 3. Es muss eine neue MqttCom instanziert werden. Die Methode hatt die IP des Broker's und den Benutzernamen als Übergabewert
 4. Es muss ein Callback auf alle benötigten Topics gemacht werden. Die Methode hatt den Empfänger und den entsprechenden Topic als Übergabewert.
+  
 ```
 import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
 import org.eclipse.paho.client.mqttv3.MqttCallback;
@@ -57,6 +58,7 @@ mit einem Case im MessageArrived kann sehr effizient auf die Topics geprüft wer
 > #### Wichtig !!
 > In der MessageArrived Methode können weder Sendeaktionen mit dem MQTT noch grosse Methoden aufgerufen werden. Desshalb wird vielfach in Verbindung mit der MqttCom auch ein scheduliertes Run verwendet und mit booleans als bindeglied gearbeitet. 
 > 
+  
 #### <a name="RecObj">Objekte Empfangen</a>
 Ist im MessageArrived das empfangen von Objekten nötig, werden folgende Codezeilen benötigt
 ```
