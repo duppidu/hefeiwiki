@@ -1,132 +1,63 @@
 [Home](home) [Back](WikiSolidus)
 
 # Inhalt  
-- <a href="#lib">Library</a>
-- <a href="#com">MQTT COM</a>
-- <a href="#sobj">Send Objects</a>
-- <a href="#sst">Send String</a>
+
 - <a name="RecMsg">Nachrichten Empfangen</a>
 - <a name="msgArr">MessageArrived(String topic, MqttMessage message) </a>
 -- <a name="RecObj">Objekte Empfangen</a>
 -- <a name="RecSt">String Empfangen</a>
 - <a name="connLost">connectionLost(Throwable thrwbl)</a>
 - <a name="delcomp">deliveryComplete(IMqttDeliveryToken imdt)</a>
+- <a name="usrEx">Benutzerbeispiel</a>
 
-
-## <a name="lib">Library
-Um dei MQTT Funktionen im Java zu verwenden, muss zuerst die entsprechende
-Library im Netbeans eingebunden werden  
-Die Library kann [Hier](https://repo.eclipse.org/content/repositories/paho-releases/org/eclipse/paho/mqtt-client/0.4.0/mqtt-client-0.4.0.jar) Heruntergeladen Werden
-Zudem muss sichergestellt werden, dass ein Mqtt Server im Netzwerk online ist mit vorteil mit einer [Festgelegten IP](http://jankarres.de/2013/09/raspberry-pi-statischefeste-ip-adresse-vergeben/)  
-[Hier](MosquittoBroker) ist das Tutorial dazu.  
-***
-
-## <a name="com">MQTT COM
-In Unserem Projekt haben wir im Package Comm die Klasse MqttCom die enthaltenen Funktionen und Schritte zum aufbau der  
-Kommunikation mit dem Broker werden hier in einzelnen Codeabschnitten erklärt. 
-***
-Als erstes Müssen einige Imports aus der hinzugefügten jar gemacht werden. 
-```
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import org.eclipse.paho.client.mqttv3.*;
-```
-***
-Danach werden die Variablen für den Mqtt Client und die Mqtt Message wie folgt bekannt gemacht. 
-```
-private MqttClient client;
-private MqttMessage message;
-```
-sind die Variablen bekannt, wird ein neuer Client erstellt
-und die Borker Ip und den Benutzernamen
-
-> #### !!! Wichtig !!!
-> Der Benutzernamen innerhalb des ganzen Mqtt darf nirgendwo gleich sein. Auch unter 3 Robotinos nicht
-> bei der Auswahl des Nutzernamens muss mit der RobotNr aus dem cfg file gearbeitet werden oder einer 
-> immer andere Nummer oder Name
-  
-```
-client = new MqttClient(BorkerIp, ClientId);
-```
-ist der Client erstellt, wird verbindung mit dem Broker hergestellt mit 
-```
-client.connect();
-```
-Danach ist es abhängig davon was gesendet wird. Es können Objekte oder auch nur Strings gesendet werden. 
-
-### <a name="sobj">Objekte Senden</a>
-mit dem untenstehenden Code Können ganze Objekte über den Broker gesendet werden. 
-der Nachteil daran ist, dass nichts was gesendet wird für den Menschen lesbar ist. 
-```
-ObjectOutputStream o = null;
-        try
-        {
-            ByteArrayOutputStream b = new ByteArrayOutputStream();
-            o = new ObjectOutputStream(b);
-            o.writeObject(obj);
-            message.setPayload(b.toByteArray());
-            client.publish(topic, message);       //blockieren auf setTimeToWait
-        } catch (IOException ex)
-        {
-            System.out.println(ex);
-        } finally
-        {
-            try
-            {
-                o.close();
-            } catch (IOException ex)
-            {
-            }
-        }
-```
-für das senden ausschlaggebend ist der Topic als String und die Message als beliebiges Objekt mit implements Serzalizable(hier obj). 
-
-
-### <a name="sst">Strings Senden
-Das Senden eines Strings ist wesentlich einfacher.
-```
-message.setPayload(msg.getBytes());
-client.publish(topic, message);
-```
-für das senden ausschlaggebend ist hier einzig die Nachricht als String (hier msg)
-und den Topic ebenfalls als String. 
-
-Wird eine Nachricht Retained gesendet, wird sie auf dem Broker gespeichert und bei jedem anmelden
-erneut bei den Teilnemer gesendet(retained = boolean). 
-```
-message.setRetained(retained);
-```
-### <a name="RecMsg">Nachrichten Empfangen(nicht in MqttCom)
+### <a name="RecMsg">Nachrichten Empfangen</a>
 Um in einer Klasse eine Nachricht zu empfangen, egal ob Objekt oder String, müssen
-zuerst 3 Dinge gemacht werden.
-In der Klasse muss "implements MqttCallback" hinzugefügt werden und die untenstehenden Codezeilen
+zuerst 4 Dinge gemacht werden.
+1. Als erstes müssen die Nötigen Imports gemacht werden. 
+2. In der Klasse muss "implements MqttCallback" hinzugefügt werden.  
+3. Es muss eine neue MqttCom instanziert werden. Die Methode hatt die IP des Broker's und den Benutzernamen als Übergabewert
+4. Es muss ein Callback auf alle benötigten Topics gemacht werden. Die Methode hatt den Empfänger und den entsprechenden Topic als Übergabewert.
 ```
-        client.subscribe(topic);
-        client.setCallback(receiver);
+import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
+import org.eclipse.paho.client.mqttv3.MqttCallback;
+import org.eclipse.paho.client.mqttv3.MqttException;
+import org.eclipse.paho.client.mqttv3.MqttMessage;
 ```
-mit dem client.subscribe(topic) empfängt mann jede nachricht von entsprechenden Topic
-und mit dem client.setCallback(reciever) wird bestimmt wer die Nachrichten erhält also in den meisten fällen this für die eigene Klasse.   
+
+```
+implements MqttCallback
+```
+
 Mit dem implements MqttCallback werden 3 Methoden erzwungen.
 
->- messageArrived(String topic, MqttMessage message)  
->-- wird immer dann aufgerufen, wenn auf einem subscribten Topic eine Nachricht ankommt  
->- connectionLost(Throwable thrwbl)  
->-- wird aufgerufen sobald die verbindung zum Mqtt server unerwartet verloren geht  
->- deliveryComplete(IMqttDeliveryToken imdt)  
->-- wird nach jedem erfolgreichen senden aufgerufen  
+- messageArrived(String topic, MqttMessage message)
+-- wird immer dann aufgerufen, wenn auf einem subscribten Topic eine Nachricht ankommt
+- connectionLost(Throwable thrwbl)
+-- wird aufgerufen sobald die verbindung zum Mqtt server unerwartet verloren geht
+- deliveryComplete(IMqttDeliveryToken imdt)
+-- wird nach jedem erfolgreichen senden aufgerufen
 
-### <a name="msgArr">MessageArrived(String topic, MqttMessage message)
+```
+mqtt = new MqttCom("tcp://192.168.1.2:1883", "MqttUserName");
+```
+Mit dieser Instanzierung Wird eine neue Kommunikation zum Broker aufgebaut. 
+> Wichtig!!!
+> Global darf nicht 2 mal der Selbe Usernamen existieren also muss jede Klasse auf jedem Robotino einen anderen Namen tragen
+
+```
+mqtt.setCallback(this, PathInPos);
+```
+Mit dem setCallback wird erreicht, dass bei jeder nachricht auf dem angegebenen Topic die MessageArrived Methode aufgerufen wird. Der erste Übergabewert in der Klammer, beschreibt den Empfänger und der Zweite Ist der String mit dem Topic
+
+### <a name="msgArr">MessageArrived(String topic, MqttMessage message) </a>
 Diese Methode wird immer dann aufgerufen, wenn auf einem Subscribten Topic eine Nachricht gesendet wird.
 der Methode werden bei jeder Nachricht der entsprechende Topic und die Nachricht selber übergeben. 
 mit einem Case im MessageArrived kann sehr effizient auf die Topics geprüft werden und ensprechend reagiert werden.   
 
 > #### Wichtig !!
-> In der MessageArrived Methode können weder Sendeaktionen mit dem MQTT noch grosse Methoden aufgerufen werden. Desshalb wird vielfach in Verbindung > mit der MqttCom auch ein scheduliertes Run verwendet und mit booleans als bindeglied gearbeitet. 
+> In der MessageArrived Methode können weder Sendeaktionen mit dem MQTT noch grosse Methoden aufgerufen werden. Desshalb wird vielfach in Verbindung mit der MqttCom auch ein scheduliertes Run verwendet und mit booleans als bindeglied gearbeitet. 
 > 
-  
-#### <a name="RecObj">Objekte Empfangen
+#### <a name="RecObj">Objekte Empfangen</a>
 Ist im MessageArrived das empfangen von Objekten nötig, werden folgende Codezeilen benötigt
 ```
 ByteArrayInputStream b = new ByteArrayInputStream(message.getPayload());
@@ -140,7 +71,7 @@ lamps = (Lamps) d;
 Wichtig ist, dass die Objekte welche gesendet werden je Topic genau definiert sind. Ist das nicht der Fall, kommt es bei der Lezten Zeile im Oberen abschnitt bei der Castingoperation zu einem Fehler. 
 ist das Objekt lamps welches wir vom Broker erhalten haben erst mal gespeichert, wird bei jeder Message arrived wider überschrieben. 
 
-#### <a name="RecSt">String Empfangen
+#### <a name="RecSt">String Empfangen</a>
 Ein String zu empfangen ist wesentlich einfacher. Es empfielt sich jedoch auch hier mit einem Case zu arbeiten.
 ```
 message.toString(); //Reicht um ein String auszugeben
@@ -166,7 +97,7 @@ throw new UnsupportedOperationException("Not supported yet."); //To change body 
 ```
 diese Zeile wirft eine Exception sobald die Methode aufgerufen wird. Hier ist es erst recht empfehlenswert statt der Exception ein SystemOut einzutragen, ein Loggereintrag oder die Zeile einfach auskommentieren. Denn die Methode wird nach jedem erfolgreichen Senden aufgerufen. 
 
-### <a name="delcomp">MQTT COM Benutzerbeispiel</a>
+### <a name="usrEx">MQTT COM Benutzerbeispiel</a>
 Folgender Code ist in Teilen aus der ExploControllLocal Kopiert
 
 ```
