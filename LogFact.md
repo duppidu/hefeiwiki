@@ -31,6 +31,7 @@ Danach werden im Konstruktor einige Zeilen hinzugefügt um alle Einstellungen zu
  - LogLevel
  - Pfad des Logfiles
  - Name des Logfiles
+
 ```
 //<editor-fold defaultstate="collapsed" desc="Package Master LOGGER">
         this.Master_LOGGER  = org.apache.log4j.Logger.getLogger("Master_LOGGER");
