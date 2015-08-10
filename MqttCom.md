@@ -7,8 +7,7 @@ Kommunikation mit dem Broker werden hier in einzelnen Codeabschnitten erklärt.
 ## <a name="lib">Library</a>  
 Um die MQTT Funktionen im Java zu verwenden, muss zuerst die entsprechende
 Library im Netbeans eingebunden werden  
-Die Library kann [Hier](https://repo.eclipse.org/content/repositories/paho-releases/org/eclipse/paho/mqtt-client
-/0.4.0/mqtt-client-0.4.0.jar) Heruntergeladen Werden
+Die Library kann [Hier](https://repo.eclipse.org/content/repositories/paho-releases/org/eclipse/paho/mqtt-client/0.4.0/) Heruntergeladen Werden
 Zudem muss sichergestellt werden, dass ein Mqtt Server im Netzwerk online ist mit vorteil mit einer [Festgelegten IP](http://jankarres.de/2013/09/raspberry-pi-statischefeste-ip-adresse-vergeben/)  [Hier](MosquittoBroker) ist das Tutorial dazu.  
 ***
 
