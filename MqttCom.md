@@ -34,6 +34,7 @@ und die Borker Ip und den Benutzernamen
 > Der Benutzernamen innerhalb des ganzen Mqtt darf nirgendwo gleich sein. Auch unter 3 Robotinos nicht
 > bei der Auswahl des Nutzernamens muss mit der RobotNr aus dem cfg file gearbeitet werden oder einer 
 > immer andere Nummer oder Name
+  
 ```
 client = new MqttClient(BorkerIp, ClientId);
 ```
