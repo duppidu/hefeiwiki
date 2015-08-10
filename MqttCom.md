@@ -1,3 +1,5 @@
+[Home](home) [Back](WikiSolidus) 
+  
 # <a name="com">MqttCom</a>
 In Unserem Projekt haben wir im Package Comm die Klasse MqttCom die enthaltenen Funktionen und Schritte zum aufbau der  
 Kommunikation mit dem Broker werden hier in einzelnen Codeabschnitten erklärt. 
