@@ -1,3 +1,6 @@
+[Home](home)  
+[Back](WikiSolidus) 
+
 # RobotCom
 Diese Klasse verbindet das Java Programm mit dem Robotino. Dies wird benötigt um jeglicher Informationen / Befehle mit dem Robotino aus zu tauschen. Dir Verbindung wird wie folgt aufgebaut:  
 Importbereich
