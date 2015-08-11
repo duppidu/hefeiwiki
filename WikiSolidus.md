@@ -95,8 +95,7 @@
 [New Messages](Messages2015)  
 ***
 
-### State Machine
-[PoeStateMachine](PoeStateMachine)  
+### State Machine  
 [StateMachine](StateMachine)
 ***
 
