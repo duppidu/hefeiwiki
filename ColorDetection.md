@@ -7,7 +7,7 @@ Dies hat folgende Gründe:
 - mit OpenCV unter Java war es nicht möglich die Kamera-Verbindung zu trennen.  
 - mit dauerhaft laufender Kamera machte das C++ Programm zur Markererkennung Probleme mit der Device Auswahl.  
      
-Der Aufruf wir in der StateMachine mit dem Befehl       
+Der Aufruf wir in der [StateMachine](StateMachine) mit dem Befehl       
 Runtime.getRuntime().exec(new String[]     
                     {  
                         "java", "-jar", "/home/robotino/hefei/ColorDetection.jar"  
