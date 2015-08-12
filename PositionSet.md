@@ -6,9 +6,9 @@ Ganz am Anfang der Explorationsphase werden die Punkte als aktuelle Position ges
 **Vorgehen:**  
 1. Vor Spielbeginn müssen drei feste Punkte ausgemessen und am Boden markiert werden, an welchen die Robotinos starten. (Die ausgemessenen Punkte müssen am Nullpunkt des Feldes gespiegelt sein.)
 
-2. Die Koordinaten der Punkte müssen in der Klasse [Drive](Drive) im Konstruktor in das Array startCoords eingegeben werden.
+2. Die Koordinaten der Punkte von der **Seite Cyan** müssen in der Klasse [Drive](Drive) im Konstruktor in das Array startCoords eingegeben werden.
 
-3. 
+3. Die Robotinos müssen genau auf die 3 Punkte gestellt werden. Sobald die Explorationsphase startet fahren sie los.
 
 **Achtung:** Die oben beschriebene Methode ist eine kurzfristig programmierte (am Robocup 2015) Möglichkeit. Ursprünglich war folgende Methode vorgesehen. Diese funktionierte zuverlässiger. 
 
