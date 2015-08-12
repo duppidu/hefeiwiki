@@ -36,3 +36,4 @@ Zuerst wird der Winkel ausgeglichen, das heisst um 90 Grad gedreht.
 Danach wird eine Koordinatenrotation vorgenommen mit folgender Formel:
 ![translation](https://gitlab.com/solidus/hefei/uploads/11610a35d510e83181e5cf3b74676d55/translation.JPG)  
 Wenn dann die beiden Koordinatenfelder die selbe Ausrichtung haben, muss der Punkt nur noch durch Koordinatentranslation verschoben werden.
+![220px-CoordinateTranslation](https://gitlab.com/solidus/hefei/uploads/b6ed97790723e84f2e313722bc172819/220px-CoordinateTranslation.png)
