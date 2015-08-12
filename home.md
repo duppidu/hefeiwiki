@@ -1,9 +1,7 @@
 # Solidus-Hefei
 
-## Dokumentation
-[Inhalt](DokuSolidus)
+## [Dokumentation](DokuSolidus)
 ***
 
-## Wiki
-[Inhalt](WikiSolidus)
+## [Wiki](WikiSolidus)
 ***
