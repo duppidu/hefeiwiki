@@ -31,6 +31,10 @@
 # Software  
 ## Tutorials  
 
+### StartUp
+[PositionSet](PositionSet)
+***
+
 ### ALVAR
 [InstallManual](AlvarInstallManual)  
 [ALVAR_Programming](Alvar_Programming)
@@ -48,10 +52,6 @@
 
 ## Programmspezifisch
   
-### StartUp
-[PositionSet](PositionSet)
-***
-
 ### Cam
 [ColorDetection](ColorDetection)  
 [Markerdetection & MarkerCoordinates](Markerdetection_Markercoordinates)
