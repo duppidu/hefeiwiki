@@ -1,19 +1,23 @@
 [Back](wikisolidus)
 ## PositionSet
+Um die Position bei StartUp zu setzen, wird die Methode initPos() in der Klasse Drive() aufgerufen.
 
 Um die Position am Anfang zu setzen, werden die Robotinos genau auf vorher am Boden markierte Stellen gesetzt und ausgerichtet.
 Ganz am Anfang der Explorationsphase werden die Punkte als aktuelle Position gesetzt. Da die Punkte vorher genau ausgemessen wurden und so bekannt sind, können sie nur noch fest im Code eingegeben werden.  
 **Vorgehen:**  
 1. Vor Spielbeginn müssen drei feste Punkte ausgemessen und am Boden markiert werden, an welchen die Robotinos starten. (Die ausgemessenen Punkte müssen am Nullpunkt des Feldes gespiegelt sein.)
 
-2. Die Koordinaten der Punkte von der **Seite Cyan** müssen in der Klasse [Drive](Drive) im Konstruktor in das Array startCoords eingegeben werden.
+2. Die Koordinaten der Punkte von der **Seite Cyan** müssen in der Klasse [Drive](Drive) im Konstruktor in das Array startCoords eingegeben werden. Beim Start auf der Magentaseite werden die Koordinaten automatisch angepasst.
 
 3. Die Robotinos müssen genau auf die 3 Punkte gestellt werden. Sobald die Explorationsphase startet fahren sie los.
 
-**Achtung:** Die oben beschriebene Methode ist eine kurzfristig programmierte (am Robocup 2015) Möglichkeit. Ursprünglich war folgende Methode vorgesehen. Diese funktionierte zuverlässiger. 
+![Unbenannt](https://gitlab.com/solidus/hefei/uploads/7ec1033a7c79b865539fcfd3e7ae6f63/Unbenannt.png)
 
-Um die Position bei StartUp zu setzen, wird die Methode initPos() in der Klasse Drive() aufgerufen.
+**Achtung:** Die oben beschriebene Methode ist eine kurzfristig programmierte (am Robocup 2015) Möglichkeit. Ursprünglich war folgende Methode vorgesehen. Diese funktionierte zuverlässiger, darf aber so momentan nicht gebraucht werden.
 
+Die Robotinos setzen ihre aktuelle Position
+
+**Vorgehen:**
 1. Der Robotino muss in der Einfahrt zum Feld stehen und Richtung Koordinatennullpunkt schauen. Der Robotino muss einigermassen gerade stehen.
 
 2. Der Robotino fährt automatisch auf eine zuvor definierte Distanz auf die Bande vor sich zu.
