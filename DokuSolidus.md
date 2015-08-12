@@ -33,13 +33,21 @@
 [Test](TestBKDA)  
 [Tagebücher](TagebuecherBK)
 ***
-### Michael, Florian
+### Michael, Florian, (Thomas)
 [Konzept](KonzeptMF)  
 [Planung](PlanungMF)  
 [Vorgehen](VorgehenMF)  
 [Lösungen](LoesungenMF)  
 [Test](TestMF)  
+#### Diplomarbeit  
+[Konzept](KonzeptMFT)  
+[Lösungen](LoesungenMFT)  
+[Planung](PlanungMFT)  
+[Test](TestMFT)  
+[Probleme](ProblemeMFT)   
+[Verbesserungsvorschlaege](VerbesserungsvorschlaegeMFT)
 ***
+
 ### Felix, Lukas  
 #### Prozessmodul   
 [Konzept](KonzeptFL)  
