@@ -7,4 +7,4 @@ Die StateMachine ist sozusagen der Chef der Abläufe. Sofern die SubStateHandler
 ## Exploration
 ![StateMachine](https://gitlab.com/solidus/hefei/uploads/f9e65bbf59dbf77f651af4a76a82c2c5/StateMachine.PNG)
 ## Production
-
+Die Produktion wurde noch nicht programmiert.
