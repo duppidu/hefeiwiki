@@ -25,15 +25,16 @@ Local Topics
 | Start Exploring | ? | ? | /robo/local/pos/explore    | 
 | Aktuelle Geschwindigkeit | Positioncontroller | WayAnalyzer | /robo/local/pos/speed    |
 | Aktionen Für das Drive | Explocontrol / Produktioncontroll / StateMachine | WayController | /robo/local/pos/actions    |  
-| Durch Refbox gemeldete Zonen  | ? | ? | /robo/local/refbox/zones    | 
-| Tag Nummer| ? | ? | /robo/local/cam/tag|
-| Lampen Erkennung | ? | ? | /robo/local/cam/color    |
+| Durch Refbox gemeldete Zonen  | ComRefBox | Statemachine | /robo/local/refbox/zones    | 
+| Tag Nummer| MarkerDetection | Statemachine / ExploControllLocal | /robo/local/cam/tag|
+| Lampen Erkennung | ColorDetection | ExploControllLocal | /robo/local/cam/color    |
 | Status der State Machine | ? | ? | /robo/local/statemachine/state   |
+| Freigabe der Exploration | StateMachine | ExploControllLocal | /robo/local/statemachine/zones   |
 | Ausweichs Geschwindigkeit | WayAnalyzer | Drive |/robo/local/pos/avoidingSpeed |
-| Senden von neuem Job an Robi 1 | ? | ? |/robo/local/job/newjob1|
-| Senden von neuem Job an Robi 2 | ? | ? |/robo/local/job/newjob2|
-| Senden von neuem Job an Robi 3 | ? | ? |/robo/local/job/newjob3|
-|Greifer (open/) | ? | ? |/robo/local/grippercontrol|
+| Senden von neuem Job an Robi 1 | ExploControllMain | ExploControllLocal |/robo/local/job/newjob1|
+| Senden von neuem Job an Robi 2 | ExploControllMain | ExploControllLocal |/robo/local/job/newjob2|
+| Senden von neuem Job an Robi 3 | ExploControllMain | ExploControllLocal |/robo/local/job/newjob3|
+|Greifer (open/) | ? | ServoControl |/robo/local/grippercontrol|
 |Aktuelle Spielphase von Refbox | ? | ? |/robo/local/refbox/phase|
 |Aktueller Spielstatus von Refbox | ? | ? |/robo/local/refbox/state|
 |Position Initialisiert | StateMachine | WayController |/robo/local/pos/init|
@@ -45,11 +46,11 @@ Field Topics
 
 | Was| Sender | Empfänger | Topic | 
 | :-------  |:------ |:------ | ----: |
-| Job Anfrage (Production "Robi sendet seine Nummer") | ? | ? |/field/job/getjob|
-| Maschinen werden Gesendet um Feld zu vervollständigen | ? | ? |/field/complete/machine|
-| Komplette Maschinen Map wird zur Sicherheit gesendet | ? | ? |/field/map/machine|
+| Job Anfrage (Production "Robi sendet seine Nummer") | ProductControllLocal | ProductControllMain |/field/job/getjob|
+| Maschinen werden Gesendet um Feld zu vervollständigen | ExploControllLocal | ExploControllLocal |/field/complete/machine|
+| Komplette Maschinen Map wird zur Sicherheit gesendet | ExploControllLocal | ? |/field/map/machine|
 | Sendet Robotinonummer des Robotinos, welcher bereit auf dem Feld steht | ? | ? |/field/stateMachine/onField|
-| Alle Zonen von Refbox als String Bsp: "Z1-Z2-Z3" | ? | ? |/field/refbox/zones|
+| Alle Zonen von Refbox als String Bsp: "Z1-Z2-Z3" | ComRefBox | ExploControllMain |/field/refbox/zones|
 
 Schlüsselwörter
 -------------
@@ -66,8 +67,8 @@ Schlüsselwörter
 |/robo/local/pos/inpos | String "belt.4" | Der Robotino hat die MPS angefahren und steht vor der vierten Offsetposition. |
 |/robo/local/pos/inpos | String "backwards" | Der Robotino hat die Gewünschte Distanz zur MPS erreicht und ist bereit für ein neues Ziel.|
 |/robo/local/pos/actual | Coord Objekt mit der aktuellen Position | Das actual Attribut im Drive wird überschrieben.|
-|/robo/local/pos/input | Coord Objekt mit den berechneten Input Koordinaten. | ? |
-|/robo/local/pos/output| Coord Objekt mit den berechneten Output Koordinaten.| ? |
+|/robo/local/pos/input | Coord Objekt mit den berechneten Input Koordinaten. | Objekt wird zur entsprechenden Maschine gespechert |
+|/robo/local/pos/output| Coord Objekt mit den berechneten Output Koordinaten.| Objekt wird zur entsprechenden Maschine gespeichert |
 |/robo/local/pos/explore | ? | ?|
 |/robo/local/pos/speed | Speed Objekt mit der aktuellen Geschwindigkeit.| Das actualSpeed Attribut im WayAnalyzer wird überschrieben.|
 |/robo/local/pos/actions | String "goToTarget" | Der Robotino fährt zum aktuellen Ziel. Sobald das Ziel erreicht wurde wird ein "target" gesendet. |
@@ -86,17 +87,20 @@ Schlüsselwörter
 |/robo/local/pos/actions | String "backwards" | Der Robotino fährt rückwärts bis er die parametrierte Distanz erreicht hat.|
 |/robo/local/pos/actions | String "initCoords" | Die Position der Robotinos wird initialisiert.|
 |/robo/local/refbox/zones| ? | ?|
-|/robo/local/cam/tag| ? | ?|
-| /robo/local/statemachine/state | ? | ?|
+|/robo/local/cam/tag| String "TagID" | Die erkannte Tagnummer wird gesendet|
+| /robo/local/statemachine/state | ? | ? |
+|/robo/local/statemachine/zones | String "Start" | gibt das Fahren und die Exploration frei |
 |/robo/local/pos/avoidingSpeed | Speed Objekt mit der Ausweichgeschwindigkeit| Die Ausweichgeschwindigkeit wird dem Omnidrive weitergegeben.| 
-|/robo/local/job/newjob1 | ? | ?| 
-|/robo/local/job/newjob2 | ? | ?| 
-|/robo/local/job/newjob3 | ? | ?| 
-|/robo/local/grippercontrol | ? | ? |
+|/robo/local/job/newjob1 | String "FieldNumber" | Das nächste zu erkundende Feld wird gesendet| 
+|/robo/local/job/newjob2 | String "FieldNumber" | Das nächste zu erkundende Feld wird gesendet|  
+|/robo/local/job/newjob3 | String "FieldNumber" | Das nächste zu erkundende Feld wird gesendet| 
+|/robo/local/grippercontrol | String "open" | Greifer öffnet |
+|/robo/local/grippercontrol | String "close" | Greifer Schliesst |
 |/robo/local/refbox/phase | ? | ? |
 |/robo/local/refbox/state | ? | ? |
 |/robo/local/pos/init | ? | ? |
 |/robo/local/restart | ? | ? |
+
 
 
 
