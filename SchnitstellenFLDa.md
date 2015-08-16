@@ -22,7 +22,7 @@ Von den oben genannten Programmen sind jeweils nur die Versionen aufgelistet, we
 
 ----------
 
-### <a name="sc">Schnittellen Code</a> ###
+### <a name="sc">Schnittstellen Code</a> ###
 
 - Kommunikation zwischen ``Klasse 1`` und ``Klasse 2``.
 
