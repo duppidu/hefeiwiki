@@ -93,11 +93,32 @@ Unsere Klassen besitzen 6 verschiedene Speicherelemente.
 
 **<a name="co">coord:</a>**
 - Objekt.  
-- Beinhaltet X, Y und Phy von einer [Zone](Zones).
-   
-- Bsp. 1. new [Coord](Coords)(32,32,32).  
+- Beinhaltet X, Y und Phy eines punktes welcher in einer [Zone](Zones) liegt.
+- Bsp: coord c = new [Coord](Coords)(32,32,32).  
 
 ----------
+
+### <a name="pck">ProductControllKommunikation</a> ###
+
+In der Product Controll Kommunikation ist ersichtlich wie die beiden Klassen [ProductControllLocal](ProductControllLocal) und [ProductControllMain](ProductControllMain) miteinander Kommunizieren und interagieren.  
+Alle verarbeiteten Informationen (neue Ziele) werden mittels Broker dem [Drive](Drive) gesendet.  
+
+![ProduktionCom](https://gitlab.com/solidus/hefei/uploads/09112bbaa859a3604cea2f76c2154477/ProduktionCom.PNG)
+
+
+
+- Sobald die Klasse [Drive](Drive) dem Broker auf das entsprechende [Topic](MqttTopics) einen String "backwards" sendet ist das für die Klasse [ProductControllLocal](ProductControllLocal) das Signal, dass das [Drive](Drive) einen neuen Befehl benötigt.  
+- Das [ProductControllLocal](ProductControllLocal) sendet eine Job Anfrage dem [ProductControllMain](ProductControllMain).  Dies sucht nach einem speziellen Algorythmus einen geeigneten Job aus und übermittelt diesen dem [ProductControllLocal](ProductControllLocal).  
+- Der neu erhaltene Job wird nun vom [ProductControllLocal](ProductControllLocal) in einzelne Arbeitsschritte aufgeteilt.  
+- Die erste anzufahrende [Koordinate](Coords) wird gleich an das [Drive](Drive) weitergeleitet.  
+- Auf jede weitere "backwards" Anfrage wird nun die nexte anzufahrende [Koordinate](Coords) gesendet.  
+- Ist der Job komplett abgearbeitet wird von dem [ProductControllLocal](ProductControllLocal) eine neue Job Anfrage an den [ProductControllMain](ProductControllMain) gesendet.  
+
+ 
+----------
+¨### <a name="kd">KlassenDiagramm</a> ###
+
+- Klassendiagramm mit allen Methoden  
 
 
 
