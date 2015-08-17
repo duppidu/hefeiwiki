@@ -16,6 +16,10 @@ Dies könnte folgende Ursachen haben:
 - Die Maschinenwände am Robocup waren aus Metall, beim testen aus Holz. (Metall = verstreute Reflektionen)
 - Allgemein ungenauer Laserscanner  
 
+### Problem der Nachweisbarkeit
+
+Da die tatsächlich gemessenen Punkte im Spiel selber nirgendwo grafisch aufgezeigt werden, ist es schwierig im Nachhinein das tatsächliche Problem der Ungenauigkeit zu definieren. Das oben gezeigte Bild ist ein seperates Programm zum austesten des Laserscanners, es zeigt nicht die tatsächliche Messung am Robocup.
+
 ### Lösungsvorschläge
 
 Es ist allgemein eine gute Idee, noch einmal die Filterklassen des Laserscanners zu kontrollieren und auf allfällige Fehler zu überprüfen. Wenn dies keine Verbesserung bringt, ist ein anderer Laserscanner empfehlenswert. Entweder hat dieser eine höhere Auflösung (mehr Messpunkte), weniger Toleranz bei der Messung oder beides.  
