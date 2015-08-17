@@ -1,5 +1,6 @@
 [Back](VerbesserungsvorschlaegeMFT)  
 [Home](home)  
+***
 ## Verbesserung der Maschinenerkennung durch den Laserscanner
 
 Während der Entwicklung funktionierte die Maschinenerkennung sehr zuverlässig.  
