@@ -5,7 +5,7 @@ Autor: Florian Gehrig
 Klasse: HF2A  
 Datum: 11. Juli 2015  
 Version: 2.0  
-Quellen:  [Google Developers](https://developers.google.com/protocol-buffers/docs/overview) | [Wikipedia, Protocol Buffers](https://de.wikipedia.org/wiki/Protocol_Buffers) [Wikipedia, Zeitstempel](https://de.wikipedia.org/wiki/Zeitstempel)
+Quellen:  [Google Developers](https://developers.google.com/protocol-buffers/docs/overview) | [Wikipedia, Protocol Buffers](https://de.wikipedia.org/wiki/Protocol_Buffers) | [Wikipedia, Zeitstempel](https://de.wikipedia.org/wiki/Zeitstempel)
 
 ----
 - <a href="#SM1.0">Aufbau der Klasse während der Diplomarbeit vor dem Cup</a>
