@@ -1,3 +1,6 @@
+[Back](DokuSolidus)  
+[Home](home)  
+
 # Verbesserungsvorschläge
 - Klassen wie Drive oder PositionController unabhängig machen. Nur über Broker ansteuern.
 - Kantenerkennung aus der Drive Klasse in eine separate Klasse nehmen.
