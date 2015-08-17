@@ -89,7 +89,7 @@ Der Maschinen Typ wird mit der Broker Methode messageArrived() ausgelesen.
 Verschobene Position der DS.  
 
 
-##Kalibrierung
+## Kalibrierung
 
 Mit den beiden Methoden ColorCalibrierung und ColorDetectionTester kann das Programm eingestellt und überprüft werden. Beide Programmteile befinden sich im Snippets Packet.   
    
