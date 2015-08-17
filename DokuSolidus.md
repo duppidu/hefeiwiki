@@ -25,7 +25,7 @@
 | [Vorgehen](VorgehenBKDA)| [Vorgehen](VorgehenMFT)| [Vorgehen](VorgehenFLDa)|
 |[Lösungen](LoesungenBKDA)|[Lösungen](LoesungenMFT)|[Lösungen](LoesungenFLDa)|
 |[Test](TestBKDA)|[Test](TestMFT)|[Test](TestFLDa)|
-|[Tagebücher](TagebuecherBK)|[Verbesserungsvorschlaege](VerbesserungsvorschlaegeMFT)|[Verbesserungsvorschlaege](VerbesserungsvorschlaegeFL)|
+|[Tagebücher](TagebuecherBK)|[Verbesserungsvorschläge](VerbesserungsvorschlaegeMFT)|[Verbesserungsvorschläge](VerbesserungsvorschlaegeFL)|
 
 ## Gruppe
 ### Thomas, Simon 
