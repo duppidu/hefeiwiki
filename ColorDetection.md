@@ -86,5 +86,20 @@ Der Maschinen Typ wird mit der Broker Methode messageArrived() ausgelesen.
 
 ![PositionDS](https://gitlab.com/solidus/hefei/uploads/f4c408249ac2560dcbe2bf5acc9aa119/PositionDS.JPG)  
  
-Verschobene Position der DS.
+Verschobene Position der DS.  
+
+
+##Kalibrierung
+
+Mit den beiden Methoden ColorCalibrierung und ColorDetectionTester kann das Programm eingestellt und überprüft werden. Beide Programmteile befinden sich im Snippets Packet.   
+   
+
+### ColorCalibrierung
+
+Mit der Methode ColorCalibrierung läuft das Programm ununterbrochen. Somit kann sowohl die Position als auch die Farbe eingestellt werden. Um die einstellung der Farbe zu vereinfachen wurden 12 Schieberegler eingebaut mit denen die beiden min und max Werte angepasst und eingestellt werden können. 
+Wichtig dabei ist das diese werte dann in der richtigen ColorDetection klasse eingetragen werden.
+
+### ColorDetectionTester  
+
+Diese Klasse macht im Grunde genommen genau das was die normale Colordetection auch macht. Der einzige unterschied ist das das Kamera Bild grafisch angezeigt wird. Am ende der Detektierung schreibt die Klasse in die Konsole welche Farbe wie oft erkannt wurde. Diese Klasse eignet sich sehr gut zur Überprüfung der eingestellten Werte.
 
