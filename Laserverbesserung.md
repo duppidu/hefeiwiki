@@ -9,4 +9,6 @@ Zum Beispiel musste der Robotino in den zweiten oder dritten Ecken der Zone fahr
 Dies könnte folgende Ursachen haben:  
 - Der Akku des Robotinos hatte nicht mehr genug Spannung für den Laser
 - Die Maschinenwände am Robocup waren aus Metall, beim testen aus Holz. (Metall = verstreute Reflektionen)
-- Allgemein ungenauer Laserscanner
+- Allgemein ungenauer Laserscanner  
+
+### Lösungsvorschläge
