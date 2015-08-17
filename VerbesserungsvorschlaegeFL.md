@@ -25,7 +25,8 @@
 ### <a name="e">Exploration</a> ###
 
 #### <a name="ep">Programm</a> ####
-
+- Mps Klasse Aufteilen in Klasse mit Methoden zum Verwalten der Mps und in Konstrukt wie Coord zum Informationen als Objekt über den Broker zu übermitteln und keine unnötigen Methoden mitsenden
+- Mps als Solches abändern um das Programm zu vereinfachen. Nicht mehr 1Tag = 1Mps, sondern 1Mps= 1Mps(2 Tags, 2 Coords, 1 Lampe)
 
 ----------
 
