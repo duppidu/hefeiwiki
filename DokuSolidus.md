@@ -9,13 +9,13 @@
 *** 
  
 ## Prozessmodul 
-| | Thomas & Simon| Bryan & Ken| Michael & Florian| Lukas & Felix|
+| Thomas & Simon| Bryan & Ken| Michael & Florian| Lukas & Felix|
 | :------  |:------ |:------ | :------ | :-------|
-| Konzept| [Konzept](KonzeptST)| [Konzept](KonzeptBK)| [Konzept](KonzeptMF)| [Konzept](KonzeptFL)|
-| Planung| [Planung](PlanungST)| [Planung](PlanungBK)| [Planung](PlanungMF)| [Planung](PlanungFL)|
-| Vorgehen| [Vorgehen](VorgehenST)| [Vorgehen](VorgehenBK)| [Vorgehen](VorgehenMF)| [Vorgehen](VorgehenFL)|
-|Lösungen| [Lösungen](LoesungenST)|[Lösungen](LoesungenBK)|[Lösungen](LoesungenMF)|[Lösungen](LoesungenFL)|
-|Test| [Test](TestST)|[Test](TestBK)|[Test](TestMF)|[Test](TestFL)|
+| [Konzept](KonzeptST)| [Konzept](KonzeptBK)| [Konzept](KonzeptMF)| [Konzept](KonzeptFL)|
+| [Planung](PlanungST)| [Planung](PlanungBK)| [Planung](PlanungMF)| [Planung](PlanungFL)|
+| [Vorgehen](VorgehenST)| [Vorgehen](VorgehenBK)| [Vorgehen](VorgehenMF)| [Vorgehen](VorgehenFL)|
+| [Lösungen](LoesungenST)|[Lösungen](LoesungenBK)|[Lösungen](LoesungenMF)|[Lösungen](LoesungenFL)|
+| [Test](TestST)|[Test](TestBK)|[Test](TestMF)|[Test](TestFL)|
 
 ## Gruppe
 ### Thomas, Simon 
