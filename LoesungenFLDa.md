@@ -53,7 +53,7 @@ Die Kommunikation zwischen den einzelnen Klassen sieht wie folgt aus:
  
 - Die Klasse [ProductControllLocal](ProductControllLocal) ist für die komplette Produktionsphase zuständig und wird von der übergeordneten Klasse [ProductControllMain](ProductControllMain) bei der Koordination und Kommunikation der Roboter unterstützt.  
 - Die Klasse [ProductControllLocal](ProductControllLocal) Besitzt die Klasse [ProductAssembly](ProductAssembly) dessen Aufgabe es ist, die zu fertigende Produkte in Einzelne Produktionsschritte aufzuteilen. 
-- Die Klasse [ProductControllLocal](ProductControllLocal) benötigt zudem die Daten der Klasse [MPS](MPS) die zuvor in der Explorationsphase von der Klasse [ExploControll](ExploControll) gefüllt wurde. Mithilfe dieser Klassen werden die richtigen [Koordinaten](Coords) für den nächsten Produktionsschritt auf den Broker gesendet.  
+- Die Klasse [ProductControllLocal](ProductControllLocal) benötigt zudem die Daten der Klasse [MPS](MPS) die zuvor in der Explorationsphase von der Klasse [ExploControllLocal](ExploControllLocal) gefüllt wurde. Mithilfe dieser Klassen werden die richtigen [Koordinaten](Coords) für den nächsten Produktionsschritt auf den Broker gesendet.  
 
 #### <a name="db">DB</a> ####
 
@@ -113,10 +113,14 @@ Die verarbeiteten Informationen werden mittels Broker den entsprechenden Stellen
  - Wird eine MPS erkannt, so fährt der Robotino die MPS an und gibt ebenso eine Rückmeldung
  - Wird nichts erkannt, so wird der Nächste Feldecken angefahren.  
      - Ist auch das 2 mal Fehlgeschlagen, so wird der Nächste Auftrag angefordert. 
- - Ist der Robotino vor der MPS in Position gib er die nächste Rückmeldung
- - Der Nächste Schritt ist das Starten der MarkerDetection um den Angeklebten Tag zu erkennen
-  - Ist es ein Input Tag
-  - Ist es ein Output Tag 
+- Ist der Robotino vor der MPS in Position gib er die nächste Rückmeldung
+- Der Nächste Schritt ist das Starten der MarkerDetection um den Angeklebten Tag zu erkennen
+ - Ist es ein Input Tag Wird die Maschine angefahren
+ - Ist es ein Output Tag wird die andere Seite der Maschine berechnet und diesen Punkt angefahren.
+- Ist der Robotino an der richtigen Stelle angelangt, wird erneut Rückgemeldet
+- Diese Meldung startet die Lampenerkennung, welche ein Objekt erzeugt dieses mit den erkannten werten bestückt und versendet.  
+- Erhält die StateMachine dieses Objekt wird das Rückwärtsfahren ausgelöst. 
+- hat sich der Robotino etwas von der MPS entfehrnt wird bei der Klasse [ExploControllMain](ExploControllMain) ein neuer Auftrag angefordert. 
   
 ----------
 
