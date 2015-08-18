@@ -11,8 +11,8 @@
 	- <a href="#db">DB</a>
 		- <a href="#prod">Product</a> 
 		- <a href="#ma">MPS</a>  
-		- <a href="#rbz">actParts</a>
-                - <a href="#exj">exploJobs</a>
+		- <a href="#rbz">actParts</a>  
+      - <a href="#exj">exploJobs</a>
   		- <a href="#j">Job</a>  
 		- <a href="#co">coord</a>
 - <a href="#kd">Klassen Diagramm</a>  
