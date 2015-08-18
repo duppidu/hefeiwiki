@@ -27,11 +27,11 @@
 
 | Klasse 1| Klasse 2| Beschreibung|  
 | :------- | --- | :---- |
-| [ExploControll](ExploControll)| [Drive](Drive)| Senden von [Coord](Coord)|
-| [ExploControll](ExploControll)| [ColorDedection](ColorDetection)| Empfangen [Lampen](Lamps)|
-| [ExploControll](ExploControll)| [Marker Dedection](Markerdetection_Markercoordinates)| Empfangen [TagID](Markerdetection_Markercoordinates)|
-| [ExploControll](ExploControll)|[Statemachine](StateMachine)|Erhalten von [Zonen](Zones)|
-| [ExploControll](ExploControll)|[MPS](MPS)|Senden von [MPS](MPS) zum speichern|
+| [ExploControllLocal](ExploControllLocal)| [Drive](Drive)| Senden von [Coord](Coord)|
+| [ExploControllLocal](ExploControllLocal)| [ColorDedection](ColorDetection)| Empfangen [Lampen](Lamps)|
+| [ExploControllLocal](ExploControllLocal)| [Marker Dedection](Markerdetection_Markercoordinates)| Empfangen [TagID](Markerdetection_Markercoordinates)|
+| [ExploControllLocal](ExploControllLocal)|[Statemachine](StateMachine)|Erhalten von [Zonen](Zones)|
+| [ExploControllLocal](ExploControllLocal)|[MPS](MPS)|Senden von [MPS](MPS) zum speichern|
 ||||
 |[ProductControllLocal](ProductControllLocal)|[MPS](MPS)|Erhalten von [Coord](Coord)|
 |[ProductControllLocal](ProductControllLocal)|[ProductControllMain](ProductControllMain)|Empfangen von neuen [Jobs](ProductControllMain)|
