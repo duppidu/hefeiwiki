@@ -6,5 +6,3 @@
 #### [Florian](TagebuecherF)  
 #### [Michael](TagebuecherM)  
 #### [Thomas](TagebuecherT)    
-
-***
