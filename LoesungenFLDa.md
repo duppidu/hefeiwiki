@@ -14,9 +14,10 @@
 		- <a href="#rbz">actParts</a>  
       - <a href="#exj">exploJobs</a>
   		- <a href="#j">Job</a>  
-		- <a href="#co">coord</a>
-- <a href="#kd">Klassen Diagramm</a>  
-- <a href="#pck">Product Controll Kommunikation</a>  
+		- <a href="#co">coord</a> 
+- <a href="#pck">Product Controll Kommunikation</a>
+- <a href="#exk">Explo Controll Kommunikation
+- <a href="#kd">Klassen Diagramm</a>   
 
 
 ----------
@@ -95,7 +96,28 @@ Unsere Klassen besitzen 6 verschiedene Speicherelemente.
 - Objekt.  
 - Beinhaltet X, Y und Phy eines punktes welcher in einer [Zone](Zones) liegt.
 - Bsp: coord c = new [Coord](Coords)(32,32,32).  
+  
+----------
 
+### <a name="exk">ExploControllKommunikation</a> ###
+In der Explo Controll Kommunikation ist aufgezeigt, Wie die Einzelnen Klassen während der Explorationsphase miteinander Kommunizieren
+Die verarbeiteten Informationen werden mittels Broker den entsprechenden Stellen gesendet. 
+  
+![ExploComDaKorrV2](https://gitlab.com/solidus/hefei/uploads/21ea78fbf4572e7d1c819ade2aa38eb7/ExploComDaKorrV2.png)
+  
+- Sobald die Refbox Klasse die Felder erhält, werden diese an die Klasse [ExploControllMain](ExploControllMain) weitergeleitet und verarbeitet.  
+- Sind die Felder verarbetet, wird jedem Robotino ein erstes zu bearbeitendes Feld gesendet.
+- Die Klasse [ExploControllLocal](ExploControllLocal) wandelt dieses Feld in ein [Coords](Coord) Objekt mit den entsprechenden Werten um. 
+- Sobald die Freigabe der [StateMachine](StateMachine) (start) eintrift beginnt das Anfahren des Feldes.
+- Ist der Robotino an der Position angelangt, gibt er eine Rückmeldung. Trifft diese Rückmeldung ein, wird das Erkunden des Feldes eingeleitet. 
+ - Wird eine MPS erkannt, so fährt der Robotino die MPS an und gibt ebenso eine Rückmeldung
+ - Wird nichts erkannt, so wird der Nächste Feldecken angefahren.  
+     - Ist auch das 2 mal Fehlgeschlagen, so wird der Nächste Auftrag angefordert. 
+ - Ist der Robotino vor der MPS in Position gib er die nächste Rückmeldung
+ - Der Nächste Schritt ist das Starten der MarkerDetection um den Angeklebten Tag zu erkennen
+  - Ist es ein Input Tag
+  - Ist es ein Output Tag 
+  
 ----------
 
 ### <a name="pck">ProductControllKommunikation</a> ###
@@ -120,7 +142,6 @@ Alle verarbeiteten Informationen (neue Ziele) werden mittels Broker dem [Drive](
 
 - Klassendiagramm mit allen Methoden  
 
-
-
+![KlassendiaDaKorr](https://gitlab.com/solidus/hefei/uploads/fb68d38e6866cc03bd4db35a275c7540/KlassendiaDaKorr.png)
 
 
