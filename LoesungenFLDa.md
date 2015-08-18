@@ -68,7 +68,7 @@ Unsere Klassen besitzen 6 verschiedene Speicherelemente.
 
 **<a name="ma">MPS:</a>**  
 - Hash Map.  
-- Wird Dynamisch in der Explorations Phase von [ExploControll](ExploControll) gefüllt. 
+- Wird Dynamisch in der Explorations Phase von [ExploControllLocal](ExploControllLocal) gefüllt. 
 - Sind alle [MPS](MPS) von unserem Team abgespeichert.  
 
 **<a name="rbz">actParts:</a>**
@@ -116,7 +116,7 @@ Alle verarbeiteten Informationen (neue Ziele) werden mittels Broker dem [Drive](
 
  
 ----------
-¨### <a name="kd">KlassenDiagramm</a> ###
+### <a name="kd">KlassenDiagramm</a> ###
 
 - Klassendiagramm mit allen Methoden  
 
