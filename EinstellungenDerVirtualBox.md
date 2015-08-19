@@ -52,6 +52,9 @@ Bei einem internen Netzwerk können nur Gastsysteme miteinander kommunizieren, d
 
 **Host-only networking**  
 In diesem Modus ist eine Kommunikation zwischen angeschlossenen Gastsystemen und dem Host-System möglich. Am Host-System wird dafür ein eigenes virtuelles Netzwerk-Interface verwendet.
+
+![VirtualBox_Netzwerk](https://gitlab.com/solidus/hefei/uploads/48a90c939dea34968cb65b1f89f3c42c/VirtualBox_Netzwerk.png)
+
 ## <a name="SM1.2">In Virtualbox nachträglich Festplatten vergrössern</a>
 Das Vergrössern der Festplatten in VirtualBox nächträglich, ist möglich aber umständlich. Das System muss ausgeschaltet sein. Über die Kommandozeile von Windows kann die Grösse verändert werden. Zuerst muss auf dem Host-System  der Pfad zur VirtualBox-Installation und der Pfad sowie der Name der virtuellen Festplatte herausgesucht werden.
 Beispiel für die Installation: 
@@ -346,17 +349,15 @@ Unter [Download Protocol Buffers](https://developers.google.com/protocol-buffers
 eingeben, um zum Speicherort des Compilers zu wechseln. Danach die folgende Zeile eingeben
 Syntax:
 
-	protoc -I=\$SRC_DIR - -java_out=\$DST_DIR \$SRC_DIR/addressbook.proto
+	protoc -I=\$SRC_DIR --java_out=\$DST_DIR \$SRC_DIR/addressbook.proto
 
 Beispiel:
 
-	protoc -I=source  - -java_out=dest (Alle Dateien)
-	protoc -I=source  - -java_out=dest source\BeaconSignal.proto (Nur die Datei BeaconSingal.proto) 
+	protoc -I=source  --java_out=dest (Alle Dateien)
+	protoc -I=source  --java_out=dest source\BeaconSignal.proto (Nur die Datei BeaconSingal.proto) 
 
 Im Ordner "dest" sollten nun die kompilierten Dateien gespeichert sein. Zum Beispiel,  BeaconSignalProtos.java
 
 
 ----
 Last edited by Florian Gehrig at 13. Juli 2015
-
-
