@@ -1,6 +1,5 @@
 [Home](home)  
 [DokuSolidus](DokuSolidus)  
-[Tagebücher Bryan Ken](TagebuecherBK)
 
 ----------
 ## Tagebücher 
