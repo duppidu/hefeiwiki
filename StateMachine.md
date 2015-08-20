@@ -10,6 +10,9 @@ Siehe auch: [PositionSet](PositionSet)
 So handelt die StateMachine jetzt in der Setupphase nichts. Sie reagiert nur auf geänderte Phasen oder geänderte Status.
 ## Exploration
 ![StateMachine](https://gitlab.com/solidus/hefei/uploads/f9e65bbf59dbf77f651af4a76a82c2c5/StateMachine.PNG)  
-Dies ist der Ablauf der Explorationsphase. Ursprünglich vorgesehen war der Teil bis zum StartExplo in der Setupphase. Dies wurde jedoch gewechselt, wegen dem [PositionSet](PositionSet)Problem.
+Dies ist der Ablauf der Explorationsphase. Ursprünglich vorgesehen war der Teil bis zum StartExplo in der Setupphase. Dies wurde jedoch gewechselt, wegen dem [PositionSet](PositionSet)Problem.  
+  
+### Zurückhaltung der Exploration
+Da die zwar die Maschinen in der Produktionsphase gemeldet werden, jedoch nicht deren genaue Position auf dem Feld, wird die Explorationsphase weitergeführt solange bis alle Maschinen entdeckt wurden. Erst dann wechselt die StateMachine in die Produktionsphase, obwohl die Refbox schon vorher gewechselt hat.
 ## Production
 Die Produktion wurde noch nicht programmiert.
