@@ -15,7 +15,8 @@ Ganz am Anfang der Explorationsphase werden die Punkte als aktuelle Position ges
 
 ![Unbenannt](https://gitlab.com/solidus/hefei/uploads/7ec1033a7c79b865539fcfd3e7ae6f63/Unbenannt.png)
 
-**Achtung:** Die oben beschriebene Methode ist eine kurzfristig programmierte (am Robocup 2015) Möglichkeit. Ursprünglich war folgende Methode vorgesehen. Diese funktionierte zuverlässiger, darf aber so momentan nicht gebraucht werden.
+**Achtung:** Die oben beschriebene Methode ist eine kurzfristig programmierte (am Robocup 2015) Möglichkeit. Ursprünglich war folgende Methode vorgesehen. Diese funktionierte zuverlässiger, darf aber so momentan nicht gebraucht werden.  
+Siehe auch: [Verbesserung der Positionierung](PositionSetVerbesserung)
 ### Ursprüngliches Vorgehen
 Die Robotinos setzen ihre aktuelle Position nacheinander in der Setupphase und fahren danach auf vordefinierte Punkte auf das Feld. Sobald der vordere seine Position mithilfe des Lasers und den bekannten Entfernungen der Banden gesetzt hat und den Startbereich verlassen hat, kommt der nächste nach und tut dasselbe.
 
