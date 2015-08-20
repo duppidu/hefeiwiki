@@ -1,4 +1,5 @@
 [Home](home)
+***
 <table>
   <tr>
     <th rowspan="11" colspan="2"><h1>Hardware</h1></th>
