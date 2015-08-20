@@ -4,9 +4,10 @@
 
 # Laserscanner
 
-Die Laserscanner-Klasse ist die Klasse, welche gebraucht wird für den Robotino.  
+Die Laserscanner-Klasse ist eine wichtige Klasse für den Betrieb des Robotinos.  
 Sie braucht fast alle Klassen des Laser-Packages.  
 In ihr findet man die nötigen Methoden um mit dem Laser auf dem Robotino zu arbeiten. 
+Um sicherzustellen, dass diese Klasse nur einmal instanziert wird, ist sie [Singleton](Singleton) gemacht.
    
 Eine wichtige Funktion der Laserscanner-Klasse ist es, eine Maschine zu erkennen  
 und die Koordinaten für einen Punkt davor zu berechnen.
