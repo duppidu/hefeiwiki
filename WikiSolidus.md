@@ -31,7 +31,7 @@
 # Software  
 ## Tutorials  
 
-### StartUp
+### Setup
 [PositionSet](PositionSet)
 ***
 
