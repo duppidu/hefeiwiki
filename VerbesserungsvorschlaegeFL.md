@@ -20,6 +20,7 @@
   Die Infrarotsensoren unten sehen die Maschine nicht! Maschine steht auf Rädern!  
 - Funktionierende Refbox in der Schule haben, damit das Senden und empfangen der Protokolle getestet werden kann.  
   Damit hatten wir die meisten Problem an dem Robocup.  
+- Teamfarbe aus dem Cfg File entfehrnen und auf die Refbox zurückgreifen oder Cfg File wird durch die Refbox angepasst.
 
 ----------
 ### <a name="e">Exploration</a> ###
@@ -27,6 +28,7 @@
 #### <a name="ep">Programm</a> ####
 - Mps Klasse Aufteilen in Klasse mit Methoden zum Verwalten der Mps und in Konstrukt wie Coord zum Informationen als Objekt über den Broker zu übermitteln und keine unnötigen Methoden mitsenden
 - Mps als Solches abändern um das Programm zu vereinfachen. Nicht mehr 1Tag = 1Mps, sondern 1Mps= 1Mps(2 Tags, 2 Coords, 1 Lampe)
+- Package Master > Klasse ExploControllMain > Methode prioritySort Sortieralgorhytmus ferfeinern
 
 ----------
 
