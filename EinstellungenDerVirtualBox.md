@@ -3,7 +3,7 @@
 Autor: Florian Gehrig  
 Klasse: HF2A  
 Datum: 22. Juni 2015  
-Version: 3.0  
+Version: 3.1  
 Quellen:  [Thomas Krenn, Netzwerkkonfiguration in VirtualBox](https://www.thomas-krenn.com/de/wiki/Netzwerkkonfiguration_in_VirtualBox) | [CSB, Forum](http://www.csb.vu/threads/fedora-ohne-grafische-oberfl%C3%A4che-wie.121543/) | [Wikipedia, Runlevel](https://de.wikipedia.org/wiki/Runlevel) | [Fedoraproject, Forum](https://ask.fedoraproject.org/en/question/10097/fedora-17-text-mode-screen-resolution/) | [Vincent Verhagen](http://www.vincentverhagen.nl/2008/08/03/how-to-change-console-resolution-on-linux-rhel-centos-fedora-etc/) | [CCM.net](http://ccm.net/faq/40878-fedora-21-switching-to-lxde) | [LXDE Wiki](http://wiki.lxde.org/de/Fedora) | [Raspberry Pi, Forum](https://www.raspberrypi.org/forums/viewtopic.php?f=26&t=14577) | [Chip](http://praxistipps.chip.de/virtualbox-festplatte-nachtraeglich-vergroessern_27503) | [developer-BLOG](https://developer-blog.net/administration/virtualisierung/virtualbox-virtuelle-festplatte-vergroessern/) | [Thomas Krenn, LVM vergrössern](https://www.thomas-krenn.com/de/wiki/LVM_vergr%C3%B6%C3%9Fern) | [Google Developers, Developer Guide](https://developers.google.com/protocol-buffers/docs/overview) | [Google Developers, Java Reference](https://developers.google.com/protocol-buffers/docs/reference/java-generated#package) | [Google Developers, aktueller Compiler](https://developers.google.com/protocol-buffers/docs/downloads) | [Maven Repository, Protocol Buffer Java API](http://mvnrepository.com/artifact/com.google.protobuf/protobuf-java) | [Protobuf Googlecode, Compiler](https://protobuf.googlecode.com/svn/rc/) | [NetBeans Installationsanleitung](https://netbeans.org/community/releases/80/install.html) | [If-not-true-then-false.com](http://www.if-not-true-then-false.com/2014/install-oracle-java-8-on-fedora-centos-rhel/) | [EasyLinux](http://www.easylinux.de/2004/11/077-guru-sudo/) | [Krivatech Blog](http://krivatech.blogspot.ch/2013/01/yaml-syntax-highlighting-in-gedit.html) | [MyLittleTechBlog](https://mylittletechblog.wordpress.com/2013/04/06/virtuelle-maschinen-alternativ-umziehen-unter-oracles-virtual-box/)
 
 ----
@@ -360,4 +360,4 @@ Im Ordner "dest" sollten nun die kompilierten Dateien gespeichert sein. Zum Beis
 
 
 ----
-Last edited by Florian Gehrig at 13. Juli 2015
+Last edited by Florian Gehrig at 19. August 2015
