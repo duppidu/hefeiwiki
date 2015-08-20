@@ -116,4 +116,5 @@
 ***
 
 ## Java Allgemein
-[How To MQTT](HowToMqtt)
+[How To MQTT](HowToMqtt)  
+[Singleton](Singleton)
