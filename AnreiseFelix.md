@@ -1,3 +1,8 @@
+[Home](home)  
+[DokuSolidus](DokuSolidus)  
+[Übersicht Tagebücher](TagebuecherFL)
+
+
 ### Tag 1 ###
 Endlich am Flughafen ZH angekommen, konnten wir ohne grössere Probleme das Gepäck aufgeben.  
 Kurz vor dem Boarding waren wir noch in dem Burger King, dies hatte zur Folge, dass ich bei dem ersten Menü   
