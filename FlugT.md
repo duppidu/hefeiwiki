@@ -1,6 +1,6 @@
-##Tag 1 
+## Tag 1 
 
-####Nach vielen Stunden Arbeit startet nun endlich unsere Reise nach China.   
+#### Nach vielen Stunden Arbeit startet nun endlich unsere Reise nach China.   
 
 Mit einer leichten unsicherheit ob ich wirklich alles eingepackt habe startete ich in den Tag.  Diese ging aber schnell vergessen als ich am Flughafen ankahm und die andern Leute aus dem Team sah, so wich die Unsicherheit schnell der Vorfreude.  
 Da unsere Abreise mitten in den Sommerferien war, war der Flughafen auch dementsprechend überfüllt. Dies war uns jedoch bekannt und wir rechneten von Anfang an mehr Zeit ein.  
