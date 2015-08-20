@@ -1,4 +1,6 @@
-[Back](wikisolidus)
+[Back](wikisolidus)  
+[Home](home)  
+***
 
 # Laserscanner
 
