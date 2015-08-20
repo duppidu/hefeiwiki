@@ -1,0 +1,11 @@
+## Tag 5  
+
+#### Der erste Wettkampftag, Ernüchterung mit einem Lichtblick am Abend   
+
+Wir starteten wie schon gewohnt eine halbe Stunde früher als am vorherigen Tag. Wenn das noch weiter so geht müssen wir gar nicht mehr ins Hotel zurück. In der Halle angekommen starten wir sofort mit den Tests der Änderungen vom Vorabend. Bereits nach den ersten Test stellten wir fest das sich der stress vom gestrigen Abend gelohnt hatte den nun funktionierte alles so wie geplant.  
+Nun entdeckten wir aber schon das nächste Problem, die Refbox. Wir konnten in der Schweiz noch nie mit der definitiven Refbox testen somit war es ungewiss ob die Kommunikation funktioniert. Uns lief auch langsam die Zeit davon da das erste Spiel von uns bereits um 12 Uhr startete. Florian programmierte bis 12 Uhr an der Refbox und wir waren alle sehr gespannt auf das erste Spiel.  
+Die Zeit verging rasend schnell und dann war es soweit wir starteten unseren Wettkampf. Doch schon nach einigen Minuten war klar dass es für uns nicht weiter geht da unsere Robotinos keine Verbindung zu der Refbox aufbauen konnten. 
+Nach der Niederlage gegen CaroLogistics setzten wir uns alle daran unser Fehler zu beheben. Schnell gelang es uns unsere Robotinos an die Refbox anzumelden und die Hoffnung stieg wider.  
+Dann kam das zweite Spiel alles sah am Anfang gut aus die Robis starteten und hatten eine Verbindung zu der Refbox. Nach einiger Zeit der Explorations Phase stoppte dann aber ein Robi nach dem Andern und die Refbox erhielt keine Meldungen von uns.  
+Somit waren wir wieder am Anfang. Wir setzten unsere Kapazitäten nun voll auf die Refbox. Doch das Problem war hartnäckig und konnte auch in den Weiteren 4 Spielen nicht behoben werden. Somit beendeten wir unseren ersten Spieltag mit 2 verlorenen Spielen und 2 Unentschieden.  
+Nach den Spielen konnten wir nun endlich mehr testen da die Refbox nun nicht mehr von den anderen Teams gebraucht wurde. Nach Intensiven 5 Stunden probieren und debugen hatten wir dann um 22 Uhr wieder ein Programm das zu funktionieren schien. Doch wie am Vortag blieb uns keine Zeit mehr dieses zu testen. Doch wir gingen mit einem guten Gefühl ins Hotel und hofften auf einen guten zweiten sehr wichtigen Wettkampftag.   
