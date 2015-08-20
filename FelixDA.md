@@ -27,10 +27,13 @@ Es gab auch einige globalere Probleme in dem Programm, dass waren die teile, bei
 #### <a name="t">Team :hearts: </a> ####
 
 Es war nicht immer einfach, wir hatten viele Differenzen ob schulischer oder privater Art.  
-Es gab einige hektische Momente bei denen nicht alle einer Meinung waren. Einige wurden laut und waren nicht mehr so umgänglich wie sonst.  
-Glücklicherweise bekamen wir all diese Differenzen recht gut in den griff und konnten so wieder effizient weiterarbeiten.
-Die Aufgabeneinteilung hat gut funktioniert, jeder wusste was er machen musst. Dies zeigte sich auch beim auftreten der Programm bezogenen Fehler die wir beheben mussten.  
-Als man bei einem Testlauf sah, was alles nicht gut war, wussten die entsprechenden Personen immer sofort was in welchem Programmteil nicht funktioniert hatte.  
+Es gab einige hektische Momente bei denen nicht alle einer Meinung waren. Einige wurden laut  
+und waren nicht mehr so umgänglich wie sonst.    
+Glücklicherweise bekamen wir all diese Differenzen recht gut in den griff und konnten so  
+wieder effizient weiterarbeiten. Die Aufgabeneinteilung hat gut funktioniert, jeder wusste  
+was er machen musst. Dies zeigte sich auch beim auftreten der Programm bezogenen Fehler die  
+wir beheben mussten. Als man bei einem Testlauf sah, was alles nicht gut war, wussten die  
+entsprechenden Personen immer sofort was in welchem Programmteil nicht funktioniert hatte.    
  
 
 
