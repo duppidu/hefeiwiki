@@ -3,63 +3,59 @@
   <tr>
     <th rowspan="11" colspan="2"><h1>Hardware</h1></th>
     <td><h3>Hardware</h3></td>
-    <td><a href="Hardware">Hardware & 3D-Printed Parts</a>[Hardware & 3D-Printed Parts](Hardware)</td>
+    <td><a href="Hardware">Hardware & 3D-Printed Parts</a></td>
   </tr>
   <tr>
     <td><h3> Servo/Grippercontrol</h3></td>
-    <td>[Servo / Grippercontrol](ServoGripperControl)</td>
+    <td><a href="ServoGripperControl">Servo / Grippercontrol</a></td>
   </tr>
   <tr>
     <td rowspan="2"><h3> Tinkerforge Brick</h3></td>
-    <td>[IMU-Brick](IMU-Brick)  </td>
+    <td><a href="IMU-Brick">IMU-Brick</a></td>
   </tr>
   <tr>
-    <td>[Servo-Brick](Servo-Brick)  </td>
+    <td><a href="Servo-Brick">Servo-Brick</a></td>
   </tr>
   <tr>
-    <td><h3> Lancom</h3></td>
-    <td>[Configuration](ConfigurationOfLancom)</td>
+    <td><h3>Lancom</h3></td>
+    <td><a href="ConfigurationOfLancom">Configuration</a></td>
   </tr>
   <tr>
     <td rowspan="3"><h3> Raspberry Pi</h3></td>
-    <td>[Local Git Server](LocalGitServer)  
-</td>
+    <td><a href="LocalGitServer">Local Git Server</a></td>
   </tr>
   <tr>
-    <td>[Local Wiki Server](LocalWikiServer)    </td>
+    <td><a href="LocalWikiServer">Local Wiki Server</a></td>
   </tr>
   <tr>
-    <td>[Mosquitto Broker](MosquittoBroker)</td>
+    <td><a href="MosquittoBroker">Mosquitto Broker</a></td>
   </tr>
   <tr>
     <td rowspan="3"><h3> RobotinoOS</h3></td>
-    <td>[Kommandos](CommandOfRobotinoOS)  
-</td>
+    <td><a href="CommandOfRobotinoOS">Kommandos</a></td>
   </tr>
   <tr>
-    <td>[Backup](BackupOfRobotinoOS)  </td>
+    <td><a href="BackupOfRobotinoOS">Backup</a></td>
   </tr>
   <tr>
-    <td>[Interface konfigurieren](InterfaceConfig)</td>
+    <td><a href="InterfaceConfig">Interface konfigurieren</a></td>
   </tr>
   <tr>
 <th rowspan="45"><h1>Software</h1></th>
     <td rowspan="8"><h2> Tutorials</h2></td>
-    <td><h3> Setup</h3></td>
-    <td>[PositionSet](PositionSet)</td>
+    <td><h3>Setup</h3></td>
+    <td><a href="PositionSet">PositionSet</a></td>
   </tr>
   <tr>
     <td rowspan="2"><h3> ALVAR</h3></td>
-    <td>[InstallManual](AlvarInstallManual)  
-</td>
+    <td><a href="AlvarInstallManual">InstallManual</a></td>
   </tr>
   <tr>
-    <td>[ALVAR_Programming](Alvar_Programming)</td>
+    <td><a href="Alvar_Programming">ALVAR_Programming</a></td>
   </tr>
   <tr>
     <td rowspan="2"><h3> OpenCv</h3></td>
-    <td>[OpenCV](OpenCV)  
-</td>
+    <td><a href="OpenCV">OpenCV</a></td>
   </tr>
   <tr>
     <td>[Install OpenCv under Linux](InstallOpenCvUnderLinux)</td>
