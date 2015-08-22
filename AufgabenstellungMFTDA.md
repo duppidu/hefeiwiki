@@ -43,9 +43,9 @@ Der Robotino soll mit der neuesten Firmware ausgestattet werden. Auf das System 
 
 #### ColorDetection
 
-- erkennung der Farbe stabilisieren  
-- Device Problem lösen
+Die Farbdedektierung muss stabilisiert werden und dann während des Cups neu eingestellt werden.  
+Das immer noch anstehende Device Problem muss behoben werden. 
 
 #### MarkerDetection
 
-- in die Klasse einlesen um sie in einem Fehlerfall während des Cups anpassen zu können
+Es muss sich in die Klasse eingelesen werden um sie in einem Fehlerfall während des Cups anpassen zu können.
