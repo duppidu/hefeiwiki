@@ -10,5 +10,5 @@ Die nachfolgenden Themen sind aufgeteilt in programmspezifische (Code Teil) und 
 
 ### Code
 [StateHandling](Stateverbesserung)  
-[PositionSet](PositionSetVerbesserung)
-[ColorDetection](ColorDetectionVerbesserung)
+[PositionSet](PositionSetVerbesserung)  
+[ColorDetection](ColorDetectionVerbesserung)  
