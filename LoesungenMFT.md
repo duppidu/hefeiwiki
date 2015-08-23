@@ -22,7 +22,7 @@
 
 Noch nicht fertig entwickelt...
 ***
-### ComRefbox
+### ComRefBox
 Während des Cups gab es bei der ComRefBox Klasse die meisten Änderungen. Aus der ersten Version vor dem Cup und den Änderungen gab es eine zweite Version, welche für eine Explorationsphase funktioniert. Daraus entstanden ein neues Anwendungsfalldiagramm und ein neues Klassendiagramm. 
 #### Anwendungsfalldiagramm der ComRefBox 
 ![Refbox_Anwendungsfalldiagramm_V2](https://gitlab.com/solidus/hefei/uploads/a538db431e478e429c532aad416e0119/Refbox_Anwendungsfalldiagramm_V2.jpg)
