@@ -13,3 +13,7 @@ Die finalen Tests vor der Reise nach China waren sehr zuverlässig. Die Klasse L
 Alle gesetzten Ziele wurden erreicht und zum Teil noch verbessert.
 ### StateMachine
 Beim finalen Test vor China wurde folgendes festgestellt:
+- Die Abläufe funktionieren richtig
+- Die StateMachine handelt die Phasen und States richtig
+- Gelegentlich bleibt ein Robotino stehen (Ursache nicht geklärt)
+- Die Produktion ist nicht programmiert
