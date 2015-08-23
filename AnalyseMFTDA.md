@@ -8,7 +8,7 @@ Viele Abläufe werden mit eigenen Handlern gesteuert (Exploration: [ExploControl
 Sie kommuniziert auschliesslich über den Broker mit den anderen Klassen.
 ### PositionSet
 Die Positionssetzung am Anfang des Spieles soll vollständig automatisch erfolgen. Dazu müssen jedoch vor dem ersten Spiel die korrekten Banden ausgemessen und in den Code eingetragen werden. Ausserdem liest das Programm die Spielfarbe und -seite automatisch aus und passt so die Positionen an.
-### Refbox
+### ComRefbox
 ![Refbox_Anwendungsfalldiagramm_V1](https://gitlab.com/solidus/hefei/uploads/57bdf3f642fb479c66a1269bfdef09f4/Refbox_Anwendungsfalldiagramm_V1.jpg)
 
 Beim Anwendungsfalldiagramm hat sich seit dem Prozessmodul nichts mehr geändert. 
