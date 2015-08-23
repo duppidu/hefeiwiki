@@ -39,7 +39,7 @@ Die [StateMachine](StateMachine) muss mindestens die Setupphase und die Explorat
 #### PositionSet
 Die Positionssetzung im Startbereich soll mithilfe des Laserscanners erfolgen. Die Robotinos sollten am Anfang nur ungefähr genau in den Startbereich gesetzt werden müssen. Die Genauigkeit soll so hoch wie möglich gewährleistet sein. Trotzdem muss ein guter Mittelweg zwischen Genauigkeit und Geschwindigkeit gefunden werden.
 
-#### Refbox
+#### ComRefbox
 Das Thema sollte eigentlich sinnvollerweise in zwei unterschiedlichen Themen aufgeteilt werden. Zum einen die Klasse "ComRefBox", welche eine Verbindung zur Refbox herstellt. Zum anderen die Refbox selber. Da diese aber oft zusammenspielen, wird darauf verzichtet. Wenn das Schiedsrichterprogramm von der deutschen Uni gemeint ist, wird es Refbox genannt. Falls es die Klasse ist die ausprogrammiert werden soll, wird es "ComRefBox" genannt.
 
 >**Aufgabenstellung für das Prozessmodul**  
