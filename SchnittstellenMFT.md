@@ -12,6 +12,8 @@ Die einzigen Schnittstellen des Laserscanners sind im [Wayanalyzer](Wayanalyzer)
 
 Die StateMachine kommuniziert ausschliesslich mit dem Broker. Auf verschiedenen Topics werden Messages empfangen. Auf anderen werden Befehle gesendet. Zu genaueren Informationen zu den Topics: [Mqtt Topics](MqttTopics)  
 
+### PositionSet
+Die Positionssetzung ist eine eigene Methode in der Klasse [Drive](Drive). Sie wird ausgeführt vom [Waycontroller](Waycontroller) auf den Befehl der [StateMachine](StateMachine) über den Broker.
 ### ColorDetection  
 
 Die ColorDetection ist ein in sich geschlossener Prozess der nur gerade in der StateMachine aufgerufen wird und die Werte dann an den Broker schickt. 
