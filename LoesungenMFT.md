@@ -23,12 +23,18 @@
 Noch nicht fertig entwickelt...
 ***
 ### Refbox
-Bisher läuft die Refbox immer noch nicht. Die neuste Version hat momentan noch einen Fehler. Beim Java-Teil wurde bisher noch nichts programmiert. Es wurden lediglich einige Änderungen zu Testzwecken vorgenommen. Einige Diagramme sind bereits erstellt und müssen noch erweitert werden. 
+Während des Cups gab es bei der ComRefBox Klasse die meisten Änderungen. Aus der ersten Version vor dem Cup und den Änderungen gab es eine zweite Version, welche für eine Explorationsphase funktioniert. Daraus entstanden ein neues Anwendungsfalldiagramm und ein neues Klassendiagramm. 
 #### Anwendungsfalldiagramm der ComRefBox 
-![Refbox_Anwendungsfalldiagramm](https://gitlab.com/solidus/hefei/uploads/5be944d9b32d290ad90b65b660392a5c/Refbox_Anwendungsfalldiagramm.jpg)  
+![Refbox_Anwendungsfalldiagramm_V2](https://gitlab.com/solidus/hefei/uploads/a538db431e478e429c532aad416e0119/Refbox_Anwendungsfalldiagramm_V2.jpg)
+
+Die ganze ExploControl wurde vor dem Cup noch umgekrempelt, dass die Jobs zentral verwaltet werden. Deshalb werden die Explorationsinformationen nicht mehr über den Broker an die ExploControl, sondern an die ExploControlMain gesendet. Die Informationen über entdeckte Maschinen kamen vorher auch vom ExploControl. Neu kommen die Informationen vom ExploControlLocal. Das Registrieren der Nachricht RobotInfo ist im Programm noch vorhanden, wurde aber aus dem Diagramm gelöscht. Im Programm ist die Registratur entsprechend gekennzeichnet.
 #### Klassendiagramm der ComRefBox
-![Refbox_Klassendiagramm](https://gitlab.com/solidus/hefei/uploads/e5711e13fa1c3e0d472122d87df6a61a/Refbox_Klassendiagramm.jpg)  
-Das Klassendiagramm ist noch nicht fertiggestellt und muss noch erweitert werden.
+![Refbox_Klassendiagramm_V2](https://gitlab.com/solidus/hefei/uploads/74adbc0e7781ca4a30cdae274d180bbe/Refbox_Klassendiagramm_V2.jpg)
+
+Einige neue Variablen sind dazugekommen. Die innere Klasse SendBeacon ist nicht mehr in Verwendung und wurde als "deprecated" gekennzeichnet. Das Beaconsignal wird neu in der run-Methode versendet. Die Zonen werden neu von der ExploControlMain im Package Master verarbeitet. Die entdeckten Maschinen werden neu über die ExploControlLocal im Package fieldcommander empfangen. Für diese Kommunikation wurde für die ComRefBox eigens ein neues Topic geschaffen. Die Informationen in der Produktionsphase werden neu im ProductControlMain im Package Master verarbeitet. Die Methode sendMachines wird nicht mehr in der Methode messageArrived, sondern in der run-Methode aufgerufen. Der Maschinenberichteintrag, der Maschinenbericht und die Nachricht selber werden immer noch in der Methode sendMachines aufgebaut. Die Nachricht wird aber neu in der run-Methode verschickt. 
+
 ***
 ### RobotinoOS
 Es steht ein Image bereit, welches jederzeit auf einen Robotino aufgespielt werden kann. Werden Änderungen am System vorgenommen, ist es möglich ein erneutes Image zu erstellen.
+
+
