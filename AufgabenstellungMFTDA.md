@@ -40,10 +40,19 @@ Die [StateMachine](StateMachine) muss mindestens die Setupphase und die Explorat
 Die Positionssetzung im Startbereich soll mithilfe des Laserscanners erfolgen. Die Robotinos sollten am Anfang nur ungefähr genau in den Startbereich gesetzt werden müssen. Die Genauigkeit soll so hoch wie möglich gewährleistet sein. Trotzdem muss ein guter Mittelweg zwischen Genauigkeit und Geschwindigkeit gefunden werden.
 
 #### Refbox
-Das Thema sollte eigentlich sinnvollerweise in zwei unterschiedlichen Themen aufgeteilt werden. Zum einen die Klasse "ComRefBox", welche eine Verbindung zur Refbox herstellt. Zum anderen die Refbox selber. Da diese aber oft zusammenspielen, wird darauf verzichtet. Zuerst soll die alte Refbox auf einem Linux-System zum Laufen gebracht werden. Mit den Daten vom letzten Jahr wird danach die Kommunikation getestet. Wenn alles funktioniert kann die Refbox auf den neusten Stand gebracht und die neuen Daten eingebunden werden. Die Klasse muss noch angepasst und verbessert werden. Zudem fehlen weitgehendst noch die Kommentare und die Javadoc. 
+Das Thema sollte eigentlich sinnvollerweise in zwei unterschiedlichen Themen aufgeteilt werden. Zum einen die Klasse "ComRefBox", welche eine Verbindung zur Refbox herstellt. Zum anderen die Refbox selber. Da diese aber oft zusammenspielen, wird darauf verzichtet. Wenn das Schiedsrichterprogramm von der deutschen Uni gemeint ist, wird es Refbox genannt. Falls es die Klasse ist die ausprogrammiert werden soll, wird es "ComRefBox" genannt.
+
+>**Aufgabenstellung für das Prozessmodul**  
+>*"Zuerst soll die alte Refbox auf einem Linux-System zum Laufen gebracht werden. Mit den Daten vom letzten Jahr wird danach die Kommunikation getestet. Wenn alles funktioniert kann die Refbox auf den neusten Stand gebracht und die neuen Daten eingebunden werden. Die Klasse muss noch angepasst und verbessert werden. Zudem fehlen weitgehendst noch die Kommentare und die Javadoc."*
+
+Die aktuellste Version der Refbox konnte bis jetzt nicht zum Laufen gebracht werden. Eine Installation, welche aber bereits über 2 Monate alt ist, funktioniert teilweise. Die neuesten Proto-Files und die neue API konnten bereits im NetBeans eingebunden werden. Die Kommunikation mit der älteren Installation funktioniert soweit, dass alle nötigen Informationen für die Durchführung einer Explorationsphase abgerufen werden können. 
+Hauptziel ist nun die Entwicklung der Klasse "ComRefBox". Es ist bereits viel Zeit für das Aufsetzen einer Refbox verloren gegangen. Es ist wichtig jetzt die Programmierung voranzutreiben, sodass mindestens eine Explorationsphase durchgeführt werden kann. Das Aufsetzen der Refbox wird als Nebenziel gesetzt. Für den Test des Programms steht diese ältere Version der Refbox zur Verfügung.
 
 #### RobotinoOS
-Der Robotino soll mit der neuesten Firmware ausgestattet werden. Auf das System müssen des weiteren alle benötigten Programme installiert werden. Zur Sicherheit und zur Abgleichung der verschiedenen Robotinos soll vom fertig aufgesetzten Robotino ein Image gemacht werden. Das Ziel des Images ist, dass es innert weniger Minuten auf einen Robotino geladen werden kann und bei Änderungen auch möglichst schnell ein neues Image erstellt werden kann. 
+>**Aufgabenstellung für das Prozessmodul**  
+>*"Der Robotino soll mit der neuesten Firmware ausgestattet werden. Auf das System müssen des Weiteren alle benötigten Programme installiert werden. Zur Sicherheit und zur Abgleichung der verschiedenen Robotinos soll vom fertig aufgesetzten Robotino ein Image gemacht werden. Das Ziel des Images ist, dass es innert weniger Minuten auf einen Robotino geladen werden kann und bei Änderungen auch möglichst schnell ein neues Image erstellt werden kann."*
+
+Für das Robotino OS ist bereits alles soweit vorbereitet. Nun muss vor der Reise noch ein aktuelles Image gemacht werden. Am Cup muss dieses dann auf jeden einzelnen Roboter aufgespielt werden. 
 
 #### ColorDetection
 
