@@ -4,7 +4,7 @@
 Autor: Florian Gehrig  
 Klasse: HF2A  
 Datum: 11. Juli 2015  
-Version: 2.0  
+Version: 3.0  
 Quellen:  [Google Developers](https://developers.google.com/protocol-buffers/docs/overview) | [Wikipedia, Protocol Buffers](https://de.wikipedia.org/wiki/Protocol_Buffers) | [Wikipedia, Zeitstempel](https://de.wikipedia.org/wiki/Zeitstempel)
 
 ----
@@ -27,6 +27,9 @@ Quellen:  [Google Developers](https://developers.google.com/protocol-buffers/doc
 	- <a href="#SM2.5">Methode sendMachines</a>
 	- <a href="#SM2.6">Override Methode messageArrived</a>
 	- <a href="#SM2.7">Override Methode run</a>
+- <a href="#SM3.0">Diagramme</a>
+	- <a href="#SM3.1">Anwendungsfalldiagramm</a>
+	- <a href="#SM3.2">Klassendiagramm</a>
 
 ----
 # <a name="SM1.0">Aufbau der Klasse während der Diplomarbeit vor dem Cup</a>
@@ -115,8 +118,12 @@ Aus irgendeinem Grund kann in dieser Methode bei der Ankunft einer Nachricht nic
 ## <a name="SM2.7">Override Methode run</a>
 Diese Methode war vorher leer. Nun wird über sie das Beaconsignal gesendet, sobald ein Boolean in der Methode gameState auf true gesetzt wird. Sobald der Maschinenbericht erstellt und ein Boolean in der Methode sendMachines auf true gesetzt wurde, wird der Maschinenreport gesendet. Sobald eine Objekt Mps über den Broker ankommt wird ein Boolean auf true gesetzt und die Methode ruft die Methode sendMachines mit dem Objekt als Übergabewert auf. Der Boolean wird danach wieder auf false gesetzt, dass die Methode nur dann aufgerufen wird, wenn ein neues Objekt ankommt.
 Für die Programmierung muss man sich vorstellen, dass die Methode sozusagen zyklusgesteuert ist. Also ähnlich einer strukturierten Programmierung.
+# <a name="SM3.0">Diagramme</a>
+## <a name="S3.1">Anwendungsfalldiagramm</a>
+![Refbox_Anwendungsfalldiagramm_V2](https://gitlab.com/solidus/hefei/uploads/e20a46fffeccbd98f2a8c6da1ee2046b/Refbox_Anwendungsfalldiagramm_V2.jpg)
+
+## <a name="SM3.2">Klassendiagramm</a>
+![Refbox_Klassendiagramm_V2](https://gitlab.com/solidus/hefei/uploads/73eb651ac318a95741f5cc1c54c70948/Refbox_Klassendiagramm_V2.jpg)
 
 ----
-Last edited by Florian Gehrig at 11. August 2015
-
-
+Last edited by Florian Gehrig at 24. August 2015
