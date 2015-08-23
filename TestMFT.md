@@ -32,3 +32,14 @@ Der Test der ColorDetection wurde während des gesamten Explorationsablaufes vor
 - Kamera wird ausgeschalten    
 
 Das Testergebniss war zufriedenstellend. In China muss darauf geachtet werden das die Farbdetektierung den Lichtverhältnissen angepasst werden muss und nach Kalibriert werden muss.  
+### ComRefBox  
+| Task | Beschreibung |
+| -------- | -------- |
+| Programm starten  | Sind die richtigen Proto-Files und die richtige API vorhanden  |
+|  Verbindung herstellen | Kann eine Verbindung zur Refbox hergestellt werden |
+| Nachrichten empfangen   | Werden die Nachrichten der Refbox empfangen |
+| "msg.getDescriptorForType().getFullName()"  | Wird dieser Befehl in der inneren Handler-Klasse geloggt, werden alle Nachrichten die empfangen werden  in das Log-File geschrieben  |
+| Gamestate und Gamephase  auf Broker senden   | Wird bei jeder Änderung eines Status oder einer Phase, die Änderung einmal auf den Broker gesendet |
+| Anzeige der Roboter   | Werden die Roboter bei der Refbox angezeigt, nachdem Teamfarbe gesetzt wurde  |
+| Zonen auf Broker senden   | Werden die Zonen einmalig auf den Broker gesendet, wenn die Explorationsphase beginnt |
+| Maschinenbericht senden   | Wird der Maschinenbericht gesendet, sobald die erste Maschine entdeckt wurde |
