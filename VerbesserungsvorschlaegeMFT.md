@@ -12,3 +12,4 @@ Die nachfolgenden Themen sind aufgeteilt in programmspezifische (Code Teil) und 
 [StateHandling](Stateverbesserung)  
 [PositionSet](PositionSetVerbesserung)  
 [ColorDetection](ColorDetectionVerbesserung)  
+[ComRefBox](ComRefBoxVerbesserung)  
