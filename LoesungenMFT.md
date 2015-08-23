@@ -3,7 +3,10 @@
 ***
 ## Diagramme
 ### Laserscanner
-![Laserscanner](https://gitlab.com/solidus/hefei/uploads/a3d0d268ecf3d39f39aa0ddc3f01d902/Laserscanner.png)
+#### Klassendiagramm
+![Laserscanner](https://gitlab.com/solidus/hefei/uploads/a3d0d268ecf3d39f39aa0ddc3f01d902/Laserscanner.png)  
+#### Ablaufdiagramm
+![Laserscanner_Ablauf](https://gitlab.com/solidus/hefei/uploads/00b8fe26875b2e4a084bae1cf7fc7f1d/Laserscanner_Ablauf.JPG)
 ***
 
 ### StateMachine
