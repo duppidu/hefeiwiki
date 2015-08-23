@@ -13,3 +13,7 @@ Die Refbox kann wahlweise auf einem Fedora oder auf einem Ubuntu-System installi
 ### RobotinoOS
 Für die Aktualisierung der Robotino-Firmware gibt es auf dem Robotinowiki eine gute Anleitung. Für die weiteren Softwareteile, z. B. Java, werden die Anleitungen im Internet gesucht und die wichtigsten Schritte werden dokumentiert. Da die Firmware auf Ubuntu basiert, können viele Informationen gefunden werden. Bereits das [Ubuntuusers Wiki](https://wiki.ubuntuusers.de/Startseite) beinhaltet sehr viele und hilfreiche Informationen und Anleitungen über die verschiedenen Facetten des Linux-Systems Ubuntu.   
 Für die Images hat sich PartImage empfohlen. Die Software wird im Internet einige Male empfohlen und es gibt einige Anleitungen dazu. Sie ist ein Teil der SystemRescueCD. Die SystemRescueCD kann auf einfache Weise auf einen USB-Stick gebracht werden und besitzt eine grafische Oberfläche. 
+
+### ColorDetection  
+Die ColorDetection soll mit hilfe der OpenCV Bibliothek das erkennen der Lamoensäule übernehmen. OpenCV ist eine Bibliothek die viele Methoden im bereich der Bildauswertung beinhaltet. Das Programm soll erkennen welche der Lampen eingeschalten ist und welche ausgeschalten. Das Detektierte Farbbild soll dann in ein Lampen Objekt gespeichert werden und dieses soll dann auf den Broker gesendet werden.  
+Die Position der Lampe kann über OpenCV eingeschränkt werden so kann sicher gegangen werden das man nur die Lampensäule detektiert und nicht andere Leuchtende Dinge.
