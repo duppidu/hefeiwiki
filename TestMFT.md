@@ -17,3 +17,7 @@ Beim finalen Test vor China wurde folgendes festgestellt:
 - Die StateMachine handelt die Phasen und States richtig
 - Gelegentlich bleibt ein Robotino stehen (Ursache nicht geklärt)
 - Die Produktion ist nicht programmiert
+
+Die gesetzten Ziele wurden erreicht.
+### PositionSet
+Das PositionSet mithilfe des Laserscanner funktioniert wie vorgesehen. Die Genauigkeit der gesetzten Position hat einen Fehlerbereich von +- 1cm. Die Robotinos setzen ihre Position sobald der vordere Robotino den Startbereich verlassen hat und fahren danach selber auf eine gesetzte Position auf dem Feld.
