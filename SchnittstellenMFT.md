@@ -6,7 +6,7 @@
 Im Diagramm oben sind die Schnittstellen der Refbox dargestellt. Das Internet diente dabei als Schnittstelle für das Besorgen von Informationen und Anleitungen.
 ***
 ### Laserscanner
-Die einzigen Schnittstellen des Laserscanners sind im [Wayanalyzer](Wayanalyzer), im [Waycontroller](Waycontroller) und im [Drive](Drive). Da der Laserscanner Singleton gemacht wird, kann der Laserscanner überall dort aufgerufen werden, wo er gebraucht wird.
+Die einzigen Schnittstellen des Laserscanners sind im [Wayanalyzer](Wayanalyzer), im [Waycontroller](Waycontroller) und im [Drive](Drive). Da der Laserscanner [Singleton](Singleton) gemacht wird, kann der Laserscanner überall dort aufgerufen werden, wo er gebraucht wird.
 ***
 ### StateMachine
 
