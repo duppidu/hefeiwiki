@@ -3,10 +3,15 @@
 ***
 ## ColorDetection
 
+### Device Problem
 Es wurde festgestellt das ein Problem mit der Device - Wahl vom C++ Teil der Markerdedektierung bestand. Das C++ Programm gab immer einen Fehler zurück wenn die Kamera der Colordetection an war.   
 Um das Device Problem zu lösen wurde eine Möglichkeit gesucht die Kamera abzuschalten. Nach langem probieren dies über Java zu lösen wurde festgestellt das ein Problem mit der aktuellen OpenCV Version besteht da auch durch null setzen der ganzen Methode wurde die Kamera nicht abgeschaltet.
 Lief das Programm in einem separaten Prozess stellte die Kamera ohne Fehler wie gewünscht ab. Also wurde nach einer Lösung gesucht wie man einen separaten Prozess für diese Methode erstellen konnte.   
 Es wurde dann Lösung gefunden einen neuen Prozess über ein separates .jar - File zu starten.  
+
+### Blinklichterkennung
+
+Das Blinken der Lampe muss für die Explorationsphase nicht erkannt werden und in der Produktionsphase kann man durch abfrage bei der Refbox den Zustand der Maschine erhalten somit kann auch da auf die auswertung der Lampe verzichtet werden. Aus diesem Grund soll das Erkennen von Blinken auskommentiert werden. Falls aber in einem anderen Jahr Blinken nun doch erkannt werden muss soll dieser Programm abschnitt noch vorhanden sein. 
 
 ## RefBox
 Nachdem Ubuntu als System für die Refbox weggefallen ist haben wir uns aufs Fedora konzentriert. Wir installierten in der VirtualBox das aktuelle Fedora in der Version 21. Bei Fedora funktionierte die Installation der Refbox auf Anhieb. Auch das Installieren der benötigten Pakete ging einfacher, als bei Ubuntu. Fedora kommt standardmässig mit der GNOME-Oberfläche. Diese Oberfläche benötigt eher viele Leistungsressourcen und eine gut ausgestattete Oberfläche ist für die Refbox nicht nötig. Aus diesem Grund installierten wir die sehr Ressourcenfreundliche LXDE-Oberfläche. Wie uns bereits von Linux-Systemen bekannt ist, konnten wir wieder mit Widerstand kämpfen. Zuerst wurde die neue Oberfläche gar nicht erst gestartet. Dies konnte mit einer Anleitung aus dem Internet behoben werden. Nach dem erfolgreichen Start der neuen Oberfläche kam dann immer wieder ein OpenBox-Fehler. Dieser konnte wiederum mit Hilfe des Internets und dem Einfügen einer ellenlangen Codezeile behoben werden. 
