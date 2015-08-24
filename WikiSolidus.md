@@ -125,13 +125,7 @@
     <td><a href="MqttTopics">MQTT Topics</a></td>
   </tr>
 <tr>
-    <td><a href="ExploControll">ExploControll</a></td>
-  </tr>
-<tr>
     <td><a href="ExploControllLocal">ExploControllLocal</a></td>
-  </tr>
-<tr>
-    <td><a href="ExploCommunication">ExploCommunication</a></td>
   </tr>
 <tr>
     <td><a href="Machine">MPS</a></td>
