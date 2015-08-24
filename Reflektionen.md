@@ -14,7 +14,7 @@
 [Bryan](Bryan)  
 [Lukas](Lukas)  
   
-### Reflektionen Diplom Arbeit
+### Reflektionen Diplomarbeit
   
 [Thomas D](ThomasDDA)  
 [Felix](FelixDA)  
