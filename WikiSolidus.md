@@ -72,7 +72,7 @@
     <td><a href="XML-Openbox-Config">XML-Openbox-Config</a></td>
   </tr>
   <tr>
-    <td rowspan="37"><h2>Programmspezifisch</h2></td>
+    <td rowspan="35"><h2>Programmspezifisch</h2></td>
     <td rowspan="2"><h3>Cam</h3></td>
     <td><a href="ColorDetection">ColorDetection</a></td>
   </tr>
@@ -187,7 +187,7 @@
     <td><a href="LogFact">LogFact</a></td>
   </tr>
 <tr>
-    <th rowspan="2" colspan="3"><h1> Java Allgemein</h1></th>
+    <td rowspan="2" colspan="2"><h2> Java Allgemein</h2></td>
     <td><a href="HowToMqtt">How To MQTT</a></td>
   </tr>
 <tr>
