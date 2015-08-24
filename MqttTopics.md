@@ -48,7 +48,7 @@ Field Topics
 | :-------  |:------ |:------ | ----: |
 | Job Anfrage (Production "Robi sendet seine Nummer") | ProductControllLocal | ProductControllMain |/field/job/getjob|
 | Maschinen werden Gesendet um Feld zu vervollständigen | ExploControllLocal | ExploControllLocal |/field/complete/machine|
-| Komplette Maschinen Map wird zur Sicherheit gesendet | ExploControllLocal | ? |/field/map/machine|
+| Komplette Maschinen Map wird zur Sicherheit gesendet | ExploControllLocal | ExploControllLocal |/field/map/machine|
 | Sendet Robotinonummer des Robotinos, welcher bereit auf dem Feld steht | ? | ? |/field/stateMachine/onField|
 | Alle Zonen von Refbox als String Bsp: "Z1-Z2-Z3" | ComRefBox | ExploControllMain |/field/refbox/zones|
 
@@ -86,7 +86,6 @@ Schlüsselwörter
 |/robo/local/pos/actions | String "approach.4" | Der Robotino fährt an die vierte Offsetposition der MPS. Sobald er es erreicht hat wird ein "belt.4" gesendet.|
 |/robo/local/pos/actions | String "backwards" | Der Robotino fährt rückwärts bis er die parametrierte Distanz erreicht hat.|
 |/robo/local/pos/actions | String "initCoords" | Die Position der Robotinos wird initialisiert.|
-|/robo/local/refbox/zones| ? | ?|
 |/robo/local/cam/tag| String "TagID" | Die erkannte Tagnummer wird gesendet|
 | /robo/local/statemachine/state | ? | ? |
 |/robo/local/statemachine/zones | String "Start" | gibt das Fahren und die Exploration frei |
