@@ -5,6 +5,6 @@
 [Aufgabenstellung](AufgabenstellungFLDa)  
 [Analyse](AnalyseFLDa)  
 [Projektziel](ProjektzielFLDa)  
-[Schnitstellen](SchnitstellenFLDa)  
+[Schnittstellen](SchnitstellenFLDa)  
 
 ----------
