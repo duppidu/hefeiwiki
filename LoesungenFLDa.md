@@ -46,13 +46,13 @@ Die Kommunikation zwischen den einzelnen Klassen sieht wie folgt aus:
 #### <a name="p2">Phase 2</a>  
  
 - Die Klasse [ExploControllLocal](ExploControllLocal) ist für das komplette Handling der ExplorationsPhase Zuständig. Diese Klasse benötigt die Klasse [Zones](Zones) Welche für die Verwaltung der Felder zuständig ist. 
-- Die Klasse [ExploControllMain](ExploControllMain) ist für die Verwaltung der zu Explorierenden Felder zuständig welche sie von der Refbox erhält. Sie Sortiert die Felder und versendet auf Anfrage neue Aufträge.  
+- Die Klasse [ExploControllMain](ExploControllMain) ist für die Verwaltung der zu Explorierenden Felder zuständig welche sie von der Refbox erhält. Sie sortiert die Felder und versendet auf Anfrage neue Aufträge.  
 - Die in der ExplorationsPhase detektierten Daten werden von der [ExploControllLocal](ExploControllLocal) gesammelt und in der [MPS](MPS) Klasse gespeichert und verwaltet.  
 
 #### <a name="p3">Phase 3</a>  
  
 - Die Klasse [ProductControllLocal](ProductControllLocal) ist für die komplette Produktionsphase zuständig und wird von der übergeordneten Klasse [ProductControllMain](ProductControllMain) bei der Koordination und Kommunikation der Roboter unterstützt.  
-- Die Klasse [ProductControllLocal](ProductControllLocal) Besitzt die Klasse [ProductAssembly](ProductAssembly) dessen Aufgabe es ist, die zu fertigende Produkte in Einzelne Produktionsschritte aufzuteilen. 
+- Die Klasse [ProductControllLocal](ProductControllLocal) besitzt die Klasse [ProductAssembly](ProductAssembly) dessen Aufgabe es ist, die zu fertigende Produkte in Einzelne Produktionsschritte aufzuteilen. 
 - Die Klasse [ProductControllLocal](ProductControllLocal) benötigt zudem die Daten der Klasse [MPS](MPS) die zuvor in der Explorationsphase von der Klasse [ExploControllLocal](ExploControllLocal) gefüllt wurde. Mithilfe dieser Klassen werden die richtigen [Koordinaten](Coords) für den nächsten Produktionsschritt auf den Broker gesendet.  
 
 #### <a name="db">DB</a> ####
