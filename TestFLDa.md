@@ -17,7 +17,7 @@ Dies wird fortlaufend und selbstständig durchgeführt.
 
 | Klasse| Funktion | Beschreibung| I.O.| 
 | :------- | --- | --- | :---- |
-| ExploControll|jobHandler()|Gibt es die Richtige Koordinate zurück? Ändern der Robi Nummer (1,2,3) |X |
+| ExploControll|jobHandler()|Gibt es die richtige Koordinate zurück? Ändern der Robi Nummer (1,2,3) |X |
 | ExploControll|saveMachine()|Übergabewerte statisch setzen mit sout kontrollieren ob In & Out der Maschine richtig gespeichert wurden |X |
 | ExploControll|handleexploCoords()| Übergabewert (Array) statisch setzen, mit sout testen ob jeder Array platz um eins nach hinten verschoben wurde|X |
 | ExploControll|MQTT|Alles über MQTT senden und über die Run Methode  die Funktionen `saveMachine()`,`handleexploCoords` & `jobHandler()` aufrufen  |X |
@@ -38,11 +38,11 @@ Dies wird fortlaufend und selbstständig durchgeführt.
 
 Der SoftTes beinhaltet das Testen des Programmes auf dem Robotino.  
 Die Methoden werden über die StateMachine aufgerufen.  
-Dies ist der Realitätsnahster Test den wir bei uns ind der Schule durchführen können.  
+Dies ist der Realitätsnahster Test den wir bei uns in der Schule durchführen können.  
 
 | Klasse| Funktion | Beschreibung| I.O.| 
 | :------- | --- | --- | :---- |
-|Refbox / ExploControll|Felder Senden| Sendet die Belegten Felder von der Refbox an den Explocontroll|X |
+|Refbox / ExploControll|Felder Senden| Sendet die belegten Felder von der Refbox an den Explocontroll|X |
 |Explocontroll / Drive | Coords Senden | verarbeitet die Belegten Felder in [Koordinaten](Coord) und sendet diese entsprechend der Robot Nr. Weiter an den [Waycontroller](WayController) |X |
 |Explocontroll / Drive| Coords erhalten | Input und Output [Koordinaten](Coord) vom Drive erhalten und in der Richtigen MPS Speichern| |
 |Explocontroll / MarkerDetection| Tag ID erhalten | Tag ID erhalten und Speichern |X |
@@ -50,8 +50,8 @@ Dies ist der Realitätsnahster Test den wir bei uns ind der Schule durchführen 
 |Explocontroll | MPS Speichern |Kontrollieren ob bei erhalt von Backwards die Vorder und Hinterseite der maschine korrekt gespeichert wurde | |
 |Explocontroll / Drive | Neue Coords Senden | Weitere [Koordinate](Coord) senden um das 2te feld zu entdecken | |
 
-Der Test wurde anhand des Sequenz Diagramms der [ExploCommunication](ExploCommunication) teilweise durchgeführt und abgehandelt
-Leider konnten wir den Test noch nicht beenden. Wir mussten darauf warten, bis das ausweichen zuverlässig Funktionierte und befassten uns desshalb mit 
+Der Test wurde anhand des Sequenz Diagramms teilweise durchgeführt und abgehandelt leider konnten wir den Test noch nicht beenden.  
+Wir mussten darauf warten, bis das ausweichen zuverlässig Funktionierte und befassten uns deshalb mit 
 dem ausprogrammieren der Produktion. 
 
 ----------
@@ -73,6 +73,6 @@ Mit den richtigen MPS [Machinen](Machine), dem richtigen Spielfeld und der Origi
 | ExploControllLocal | MPS Komplettieren | MPS über den Main Broker zu den anderen Robotinos senden zum Komplettieren der hashMap. | X |  
 | ExploControllLocal / ExploControllMain | Job anfordern | Neuen Job anfordern bei der Klasse [ExploControllMain](ExploContollMain) und diesen korrekt in Coords umwandeln  | X |  
   
-Am Robocup mussten wir noch die Position der Lampe ändern, da sich die Lampensäule am Output befand und nicht am Input. Dieser Fehler war dadurch aufgetreten, weil wir unserer logischen überlegung mehr Glauben schenkten als dem Regelbuch. Durch unsere Projektstruktur konnten wir den Fehler jedoch in Kurzer Zeit beheben. 
+Am Robocup mussten wir noch die Position der Lampe ändern, da sich die Lampensäule am Output befand und nicht am Input. Dieser Fehler war dadurch aufgetreten, weil wir unserer logischen Überlegung mehr Glauben schenkten als dem Regelbuch. Durch unsere Projektstruktur konnten wir den Fehler jedoch in kurzer Zeit beheben. 
   
 ----------
