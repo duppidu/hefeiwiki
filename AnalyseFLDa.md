@@ -15,7 +15,7 @@
 ----------
 ### <a name="v">Visuell</a> ###
 
-Wir haben die Internen Videos des letztjährigen Robocup und die vorhandenen Videos im [Yotube](https://www.youtube.com/results?search_query=robocup+2014+logistics+league) Analysiert.  
+Wir haben die Internen Videos des letztjährigen Robocup und die vorhandenen Videos im [Youtube](https://www.youtube.com/results?search_query=robocup+2014+logistics+league) analysiert.  
 Mögliche Funktionen erkannt und ausgewertet.   
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=J-5QzhGg4ls)
@@ -30,7 +30,7 @@ Wir haben das [`RuleBook`](http://www.robocup-logistics.org/rules/rulebook2015.p
 ----------
 
 
-### <a name="e">Ergebnis</a> ###
+### <a name="e">Ergebniss</a> ###
 
 ![Ideen](https://gitlab.com/solidus/hefei/uploads/4a56788e0908c8e418d145f45fbb2c49/Ideen.PNG)
 
@@ -39,7 +39,7 @@ Das Spiel besteht aus 3 verschiedenen Phasen. Wobei wir erst in den zwei letzten
 - Explorationsphase
 - Productionsphase
 
-Wir benötigen im ganzen 3 Haupttklassen.  
+Wir benötigen im ganzen 3 Hauptklassen.  
 
 #### <a name="k1">Klasse 1:</a>  
 Handelt die Explorationsphase
@@ -54,7 +54,7 @@ Handelt die Productionsphase
 - Welcher Robi Produziert was 
 
 #### <a name="k3">Klasse 3:</a>   
-Handelt das komplette Feld inc Maschinen.  
+Handelt das komplette Feld in Maschinen.  
 - Verwalten von Zonen  
 - Speichern der Maschinen
 - Verwalten der Maschinen
@@ -65,6 +65,6 @@ Handelt das komplette Feld inc Maschinen.
 - Die Kommunikation Extern wird mittels MQTT auf einem extrenen Computer gewährleistet.
 
 #### Diplomarbeit
-Die oberen Zeilen haben wir aus dem Prozessmodul übernommen, da sich der Sachverhalt nicht geändert hatt. 
+Die oberen Zeilen haben wir aus dem Prozessmodul übernommen, da sich der Sachverhalt nicht geändert hat. 
 
 ----------
