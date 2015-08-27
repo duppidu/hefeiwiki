@@ -10,19 +10,19 @@
 - <a name="lk">Log Beispiel</a>
 
 ### <a name="defConst">LogFact</a>
-Leider kann zu die Klasse nicht ins Detail beschrieben werden, da sie bereits zu Beginn
+Leider kann die Klasse nicht ins Detail beschrieben werden, da sie bereits zu Beginn
 im Konstruktor der Klasse werden alle nötigen Logger erzeugt und die nötigen Einstellungen getroffen. 
-Der Logger wird als Instanz so vorbereitet, dass er nur Übergeben werden kann. 
+Der Logger wird als Instanz so vorbereitet, dass er nur übergeben werden kann. 
 
 
 ### <a name="lib">Library</a>
-In unserem Projekt benutzen wir den Logger Log4J, welcher nicht Standartmässig im Java vorhanden ist. Somit muss auch hier zuerst eine Library im Projekt eingebunden werden um die Feauters nutzen zu können. Die *.jar datei können Sie [hier](https://logging.apache.org/log4j/1.2/download.html) herunterladen. 
+In unserem Projekt benutzen wir den Logger Log4J, welcher nicht Standartmässig im Java vorhanden ist. Somit muss auch hier zuerst eine Library im Projekt eingebunden werden um die Feauters nutzen zu können. Die *.jar Datei können Sie [hier](https://logging.apache.org/log4j/1.2/download.html) herunterladen. 
 
 ### <a name="neuLog">neuer Logger erstellen</a>
 Unten werden die Schritte aufgezeigt, welche zum erstellen eines neuen Loggers nötig sind.
  
 #### <a name="lf">LogFact</a>
-als erstes werden die Variablen bekannt gemacht. Der Name (Master_LOGGER) kann frei gewählt werden, muss dann jedoch im Porjekt durchgehend verwendet werden.  
+als erstes werden die Variablen bekannt gemacht. Der Name (Master_LOGGER) kann frei gewählt werden, muss dann jedoch im Projekt durchgehend verwendet werden.  
 ```
 public Logger Master_LOGGER;
 ```
@@ -86,7 +86,7 @@ pc.fatal("Fatal Message", null);
 
 
 #### <a name="lk">Log Beispiel</a>
-Hier ist ein kleiner auszug, zum demonstrieren wie die Logmeldungen aufgebaut sind. 
+Hier ist ein kleiner Auszug, zum demonstrieren wie die Logmeldungen aufgebaut sind. 
 ```
 2015-07-22 02:41:58,858 DEBUG [MQTT Call: ExploControllMain] MSG Refbx Zones: -Z13-Z2-Z15-Z16-Z17-Z6-Z19-Z20-Z21-Z22-Z23-Z24 
 2015-07-22 02:41:58,858 DEBUG [MQTT Call: ExploControllMain] MSG Refbx Zones: -Z13-Z2-Z15-Z16-Z17-Z6-Z19-Z20-Z21-Z22-Z23-Z24 
