@@ -22,7 +22,7 @@ Sobald von einem Robi der Befehl [getJob](ProductControllLocal) eintrifft, wird 
 - Rückgabewert = JobNummer (Integer)
 - Löschen des Jobs aus der Aktuellen Liste
 
-Die Priorität des Jobs wird durch die Herstell Schwierigkeit bestimmt.
+Die Priorität des Jobs wird durch die Schwierigkeit des Produkts bestimmt.
 Die einfachen Jobs werden zuerst abgearbeitet.
 
 ----------
