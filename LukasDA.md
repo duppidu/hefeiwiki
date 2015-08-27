@@ -1,5 +1,8 @@
+[Home](home)  
+[Back](Reflektionen)  
+
 ### Reflexion
-Der Diplomarbeit schaute ich mit einiger Sorge entgegen. Das meiste Bedenken weckte bei mir die Tatsache, dass wir nirgends einen Fixpunkt hatten und unsere Ziele und aufgaben grösstenteils selber steckten. Auch die Änderungen, die wir kurz vor der Diplomarbeit noch ansetzten bereiteten mir Bauchschmerzen. Das Ganze Projekt hatt sich jedoch als erfahrung entwickelt, welche ich nicht missen möchte. 
+Der Diplomarbeit schaute ich mit einiger Sorge entgegen. Das meiste Bedenken weckte bei mir die Tatsache, dass wir nirgends einen Fixpunkt hatten und unsere Ziele und aufgaben grösstenteils selber steckten. Auch die Änderungen, die wir kurz vor der Diplomarbeit noch ansetzten bereiteten mir Bauchschmerzen. Der Druck welcher wir hatten liess jedoch nicht viel Zeit, sich über solche Dinge zu sorgen. Das Ganze Projekt hat sich dann als erfahrung entwickelt, welche ich nicht missen möchte. 
 
 
 #### Arbeiten vor dem Robocup
