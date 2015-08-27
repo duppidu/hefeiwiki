@@ -1,7 +1,8 @@
-# Tagebuch
+[Back](TagebuecherMFT)  
+[Home](home)
 ***
-
-----
+# Tagebuch
+  
 - <a href="#SM1.0">Tagebuch von Michael über den RoboCup in Hefei, China</a>
 	- <a href="#SM1.1">15. Juli 2015 - Tag 1 - Abreise</a>
 	- <a href="#SM1.2">16. Juli 2015 - Tag 2 - Ankunft Shanghai und Weiterreise nach Hefei</a>
