@@ -12,7 +12,7 @@ Raspberry Pi als Local Git Server
 
 
 Wir Verwenden während des Robocps zusätzlich zu den Robotinos 2 Raspberry pi
-Die Raspberry Übernehmen folgende Aufgaben:
+Die Raspberry übernehmen folgende Aufgaben:
 > - Zentraler MQTT Broker für die Kommunikation der Robotinos
 > - Lokales GitLab Während des Cups (zur unabhängigkeit vom Internet)
 
@@ -20,12 +20,12 @@ Die Raspberry Übernehmen folgende Aufgaben:
 
 
 ## <a name="in">Installation
-#### Vor der Installation Bringen wir die Software auf dem Raspberry auf den neusten Stand
+#### Vor der Installation bringen wir die Software auf dem Raspberry auf den neusten Stand
 ```
 sudo apt-get update
 sudo apt-get upgrade
 ```
-Nachdem der Upgrade-Befehl ausgeführt wurde Wird nachgefragt ob der Benötigte Speicher belegt werden Soll -> Möchten Sie Fortfahren [ J/N ] 
+Nachdem der Upgrade-Befehl ausgeführt wurde wird nachgefragt ob der benötigte Speicher belegt werden soll -> Möchten Sie Fortfahren [ J/N ] 
 Mit J und Enter bestätigen  
 
 
@@ -37,7 +37,7 @@ Ist Git bereits Installiert wir dies angezeigt:
 git ist schon die neueste Version  
 
 Ist das Programm nicht installiert: 
-wird wider nachgefragt ob der Benötigte Speicher belegt werden Soll -> Möchten Sie Fortfahren [ J/N ]
+wird wider nachgefragt ob der Benötigte Speicher belegt werden Soll -> Möchten Sie fortfahren [ J/N ]
 
 
 ## <a name="ki">Konfigurieren und Initialisieren (PI)
@@ -47,7 +47,7 @@ mit:
 ```
 cd ~
 ```
-Wechseln wir ins Home verzeichniss des Users. 
+Wechseln wir ins Home Herzeichniss des Users. 
 Nun wir die Ordnerstruktur für das Git Projekt
 ```
 mkdir Solidus
@@ -115,5 +115,5 @@ Um das Repository im WWW zu aktualisieren wird
 ```
 git push
 ```
-verwendet. Nach der Angabe von Online Benutzername und Passwort sollte das
+verwendet. Nach der Angabe von online Benutzername und Passwort sollte das
 Online Repo wider auf dem neusten Stand Sein
