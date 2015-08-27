@@ -8,7 +8,7 @@ Raspberry Pi als MQTT Broker
 - <a href="#in">Installation</a>
 - <a href="#mq">MQTT.fx</a>
 
-Wir Verwenden während des Robocps zusätzlich zu den Robotinos 2 Raspberry pi
+Wir Verwenden während des Robocps zusätzlich zu den Robotinos 2 Raspberry Pi
 Die Raspberry Übernehmen folgende Aufgaben:
 > - Zentraler MQTT Broker für die Kommunikation der Robotinos
 > - Lokales GitLab Während des Cups (zur unabhängigkeit vom Internet)
@@ -65,7 +65,7 @@ welches [hier](http://mqttfx.jfx4ee.org/index.php/download) heruntergeladen werd
 
 ![MQTT_normal](https://gitlab.com/solidus/hefei/uploads/a1f9093c81be329464f6b2b3f4639c50/MQTT_normal.PNG)
 
-Durch das Drücke des Zahnraes oben neben dem Connect Button können die Einstellungen aufgerufen werden 
+Durch das drücke des Zahnrades oben neben dem Connect Button können die Einstellungen aufgerufen werden 
 
 ![MQTT_Einstellungen](https://gitlab.com/solidus/hefei/uploads/fc23289a0f0d22940460cd05d170575e/MQTT_Einstellungen.PNG)
 
@@ -75,7 +75,7 @@ Wichtig auf dieser Seite Ist die Eingabe von
 >- Broker Port:   meist 1883
 >- Client ID: Nikname oder Name
 
-Um Den Gebrauch von zu vereinfachen, Können die Punkte Publish, Subscribe, Scripts, Broker Status, Log vom Hauptfenster gelöst werden
+Um Den Gebrauch von zu vereinfachen, können die Punkte Publish, Subscribe, Scripts, Broker Status, Log vom Hauptfenster gelöst werden
 
 ![MQTT_geloest](https://gitlab.com/solidus/hefei/uploads/2bcd22efc9341ab68564155e439a0cc8/MQTT_geloest.PNG)
 
