@@ -26,7 +26,7 @@
 |[Lösungen](LoesungenBKDA)|[Lösungen](LoesungenMFT)|[Lösungen](LoesungenFLDa)|
 |[Test](TestBKDA)|[Test](TestMFT)|[Test](TestFLDa)|
 |[Verbesserungsvorschläge](VerbesserungsvorschlaegeBK) |[Verbesserungsvorschläge](VerbesserungsvorschlaegeMFT)|[Verbesserungsvorschläge](VerbesserungsvorschlaegeFL)|
-|[Tagebücher](TagebuecherBK)|[Tagebücher](TagebuecherMFT)|[Tagebücher /](TagebuecherFL)|
+|[Tagebücher](TagebuecherBK)|[Tagebücher](TagebuecherMFT)|[Tagebücher](TagebuecherFL)|
 
 
 
