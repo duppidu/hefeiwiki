@@ -13,9 +13,3 @@ Da die gesamte Drive Gruppe schon Anfangs Diplomarbeit grösstenteils funktionie
 - Programmteile formatieren und vereinfachen.
 - Javadoc und Kommentare im Code überarbeiten, ergänzen und fertig stellen.
 
-
-
-
-
-  
- 
