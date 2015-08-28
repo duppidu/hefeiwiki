@@ -1,4 +1,6 @@
-[Home](home) [Back](DokuSolidus)  
+[Home](home)  
+[Back](DokuSolidus)  
+
 ---------------
 
 # Test
