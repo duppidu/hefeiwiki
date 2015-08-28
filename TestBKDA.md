@@ -1,5 +1,8 @@
 [Home](home) [Back](DokuSolidus)  
-  
+---------------
+
+# Test
+ 
 ## Inhalt
   
 - Testkriterien und Auswertung
@@ -30,21 +33,19 @@ w = weggelassen
  
 
 
-## Prüfverfahren WayAnalyzer  
+## Prüfverfahren WayAnalyzer
 
-Das Prüfverfahren lief gleich wie im Prozessmodul, dass bedeutet der Robotino musste durch einen Hindernisparcours fahren ohne dass er einen Crash verursacht. Dabei wurden die Parameter der Formel verändert und die optimalen Werte im Konfig File festgehalten.
-Es wurde getestet:  
-- Bevor der Robotino ausweicht wird mit den Laserwerten überprüft ob sich kein Objekt auf der Seite befindet.
-- Ist die breite der Schneise kleiner als die parametrierte Mindestbreite soll er weiter ausweichen.
-- Es wurde überprüft ob der Roboter mit Hilfe der Infrarotsensoren richtig ausweicht. Indem ein niedriges Hindernis, dass nicht vom Laser erfasst wird, in den Weg gestellt wurde.  
-  
-## Prüfverfahren WayController  
+Das Prüfverfahren lief gleich wie im Prozessmodul, das bedeutet der Robotino musste durch einen Hindernisparcours fahren ohne einen Crash zu verursachen. Dabei wurden die Parameter der Formel verändert und die optimalen Werte im Config-File festgehalten. 
+Es wurde getestet: 
+- Bevor der Robotino ausweicht, wird mit den Laserwerten überprüft, ob sich kein Objekt auf der Seite befindet.
+- Ist die Breite der Schneise kleiner als die parametrierte Mindestbreite, soll er ausweichen.
+- Es wurde überprüft, ob der Roboter mit Hilfe der Infrarotsensoren richtig ausweicht, indem ein niedriges Hindernis, dass nicht vom Laser erfasst wird, in den Weg gestellt wurde.
 
-Die Berechnungen für die Anfahrtspunkt welche im PM-Kurs programmiert wurden, waren leider Fehlerhaft. Entsprechend wurden die Trigonometrischen Fehler gefunden und behoben. 
-  
-Da wir bis zum Robocup leider nie in die Produktionsphase gekommen sind, sind die Programmteile für die Produktionphase nie getestet worden. Theoretisch müssten die Ergänzungen für die Produktonsphase funktionieren. Der Code wurde zur Kontrolle mehrmals Schritt für Schritt gedanklich durchlaufen.  
-  
+## Prüfverfahren WayController
+
+Die Berechnungen für die Anfahrtspunkte, welche im PM-Kurs programmiert wurden, waren leider fehlerhaft. Entsprechend wurden die Fehler in der trigonometrischen Formel gefunden und behoben. 
+Da wir bis zum Robocup leider nie in die Produktionsphase gekommen sind, sind die Programmteile für die Produktionsphase nie getestet worden. Theoretisch müssten die Ergänzungen für die Produktionsphase funktionieren. Der Code wurde zur Kontrolle mehrmals Schritt für Schritt gedanklich durchlaufen. 
+
 ## Prüfverfahren Drive
 
-Die "approach"-Methode konnte nicht getestet werden da die Zeit nicht gereicht hat. Am Robocup wurde die gesamte Zeit in die Exploration gesteckt. Aus diesem Grund konnte keine Zeile der Produktionsphase getestet werden.
-  
+Die erweiterte approach-Methode um die verschiedenen Positionen an der MPS anzufahren, konnte nicht getestet werden, da die Zeit nicht ausreichte. Am Robocup wurde die gesamte Zeit in die Exploration gesteckt. Aus diesem Grund konnte keine Zeile der Produktionsphase getestet werden.
