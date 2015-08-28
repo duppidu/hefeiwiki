@@ -3,7 +3,7 @@
 
 ***
 
-## Testplan
+## Testplan Prozessmodul
 
 **Situation:**  Eine Explophase mit der Erkennung von 2 Maschinen soll getestet werden.
 
@@ -43,3 +43,31 @@ Das herstellen eines ersten Produktes war ein zu hohes Ziel und wird jetzt in de
 | Jeder Programmteil muss über ein angemessenes Diagramm verfügen (Klassendiag, Sequencediag, etc…) | Jeder hat sein Diagramm erstellt|
 | Cupvorbereitungen müssen getroffen sein (Packlisten, Materialisten, Finanzierungen, Impfungen) | Listen wurden erstellt und Abklärungen getroffen |
 | Refbox muss funktionieren | Refbox ist noch nicht soweit |
+
+## Testplan Diplomaarbeit
+
+**Situation:**  Die Explophase des Prozessmodules muss verbessert werden.
+
+| Klasse|  Beschreibung| Resultat | I.O.| 
+| :------- | --- | --- | :---- |
+| Statemaschine|Position des Robotinos nullen|Funktioniert | X |
+| Statemaschine|goToTarget aufs Feld|Funktioniert |X |
+| Laser|Suchen nach Kanten oder Objekten wenn Feld leer |Kannten und leeres Feld werden erkannt|X |
+| Drive|Fahre in nächste Zone|Durch dynamische Formel ohne Crash möglich|X |
+| Ausweichen|Robotino soll zuverlässig Objekten ausweichen|Robotino weicht allen möglichen Hindernisanordnungen und anderen Robotern aus|X |
+
+
+
+## Resultat  
+
+Die restliche Fehler der Explophase zu verbessern brauchte viel mehr Zeit als angenommen. Jedoch läuft nun die gesamte Explophase und das Ausweichen ohne Probleme. Die Kommunikation mit der Refbox verbrauchte in China viel unserer kostbaren Zeit so dass die Produktion eines ersten Teiles nicht möglich war. 
+
+### Teilziele:
+| Teilziel| Resultat |
+| :------- | --- |
+| Driveklassen müssen funktionstüchtig und fehlerfrei arbeiten | Sind ausprogrammiert |
+| State-Machine muss funktionsbereit sein | State-Machine ist auf dem aktuellen Stand|
+| Robotino mechanisch komplett mit Greifer und Lösung für Bauteil abgriff | Servo der Greifer nicht ansteuerbar|
+| Jeder Programmteil muss über ein angemessenes Diagramm verfügen | Alle Diagramme wurden hochgeladen|
+| Refbox muss funktionieren| Refbox Kommunikation kann Beacon und Machinereport senden|
+| RuleBook durchlesen | Alle Regeln und Spielabläufe sind klar|
