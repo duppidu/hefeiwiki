@@ -1,3 +1,8 @@
+[Home](home)  
+[Wiki](WikiSolidus)  
+
+-----------------
+
 # Color Detection  
  
 ## Aufruf  
