@@ -1,4 +1,4 @@
-Als ich auf stand begann es schon mit dem Stress. Ich ging noch einmal das gesamte Gepäck dur ob ich wirklich nichts vergessen hatte. 
+Als ich auf stand begann es schon mit dem Stress. Ich ging noch einmal das gesamte Gepäck durch ob ich wirklich nichts vergessen hatte. 
 Für die Reise von Biel nach Zürich Flughafen benutzte ich den Zug. In Solothurn kamen noch Thomas Z. und Ken K. dazu. 
 Zu diesem Zeitpunkt haben wir ein Problem festgestellt. Aus einigen Quellen haben wir vernommen dass die Geldautomaten in China nur Karten mit vierstelligen Pin Codes annehmen. Nach einem Telefonat mit der UBS wurde dies geklärt. Die Pin Codes habe ich schlussendlich nicht geändert.
 Am Flughafen hatten wir als Team kaum ungenutzte Zeit. Dies war sehr angenehm da wir nicht unnötig warten mussten. Für ein Gruppenfoto hat es auch noch gut gereicht. Da Ken und ich in der letzten Reihe sitzen hatten wir beim Mittagessen leider keine Wahl mehr. Es gab deshalb das vegetarische Menü. Dies war aber für mich nicht weiter schlimm da es ziemlich gut war.
