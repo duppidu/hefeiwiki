@@ -1,6 +1,6 @@
 ## Reflexion
 
-Das RoboCup ist vorbei und mittlerweile auch die Arbeit an der Diplomarbeit. Ich schaue mit einem lachenden und einem weinenden Auge auf das spannende halbe Jahr zurück. Lachend weil ich stolz auf unsere Leistung bin und viele wertvolle Erfahrungen machen durfte und weinen weil die Zeit doch rasant vorbei ging und sich das gut eingespielte Team jetzt langsam aber sicher ein wenig auseinander lebt.  
+Das RoboCup ist vorbei und mittlerweile auch die Arbeit an der Diplomarbeit. Ich schaue mit einem lachenden und einem weinenden Auge auf das spannende halbe Jahr zurück. Lachend weil ich stolz auf unsere Leistung bin und viele wertvolle Erfahrungen machen durfte und weinend weil die Zeit doch rasant vorbei ging und sich das gut eingespielte Team jetzt langsam aber sicher ein wenig auseinander lebt.  
 Während des Projektes konnte ich Erfahrungen in allen Teilen die ein Projekt mitbringt sammeln wie zum Beispiel sammeln von Sponsoren Geldern, Leitung und Organisation eines Teams, Programmierung der Farberkennung, richtiges Kommentieren eines Codes und das erstellen eines Wikis.   
 
 ### Team  
