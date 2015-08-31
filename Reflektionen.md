@@ -3,7 +3,7 @@
 
 ***
   
-### Reflektionen Prozessmodul
+### Reflexionen Prozessmodul
   
 [Thomas D](ThomasD)  
 [Simon](Simon)  
@@ -14,7 +14,7 @@
 [Bryan](Bryan)  
 [Lukas](Lukas)  
   
-### Reflektionen Diplomarbeit
+### Reflexionen Diplomarbeit
   
 [Thomas D](ThomasDDA)  
 [Felix](FelixDA)  
