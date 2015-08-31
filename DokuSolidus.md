@@ -5,7 +5,7 @@
 [Test und Resultat](TestUndResultatTeam)  
 [Planung](PlanungTeam)   
 [Sitzungsprotokolle](Sitzungsprotokolle)     
-[Reflektionen](Reflektionen)    
+[Reflexionen](Reflektionen)    
 *** 
  
 ## Prozessmodul 
